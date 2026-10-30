@@ -32,8 +32,8 @@ links:
   github: https://github.com/technehub-labs/dea-catalog-platform-services
 
 entities:
-  building_block: L5-infrastructure
-  class_alias: PS
-  entity_id: dea:entity-platform-service
-  layer: L5
-  
+  - building_block: L5-infrastructure
+    class_alias: PS
+    entity_id: dea:entity-platform-service
+    layer: L5
+
