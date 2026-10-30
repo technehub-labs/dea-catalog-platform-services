@@ -1,25 +1,39 @@
-# Metamodel Pointer — Platform Service
-# Auto-generated from OpenDEAM v0.2.1 (dea-architecture-framework, ADR-0002).
-# Do not edit manually — allocation changes go through the root model
-# (structural: ADR + minor bump; additive: PR + patch bump).
-metamodel:
-  version: v0.2.1
-  entity_id: dea:entity-platform-service
-  class_alias: PS
-  layer: L5
-  building_block: L5-infrastructure
-  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=PS"
-
-catalog:
-  name: Platform Service
-  repo: technehub-labs/dea-catalog-platform-services
-  status: planned
-
+# Metamodel Pointer — Information System Service
+#
+# Two consumers, two blocks (see FOUNDATIONS §5):
+#   - the top-level identity keys are consumed by the vendored
+#     regenerate_catalog.py to build CATALOG.yaml's catalog block;
+#   - the `metamodel:` allocation block is validated by
+#     dea-architecture-framework validate-against-model.yml
+#     against the pinned root-model ref (v0.8.0), and asserted
+#     locally by scripts/check_pointer.py.
+#
+# Allocation changes go through the root model, not this file.
+id: dea:catalog-platform-services
+name: Information System Service
+abbreviation: ISS
+version: 0.1.0
+status: active
+metamodel_version: 1.0.0
+owner: TechNeHub Labs
 description: |
-  A shared infrastructure or runtime service consumed by multiple application components.
-
+  A service provided by an information system or a software platform to a consumer, expressed as a contract about the exchange of capability, functionality or data. Specialises Core dea:Service (per CR-MM-PROC-01 / CR-016 kernel+specialization template; D-3 disposition 2026-10-16). Cited template precedents: CR-016 (dea:Capability kernel+specialization), CR-MM-PROC-01 (dea:Process kernel+specialization), CR-018 (dea:Behavior / dea:InformationSystemFunction kernel+specialization), CR-019 (dea:SolutionComponent / dea:InformationSystemComponent abstract reconciliation). The service contract is operationalised through integration interfaces (deferred to CR-021). Layer L5; building_block L5-integration; profile dea:digital. Catalog ownership: the dea-catalog-information-system-services repository (new repository per CR-IS-CAT-03).
+metamodel:
+  building_block: L5-integration
+  class_alias: ISS
+  entity_id: dea:entity-information-system-service
+  layer: L5
+  version: v0.8.0
+  viewer_url: https://technehub-labs.github.io/metamodel/?entity=ISS
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
   root_model: https://github.com/technehub-labs/dea-architecture-framework
-  viewer: "https://technehub-labs.github.io/metamodel/?entity=PS"
+  viewer: https://technehub-labs.github.io/metamodel/?entity=ISS
   github: https://github.com/technehub-labs/dea-catalog-platform-services
+
+entities:
+  - building_block: L5-infrastructure
+    class_alias: PS
+    entity_id: dea:entity-platform-service
+    layer: L5
+
