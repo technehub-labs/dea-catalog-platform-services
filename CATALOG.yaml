@@ -1,0 +1,27 @@
+catalog:
+  abbreviation: ISS
+  counts:
+    candidates: 0
+    canonical: 0
+    entities: 0
+    open_change_requests: 0
+    research_files: 0
+    retired: 0
+  cross_cutting:
+    change_requests: change-requests/
+    classifications: classifications/
+    contributions_queue: contributions/
+    schemas: schemas/
+    validators: scripts/
+  description: 'A service provided by an information system or a software platform to a consumer, expressed as a contract about the exchange of capability, functionality or data. Specialises Core dea:Service (per CR-MM-PROC-01 / CR-016 kernel+specialization template; D-3 disposition 2026-10-16). Cited template precedents: CR-016 (dea:Capability kernel+specialization), CR-MM-PROC-01 (dea:Process kernel+specialization), CR-018 (dea:Behavior / dea:InformationSystemFunction kernel+specialization), CR-019 (dea:SolutionComponent / dea:InformationSystemComponent abstract reconciliation). The service contract is operationalised through integration interfaces (deferred to CR-021). Layer L5; building_block L5-integration; profile dea:digital. Catalog ownership: the dea-catalog-information-system-services repository (new repository per CR-IS-CAT-03).
+
+    '
+  entities: []
+  id: dea:catalog-platform-services
+  metamodel_version: 1.0.0
+  name: Information System Service
+  owner: TechNeHub Labs
+  repository: https://github.com/technehub-labs/dea-catalog-platform-services.git
+  research_registers: []
+  status: active
+  version: 0.1.0
