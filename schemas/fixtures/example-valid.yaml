@@ -1,9 +1,9 @@
 # Valid fixture: exercises the normative field set, the catalogue-instance
 # layer, and one typed relationship instance. Illustrative ids only.
-id: dea:information-system-service-example-record
-type: InformationSystemService
-name: Example Information System Service
-description: 'Fixture: an illustrative information system service record demonstrating the canonical shape; not admitted.'
+id: dea:platform-service-example-record
+type: PlatformService
+name: Example Platform Service
+description: 'Fixture: an illustrative platform service record demonstrating the canonical shape; not admitted.'
 version: 1.0.0
 lifecycle_status: active
 
@@ -27,8 +27,8 @@ governance:
   steward: Emmanuel A. Otchere
   approval_status: approved
 relationships:
-  - id: dea:relationship-example-information-system-service
-    source_id: dea:information-system-service-example-record
+  - id: dea:relationship-example-platform-service
+    source_id: dea:platform-service-example-record
     target_id: dea:example-target-record
     relationship_type: references
     direction: source-to-target

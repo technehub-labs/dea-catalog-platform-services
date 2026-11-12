@@ -23,7 +23,7 @@ REQUIRED_POPULATION_GATES = (
     "scripts/check_record_documentation.py",
 )
 
-CANONICAL_ID = re.compile(r"dea:information-system-service-[a-z0-9-]+")
+CANONICAL_ID = re.compile(r"dea:platform-service-[a-z0-9-]+")
 
 
 def main() -> int:
@@ -49,10 +49,10 @@ def main() -> int:
         doc = yaml.safe_load(open(f, encoding="utf-8")) or {}
         rid = doc.get("id") or ""
         if not CANONICAL_ID.fullmatch(rid):
-            findings.append(f"{Path(f).relative_to(REPO)}: id {rid!r} is not a canonical Information System Service id")
+            findings.append(f"{Path(f).relative_to(REPO)}: id {rid!r} is not a canonical Platform Service id")
         rtype = doc.get("type") or ""
-        if rtype != "InformationSystemService":
-            findings.append(f"{Path(f).relative_to(REPO)}: type {rtype!r} is not 'InformationSystemService'")
+        if rtype != "PlatformService":
+            findings.append(f"{Path(f).relative_to(REPO)}: type {rtype!r} is not 'PlatformService'")
 
     if findings:
         print("Posture findings:")

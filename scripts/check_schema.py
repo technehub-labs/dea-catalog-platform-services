@@ -26,10 +26,10 @@ FIXTURE_VALID = REPO / "schemas" / "fixtures" / "example-valid.yaml"
 FIXTURE_INVALID = REPO / "schemas" / "fixtures" / "example-invalid.yaml"
 RECORD_GLOB = "entities/v1-alpha/**/*.yaml"
 
-EXPECTED_TYPE_CONST = "InformationSystemService"
+EXPECTED_TYPE_CONST = "PlatformService"
 EXPECTED_LIFECYCLE_ENUM = ["proposed", "planned", "active", "deprecated", "retired"]
 EXPECTED_REQUIRED = ["id", "type", "name", "version", "lifecycle_status"]
-EXPECTED_ID_PATTERN = "^dea:information-system-service-[a-z0-9-]+$"
+EXPECTED_ID_PATTERN = "^dea:platform-service-[a-z0-9-]+$"
 
 
 
