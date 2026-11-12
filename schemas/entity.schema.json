@@ -2,8 +2,8 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://technehub-labs.github.io/dea-catalog-platform-services/schemas/entity.schema.json",
   "metamodel_version": "1.0.0",
-  "title": "Information System Service (catalogue instance schema)",
-  "description": "Catalogue-instance projection of the metamodel Information System Service entity. The normative field set is defined by the metamodel schema; this file mirrors it and adds only the catalogue-instance layer (evidence, provenance ladder, governance). Do not widen a normative enum here to accept a value the metamodel does not define: fix the record instead. A catalogue that diverges from the metamodel is a second source of truth.",
+  "title": "Platform Service (catalogue instance schema)",
+  "description": "Catalogue-instance projection of the Platform Service entity allocated by OpenDEAM v0.8.0 (dea:entity-platform-service, class alias PS, layer L5, building_block L5-infrastructure). dea-metamodel v1.0.0 does not yet carry a dedicated platform-service schema, so the normative field set here follows the OpenDEAM allocation and the standard catalogue-instance layer (evidence, provenance ladder, governance); a metamodel follow-up schema is recorded in CR-ISS-CAT-02 remaining work. Do not widen a normative enum locally: fix the record instead. A catalogue that diverges from the root model is a second source of truth.",
   "type": "object",
   "required": [
     "id",
@@ -15,12 +15,12 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^dea:information-system-service-[a-z0-9-]+$",
-      "description": "OpenDEAM-local identifier, narrowed to this entity's namespace (information-classes id precedent)."
+      "pattern": "^dea:platform-service-[a-z0-9-]+$",
+      "description": "OpenDEAM-local identifier, narrowed to this entity's namespace (information-classes id precedent; re-pointed to the platform-service namespace by CR-ISS-CAT-02 D-7)."
     },
     "type": {
       "type": "string",
-      "const": "InformationSystemService"
+      "const": "PlatformService"
     },
     "name": {
       "type": "string",
@@ -213,6 +213,6 @@
       }
     }
   },
-  "metamodel_source": "https://github.com/technehub-labs/dea-metamodel/blob/main/schemas/entities/information-system-service.json",
+  "metamodel_source": "https://github.com/technehub-labs/dea-architecture-framework/blob/v0.8.0/model/opendeam-model.yaml",
   "additionalProperties": false
 }

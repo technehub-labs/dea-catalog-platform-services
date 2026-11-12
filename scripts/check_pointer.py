@@ -29,10 +29,10 @@ REQUIRED_METAMODEL_FIELDS = (
 )
 
 EXPECTED_ID = "dea:catalog-platform-services"
-EXPECTED_ABBREVIATION = "ISS"
+EXPECTED_ABBREVIATION = "PS"
 EXPECTED_METAMODEL_VERSION = "v0.8.0"
-EXPECTED_ENTITY_ID = "dea:entity-information-system-service"
-EXPECTED_CLASS_ALIAS = "ISS"
+EXPECTED_ENTITY_ID = "dea:entity-platform-service"
+EXPECTED_CLASS_ALIAS = "PS"
 EXPECTED_LAYER = 'L5'
 
 

@@ -1,4 +1,4 @@
-# Metamodel Pointer — Information System Service
+# Metamodel Pointer: Platform Service
 #
 # Two consumers, two blocks (see FOUNDATIONS §5):
 #   - the top-level identity keys are consumed by the vendored
@@ -9,26 +9,29 @@
 #     locally by scripts/check_pointer.py.
 #
 # Allocation changes go through the root model, not this file.
+# Re-pointed from the stale information-system-service identity to the
+# platform-service identity by CR-ISS-CAT-02 (D-7); the ISS identity is
+# owned by dea-catalog-information-system-services.
 id: dea:catalog-platform-services
-name: Information System Service
-abbreviation: ISS
-version: 0.1.0
+name: Platform Service
+abbreviation: PS
+version: 0.2.0
 status: active
 metamodel_version: 1.0.0
 owner: TechNeHub Labs
 description: |
-  A service provided by an information system or a software platform to a consumer, expressed as a contract about the exchange of capability, functionality or data. Specialises Core dea:Service (per CR-MM-PROC-01 / CR-016 kernel+specialization template; D-3 disposition 2026-10-16). Cited template precedents: CR-016 (dea:Capability kernel+specialization), CR-MM-PROC-01 (dea:Process kernel+specialization), CR-018 (dea:Behavior / dea:InformationSystemFunction kernel+specialization), CR-019 (dea:SolutionComponent / dea:InformationSystemComponent abstract reconciliation). The service contract is operationalised through integration interfaces (deferred to CR-021). Layer L5; building_block L5-integration; profile dea:digital. Catalog ownership: the dea-catalog-information-system-services repository (new repository per CR-IS-CAT-03).
+  A shared infrastructure or runtime service consumed by multiple application components. Allocated to OpenDEAM v0.8.0 as dea:entity-platform-service (class alias PS; layer L5; building_block L5-infrastructure). This catalogue owns platform service records; vendor products named in evidence are corroborating sources only and are never canonical (G-12). Re-pointed from the information-system-service identity by CR-ISS-CAT-02 (D-7 disposition 2026-11-12); information system service records remain owned by dea-catalog-information-system-services.
 metamodel:
-  building_block: L5-integration
-  class_alias: ISS
-  entity_id: dea:entity-information-system-service
+  building_block: L5-infrastructure
+  class_alias: PS
+  entity_id: dea:entity-platform-service
   layer: L5
   version: v0.8.0
-  viewer_url: https://technehub-labs.github.io/metamodel/?entity=ISS
+  viewer_url: https://technehub-labs.github.io/metamodel/?entity=PS
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
   root_model: https://github.com/technehub-labs/dea-architecture-framework
-  viewer: https://technehub-labs.github.io/metamodel/?entity=ISS
+  viewer: https://technehub-labs.github.io/metamodel/?entity=PS
   github: https://github.com/technehub-labs/dea-catalog-platform-services
 
 entities:
@@ -36,4 +39,3 @@ entities:
     class_alias: PS
     entity_id: dea:entity-platform-service
     layer: L5
-
