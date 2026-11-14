@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:apimanagement-apimopenidconnectproviders
 name: ApiManagementClient (azure.com:apimanagement-apimopenidconnectproviders)
-description: Use these REST APIs for performing operations on OpenId Connect Provider entity associated
-  with your Azure API Management deployment. API Management allows you to access APIs secured with token
-  from [OpenID Connect Provider ](http://openid.net/connect/) to be accessed from the Developer Console.
+description: Use these REST APIs for performing operations on OpenId Connect Provider
+  entity associated with your Azure API Management deployment. API Management allows
+  you to access APIs secured with token from [OpenID Connect Provider ](http://openid.net/connect/)
+  to be accessed from the Developer Console.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimopenidconnectproviders;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-apimanagement-apimopenidconnectprovide
+assigned_id: dea:platform-service-azure-com-apimanagement-apimopenidconnectprovide-cnjrts
+admitted: '2026-11-14'

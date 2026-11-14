@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:gbshse
 name: Goa State Board of Secondary and Higher Secondary Education, Goa (apisetu.gov.in:gbshse)
-description: APIs provided by Goa State Board of Secondary and Higher Secondary Education, Goa.
+description: APIs provided by Goa State Board of Secondary and Higher Secondary Education,
+  Goa.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:gbshse; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:gbshse;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-gbshse
+assigned_id: dea:platform-service-apisetu-gov-in-gbshse-vzcp4d
+admitted: '2026-11-14'

@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:barti
 name: Dr. Babasaheb Ambedkar Research & Training Institute, Maharashtra (apisetu.gov.in:barti)
-description: APIs provided by Dr. Babasaheb Ambedkar Research & Training Institute, Maharashtra.
+description: APIs provided by Dr. Babasaheb Ambedkar Research & Training Institute,
+  Maharashtra.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:barti; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:barti;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-barti
+assigned_id: dea:platform-service-apisetu-gov-in-barti-89mynf
+admitted: '2026-11-14'

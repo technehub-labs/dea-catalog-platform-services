@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:labservices-ML
 name: ManagedLabsClient (azure.com:labservices-ML)
-description: 'ManagedLabsClient — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'ManagedLabsClient — a public API catalogued in the APIs.guru directory
+  (provider: n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:labservices-ML; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:labservices-ML;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-labservices-ml
+assigned_id: dea:platform-service-azure-com-labservices-ml-v3g4m6
+admitted: '2026-11-14'

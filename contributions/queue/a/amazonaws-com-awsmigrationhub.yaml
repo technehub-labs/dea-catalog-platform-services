@@ -1,23 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:AWSMigrationHub
 name: AWS Migration Hub (amazonaws.com:AWSMigrationHub)
-description: <p>The AWS Migration Hub API methods help to obtain server and application migration status
-  and integrate your resource-specific migration tool by providing a programmatic interface to Migration
-  Hub.</p> <p>Remember that you must set your AWS Migration Hub home region before you call any of these
-  APIs, or a <code>HomeRegionNotSetException</code> error will be returned. Also, you must make the API
-  calls while in your home region.</p>
+description: <p>The AWS Migration Hub API methods help to obtain server and application
+  migration status and integrate your resource-specific migration tool by providing
+  a programmatic interface to Migration Hub.</p> <p>Remember that you must set your
+  AWS Migration Hub home region before you call any of these APIs, or a <code>HomeRegionNotSetException</code>
+  error will be returned. Also, you must make the API calls while in your home region.</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:AWSMigrationHub; spec:
-      https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:AWSMigrationHub;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-awsmigrationhub
+assigned_id: dea:platform-service-amazonaws-com-awsmigrationhub-z6stgu
+admitted: '2026-11-14'

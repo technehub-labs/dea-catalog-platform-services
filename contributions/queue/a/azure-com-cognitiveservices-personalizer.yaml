@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:cognitiveservices-Personalizer
 name: Personalizer Client (azure.com:cognitiveservices-Personalizer)
-description: Personalizer Service is an Azure Cognitive Service that makes it easy to target content and
-  experiences without complex pre-analysis or cleanup of past data. Given a context and featurized content,
-  the Personalizer Service returns which content item to show to users in rewardActionId. As rewards are
-  sent in response to the use of rewardActionId, the reinforcement learning algorithm will improve the
-  model and improve performance of future rank calls.
+description: Personalizer Service is an Azure Cognitive Service that makes it easy
+  to target content and experiences without complex pre-analysis or cleanup of past
+  data. Given a context and featurized content, the Personalizer Service returns which
+  content item to show to users in rewardActionId. As rewards are sent in response
+  to the use of rewardActionId, the reinforcement learning algorithm will improve
+  the model and improve performance of future rank calls.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:cognitiveservices-Personalizer;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-cognitiveservices-personalizer
+assigned_id: dea:platform-service-azure-com-cognitiveservices-personalizer-agwa3r
+admitted: '2026-11-14'

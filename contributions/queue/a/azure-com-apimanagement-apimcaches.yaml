@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:apimanagement-apimcaches
 name: ApiManagementClient (azure.com:apimanagement-apimcaches)
-description: Use these REST APIs for performing operations on Cache entity in your Azure API Management
-  deployment. Azure API Management also allows for caching responses in an external Azure Cache for Redis.
-  For more information refer to [External Redis Cache in ApiManagement](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-cache-external).
+description: Use these REST APIs for performing operations on Cache entity in your
+  Azure API Management deployment. Azure API Management also allows for caching responses
+  in an external Azure Cache for Redis. For more information refer to [External Redis
+  Cache in ApiManagement](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-cache-external).
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimcaches;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-apimanagement-apimcaches
+assigned_id: dea:platform-service-azure-com-apimanagement-apimcaches-s3ft4e
+admitted: '2026-11-14'

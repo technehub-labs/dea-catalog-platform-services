@@ -1,25 +1,30 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:mediatailor
 name: AWS MediaTailor (amazonaws.com:mediatailor)
-description: <p>Use the AWS Elemental MediaTailor SDKs and CLI to configure scalable ad insertion and
-  linear channels. With MediaTailor, you can assemble existing content into a linear stream and serve
-  targeted ads to viewers while maintaining broadcast quality in over-the-top (OTT) video applications.
-  For information about using the service, including detailed information about the settings covered in
-  this guide, see the <a href="https://docs.aws.amazon.com/mediatailor/latest/ug/">AWS Elemental MediaTailor
-  User Guide</a>.</p> <p>Through the SDKs and the CLI you manage AWS Elemental MediaTailor configurations
-  and channels the same as you do through the console. For example, you specify ad insertion behavior
-  and mapping information for the origin server and the ad decision server (ADS).</p>
+description: <p>Use the AWS Elemental MediaTailor SDKs and CLI to configure scalable
+  ad insertion and linear channels. With MediaTailor, you can assemble existing content
+  into a linear stream and serve targeted ads to viewers while maintaining broadcast
+  quality in over-the-top (OTT) video applications. For information about using the
+  service, including detailed information about the settings covered in this guide,
+  see the <a href="https://docs.aws.amazon.com/mediatailor/latest/ug/">AWS Elemental
+  MediaTailor User Guide</a>.</p> <p>Through the SDKs and the CLI you manage AWS Elemental
+  MediaTailor configurations and channels the same as you do through the console.
+  For example, you specify ad insertion behavior and mapping information for the origin
+  server and the ad decision server (ADS).</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:mediatailor; spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:mediatailor;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-mediatailor
+assigned_id: dea:platform-service-amazonaws-com-mediatailor-r9hrd6
+admitted: '2026-11-14'

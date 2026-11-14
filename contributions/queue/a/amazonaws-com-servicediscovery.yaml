@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:servicediscovery
 name: AWS Cloud Map (amazonaws.com:servicediscovery)
-description: <fullname>Cloud Map</fullname> <p>With Cloud Map, you can configure public DNS, private DNS,
-  or HTTP namespaces that your microservice applications run in. When an instance becomes available, you
-  can call the Cloud Map API to register the instance with Cloud Map. For public or private DNS namespaces,
-  Cloud Map automatically creates DNS records and an optional health check. Clients that submit public
-  or private DNS queries, or HTTP requests, for the service receive an answer that contains up to eight
-  healthy records. </p>
+description: <fullname>Cloud Map</fullname> <p>With Cloud Map, you can configure public
+  DNS, private DNS, or HTTP namespaces that your microservice applications run in.
+  When an instance becomes available, you can call the Cloud Map API to register the
+  instance with Cloud Map. For public or private DNS namespaces, Cloud Map automatically
+  creates DNS records and an optional health check. Clients that submit public or
+  private DNS queries, or HTTP requests, for the service receive an answer that contains
+  up to eight healthy records. </p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:servicediscovery; spec:
-      https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:servicediscovery;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-servicediscovery
+assigned_id: dea:platform-service-amazonaws-com-servicediscovery-jw4e3d
+admitted: '2026-11-14'

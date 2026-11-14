@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:neilit
 name: National Institute of Electronics and Information Technology (apisetu.gov.in:neilit)
-description: NIELIT, under Ministry of Electronics & IT (http://www.nielit.gov.in/) provides education
-  and training in the area of Information, Electronics & Communication Technology. Certificates issued
-  by NIELIT are made available in students' DigiLocker accounts.
+description: NIELIT, under Ministry of Electronics & IT (http://www.nielit.gov.in/)
+  provides education and training in the area of Information, Electronics & Communication
+  Technology. Certificates issued by NIELIT are made available in students' DigiLocker
+  accounts.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:neilit; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:neilit;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-neilit
+assigned_id: dea:platform-service-apisetu-gov-in-neilit-y368ct
+admitted: '2026-11-14'

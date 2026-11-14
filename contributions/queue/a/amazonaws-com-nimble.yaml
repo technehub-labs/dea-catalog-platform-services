@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:nimble
 name: AmazonNimbleStudio (amazonaws.com:nimble)
-description: <p>Welcome to the Amazon Nimble Studio API reference. This API reference provides methods,
-  schema, resources, parameters, and more to help you get the most out of Nimble Studio.</p> <p>Nimble
-  Studio is a virtual studio that empowers visual effects, animation, and interactive content teams to
-  create content securely within a scalable, private cloud service.</p>
+description: <p>Welcome to the Amazon Nimble Studio API reference. This API reference
+  provides methods, schema, resources, parameters, and more to help you get the most
+  out of Nimble Studio.</p> <p>Nimble Studio is a virtual studio that empowers visual
+  effects, animation, and interactive content teams to create content securely within
+  a scalable, private cloud service.</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:nimble; spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:nimble;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-nimble
+assigned_id: dea:platform-service-amazonaws-com-nimble-pnzm7m
+admitted: '2026-11-14'

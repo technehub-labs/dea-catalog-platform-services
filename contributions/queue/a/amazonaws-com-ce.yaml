@@ -1,24 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:ce
 name: AWS Cost Explorer Service (amazonaws.com:ce)
-description: <p>You can use the Cost Explorer API to programmatically query your cost and usage data.
-  You can query for aggregated data such as total monthly costs or total daily usage. You can also query
-  for granular data. This might include the number of daily write operations for Amazon DynamoDB database
-  tables in your production environment. </p> <p>Service Endpoint</p> <p>The Cost Explorer API provides
-  the following endpoint:</p> <ul> <li> <p> <code>https://ce.us-east-1.amazonaws.com</code> </p> </li>
-  </ul> <p>For information about the costs that are associated with the Cost Explorer API, see <a href="http://aws.amazon.com/aws-cost-management/pricing/">Amazon
+description: <p>You can use the Cost Explorer API to programmatically query your cost
+  and usage data. You can query for aggregated data such as total monthly costs or
+  total daily usage. You can also query for granular data. This might include the
+  number of daily write operations for Amazon DynamoDB database tables in your production
+  environment. </p> <p>Service Endpoint</p> <p>The Cost Explorer API provides the
+  following endpoint:</p> <ul> <li> <p> <code>https://ce.us-east-1.amazonaws.com</code>
+  </p> </li> </ul> <p>For information about the costs that are associated with the
+  Cost Explorer API, see <a href="http://aws.amazon.com/aws-cost-management/pricing/">Amazon
   Web Services Cost Management Pricing</a>.</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:ce; spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:ce;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-ce
+assigned_id: dea:platform-service-amazonaws-com-ce-cbxfdd
+admitted: '2026-11-14'

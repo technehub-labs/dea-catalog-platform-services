@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:apimanagement-apimusers
 name: ApiManagementClient (azure.com:apimanagement-apimusers)
-description: Use these REST APIs for performing operations on User entity in Azure API Management deployment.
-  The User entity in API Management represents the developers that call the APIs of the products to which
-  they are subscribed.
+description: Use these REST APIs for performing operations on User entity in Azure
+  API Management deployment. The User entity in API Management represents the developers
+  that call the APIs of the products to which they are subscribed.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimusers;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-apimanagement-apimusers
+assigned_id: dea:platform-service-azure-com-apimanagement-apimusers-smur28
+admitted: '2026-11-14'

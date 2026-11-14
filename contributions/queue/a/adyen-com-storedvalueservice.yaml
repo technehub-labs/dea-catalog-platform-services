@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
@@ -8,12 +8,14 @@ description: A set of API endpoints to manage stored value products.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:StoredValueService; spec:
-      https://www.adyen.help/hc/en-us/community/topics)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:StoredValueService;
+      spec: https://www.adyen.help/hc/en-us/community/topics)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - adyen-com
 - public-api
 slug: adyen-com-storedvalueservice
+assigned_id: dea:platform-service-adyen-com-storedvalueservice-rvca9k
+admitted: '2026-11-14'

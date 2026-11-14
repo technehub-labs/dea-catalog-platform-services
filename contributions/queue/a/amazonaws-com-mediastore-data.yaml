@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:mediastore-data
 name: AWS Elemental MediaStore Data Plane (amazonaws.com:mediastore-data)
-description: An AWS Elemental MediaStore asset is an object, similar to an object in the Amazon S3 service.
-  Objects are the fundamental entities that are stored in AWS Elemental MediaStore.
+description: An AWS Elemental MediaStore asset is an object, similar to an object
+  in the Amazon S3 service. Objects are the fundamental entities that are stored in
+  AWS Elemental MediaStore.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:mediastore-data; spec:
-      https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:mediastore-data;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-mediastore-data
+assigned_id: dea:platform-service-amazonaws-com-mediastore-data-xz3n2g
+admitted: '2026-11-14'

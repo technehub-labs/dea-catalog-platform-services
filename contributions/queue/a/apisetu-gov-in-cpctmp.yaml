@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:cpctmp
 name: CPCT-MAPIT, Madhya Pradesh (apisetu.gov.in:cpctmp)
-description: Computer Proficiency Certification Exam (https://cpct.mp.gov.in) is mandatory for data entry/IT
-  Operator/Assistant Grade-3/steno/shorthand/typist and other similar Permanent/Contractual positions
-  in the departments, corporations and agencies in MP. The CPCT Score Card of 2016 can be pulled into
-  citizens' DigiLocker accounts.
+description: Computer Proficiency Certification Exam (https://cpct.mp.gov.in) is mandatory
+  for data entry/IT Operator/Assistant Grade-3/steno/shorthand/typist and other similar
+  Permanent/Contractual positions in the departments, corporations and agencies in
+  MP. The CPCT Score Card of 2016 can be pulled into citizens' DigiLocker accounts.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:cpctmp; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:cpctmp;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-cpctmp
+assigned_id: dea:platform-service-apisetu-gov-in-cpctmp-pfrw9f
+admitted: '2026-11-14'

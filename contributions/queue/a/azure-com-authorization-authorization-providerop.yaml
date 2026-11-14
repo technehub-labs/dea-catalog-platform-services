@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:authorization-authorization-ProviderOperationsCalls
 name: AuthorizationManagementClient (azure.com:authorization-authorization-ProviderOperationsCalls)
-description: Role based access control provides you a way to apply granular level policy administration
-  down to individual resources or resource groups. These calls handle provider operations.
+description: Role based access control provides you a way to apply granular level
+  policy administration down to individual resources or resource groups. These calls
+  handle provider operations.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:authorization-authorization-ProviderOperationsCalls;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-authorization-authorization-providerop
+assigned_id: dea:platform-service-azure-com-authorization-authorization-providerop-ax85ha
+admitted: '2026-11-14'

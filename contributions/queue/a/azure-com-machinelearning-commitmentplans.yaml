@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:machinelearning-commitmentPlans
 name: Azure ML Commitment Plans Management Client (azure.com:machinelearning-commitmentPlans)
-description: These APIs allow end users to operate on Azure Machine Learning Commitment Plans resources
-  and their child Commitment Association resources. They support CRUD operations for commitment plans,
-  get and list operations for commitment associations, moving commitment associations between commitment
-  plans, and retrieving commitment plan usage history.
+description: These APIs allow end users to operate on Azure Machine Learning Commitment
+  Plans resources and their child Commitment Association resources. They support CRUD
+  operations for commitment plans, get and list operations for commitment associations,
+  moving commitment associations between commitment plans, and retrieving commitment
+  plan usage history.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:machinelearning-commitmentPlans;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-machinelearning-commitmentplans
+assigned_id: dea:platform-service-azure-com-machinelearning-commitmentplans-btp29s
+admitted: '2026-11-14'

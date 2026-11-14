@@ -1,0 +1,44 @@
+id: dea:platform-service-amazonaws-com-compute-optimizer-3ran7m
+type: PlatformService
+name: AWS Compute Optimizer (amazonaws.com:compute-optimizer)
+description: Compute Optimizer is a service that analyzes the configuration and utilization
+  metrics of your Amazon Web Services compute resources, such as Amazon EC2 instances,
+  Amazon EC2 Auto Scaling groups, Lambda functions, Amazon EBS volumes, and Amazon
+  ECS services on Fargate. It reports whether your resources are optimal, and generates
+  optimization recommendations to reduce the cost and improve the performance of your
+  workloads. Compute Optimizer also provides recent utilization metric data, in addition
+  to projected utilization metric data for the recommendations, which you can use
+  to evaluate which recommendation provides the best price-performance trade-off.
+  The analysis of your usage patterns can help you decide when to move or resize your
+  running resources, and still meet your performance and capacity requirements. For
+  more information about Compute Optimizer, including the required permissions to
+  use the service, see the <a href="https://docs.aws.amazon.com/compute-optimizer/latest/ug/">Compute
+  Optimizer User Guide</a>.
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:compute-optimizer;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- amazonaws-com
+- public-api

@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:iotsecuretunneling
 name: AWS IoT Secure Tunneling (amazonaws.com:iotsecuretunneling)
-description: <fullname>IoT Secure Tunneling</fullname> <p>IoT Secure Tunneling creates remote connections
-  to devices deployed in the field.</p> <p>For more information about how IoT Secure Tunneling works,
-  see <a href="https://docs.aws.amazon.com/iot/latest/developerguide/secure-tunneling.html">IoT Secure
-  Tunneling</a>.</p>
+description: <fullname>IoT Secure Tunneling</fullname> <p>IoT Secure Tunneling creates
+  remote connections to devices deployed in the field.</p> <p>For more information
+  about how IoT Secure Tunneling works, see <a href="https://docs.aws.amazon.com/iot/latest/developerguide/secure-tunneling.html">IoT
+  Secure Tunneling</a>.</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:iotsecuretunneling; spec:
-      https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:iotsecuretunneling;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-iotsecuretunneling
+assigned_id: dea:platform-service-amazonaws-com-iotsecuretunneling-e9skvs
+admitted: '2026-11-14'

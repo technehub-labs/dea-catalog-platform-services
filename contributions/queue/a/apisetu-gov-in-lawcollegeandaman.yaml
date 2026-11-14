@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:lawcollegeandaman
 name: Andaman Law College, Andaman & Nicobar (apisetu.gov.in:lawcollegeandaman)
-description: Transfer Certificate issued by Andaman Law College can be downloaded in citizen's DigiLocker
-  account.
+description: Transfer Certificate issued by Andaman Law College can be downloaded
+  in citizen's DigiLocker account.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:lawcollegeandaman; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:lawcollegeandaman;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-lawcollegeandaman
+assigned_id: dea:platform-service-apisetu-gov-in-lawcollegeandaman-2w5jk5
+admitted: '2026-11-14'

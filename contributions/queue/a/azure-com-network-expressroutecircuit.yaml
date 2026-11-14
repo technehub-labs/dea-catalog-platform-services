@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:network-expressRouteCircuit
 name: NetworkManagementClient (azure.com:network-expressRouteCircuit)
-description: The Microsoft Azure Network management API provides a RESTful set of web services that interact
-  with Microsoft Azure Networks service to manage your network resources. The API has entities that capture
-  the relationship between an end user and the Microsoft Azure Networks service.
+description: The Microsoft Azure Network management API provides a RESTful set of
+  web services that interact with Microsoft Azure Networks service to manage your
+  network resources. The API has entities that capture the relationship between an
+  end user and the Microsoft Azure Networks service.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:network-expressRouteCircuit;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-network-expressroutecircuit
+assigned_id: dea:platform-service-azure-com-network-expressroutecircuit-uzedzr
+admitted: '2026-11-14'

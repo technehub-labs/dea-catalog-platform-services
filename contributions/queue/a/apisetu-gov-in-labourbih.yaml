@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:labourbih
 name: Labour Resource Department, Bihar (apisetu.gov.in:labourbih)
-description: Department of Labour Resources (http://labour.bih.nic.in/) issues various certificates to
-  the citizens. They can be pulled into citizen's DigiLocker account. Currently available- Shops and Commercial
-  Establishments Registration Certificate
+description: Department of Labour Resources (http://labour.bih.nic.in/) issues various
+  certificates to the citizens. They can be pulled into citizen's DigiLocker account.
+  Currently available- Shops and Commercial Establishments Registration Certificate
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:labourbih; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:labourbih;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-labourbih
+assigned_id: dea:platform-service-apisetu-gov-in-labourbih-f5tpjh
+admitted: '2026-11-14'

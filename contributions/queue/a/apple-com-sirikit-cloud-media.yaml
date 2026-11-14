@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apple.com:sirikit-cloud-media
 name: SiriKit Cloud Media (apple.com:sirikit-cloud-media)
-description: 'SiriKit Cloud Media — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'SiriKit Cloud Media — a public API catalogued in the APIs.guru directory
+  (provider: n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apple.com:sirikit-cloud-media; spec:
-      https://developer.apple.com/siri/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apple.com:sirikit-cloud-media;
+      spec: https://developer.apple.com/siri/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apple-com
 - public-api
 slug: apple-com-sirikit-cloud-media
+assigned_id: dea:platform-service-apple-com-sirikit-cloud-media-55sraf
+admitted: '2026-11-14'

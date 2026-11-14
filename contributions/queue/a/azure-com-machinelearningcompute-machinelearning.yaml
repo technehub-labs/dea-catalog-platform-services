@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:machinelearningcompute-machineLearningCompute
 name: Machine Learning Compute Management Client (azure.com:machinelearningcompute-machineLearningCompute)
-description: These APIs allow end users to operate on Azure Machine Learning Compute resources. They support
-  the following operations:<ul><li>Create or update a cluster</li><li>Get a cluster</li><li>Patch a cluster</li><li>Delete
-  a cluster</li><li>Get keys for a cluster</li><li>Check if updates are available for system services
-  in a cluster</li><li>Update system services in a cluster</li><li>Get all clusters in a resource group</li><li>Get
+description: These APIs allow end users to operate on Azure Machine Learning Compute
+  resources. They support the following operations:<ul><li>Create or update a cluster</li><li>Get
+  a cluster</li><li>Patch a cluster</li><li>Delete a cluster</li><li>Get keys for
+  a cluster</li><li>Check if updates are available for system services in a cluster</li><li>Update
+  system services in a cluster</li><li>Get all clusters in a resource group</li><li>Get
   all clusters in a subscription</li></ul>
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:machinelearningcompute-machineLearningCompute;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-machinelearningcompute-machinelearning
+assigned_id: dea:platform-service-azure-com-machinelearningcompute-machinelearning-b38nf4
+admitted: '2026-11-14'

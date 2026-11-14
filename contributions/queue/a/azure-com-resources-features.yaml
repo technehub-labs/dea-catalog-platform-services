@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:resources-features
 name: FeatureClient (azure.com:resources-features)
-description: Azure Feature Exposure Control (AFEC) provides a mechanism for the resource providers to
-  control feature exposure to users. Resource providers typically use this mechanism to provide public/private
-  preview for new features prior to making them generally available. Users need to explicitly register
-  for AFEC features to get access to such functionality.
+description: Azure Feature Exposure Control (AFEC) provides a mechanism for the resource
+  providers to control feature exposure to users. Resource providers typically use
+  this mechanism to provide public/private preview for new features prior to making
+  them generally available. Users need to explicitly register for AFEC features to
+  get access to such functionality.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:resources-features; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:resources-features;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-resources-features
+assigned_id: dea:platform-service-azure-com-resources-features-zda389
+admitted: '2026-11-14'

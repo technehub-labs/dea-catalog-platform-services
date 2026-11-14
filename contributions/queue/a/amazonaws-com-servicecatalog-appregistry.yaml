@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:servicecatalog-appregistry
 name: AWS Service Catalog App Registry (amazonaws.com:servicecatalog-appregistry)
-description: Amazon Web Services Service Catalog AppRegistry enables organizations to understand the application
-  context of their Amazon Web Services resources. AppRegistry provides a repository of your applications,
-  their resources, and the application metadata that you use within your enterprise.
+description: Amazon Web Services Service Catalog AppRegistry enables organizations
+  to understand the application context of their Amazon Web Services resources. AppRegistry
+  provides a repository of your applications, their resources, and the application
+  metadata that you use within your enterprise.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:servicecatalog-appregistry;
       spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-servicecatalog-appregistry
+assigned_id: dea:platform-service-amazonaws-com-servicecatalog-appregistry-xb7776
+admitted: '2026-11-14'

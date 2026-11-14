@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:cognitiveservices-InkRecognizer
 name: Ink Recognizer Client (azure.com:cognitiveservices-InkRecognizer)
-description: The service is used to perform ink layout and recognition of written words and shapes. Ink
-  strokes passed to the service are recognized and organized into recognition results in the response
+description: The service is used to perform ink layout and recognition of written
+  words and shapes. Ink strokes passed to the service are recognized and organized
+  into recognition results in the response
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:cognitiveservices-InkRecognizer;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-cognitiveservices-inkrecognizer
+assigned_id: dea:platform-service-azure-com-cognitiveservices-inkrecognizer-y8cejf
+admitted: '2026-11-14'

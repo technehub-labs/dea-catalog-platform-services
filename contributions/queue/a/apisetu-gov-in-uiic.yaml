@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:uiic
 name: United India Insurance Company Limited (apisetu.gov.in:uiic)
-description: United India Insurance Co. Ltd. is a Public Sector General Insurance Company incorporated
-  in 1938, having its presence all over India providing risk cover to 1.74 Crore policyholders. General
-  Insurance Policies such as Motor, Health, Personal Accident, Travel, e.t.c issued by United India Insurance
-  Co. Ltd. (https://uiic.co.in/) are available to be downloaded by citizens of India to their DigiLocker
-  account.
+description: United India Insurance Co. Ltd. is a Public Sector General Insurance
+  Company incorporated in 1938, having its presence all over India providing risk
+  cover to 1.74 Crore policyholders. General Insurance Policies such as Motor, Health,
+  Personal Accident, Travel, e.t.c issued by United India Insurance Co. Ltd. (https://uiic.co.in/)
+  are available to be downloaded by citizens of India to their DigiLocker account.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:uiic; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:uiic;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-uiic
+assigned_id: dea:platform-service-apisetu-gov-in-uiic-zrhykg
+admitted: '2026-11-14'

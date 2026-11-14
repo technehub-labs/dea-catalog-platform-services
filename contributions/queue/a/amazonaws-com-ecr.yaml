@@ -1,25 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:ecr
 name: Amazon EC2 Container Registry (amazonaws.com:ecr)
-description: <fullname>Amazon Elastic Container Registry</fullname> <p>Amazon Elastic Container Registry
-  (Amazon ECR) is a managed container image registry service. Customers can use the familiar Docker CLI,
-  or their preferred client, to push, pull, and manage images. Amazon ECR provides a secure, scalable,
-  and reliable registry for your Docker or Open Container Initiative (OCI) images. Amazon ECR supports
-  private repositories with resource-based permissions using IAM so that specific users or Amazon EC2
-  instances can access repositories and images.</p> <p>Amazon ECR has service endpoints in each supported
-  Region. For more information, see <a href="https://docs.aws.amazon.com/general/latest/gr/ecr.html">Amazon
+description: <fullname>Amazon Elastic Container Registry</fullname> <p>Amazon Elastic
+  Container Registry (Amazon ECR) is a managed container image registry service. Customers
+  can use the familiar Docker CLI, or their preferred client, to push, pull, and manage
+  images. Amazon ECR provides a secure, scalable, and reliable registry for your Docker
+  or Open Container Initiative (OCI) images. Amazon ECR supports private repositories
+  with resource-based permissions using IAM so that specific users or Amazon EC2 instances
+  can access repositories and images.</p> <p>Amazon ECR has service endpoints in each
+  supported Region. For more information, see <a href="https://docs.aws.amazon.com/general/latest/gr/ecr.html">Amazon
   ECR endpoints</a> in the <i>Amazon Web Services General Reference</i>.</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:ecr; spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:ecr;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-ecr
+assigned_id: dea:platform-service-amazonaws-com-ecr-8ze956
+admitted: '2026-11-14'

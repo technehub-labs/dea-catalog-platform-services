@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:mbse
 name: Mizoram State Board of School education (apisetu.gov.in:mbse)
-description: Mizoram Board of School Education, Mizoram (http://www.mbse.edu.in) has made available 2018
-  Class X and class XII marksheets and passing certificates in DigiLocker, which can be pulled by students
-  into their accounts.
+description: Mizoram Board of School Education, Mizoram (http://www.mbse.edu.in) has
+  made available 2018 Class X and class XII marksheets and passing certificates in
+  DigiLocker, which can be pulled by students into their accounts.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:mbse; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:mbse;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-mbse
+assigned_id: dea:platform-service-apisetu-gov-in-mbse-srbweu
+admitted: '2026-11-14'

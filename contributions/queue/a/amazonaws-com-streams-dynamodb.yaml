@@ -1,22 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:streams.dynamodb
 name: Amazon DynamoDB Streams (amazonaws.com:streams.dynamodb)
-description: <fullname>Amazon DynamoDB</fullname> <p>Amazon DynamoDB Streams provides API actions for
-  accessing streams and processing stream records. To learn more about application development with Streams,
-  see <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html">Capturing
+description: <fullname>Amazon DynamoDB</fullname> <p>Amazon DynamoDB Streams provides
+  API actions for accessing streams and processing stream records. To learn more about
+  application development with Streams, see <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html">Capturing
   Table Activity with DynamoDB Streams</a> in the Amazon DynamoDB Developer Guide.</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:streams.dynamodb; spec:
-      https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:streams.dynamodb;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-streams-dynamodb
+assigned_id: dea:platform-service-amazonaws-com-streams-dynamodb-umjb5c
+admitted: '2026-11-14'

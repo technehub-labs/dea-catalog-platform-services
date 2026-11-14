@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:mobile
 name: AWS Mobile (amazonaws.com:mobile)
-description: AWS Mobile Service provides mobile app and website developers with capabilities required
-  to configure AWS resources and bootstrap their developer desktop projects with the necessary SDKs, constants,
-  tools and samples to make use of those resources.
+description: AWS Mobile Service provides mobile app and website developers with capabilities
+  required to configure AWS resources and bootstrap their developer desktop projects
+  with the necessary SDKs, constants, tools and samples to make use of those resources.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:mobile; spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:mobile;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-mobile
+assigned_id: dea:platform-service-amazonaws-com-mobile-c6a3pq
+admitted: '2026-11-14'

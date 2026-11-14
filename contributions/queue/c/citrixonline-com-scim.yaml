@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru citrixonline.com:scim
 name: SCIM (citrixonline.com:scim)
-description: The SCIM API lets you manage users in your organization. You can then automate the provisioning
-  of product licenses for these users, and they can use your company's Single Sign-On solution through
-  an Identity Provider.
+description: The SCIM API lets you manage users in your organization. You can then
+  automate the provisioning of product licenses for these users, and they can use
+  your company's Single Sign-On solution through an Identity Provider.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: citrixonline.com:scim; spec: https://developer.citrixonline.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: citrixonline.com:scim;
+      spec: https://developer.citrixonline.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - citrixonline-com
 - public-api
 slug: citrixonline-com-scim
+assigned_id: dea:platform-service-citrixonline-com-scim-zwmmgy
+admitted: '2026-11-14'

@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:sql-servers
 name: SqlManagementClient (azure.com:sql-servers)
-description: The Azure SQL Database management API provides a RESTful set of web APIs that interact with
-  Azure SQL Database services to manage your databases. The API enables users to create, retrieve, update,
-  and delete databases, servers, and other entities.
+description: The Azure SQL Database management API provides a RESTful set of web APIs
+  that interact with Azure SQL Database services to manage your databases. The API
+  enables users to create, retrieve, update, and delete databases, servers, and other
+  entities.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:sql-servers; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:sql-servers;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-sql-servers
+assigned_id: dea:platform-service-azure-com-sql-servers-mc59bd
+admitted: '2026-11-14'

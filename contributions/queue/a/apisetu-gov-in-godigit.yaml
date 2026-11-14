@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:godigit
 name: Go Digit General Insurance Ltd. (apisetu.gov.in:godigit)
-description: Car, Two wheeler and Commercial Vehicle insurance policies issued by GoDigit (https://www.godigit.com),
-  a General Insurance company, can be fetched by Citizens in their DigiLocker accounts.
+description: Car, Two wheeler and Commercial Vehicle insurance policies issued by
+  GoDigit (https://www.godigit.com), a General Insurance company, can be fetched by
+  Citizens in their DigiLocker accounts.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:godigit; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:godigit;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-godigit
+assigned_id: dea:platform-service-apisetu-gov-in-godigit-t2b3fm
+admitted: '2026-11-14'

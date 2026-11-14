@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru adyen.com:BalancePlatformTransferNotification-v3
 name: Transfer webhooks (adyen.com:BalancePlatformTransferNotification-v3)
-description: Adyen sends notifications through webhooks to inform your system about incoming and outgoing
-  transfers in your platform. You can use these webhooks to build your implementation. For example, you
-  can use this information to update balances in your own dashboards or to keep track of incoming funds.
+description: Adyen sends notifications through webhooks to inform your system about
+  incoming and outgoing transfers in your platform. You can use these webhooks to
+  build your implementation. For example, you can use this information to update balances
+  in your own dashboards or to keep track of incoming funds.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:BalancePlatformTransferNotification-v3;
       spec: https://www.adyen.help/hc/en-us/community/topics)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - adyen-com
 - public-api
 slug: adyen-com-balanceplatformtransfernotification-v3
+assigned_id: dea:platform-service-adyen-com-balanceplatformtransfernotification-v3-wmy6nk
+admitted: '2026-11-14'

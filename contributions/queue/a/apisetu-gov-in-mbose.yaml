@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:mbose
 name: Meghalaya Board of School Education, Tura, Meghalaya (apisetu.gov.in:mbose)
-description: Meghalaya Board of School Education (MBOSE) with Marksheets of Class Xth and Class XIIth
-  (Arts , Science, Commerce and Vocational), is availablke on DigiLocker for the students of 2015-2019.
+description: Meghalaya Board of School Education (MBOSE) with Marksheets of Class
+  Xth and Class XIIth (Arts , Science, Commerce and Vocational), is availablke on
+  DigiLocker for the students of 2015-2019.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:mbose; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:mbose;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-mbose
+assigned_id: dea:platform-service-apisetu-gov-in-mbose-up3mvv
+admitted: '2026-11-14'
