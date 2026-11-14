@@ -1,0 +1,27 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:greengrassv2
+name: AWS IoT Greengrass V2 (amazonaws.com:greengrassv2)
+description: <p>IoT Greengrass brings local compute, messaging, data management, sync, and ML inference
+  capabilities to edge devices. This enables devices to collect and analyze data closer to the source
+  of information, react autonomously to local events, and communicate securely with each other on local
+  networks. Local devices can also communicate securely with Amazon Web Services IoT Core and export IoT
+  data to the Amazon Web Services Cloud. IoT Greengrass developers can use Lambda functions and components
+  to create and deploy applications to fleets of edge devices for local operation.</p> <p>IoT Greengrass
+  Version 2 provides a new major version of the IoT Greengrass Core software, new APIs, and a new console.
+  Use this API reference to learn how to use the IoT Greengrass V2 API operations to manage components,
+  manage deployments, and core devices.</p> <p>For more information, see <a href="https://docs.aws.amazon.com/greengrass/v2/developerguide/what-is-iot-greengrass.html">What
+  is IoT Greengrass?</a> in the <i>IoT Greengrass V2 Developer Guide</i>.</p>
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:greengrassv2; spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-greengrassv2

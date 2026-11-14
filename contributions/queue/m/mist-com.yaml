@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru mist.com
+name: Mist API (mist.com)
+description: '> Version: **0.36.1** > > Date: **March 3, 2022** --- #### Available Documentation * [Postman](https://documenter.getpostman.com/view/224925/SzYgQufe)
+  * [Open API](https://doc.mist-lab.fr/) --- #### Useful links * [Mist Homepage](https://www.mist.com)
+  * [Mist Documentation](https://www.mist.com/documentation) * [Official API Documentation](https://api.mist.com/api/v1/docs/Home)
+  (Mist account required) * [Mist Blog](https://www.mist.com/news/?md_post_type=post) * [Mist Updates](https://www.mist.com/documentation/category/product-updates/)'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mist.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- mist-com
+- public-api
+slug: mist-com

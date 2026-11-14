@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru linqr.app
+name: LinQR (linqr.app)
+description: This is LinQR QR Code API documentation. This API allows you to generate custom, visually
+  attractive QR Codes. The cloud infrastructure guarantees high availability and autoscalability of the
+  service. You can generate hundreds of thousands of images this way and use them however you like. We
+  realize that your API use case may require custom solutions, and perhaps we lack functionality that
+  is very important to you. In that case feel free to write an email to our support and tell us about
+  it. We have repeatedly added new functions of our service directly after the requests of our users.
+  **General remarks:** - maximum request size is fixed at 32MB. - request timeout is fixed at 180 seconds.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: linqr.app; spec: https://linqr.app)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- linqr-app
+- public-api
+slug: linqr-app

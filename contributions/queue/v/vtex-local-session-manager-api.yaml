@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru vtex.local:Session-Manager-API
+name: Session Manager API (vtex.local:Session-Manager-API)
+description: This documentation goes in detail how to interact with Session Manager's API. For a more
+  top-level approach, check the [design documentation](https://help.vtex.com/tutorial/using-session-manager-to-track-browsing-sessions-in-vtex-stores--1pA0tqsD4BFnJYhQ7ORQBd).
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Session-Manager-API; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- vtex-local
+- public-api
+slug: vtex-local-session-manager-api

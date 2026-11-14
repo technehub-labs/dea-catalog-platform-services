@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru 6-dot-authentiqio.appspot.com
+name: Authentiq API (6-dot-authentiqio.appspot.com)
+description: Strong authentication, without the passwords.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: 6-dot-authentiqio.appspot.com; spec:
+      http://authentiq.io/support)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- 6-dot-authentiqio-appspot-com
+- public-api
+slug: 6-dot-authentiqio-appspot-com

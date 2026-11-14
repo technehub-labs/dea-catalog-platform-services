@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:clouddirectory
+name: Amazon CloudDirectory (amazonaws.com:clouddirectory)
+description: <fullname>Amazon Cloud Directory</fullname> <p>Amazon Cloud Directory is a component of the
+  AWS Directory Service that simplifies the development and management of cloud-scale web, mobile, and
+  IoT applications. This guide describes the Cloud Directory operations that you can call programmatically
+  and includes detailed information on data types and errors. For information about Cloud Directory features,
+  see <a href="https://aws.amazon.com/directoryservice/">AWS Directory Service</a> and the <a href="https://docs.aws.amazon.com/clouddirectory/latest/developerguide/what_is_cloud_directory.html">Amazon
+  Cloud Directory Developer Guide</a>.</p>
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:clouddirectory; spec:
+      https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-clouddirectory

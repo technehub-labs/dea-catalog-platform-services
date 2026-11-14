@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru mermade.org.uk:openapi-converter
+name: Swagger2OpenAPI Converter (mermade.org.uk:openapi-converter)
+description: Converter and validator for Swagger 2.0 to OpenAPI 3.0.x definitions
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mermade.org.uk:openapi-converter; spec:
+      https://github.com/mermade/swagger2openapi/issues)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- mermade-org-uk
+- public-api
+slug: mermade-org-uk-openapi-converter

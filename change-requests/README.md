@@ -12,3 +12,4 @@ This index tracks every change request that lands on this repository.
 Series tag `CR-ISS-CAT-NN`, sequential. Cross-repo CRs that touch this
 repository are recorded here with their home-repo identifier.
 | [ISS-CAT-02](ISS-CAT-02-iss-cat-02.md) | Entity Ingestion Groundwork (candidate intake queue + gates) | **Proposed (this PR)** | Gated intake: queue + blocking queue gate + admission tool (candidate-state subtrees, content-derived ids); pin v2.6.0→v2.8.0 + shard-aware toolchain re-vendor. No records. |
+| [ISS-CAT-03](ISS-CAT-03-iss-cat-03.md) | InformationSystemService Candidate Corpus | **Landed (this PR)** | 2525 queue submissions from 1 bank(s); manifest with sha256s; queue gate CONFORMANT; no entities change. |

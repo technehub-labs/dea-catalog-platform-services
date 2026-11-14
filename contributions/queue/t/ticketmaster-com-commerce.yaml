@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru ticketmaster.com:commerce
+name: Commerce API (ticketmaster.com:commerce)
+description: Use the Ticketmaster Commerce API to look up available offers and products on various Ticketmaster
+  platforms for North America markets. For formal partnerships and relationships, selected offers and
+  products can be carted and transacted on through the cart, delivery, payment and purchase APIs – These
+  APIs require approved access from Ticketmaster.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ticketmaster.com:commerce; spec: http://developer.ticketmaster.com/support/contact-us/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- ticketmaster-com
+- public-api
+slug: ticketmaster-com-commerce

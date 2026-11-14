@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru selectpdf.com
+name: SelectPdf HTML To PDF API (selectpdf.com)
+description: SelectPdf HTML To PDF Online REST API is a professional solution that lets you create PDF
+  from web pages and raw HTML code in your applications. The API is easy to use and the integration takes
+  only a few lines of code.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: selectpdf.com; spec: https://selectpdf.com/html-to-pdf-api/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- selectpdf-com
+- public-api
+slug: selectpdf-com

@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru mercedes-benz.com:diagnostics
+name: Remote Diagnostic Support (mercedes-benz.com:diagnostics)
+description: The Remote Diagnostic Support API will provide the possibility for 3rd party applications
+  (e.g. ADAC, ATU, etc.) to access vehicle diagnostics data remotely on behalf of the Daimler customer.
+  To use the endpoints you need a valid vin/fin (vehicleId).
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mercedes-benz.com:diagnostics; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- mercedes-benz-com
+- public-api
+slug: mercedes-benz-com-diagnostics

@@ -1,0 +1,18 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru ably.io:platform
+name: Platform API (ably.io:platform)
+description: The [REST API specification](https://www.ably.io/documentation/rest-api) for Ably.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ably.io:platform; spec: https://www.ably.io/contact)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- ably-io
+- public-api
+slug: ably-io-platform

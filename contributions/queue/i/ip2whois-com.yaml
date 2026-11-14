@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru ip2whois.com
+name: IP2WHOIS Domain Lookup (ip2whois.com)
+description: IP2WHOIS is a free tool to allow you to check WHOIS information for a particular domain,
+  such as domain assigned owner contact information, registrar information, registrant information, location
+  and much more.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ip2whois.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- ip2whois-com
+- public-api
+slug: ip2whois-com

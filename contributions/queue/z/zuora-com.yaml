@@ -1,0 +1,35 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru zuora.com
+name: 'API Reference: Billing (zuora.com)'
+description: '# Introduction Welcome to the reference for the Zuora Billing REST API! To learn about the
+  common use cases of Zuora Billing REST APIs, check out the [API Guides](https://www.zuora.com/developer/api-guides/).
+  In addition to Zuora API Reference; Billing, we also provide API references for other Zuora products:
+  * [API Reference: Collect](https://www.zuora.com/developer/collect-api/) * [API Reference: Revenue](https://www.zuora.com/developer/revpro-api/)
+  The Zuora REST API provides a broad set of operations and resources that: * Enable Web Storefront integration
+  from your website. * Support self-service subscriber sign-ups and account management. * Process revenue
+  schedules through custom revenue rule models. * Enable manipulation of most objects in the Zuora Billing
+  Object Model. Want to share your opinion on how our API works for you? <a href="https://community.zuora.com/t5/Developers/API-Feedback-Form/gpm-p/21399"
+  target="_blank">Tell us how you feel </a>about using our API and what we can do to make it better. ##
+  Access to the API If you have a Zuora tenant, you can access the Zuora REST API via one of the following
+  endpoints: | Tenant | Base URL for REST Endpoints | |-------------------------|-------------------------|
+  |US Production | https://rest.zuora.com | |US API Sandbox | https://rest.apisandbox.zuora.com| |US Performance
+  Test | https://rest.pt1.zuora.com | |US Production Copy | Submit a request at <a href="http://support.zuora.com/"
+  target="_blank">Zuora Global Support</a> to enable the Zuora REST API in your tenant and obtain the
+  base URL for REST endpoints. See [REST endpoint base URL of Production Copy (Service) Environment for
+  existing and new customers](https://community.zuora.com/t5/API/REST-endpoint-base-URL-of-Production-Copy-Service-Environment/td-p/29611)
+  for more information. | |US Cloud Production | https://rest.na.zuora.com | |US Cloud API Sandbox | https://rest.sandbox.na.zuora.com
+  | |US Central Sandbox | https://rest.test.zuora.com | |EU Prod'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: zuora.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- zuora-com
+- public-api
+slug: zuora-com

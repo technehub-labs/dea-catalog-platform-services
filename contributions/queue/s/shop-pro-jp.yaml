@@ -1,0 +1,32 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru shop-pro.jp
+name: カラーミーショップアプリストア API (shop-pro.jp)
+description: '# カラーミーショップアプリストア API [アプリストア](https://app.shop-pro.jp/)にて公開するアプリに対して、一般公開している[カラーミーショップAPI](https://developer.shop-pro.jp/docs/colorme-api)に加えて、カラーミーショップアプリストアAPI（以下、アプリストアAPIといいます）を利用することが出来ます。アプリストアAPIでは以下のことが行えます。
+  - 課金データ(アプリ内課金、従量課金)の作成 - インラインスクリプトタグの取得・作成・更新・削除 - スクリプトタグの取得・作成・更新・削除 ## 利用手順 アプリストアAPIを利用するには、OAuth認証が必要です。OAuth認証の基本的な流れについては[カラーミーショップAPIドキュメント](https://developer.shop-pro.jp/docs/colorme-api)を参照してください。
+  アプリストアAPIの利用のために、以下のscopeが追加で指定可能になります。[カラーミーショップAPIドキュメント](https://developer.shop-pro.jp/docs/colorme-api)に掲載されているscopeと合わせてご利用ください。
+  |スコープ|機能| |---|---| |`write_application_charge`|課金データの作成| |`read_shop_script_tags`|ショップページのスクリプトタグを参照|
+  |`write_shop_script_tags`|ショップページへスクリプトタグを追加・更新| |`read_inline_script_tags`|インラインスクリプトタグを参照| |`write_inline_script_tags`|インラインスクリプトタグを追加・更新|
+  |`read_script_tags`|スクリプトタグを参照(deprecated)| |`write_script_tags`|スクリプトタグを追加・更新(deprecated)| (例) カラーミーショップアカウントの認証ページを表示
+  ``` https://api.shop-pro.jp/oauth/authorize?client_id=CLIENT_ID&redirect_uri=REDIRECT_URI&response_type=code&scope=read_products%20write_products%20write_application_charge
+  ``` ## 課金設定 料金プラン（月額課金・従量課金・買い切り）による課金や、アプリ内課金をご利用いただくにはアプリごとに課金設定の登録が必要です。 この設定は [カラーミーショップ デベロッパー](https://developer.shop-pro.jp)
+  から行うことができます。 登録できる課金形式やその使い方の詳細については[アプリストア 開発ガイドのアプリ課金のページ](https://developer.shop-pro.jp/getting-started/appstore-billing/)をご覧ください
+  ## アプリのインストール ショップオーナーがアプリをインストールしたとき、以下の処理をカラーミーショップが行います。 - 選択された料金プランに基づき課金開始 - インストールフックの呼び出し ###
+  インストールフック アプリのインストール時に、インストールに関する情報を `POST` メソッド、 `application/json` 形式で通知します。 通知先のURLは[カラーミーショップ デベロッパー](https://developer.shop-pro.jp/)にログインし、各アプリストア
+  アプリのアプリ設定から登録を行ってください。 以下のパラメータが送信されます。課金請求に必要なパラメータを含みますので、必ず受け取れるようにしてください。 |パラメータ|機能|形式| |---|---|---|
+  |`account_id`|インストールしたショップオーナーのアカウントID|PA+8桁の整数| |`application_charge_source_id`|プラン課金ID|数字と大文字アルファベットで構成される文字列(6桁以上)|
+  |`recurring_application_charge_id`|（買い切り以外の課金の場合）課金契約ID|数字と大文字アルファベットで構成される文字列(6桁以上)| |`application_charge_id`|（買い切りの場合）課金契約ID|数字と大文字アルファベットで構成される文字列(6桁以上)|
+  |'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: shop-pro.jp; spec: https://shop-pro.jp/?mode=inq)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- shop-pro-jp
+- public-api
+slug: shop-pro-jp

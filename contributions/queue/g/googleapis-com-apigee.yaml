@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru googleapis.com:apigee
+name: Apigee API (googleapis.com:apigee)
+description: 'Use the Apigee API to programmatically develop and manage APIs with a set of RESTful operations.
+  Develop and secure API proxies, deploy and undeploy API proxy revisions, monitor APIs, configure environments,
+  manage users, and more. Note: This product is available as a free trial for a time period of 60 days.'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:apigee; spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- googleapis-com
+- public-api
+slug: googleapis-com-apigee

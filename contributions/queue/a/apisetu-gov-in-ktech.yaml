@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:ktech
+name: Department of IT and BT, Karnataka (apisetu.gov.in:ktech)
+description: eSigned certificates issued by Department of Information Technology, Biotechnology and Science
+  &Technology (http://itbt.karnataka.gov.in/pages/home.aspx) can be downloaded through DigiLocker.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:ktech; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-ktech

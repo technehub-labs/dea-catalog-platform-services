@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:customer-profiles
+name: Amazon Connect Customer Profiles (amazonaws.com:customer-profiles)
+description: <fullname>Amazon Connect Customer Profiles</fullname> <p>Amazon Connect Customer Profiles
+  is a unified customer profile for your contact center that has pre-built connectors powered by AppFlow
+  that make it easy to combine customer information from third party applications, such as Salesforce
+  (CRM), ServiceNow (ITSM), and your enterprise resource planning (ERP), with contact history from your
+  Amazon Connect contact center. If you're new to Amazon Connect, you might find it helpful to review
+  the <a href="https://docs.aws.amazon.com/connect/latest/adminguide/">Amazon Connect Administrator Guide</a>.</p>
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:customer-profiles; spec:
+      https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-customer-profiles

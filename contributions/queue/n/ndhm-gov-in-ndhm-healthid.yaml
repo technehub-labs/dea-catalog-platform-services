@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru ndhm.gov.in:ndhm-healthid
+name: Health ID Service (ndhm.gov.in:ndhm-healthid)
+description: It is important to standardize the process of identification of an individual across healthcare
+  providers, to ensure that the created medical records are issued to the right individual or accessed
+  by a Health Information User through appropriate consent. In order to issue a Health ID to an individual,
+  one only needs basic demographic details like Name, Year of Birth, Gender. In addition, citizens should
+  be able to update contact information easily.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ndhm.gov.in:ndhm-healthid; spec: https://ndhm.gov.in/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- ndhm-gov-in
+- public-api
+slug: ndhm-gov-in-ndhm-healthid

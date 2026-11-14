@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru circleci.com
+name: CircleCI REST API (circleci.com)
+description: The CircleCI API is a RESTful, fully-featured API that allows you to do almost anything in
+  CircleCI. You can access all information and trigger all actions. The only thing we don’t provide access
+  to is billing functions, which must be done from the CircleCI web UI.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: circleci.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- circleci-com
+- public-api
+slug: circleci-com

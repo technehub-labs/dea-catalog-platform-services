@@ -1,0 +1,26 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru here.com:positioning
+name: HERE Network Positioning API v2 (here.com:positioning)
+description: 'Positioning API accepts requests with radio network measurements and replies with corresponding
+  location estimate. For more details and examples, see [Developer''s Guide](https://developer.here.com/documentation/positioning).
+  Cellular measurements are given in terms defined in 3GPP and 3GGP2 specifications, see the corresponsing
+  documentation at http://www.3gpp.org. Breaking changes from v1: - JSON fields `altaccuracy`, `baselat`,
+  `baselng`, `cellparams`, `pilotpower`, `pnoffset`, `powrx`, `rxlevel`, have been deprecated and replaced
+  with `altAccuracy`, `baseLat`, `baseLng`, `cellParams`, `pilotPower`, `pnOffset`, `rss`, `rxLevel` respectively.
+  - Dependent parameters combined as a subobject. - CDMA, GSM, WCDMA, TD-SCDMA and LTE local identification
+  parameters for serving cell moved under `localId` property. - GSM neighbor global ID: `lac` and `cid`
+  for neighbor cell moved under `globalIdentity` property.'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: here.com:positioning; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- here-com
+- public-api
+slug: here-com-positioning

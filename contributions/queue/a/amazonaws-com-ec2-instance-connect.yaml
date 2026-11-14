@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:ec2-instance-connect
+name: AWS EC2 Instance Connect (amazonaws.com:ec2-instance-connect)
+description: Amazon EC2 Instance Connect enables system administrators to publish one-time use SSH public
+  keys to EC2, providing users a simple and secure way to connect to their instances.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:ec2-instance-connect;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-ec2-instance-connect

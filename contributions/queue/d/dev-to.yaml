@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru dev.to
+name: Forem API V1 (dev.to)
+description: Access Forem articles, users and other resources via API. For a real-world example of Forem
+  in action, check out [DEV](https://www.dev.to). All endpoints can be accessed with the 'api-key' header
+  and a accept header, but some of them are accessible publicly without authentication. Dates and date
+  times, unless otherwise specified, must be in the [RFC 3339](https://tools.ietf.org/html/rfc3339) format.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: dev.to; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- dev-to
+- public-api
+slug: dev-to

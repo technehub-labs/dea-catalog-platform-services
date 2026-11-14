@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru azure.com:apimanagement-apimquotas
+name: ApiManagementClient (azure.com:apimanagement-apimquotas)
+description: Use these REST APIs for performing operations on Quota entity associated with your Azure
+  API Management deployment. To configure call rate limit and quota policies refer to [how to configure
+  call rate limit and quota](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-product-with-rules#a-namepolicies-ato-configure-call-rate-limit-and-quota-policies).
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimquotas;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- azure-com
+- public-api
+slug: azure-com-apimanagement-apimquotas

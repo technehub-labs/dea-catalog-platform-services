@@ -1,0 +1,27 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru truanon.com
+name: TruAnon Private API (truanon.com)
+description: 'Welcome to TruAnon! Thank you for helping make the Internet a safer place to be. Adopting
+  TruAnon is simple. There is no setup or dependencies, nothing to store or process. Making identity part
+  of your service is fun, and you’ll be up and running in a matter of minutes. TruAnon Private Token is
+  used anytime you request information from TruAnon and you must edit this into the Variables section
+  for this collection. This API contains two endpoints and both require these same two arguments, also
+  found in the Variables section of this collection. These two arguments are: TruAnon Service Identifier
+  and Your Member Name Your TruAnon Service Identifier was provided by TruAnon and is likely the root
+  domain of your site or service. Your Member Name is the unique member ID on your system that you would
+  like to query. Information is continuously updated for display purposes and aside from performance considerations,
+  there should be no need to capture or save anything from TruAnon.'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: truanon.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- truanon-com
+- public-api
+slug: truanon-com

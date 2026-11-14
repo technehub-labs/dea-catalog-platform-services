@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru gov.bc.ca:gwells
+name: Groundwater Wells, Aquifers and Registry API (gov.bc.ca:gwells)
+description: The groundwater wells, aquifers and registry API contains information related to groundwater
+  wells and aquifers as well as a register of qualified well drillers and well pump installers registered
+  to operate in B.C.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: gov.bc.ca:gwells; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- gov-bc-ca
+- public-api
+slug: gov-bc-ca-gwells

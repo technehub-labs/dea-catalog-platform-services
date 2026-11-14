@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:honeycode
+name: Amazon Honeycode (amazonaws.com:honeycode)
+description: Amazon Honeycode is a fully managed service that allows you to quickly build mobile and web
+  apps for teams—without programming. Build Honeycode apps for managing almost anything, like projects,
+  customers, operations, approvals, resources, and even your team.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:honeycode; spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-honeycode

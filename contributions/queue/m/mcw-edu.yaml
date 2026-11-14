@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru mcw.edu
+name: Rat Genome Database REST API (mcw.edu)
+description: The RGD REST API provides programmatic access to information and annotation stored in the
+  Rat Genome Database
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mcw.edu; spec: http://rgd.mcw.edu)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- mcw-edu
+- public-api
+slug: mcw-edu

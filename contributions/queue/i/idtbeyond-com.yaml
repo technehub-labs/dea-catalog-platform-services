@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru idtbeyond.com
+name: Active Documentation for /v1 (idtbeyond.com)
+description: Our active docs provide the ability to test out your account and to see the responses to
+  your queries. The services are RESTful, and are accessed using standard HTTP methods over a secure HTTPS
+  channel. Requests and responses are currently sent in JSON format, and have a base URL of /v1.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: idtbeyond.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- idtbeyond-com
+- public-api
+slug: idtbeyond-com

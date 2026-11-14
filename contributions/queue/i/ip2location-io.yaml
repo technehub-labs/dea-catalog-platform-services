@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru ip2location.io
+name: IP2Location.io IP Geolocation API (ip2location.io)
+description: IP2Location.io IP Geolocation API provides RESTful API to obtain visitors’ geolocation information
+  such as country, region, city, latitude & longitude, ZIP code, time zone, ASN, ISP, domain, net speed,
+  IDD code, area code, weather station data, MNC, MCC, mobile brand, elevation, usage type, address type,
+  advertisement category and proxy data with an IP address.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ip2location.io; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- ip2location-io
+- public-api
+slug: ip2location-io

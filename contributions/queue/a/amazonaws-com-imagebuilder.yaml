@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:imagebuilder
+name: EC2 Image Builder (amazonaws.com:imagebuilder)
+description: EC2 Image Builder is a fully managed Amazon Web Services service that makes it easier to
+  automate the creation, management, and deployment of customized, secure, and up-to-date "golden" server
+  images that are pre-installed and pre-configured with software and settings to meet specific IT standards.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:imagebuilder; spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-imagebuilder

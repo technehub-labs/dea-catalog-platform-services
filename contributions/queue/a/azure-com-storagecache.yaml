@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru azure.com:storagecache
+name: Storage Cache Mgmt Client (azure.com:storagecache)
+description: A Storage Cache provides scalable caching service for NAS clients, serving data from either
+  NFSv3 or Blob at-rest storage (referred to as "Storage Targets"). These operations allow you to manage
+  Caches.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:storagecache; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- azure-com
+- public-api
+slug: azure-com-storagecache

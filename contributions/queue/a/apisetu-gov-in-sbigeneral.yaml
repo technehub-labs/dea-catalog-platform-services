@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:sbigeneral
+name: SBI General Insurance Company Ltd (apisetu.gov.in:sbigeneral)
+description: Insurance Policies such as Car, Two Wheeler, Commercial Vehicle, Health and Travel issued
+  by SBI General (https://www.sbigeneral.in) are now available for Customers to be fetched into their
+  DigiLocker accounts
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:sbigeneral; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-sbigeneral

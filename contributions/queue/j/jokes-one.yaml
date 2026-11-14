@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru jokes.one
+name: Jokes One API (jokes.one)
+description: Jokes One API offers a complete feature rich REST API access to its jokes platform. This
+  is the documentation for the world famous [jokes API](https://jokes.one/api/joke/). If you are a subscriber
+  and you are trying this from a console add 'X-JokesOne-Api-Secret' header and add your api key as the
+  header value. You can test and play with the API right here on this web page. For using the private
+  end points and subscribing to the API please visit https://jokes.one/api/joke/.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: jokes.one; spec: https://jokes.one/api/joke/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- jokes-one
+- public-api
+slug: jokes-one

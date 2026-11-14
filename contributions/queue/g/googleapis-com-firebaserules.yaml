@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru googleapis.com:firebaserules
+name: Firebase Rules API (googleapis.com:firebaserules)
+description: Creates and manages rules that determine when a Firebase Rules-enabled service should permit
+  a request.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:firebaserules; spec:
+      https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- googleapis-com
+- public-api
+slug: googleapis-com-firebaserules

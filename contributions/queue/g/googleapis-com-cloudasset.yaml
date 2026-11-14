@@ -1,0 +1,18 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru googleapis.com:cloudasset
+name: Cloud Asset API (googleapis.com:cloudasset)
+description: The Cloud Asset API manages the history and inventory of Google Cloud resources.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:cloudasset; spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- googleapis-com
+- public-api
+slug: googleapis-com-cloudasset

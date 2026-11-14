@@ -1,0 +1,36 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru hetzner.cloud
+name: Hetzner Cloud API (hetzner.cloud)
+description: 'This is the official API documentation for the Public Hetzner Cloud. ## Introduction The
+  Hetzner Cloud API operates over HTTPS and uses JSON as its data format. The API is a RESTful API and
+  utilizes HTTP methods and HTTP status codes to specify requests and responses. As an alternative to
+  working directly with our API you may also consider to use: * Our CLI program [hcloud](https://github.com/hetznercloud/cli)
+  * Our [library for Go](https://github.com/hetznercloud/hcloud-go) * Our [library for Python](https://github.com/hetznercloud/hcloud-python)
+  Also you can find a [list of libraries, tools, and integrations on GitHub](https://github.com/hetznercloud/awesome-hcloud).
+  If you are developing integrations based on our API and your product is Open Source you may be eligible
+  for a free one time €50 (excl. VAT) credit on your account. Please contact us via the the support page
+  on your Cloud Console and let us know the following: * The type of integration you would like to develop
+  * Link to the GitHub repo you will use for the Project * Link to some other Open Source work you have
+  already done (if you have done so) ## Getting Started To get started using the API you first need an
+  API token. Sign in into the [Hetzner Cloud Console](https://console.hetzner.cloud/) choose a Project,
+  go to `Security` → `API Tokens`, and generate a new token. Make sure to copy the token because it won’t
+  be shown to you again. A token is bound to a Project, to interact with the API of another Project you
+  have to create a new token inside the Project. Let’s say your new token is `jEheVytlAoFl7F8MqUQ7jAo2hOXASztX`.
+  You’re now ready to do your first request against the API. To get a list of all Servers in your Project,
+  issue the example request on the right side using [curl](https://curl.haxx.se/). Make sure to replace
+  the token in the example command with the token you have just created. Since your Project probably does
+  not contain any Servers yet, the example response will look like the response'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hetzner.cloud; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- hetzner-cloud
+- public-api
+slug: hetzner-cloud

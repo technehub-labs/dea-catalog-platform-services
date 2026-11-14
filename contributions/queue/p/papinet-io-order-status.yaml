@@ -1,0 +1,18 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru papinet.io:order_status
+name: papiNet API (papinet.io:order_status)
+description: papinet API is a global initiative for the Forst and Paper supply chain.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: papinet.io:order_status; spec: https://github.com/papinet/papiNet-API/issues)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- papinet-io
+- public-api
+slug: papinet-io-order-status

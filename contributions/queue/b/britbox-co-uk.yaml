@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru britbox.co.uk
+name: Rocket Services (britbox.co.uk)
+description: An Orchestration Layer that takes ISL services and packages them in a more targeted way for
+  front-end applications. This in turn makes client integration easier and reduces the complexity and
+  size of front-end applications. Rocket is also customisable - allowing UI engineers to ‘remix’ the existing
+  back-end services into something that best suits the application they are developing.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: britbox.co.uk; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- britbox-co-uk
+- public-api
+slug: britbox-co-uk

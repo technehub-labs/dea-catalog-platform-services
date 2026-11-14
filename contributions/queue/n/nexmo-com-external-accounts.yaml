@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru nexmo.com:external-accounts
+name: External Accounts API (nexmo.com:external-accounts)
+description: The External Accounts API is used to manage accounts for Viber Business Messages, Facebook
+  Messenger and Whatsapp for use in the [Messages](https://developer.nexmo.com/messages/overview) and
+  [Dispatch](https://developer.nexmo.com/dispatch/overview) APIs.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nexmo.com:external-accounts; spec:
+      https://developer.nexmo.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- nexmo-com
+- public-api
+slug: nexmo-com-external-accounts

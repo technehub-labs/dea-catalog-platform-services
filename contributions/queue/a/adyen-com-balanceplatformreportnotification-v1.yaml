@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru adyen.com:BalancePlatformReportNotification-v1
+name: Report webhooks (adyen.com:BalancePlatformReportNotification-v1)
+description: Adyen sends notifications through webhooks to inform your system that reports were generated
+  and are ready to be downloaded. You can download reports programmatically by making an HTTP GET request,
+  or manually from your [Balance Platform Customer Area](https://balanceplatform-test.adyen.com/balanceplatform).
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:BalancePlatformReportNotification-v1;
+      spec: https://www.adyen.help/hc/en-us/community/topics)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- adyen-com
+- public-api
+slug: adyen-com-balanceplatformreportnotification-v1

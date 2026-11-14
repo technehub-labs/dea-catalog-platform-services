@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru geodatasource.com
+name: GeoDataSource Location Search (geodatasource.com)
+description: GeoDataSource™ Web Service is a REST API enable user to lookup for a city by using latitude
+  and longitude coordinate. It will return the result in either JSON or XML containing the information
+  of country, region, city, latitude and longitude. Visit https://www.geodatasource.com/web-service for
+  further information.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: geodatasource.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- geodatasource-com
+- public-api
+slug: geodatasource-com

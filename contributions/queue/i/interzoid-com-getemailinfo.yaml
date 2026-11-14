@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru interzoid.com:getemailinfo
+name: Interzoid Get Email Information API (interzoid.com:getemailinfo)
+description: This API provides validation information for email addresses to aid in deliverability. Syntax,
+  existence of mail servers, and other tests are run to ensure delivery. Additional demographics are provided
+  for the email address as well, including identifying generic, vulgar, education, government, or other
+  entity type email addresses.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: interzoid.com:getemailinfo; spec: https://www.interzoid.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- interzoid-com
+- public-api
+slug: interzoid-com-getemailinfo

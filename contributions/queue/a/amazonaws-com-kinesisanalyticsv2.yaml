@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:kinesisanalyticsv2
+name: Amazon Kinesis Analytics (amazonaws.com:kinesisanalyticsv2)
+description: Amazon Kinesis Data Analytics is a fully managed service that you can use to process and
+  analyze streaming data using Java, SQL, or Scala. The service enables you to quickly author and run
+  Java, SQL, or Scala code against streaming sources to perform time series analytics, feed real-time
+  dashboards, and create real-time metrics.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:kinesisanalyticsv2; spec:
+      https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-kinesisanalyticsv2

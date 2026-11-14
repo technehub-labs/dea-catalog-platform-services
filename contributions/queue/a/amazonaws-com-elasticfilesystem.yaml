@@ -1,0 +1,25 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:elasticfilesystem
+name: Amazon Elastic File System (amazonaws.com:elasticfilesystem)
+description: <fullname>Amazon Elastic File System</fullname> <p>Amazon Elastic File System (Amazon EFS)
+  provides simple, scalable file storage for use with Amazon EC2 Linux and Mac instances in the Amazon
+  Web Services Cloud. With Amazon EFS, storage capacity is elastic, growing and shrinking automatically
+  as you add and remove files, so that your applications have the storage they need, when they need it.
+  For more information, see the <a href="https://docs.aws.amazon.com/efs/latest/ug/api-reference.html">Amazon
+  Elastic File System API Reference</a> and the <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html">Amazon
+  Elastic File System User Guide</a>.</p>
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:elasticfilesystem; spec:
+      https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-elasticfilesystem

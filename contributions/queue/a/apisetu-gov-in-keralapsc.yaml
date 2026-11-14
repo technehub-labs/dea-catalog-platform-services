@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:keralapsc
+name: KERALA PUBLIC SERVICE COMMISSION, Kerala (apisetu.gov.in:keralapsc)
+description: The following issued documents can be integrated with DigiLocker and get used by candidates
+  for service delivery - 1.One Time Verification -OTV certificate � issued to candidates qualified for
+  appointment for posts in Govt. Sector to produce to the concerned dept. after scrutinizing their the
+  relevant documents to prove their qualifications, age, etc.2. Admission Tickets for appearing Online,
+  OMR Exams, Physical Test, Interview etc. 3.Departmental Test Certificates- is issued to employees in
+  Govt. sector
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:keralapsc; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-keralapsc

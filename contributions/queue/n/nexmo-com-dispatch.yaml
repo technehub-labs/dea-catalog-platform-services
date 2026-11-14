@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru nexmo.com:dispatch
+name: Dispatch API (nexmo.com:dispatch)
+description: The Dispatch API enables the developer to specify a multiple message workflow. A workflow
+  follows a template. The first one we are adding is the failover template. The failover template instructs
+  the Messages API to first send a message to the specified channel. If that message fails immediately
+  or if the condition_status is not reached within the given time period the next message is sent. The
+  developer will also receive status webhooks from the messages resource for each delivery and read event.
+  This API is currently in Beta.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nexmo.com:dispatch; spec: https://developer.nexmo.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- nexmo-com
+- public-api
+slug: nexmo-com-dispatch

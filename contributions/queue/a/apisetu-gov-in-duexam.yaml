@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:duexam
+name: University Of Delhi (apisetu.gov.in:duexam)
+description: University of Delhi (http://www.du.ac.in/) is issuing Degree certificates through DigiLocker.
+  These can be pulled by students into their DigiLocker accounts. Currently data for 2017 is available.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:duexam; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-duexam

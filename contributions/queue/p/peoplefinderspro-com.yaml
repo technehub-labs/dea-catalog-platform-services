@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru peoplefinderspro.com
+name: Self Service Developer API (peoplefinderspro.com)
+description: 'Self Service Developer API documentation and demo. ##Getting Started You will need an API
+  access profile user and password in order to access search endpoints. Your access profile user and password
+  is used for authenticating all requests to our search API. You MUST pass the user and password each
+  time you perform a search request.'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: peoplefinderspro.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- peoplefinderspro-com
+- public-api
+slug: peoplefinderspro-com

@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru surrey.ca:trafficloops
+name: City of Surrey Traffic Loop Count API. (surrey.ca:trafficloops)
+description: This API provides locations of City of Surrey traffic loops and the corresponding traffic
+  loop counts in 15 minute intervals. While the counts are broken up by 15 minute intervals, the data
+  is currently loaded only once per day. We are hoping to increase this frequency to at least once every
+  hour. The LOOP_ID field is common to both datasets and can be used to cross-reference them.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: surrey.ca:trafficloops; spec: http://data.surrey.ca)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- surrey-ca
+- public-api
+slug: surrey-ca-trafficloops

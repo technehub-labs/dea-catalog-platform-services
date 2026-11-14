@@ -1,0 +1,18 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru crediwatch.com:covid19
+name: Crediwatch's Covid APIs (crediwatch.com:covid19)
+description: An API collection for Covid 19 by Crediwatch
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: crediwatch.com:covid19; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- crediwatch-com
+- public-api
+slug: crediwatch-com-covid19

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apiz.ebay.com:commerce-identity
+name: Identity API (apiz.ebay.com:commerce-identity)
+description: <span class="tablenote"><b>Note:</b> Not all the account related fields are returned for
+  an authenticated user. The fields returned in the response are controlled by the scopes and are available
+  only to select developers approved by business units.</span><br /><br />Retrieves the authenticated
+  user's account profile information. It can be used to let users log into your app or site using eBay,
+  which frees you from needing to store and protect user's PII (Personal Identifiable Information) data.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apiz.ebay.com:commerce-identity; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apiz-ebay-com
+- public-api
+slug: apiz-ebay-com-commerce-identity

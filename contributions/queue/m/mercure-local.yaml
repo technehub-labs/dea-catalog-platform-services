@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru mercure.local
+name: The Mercure protocol (mercure.local)
+description: '[Mercure](https://mercure.rocks) is a protocol allowing to push data updates to web browsers
+  and other HTTP clients in a convenient, fast, reliable and battery-efficient way.'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mercure.local; spec: https://mercure.rocks)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- mercure-local
+- public-api
+slug: mercure-local

@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru alertersystem.com
+name: Alerter System API (alertersystem.com)
+description: <p>This is the <a href="/">Alerter System</a> API playground. More documentation is available
+  at the <a href="/help/developers/">API Help Center</a>.</p><p>The "Available Authorizations" in the
+  Authorize popup only applies to this playground web interface. Other <a href="/help/developers/authorization/">authorizations</a>
+  are available for the actual API.</p>
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: alertersystem.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- alertersystem-com
+- public-api
+slug: alertersystem-com

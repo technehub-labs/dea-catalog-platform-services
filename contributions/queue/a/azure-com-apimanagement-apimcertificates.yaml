@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru azure.com:apimanagement-apimcertificates
+name: ApiManagementClient (azure.com:apimanagement-apimcertificates)
+description: Use these REST APIs for performing operations on Certificate entity in your Azure API Management
+  deployment. Certificates can be used to setup mutual authentication with your Backend in API Management.
+  For more information refer to [How to secure backend using Mutual Auth Certificate](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates).
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimcertificates;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- azure-com
+- public-api
+slug: azure-com-apimanagement-apimcertificates

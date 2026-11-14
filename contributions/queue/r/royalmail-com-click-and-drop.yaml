@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru royalmail.com:click-and-drop
+name: ChannelShipper & Royal Mail Public API (royalmail.com:click-and-drop)
+description: Import your orders, retrieve your orders and generate labels.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: royalmail.com:click-and-drop; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- royalmail-com
+- public-api
+slug: royalmail-com-click-and-drop

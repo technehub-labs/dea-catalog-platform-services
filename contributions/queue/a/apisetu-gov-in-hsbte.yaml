@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:hsbte
+name: Haryana State Board of Technical Education, Haryana (apisetu.gov.in:hsbte)
+description: HSBTE (http://hsbte.org.in/) is issuing marksheets (of Dec 2017 and June 2018 batches) through
+  DigiLocker. These can be pulled by students into their DigiLocker accounts.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:hsbte; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-hsbte

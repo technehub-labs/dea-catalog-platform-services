@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:msde
+name: Ministry of Skill Development And Entrepreneurship (apisetu.gov.in:msde)
+description: National Council for Vocational Training (NCVT) under Ministry of Skill Development And Entrepreneurship
+  has been entrusted with the responsibilities of prescribing standards and curricula for craftsmen training
+  and conducting All India Trade Tests and awarding National Trade Certificates. All the ITI certificates
+  under the purview of NCVT are available to download through Citizen's DigiLocker account.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:msde; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-msde

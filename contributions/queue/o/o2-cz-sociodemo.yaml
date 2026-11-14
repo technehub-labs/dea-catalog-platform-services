@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru o2.cz:sociodemo
+name: Socio-demo API (o2.cz:sociodemo)
+description: Socio-demo API can be used to obtain time-aggregated data representing groups of people on
+  the given location in the Czech Republic. Having a location, the API can return count of people belonging
+  to age group or gender aggregated by hours. The socio-demo data is based on presence of mobile stations
+  in O2 mobile network.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: o2.cz:sociodemo; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- o2-cz
+- public-api
+slug: o2-cz-sociodemo
