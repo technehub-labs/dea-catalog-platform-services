@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### CR-ISS-CAT-08: Shard Subdivision (R5 Remedy)
+
+Over-cap shard 'a' (queue + entities at 1,235 each) subdivided into two-character sub-shards (R5 findings resolved); vendored toolchain upgraded to depth-3 shard walking; candidates 2,525 / canonical 500 unchanged; ids untouched. All gates green.
+
 ### CR-ISS-CAT-05: InformationSystemService Candidate Admission Batch 02
 
 Admitted 1225 new `InformationSystemService` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +1225, canonical unchanged; queue entries flipped to `admitted`.
