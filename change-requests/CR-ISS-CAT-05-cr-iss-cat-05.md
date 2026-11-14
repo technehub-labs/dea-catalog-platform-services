@@ -1,6 +1,8 @@
-# ISS-CAT-05: InformationSystemService Candidate Admission Batch 02 (Data API (clever.com) … API Reference: Billing (zuora.com))
+# CR-CR-ISS-CAT-05: InformationSystemService Candidate Admission Batch 02 (Data API (clever.com) … API Reference: Billing (zuora.com))
 
 **Status**: Landed (this PR)
+
+**Naming/numbering correction**: this CR landed as `ISS-CAT-05` without the house `CR-` prefix (driver defect, fixed in the programme tooling). Renamed to `CR-ISS-CAT-05` by the naming-correction CR (CR-ISS-CAT-07); content unchanged.
 **Layer**: Catalog content (candidate corpus admission)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15

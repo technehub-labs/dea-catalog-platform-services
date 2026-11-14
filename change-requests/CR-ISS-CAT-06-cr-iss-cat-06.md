@@ -1,6 +1,8 @@
-# ISS-CAT-02: Entity Ingestion Groundwork (candidate intake queue + gates)
+# CR-ISS-CAT-06: Entity Ingestion Groundwork (candidate intake queue + gates)
 
 **Status**: Landed (this PR)
+
+**Naming/numbering correction**: this CR landed as `ISS-CAT-02` without the house `CR-` prefix (driver defect, fixed in the programme tooling). Renamed to `CR-ISS-CAT-06` by the naming-correction CR (CR-ISS-CAT-07); content unchanged.
 **Layer**: Catalog tooling (intake workflow)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15

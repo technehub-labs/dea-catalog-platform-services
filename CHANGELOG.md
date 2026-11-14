@@ -2,19 +2,19 @@
 
 ## [Unreleased]
 
-### ISS-CAT-05: InformationSystemService Candidate Admission Batch 02
+### CR-ISS-CAT-05: InformationSystemService Candidate Admission Batch 02
 
 Admitted 1225 new `InformationSystemService` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +1225, canonical unchanged; queue entries flipped to `admitted`.
 
-### ISS-CAT-04: InformationSystemService Candidate Admission Batch 01
+### CR-ISS-CAT-04: InformationSystemService Candidate Admission Batch 01
 
 Admitted 1300 new `InformationSystemService` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +1300, canonical unchanged; queue entries flipped to `admitted`.
 
-### ISS-CAT-03: InformationSystemService Candidate Corpus
+### CR-ISS-CAT-03: InformationSystemService Candidate Corpus
 
-2525 InformationSystemService candidate submissions landed in the contribution queue (sharded, gate-CONFORMANT) from 1 evidence bank(s); published prose + evidence citations + source_refs; provenance in ingestion/manifest.yaml. No catalog entities change; admission follows in ISS-CAT-04+.
+2525 InformationSystemService candidate submissions landed in the contribution queue (sharded, gate-CONFORMANT) from 1 evidence bank(s); published prose + evidence citations + source_refs; provenance in ingestion/manifest.yaml. No catalog entities change; admission follows in CR-ISS-CAT-04+.
 
-### ISS-CAT-02: Entity Ingestion Groundwork (candidate intake queue + gates)
+### CR-ISS-CAT-06: Entity Ingestion Groundwork (candidate intake queue + gates)
 
 Gated intake workflow stood up: contribution queue + blocking queue gate (`scripts/check_contributions.py`, self-deriving from the projected schema) + admission tool (`scripts/admit_entity.py`: content-derived ids, collision-checked, candidates/ subtrees at `lifecycle_status: proposed` / v0.1.0) + intake template and process docs. CI: queue gate added as a blocking step; metaframework pin v2.6.0 → v2.8.0 with the shard-aware toolchain re-vendored from the v2.8.0 release (cmp'd). No records admitted by this CR.
 
@@ -26,9 +26,9 @@ programme): hybrid pointer pinned to OpenDEAM v0.8.0;
 catalogue-instance layer; vendored relationship-instance contract; fixtures;
 gates 1-6 wired into `validate-catalogue.yml` plus allocation and authorship
 workflows; FOUNDATIONS (D-1..D-6) and record documentation standard. No
-records admitted (population gated on CR-ISS-CAT-02).
+records admitted (population gated on CR-CR-ISS-CAT-06).
 
-### `CR-ISS-CAT-02`: platform service catalogue re-point and initial population
+### `CR-CR-ISS-CAT-06`: platform service catalogue re-point and initial population
 
 Kit re-pointed from the stale information-system-service identity to the
 platform-service identity of OpenDEAM v0.8.0 (`dea:entity-platform-service`,

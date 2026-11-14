@@ -1,6 +1,8 @@
-# ISS-CAT-04: InformationSystemService Candidate Admission Batch 01 (1Forge Finance APIs (1forge.com) … Clever-Cloud API (clever-cloud.com))
+# CR-CR-ISS-CAT-04: InformationSystemService Candidate Admission Batch 01 (1Forge Finance APIs (1forge.com) … Clever-Cloud API (clever-cloud.com))
 
 **Status**: Landed (this PR)
+
+**Naming/numbering correction**: this CR landed as `ISS-CAT-04` without the house `CR-` prefix (driver defect, fixed in the programme tooling). Renamed to `CR-ISS-CAT-04` by the naming-correction CR (CR-ISS-CAT-07); content unchanged.
 **Layer**: Catalog content (candidate corpus admission)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15
