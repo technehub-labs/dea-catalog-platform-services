@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru interzoid.com:getstateabbreviation
+name: Interzoid State Data Standardization API (interzoid.com:getstateabbreviation)
+description: This API provides the two-letter state abbreviation (or the province abbreviation for Canada)
+  for the purposes of standardizing state name data, improving query results, analytics, and data merging.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: interzoid.com:getstateabbreviation;
+      spec: https://www.interzoid.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- interzoid-com
+- public-api
+slug: interzoid-com-getstateabbreviation

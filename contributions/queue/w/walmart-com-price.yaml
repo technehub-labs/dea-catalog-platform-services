@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru walmart.com:price
+name: Price Management (walmart.com:price)
+description: The price is a fundamental building block for your listing on Walmart.com. You can use the
+  price management APIs to set up and manage the price for a given item
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: walmart.com:price; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- walmart-com
+- public-api
+slug: walmart-com-price

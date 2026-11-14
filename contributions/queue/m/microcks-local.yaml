@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru microcks.local
+name: Microcks API v1.7 (microcks.local)
+description: API offered by Microcks, the Kuebrnetes native tools for API and microservices mocking and
+  testing (microcks.io)
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: microcks.local; spec: https://github.com/microcks)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- microcks-local
+- public-api
+slug: microcks-local

@@ -1,0 +1,18 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru wso2apistore.com:transform
+name: Transform (wso2apistore.com:transform)
+description: This API provides XML to JSON, JSON to XML transformations.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: wso2apistore.com:transform; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- wso2apistore-com
+- public-api
+slug: wso2apistore-com-transform

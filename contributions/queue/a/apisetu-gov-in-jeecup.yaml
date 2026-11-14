@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:jeecup
+name: Joint Entrance Examination Council, Uttar Pradesh, Uttar Pradesh (apisetu.gov.in:jeecup)
+description: Joint Entrance Examination Council (https://jeecup.nic.in) is providing digital Admit Cards
+  for 2018 entrance examination of Diploma courses in the Polytechnics / Institutes affiliated to Board
+  Of Technical Education, U.P.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:jeecup; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-jeecup

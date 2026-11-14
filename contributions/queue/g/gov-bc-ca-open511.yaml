@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru gov.bc.ca:open511
+name: DriveBC's Open511 API (gov.bc.ca:open511)
+description: This API is DriveBC's implementation of the Open511 specification. It provides information
+  about known road events (traffic accidents, construction, etc.) in British Columbia, Canada. Please
+  note that you may experience issues when submitting requests to the delivery or test environment if
+  using this [OpenAPI specification](https://github.com/bcgov/api-specs) in other API console viewers.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: gov.bc.ca:open511; spec: http://www.drivebc.ca/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- gov-bc-ca
+- public-api
+slug: gov-bc-ca-open511

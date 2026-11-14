@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru interzoid.com:getcitymatch
+name: Interzoid Get City Match Similarity Key API (interzoid.com:getcitymatch)
+description: This API provides a similarity key used to match with other similar city name data, including
+  for purposes of deduplication, fuzzy matching, or merging of datasets. A much higher match rate will
+  be achieved by matching on the algorithmically generated similarity key rather than the data itself.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: interzoid.com:getcitymatch; spec: https://www.interzoid.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- interzoid-com
+- public-api
+slug: interzoid-com-getcitymatch

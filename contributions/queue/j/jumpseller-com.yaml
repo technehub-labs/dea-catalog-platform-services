@@ -1,0 +1,35 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru jumpseller.com
+name: Jumpseller API (jumpseller.com)
+description: '# Endpoint Structure All URLs are in the format: ```text https://api.jumpseller.com/v1/path.json?login=XXXXXX&authtoken=storetoken
+  ``` The path is prefixed by the API version and the URL takes as parameters the login (your store specific
+  API login) and your authentication token. <br/><br/> *** # Version The current version of the API is
+  **v1**. If we change the API in backward-incompatible ways, we''ll increase the version number and maintain
+  stable support for the old urls. <br/><br/> *** # Authentication The API uses a token-based authentication
+  with a combination of a login key and an auth token. **Both parameters can be found on the left sidebar
+  of the Account section, accessed from the main menu of your Admin Panel**. The auth token of the user
+  can be reset on the same page. ![Store Login](/images/support/api/apilogin.png) The auth token is a
+  **32 characters** string. If you are developing a Jumpseller App, the authentication should be done
+  using [OAuth-2](/support/oauth-2). Please read the article [Build an App](/support/apps) for more information.
+  <br/><br/> *** # Curl Examples To request all the products at your store, you would append the products
+  index path to the base url to create an URL with the format: ```text https://api.jumpseller.com/v1/products.json?login=XXXXXX&authtoken=XXXXX
+  ``` In curl, you can invoque that URL with: ```text curl -X GET "https://api.jumpseller.com/v1/products.json?login=XXXXXX&authtoken=XXXXX"
+  ``` To create a product, you will include the JSON data and specify the MIME Type: ```text curl -X POST
+  -d ''{ "product" : {"name": "My new Product!", "price": 100} }'' "https://api.jumpseller.com/v1/products.json?login=XXXXXX&authtoken=XXXXX"
+  -H "Content-Type:application/json" ``` and to update the product identified with 123: ```text curl -X
+  PUT -d ''{ "product" : {"name": "My updated Product!", "price": 99} }'' "https://api.jumpseller.com/v1/products/123.json?login=XXXXXX&authtoken=XXXXX"
+  -H "Content-Type:application/json" ``` or delete it:'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: jumpseller.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- jumpseller-com
+- public-api
+slug: jumpseller-com

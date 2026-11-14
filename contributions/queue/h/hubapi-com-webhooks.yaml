@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru hubapi.com:webhooks
+name: Webhooks API (hubapi.com:webhooks)
+description: Provides a way for apps to subscribe to certain change events in HubSpot. Once configured,
+  apps will receive event payloads containing details about the changes at a specified target URL. There
+  can only be one target URL for receiving event notifications per app.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hubapi.com:webhooks; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- hubapi-com
+- public-api
+slug: hubapi-com-webhooks

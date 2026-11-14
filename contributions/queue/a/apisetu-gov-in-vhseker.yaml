@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:vhseker
+name: Board of Vocational Higher Secondary Examinations, Kerala (apisetu.gov.in:vhseker)
+description: Board of Vocational Higher Secondary Examinations, Directorate of General Education, Government
+  of Kerala has made available VHSE Marklist of MARCH 2020, which can be pulled by students into their
+  Digilocker accounts
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:vhseker; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-vhseker

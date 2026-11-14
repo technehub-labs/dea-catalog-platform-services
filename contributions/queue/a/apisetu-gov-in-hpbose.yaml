@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:hpbose
+name: Himachal Pradesh Board of School Education, Himachal Pradesh (apisetu.gov.in:hpbose)
+description: Himachal Pradesh Board of School Education, Dharamshala (http://hpbose.org/) has made available
+  Class X (2012-18) & Class XII (2012-18) provisional certificates, which can be pulled by students into
+  their accounts.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:hpbose; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-hpbose

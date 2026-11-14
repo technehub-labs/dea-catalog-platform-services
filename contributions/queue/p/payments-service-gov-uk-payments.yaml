@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru payments.service.gov.uk:payments
+name: GOV.UK Pay API (payments.service.gov.uk:payments)
+description: GOV.UK Pay API (This version is no longer maintained. See openapi/publicapi_spec.json for
+  latest API specification)
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: payments.service.gov.uk:payments; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- payments-service-gov-uk
+- public-api
+slug: payments-service-gov-uk-payments

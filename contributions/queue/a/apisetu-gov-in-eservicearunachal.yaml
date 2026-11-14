@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:eservicearunachal
+name: eService (eDistrict), Arunachal Pradesh (apisetu.gov.in:eservicearunachal)
+description: eService (eDistrict), Arunachal Pradesh (http://eservice.arunachal.gov.in/) is the online
+  service delivery portal for Arunachal Pradesh State Govt. Certain documents issued by it (e.g. Income,
+  Caste, Domicile, Dependency, SC/ST ,Character, Residence Certificates etc) are made available in citizens'
+  DigiLocker accounts.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:eservicearunachal; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-eservicearunachal

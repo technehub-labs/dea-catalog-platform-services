@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru azure.com:apimanagement-apimbackends
+name: ApiManagementClient (azure.com:apimanagement-apimbackends)
+description: Use these REST APIs for performing operations on Backend entity in Azure API Management deployment.
+  The Backend entity in API Management represents a backend service that is configured to skip certification
+  chain validation when using a self-signed certificate to test mutual certificate authentication.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimbackends;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- azure-com
+- public-api
+slug: azure-com-apimanagement-apimbackends

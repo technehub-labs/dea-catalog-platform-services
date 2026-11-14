@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru phila.gov:pollingplaces
+name: Polling Places API (phila.gov:pollingplaces)
+description: This data set contains the list of polling places. It can be organized by ward/division,
+  accessibility rating, or type of building. This list is used to assign poll workers, send the machines
+  and necessary accessibility materials, etc. **Endpoint:** http://api.phila.gov/polling-places/v1
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: phila.gov:pollingplaces; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- phila-gov
+- public-api
+slug: phila-gov-pollingplaces

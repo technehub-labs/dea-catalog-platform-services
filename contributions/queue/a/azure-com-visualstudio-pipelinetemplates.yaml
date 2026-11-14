@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru azure.com:visualstudio-PipelineTemplates
+name: Visual Studio Projects Resource Provider Client (azure.com:visualstudio-PipelineTemplates)
+description: Use these APIs to manage Visual Studio Team Services resources through the Azure Resource
+  Manager. All task operations conform to the HTTP/1.1 protocol specification and each operation returns
+  an x-ms-request-id header that can be used to obtain information about the request. You must make sure
+  that requests made to these resources are secure. For more information, see https://docs.microsoft.com/en-us/rest/api/index.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:visualstudio-PipelineTemplates;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- azure-com
+- public-api
+slug: azure-com-visualstudio-pipelinetemplates

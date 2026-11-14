@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru codat.io:commerce
+name: Commerce API (codat.io:commerce)
+description: Codat's Commerce API allows you to access standardised data from over 11 commerce and POS
+  systems. Standardize how you connect to your customers’ payment, PoS, and eCommerce systems. Retrieve
+  orders, payouts, payments, and product data in the same way for all the leading commerce platforms.
+  [Read more...](https://docs.codat.io/commerce-api/overview) [See our OpenAPI spec](https://github.com/codatio/oas)
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: codat.io:commerce; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- codat-io
+- public-api
+slug: codat-io-commerce

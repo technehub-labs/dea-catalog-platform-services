@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru hydramovies.com
+name: Hydra Movies (hydramovies.com)
+description: 'Hydra Movies is a streaming service that holds information on thousands of popular movies.
+  The Hydra Movies API gives you access to [their entire collection of full movies.](https://hydramovies.com)
+  Each film returned provides you with the following data: - Movie Title - Movie Release Year - Genre
+  - Movie Summary - Movie Poster - IMDB ID - IMDB Rating - Runtime - Language - YouTube trailer'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hydramovies.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- hydramovies-com
+- public-api
+slug: hydramovies-com

@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru cdcgov.local:prime-data-hub
+name: Prime ReportStream (cdcgov.local:prime-data-hub)
+description: A router of public health data from multiple senders and receivers
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: cdcgov.local:prime-data-hub; spec:
+      https://reportstream.cdc.gov)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- cdcgov-local
+- public-api
+slug: cdcgov-local-prime-data-hub

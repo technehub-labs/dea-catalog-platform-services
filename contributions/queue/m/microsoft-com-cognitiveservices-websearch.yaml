@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru microsoft.com:cognitiveservices-WebSearch
+name: Web Search Client (microsoft.com:cognitiveservices-WebSearch)
+description: The Web Search API lets you send a search query to Bing and get back search results that
+  include links to webpages, images, and more.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: microsoft.com:cognitiveservices-WebSearch;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- microsoft-com
+- public-api
+slug: microsoft-com-cognitiveservices-websearch

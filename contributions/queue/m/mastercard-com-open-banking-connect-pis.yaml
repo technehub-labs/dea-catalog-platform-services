@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru mastercard.com:open-banking-connect-pis
+name: Open Banking - Payments initiation service (mastercard.com:open-banking-connect-pis)
+description: Open Banking - Payments initiation service
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mastercard.com:open-banking-connect-pis;
+      spec: https://developer.mastercard.com/product/open-banking-connect-api-product)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- mastercard-com
+- public-api
+slug: mastercard-com-open-banking-connect-pis

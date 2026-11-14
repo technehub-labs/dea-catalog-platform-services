@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru hubapi.com:marketing
+name: Marketing Events Extension (hubapi.com:marketing)
+description: 'These APIs allow you to interact with HubSpot''s Marketing Events Extension. It allows you
+  to: * Create, Read or update Marketing Event information in HubSpot * Specify whether a HubSpot contact
+  has registered, attended or cancelled a registration to a Marketing Event. * Specify a URL that can
+  be called to get the details of a Marketing Event.'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hubapi.com:marketing; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- hubapi-com
+- public-api
+slug: hubapi-com-marketing

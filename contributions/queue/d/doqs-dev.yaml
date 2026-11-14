@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru doqs.dev
+name: doqs.dev | PDF filling API (doqs.dev)
+description: 'doqs.dev | PDF filling API — a public API catalogued in the APIs.guru directory (provider:
+  n/a).'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: doqs.dev; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- doqs-dev
+- public-api
+slug: doqs-dev

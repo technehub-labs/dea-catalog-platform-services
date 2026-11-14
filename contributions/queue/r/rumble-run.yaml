@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru rumble.run
+name: Rumble API (deprecated) (rumble.run)
+description: <p><b><i>Rumble Network Discovery is now runZero. <a href="https://www.runzero.com/blog/introducing-runzero/">Read
+  the announcement</a></i></b>.</p> <p>This API is frozen and no longer being updated as of version 2.15.0.</p>
+  <p>See our latest API documentation at <a href="https://app.swaggerhub.com/apis-docs/runZero/runZero">swaggerhub.com/apis-docs/runZero/runZero</a>.</p>
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: rumble.run; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- rumble-run
+- public-api
+slug: rumble-run

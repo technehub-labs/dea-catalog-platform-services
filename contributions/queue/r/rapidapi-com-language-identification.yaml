@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru rapidapi.com:language-identification
+name: Language Identification (Prediction) (rapidapi.com:language-identification)
+description: Automatic language detection for any texts. Supports over 150 languages.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: rapidapi.com:language-identification;
+      spec: https://rapidapi.com/BigLobster/api/language-identification-prediction/discussions)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- rapidapi-com
+- public-api
+slug: rapidapi-com-language-identification

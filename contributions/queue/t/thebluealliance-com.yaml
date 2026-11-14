@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru thebluealliance.com
+name: The Blue Alliance API v3 (thebluealliance.com)
+description: '# Overview Information and statistics about FIRST Robotics Competition teams and events.
+  # Authentication All endpoints require an Auth Key to be passed in the header `X-TBA-Auth-Key`. If you
+  do not have an auth key yet, you can obtain one from your [Account Page](/account).'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: thebluealliance.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- thebluealliance-com
+- public-api
+slug: thebluealliance-com

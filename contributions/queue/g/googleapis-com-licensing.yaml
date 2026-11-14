@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru googleapis.com:licensing
+name: Enterprise License Manager API (googleapis.com:licensing)
+description: The Google Enterprise License Manager API lets you manage Google Workspace and related licenses
+  for all users of a customer that you manage.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:licensing; spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- googleapis-com
+- public-api
+slug: googleapis-com-licensing

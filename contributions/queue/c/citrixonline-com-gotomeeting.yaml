@@ -1,0 +1,27 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru citrixonline.com:gotomeeting
+name: GoToMeeting (citrixonline.com:gotomeeting)
+description: <br>The GoToMeeting API provides seamless integration of GoToMeeting provisioning and meeting
+  management into your existing infrastructure or third party applications.<br><br>For customers, the
+  ability to add, suspend or delete an organizer in your GoToMeeting Corporate account from within your
+  primary management systems simplifies and streamlines the entire process of account management. The
+  ability to monitor meeting schedules, history and active meeting status allows managers to leverage
+  GoToMeeting activities through your primary applications.<br><br>For third parties, the ability to create,
+  update or delete a meeting from within your application makes real-time collaboration possible for your
+  customers. The ability to update meeting schedules, view history and scheduled meetings, and view attendees
+  from past meetings allows you to enhance your users' experience and the value of your applications.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: citrixonline.com:gotomeeting; spec:
+      https://developer.citrixonline.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- citrixonline-com
+- public-api
+slug: citrixonline-com-gotomeeting

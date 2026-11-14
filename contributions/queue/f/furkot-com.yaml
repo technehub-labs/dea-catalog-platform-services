@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru furkot.com
+name: Furkot Trips (furkot.com)
+description: Furkot provides Rest API to access user trip data. Using Furkot API an application can list
+  user trips and display stops for a specific trip. Furkot API uses OAuth2 protocol to authorize applications
+  to access data on behalf of users.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: furkot.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- furkot-com
+- public-api
+slug: furkot-com

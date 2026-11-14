@@ -1,0 +1,18 @@
+# Ingestion manifest — InformationSystemService candidate corpus (ISS-CAT-03)
+# Records are candidates only (queue status: queued; admitted at
+# lifecycle_status: proposed / version 0.1.0 by the gated workflow).
+
+generated: '2026-11-15'
+generated_by: ingest-kit generate_queue.py (catalog population programme)
+submitted_by: Emmanuel A. Otchere
+record_count: 2525
+sources:
+- bank: apis-guru.json
+  source: "APIs.guru public API directory (v2 list API)"
+  url: "https://api.apis.guru/v2/list.json"
+  published: "https://apis.guru/"
+  retrieved: '2026-11-15'
+  sha256: 9a4bef3c062d2a43658439eb1af8698a6ef237019c915fbe74d20607673bd369
+  records: 2525
+queue_layout: contributions/queue/<shard>/<slug>.yaml (entity-storage-layout §4;
+  letter shards; slug prefixes chosen to keep every shard under the 800-entry cap)

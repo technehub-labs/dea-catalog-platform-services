@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru deutschebahn.com:fahrplan
+name: Fahrplan-Free (deutschebahn.com:fahrplan)
+description: A RESTful webservice to request a railway journey - FREE plan with restricted access (max.
+  10 requests per minute). Please ignore the message in the API Console about the access token. Register
+  to use an less restricted version, which requires an access token.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: deutschebahn.com:fahrplan; spec: https://developer.deutschebahn.com/store/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- deutschebahn-com
+- public-api
+slug: deutschebahn-com-fahrplan

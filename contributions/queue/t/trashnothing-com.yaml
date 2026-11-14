@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru trashnothing.com
+name: trash nothing (trashnothing.com)
+description: 'This is the REST API for [trashnothing.com](https://trashnothing.com). To learn more about
+  the API or to register your app for use with the API visit the [trash nothing Developer page](https://trashnothing.com/developer).
+  NOTE: All date-time values are [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) and are
+  in [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601) (eg. 2019-02-03T01:23:53).'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: trashnothing.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- trashnothing-com
+- public-api
+slug: trashnothing-com

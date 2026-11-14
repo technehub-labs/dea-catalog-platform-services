@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru pdfblocks.com
+name: PDF Blocks API (pdfblocks.com)
+description: 'PDF Blocks is a secure, reliable, and fast API to work with PDF documents. Actions include:
+  Merge PDF documents, add or remove passwords, add watermarks, remove, extract, reverse, and rotate pages,
+  and more.'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: pdfblocks.com; spec: https://www.pdfblocks.com/support)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- pdfblocks-com
+- public-api
+slug: pdfblocks-com

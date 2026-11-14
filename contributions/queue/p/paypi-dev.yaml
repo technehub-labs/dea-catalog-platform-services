@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru paypi.dev
+name: EmailVerify (paypi.dev)
+description: 'OTP email verification API by PayPI. <br/><br/> EmailVerify provides a simple way to verify
+  email addresses. We send emails ourselves taking the burden of setting up email systems and tracking
+  codes. <br/><br/> To learn more about this API, check out [EmailVerify documentation](https://emailverify.paypi.dev/)
+  <br/><br/> ## Authentication All requests to the EmailVerify API must be authenticated with an API Key.
+  To get an API key, subscribe to the EmailVerify [here](https://app.paypi.dev/subscribe/c2VydmljZTo1OGQxZDNmMy05OWQ5LTQ3ZjYtOWJkNi02OWNkMTY1OGFmOWU=).
+  \ Set your `Authorization` header to `Bearer YOUR-API-KEY`. ``` curl -H "Content-Type: application/json"
+  \ -H "Authorization: Bearer YOUR-API-KEY" \ ... ```'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: paypi.dev; spec: https://paypi.dev)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- paypi-dev
+- public-api
+slug: paypi-dev

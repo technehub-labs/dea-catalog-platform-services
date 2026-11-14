@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru nexmo.com:sms
+name: SMS API (nexmo.com:sms)
+description: With the SMS API you can send SMS from your account and lookup messages both messages that
+  you've sent as well as messages sent to your virtual numbers. Numbers are specified in E.164 format.
+  More SMS API documentation is at <https://developer.nexmo.com/messaging/sms/overview>
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nexmo.com:sms; spec: https://developer.nexmo.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- nexmo-com
+- public-api
+slug: nexmo-com-sms

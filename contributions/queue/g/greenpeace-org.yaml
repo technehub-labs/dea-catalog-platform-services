@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru greenpeace.org
+name: Greenwire Public API (greenpeace.org)
+description: Greenpeace Greenwire allows you connect with other volunteers, activists and groups working
+  on environmental campaigns all across the world!
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: greenpeace.org; spec: http://www.greenpeace.org/international/en/about/contactus/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- greenpeace-org
+- public-api
+slug: greenpeace-org

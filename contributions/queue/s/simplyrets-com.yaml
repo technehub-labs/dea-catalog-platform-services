@@ -1,0 +1,37 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru simplyrets.com
+name: SimplyRETS (simplyrets.com)
+description: 'The SimplyRETS API is an exciting step towards making it easier for developers and real
+  estate agents to build something awesome with real estate data! The documentation below makes live requests
+  to our API using the trial data. To get set up with the API using live MLS data, you must have RETS
+  credentials from your MLS, which you can then use to create an app with SimplyRETS. For more information
+  on that process, please see our [FAQ](https://simplyrets.com/faq), [Getting Started](https://simplyrets.com/blog/getting-set-up.html)
+  page, or [contact us](https://simplyrets.com/\#home-contact). Below you''ll find the API endpoints,
+  query parameters, response bodies, and other information about using the SimplyRETS API. You can run
+  queries by clicking the ''Try it Out'' button at the bottom of each section. ### Authentication The
+  SimplyRETS API uses Basic Authentication. When you create an app, you''ll get a set of API credentials
+  to access your listings. If you''re trying out the test data, you can use `simplyrets:simplyrets` for
+  connecting to the API. ### Media Types The SimplyRETS API uses the `Accept` header to allow clients
+  to control media types (content versions). We maintain backwards compatibility with API clients by allowing
+  them to specify a content version. We highly recommend setting and explicity media type when your application
+  reaches production. Both the structure and content of our API response bodies is subject to change so
+  we can add new features while respecting the stability of applications which have already been developed.
+  To always use the latest SimplyRETS content version, simply use `application/json` in your application
+  `Accept` header. If you want to pin your clients media type to a specific version, you can use the vendor-specific
+  SimplyRETS media type, e.g. `application/vnd.simplyrets-v0.1+json"` To view all valid content-types
+  for making an `OPTIONS`, make a request to the SimplyRETS api root `curl -XOPTIONS -u simplyrets:simplyrets
+  https://api.'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: simplyrets.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- simplyrets-com
+- public-api
+slug: simplyrets-com

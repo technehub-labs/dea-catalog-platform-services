@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:nios
+name: National Institute of Open Schooling (apisetu.gov.in:nios)
+description: National Institute of Open Schooling (NIOS) is issuing marksheets, Provisional certificates,
+  migration certificates through DigiLocker. These can be pulled by students into their DigiLocker accounts.
+  Currently available - 2010 - 2020 [Class XII & Class Xth]
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:nios; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-nios

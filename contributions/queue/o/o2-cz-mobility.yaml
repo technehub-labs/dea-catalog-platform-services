@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru o2.cz:mobility
+name: Mobility API (o2.cz:mobility)
+description: Transit API can be used to obtain time-aggregated data representing moving the people between
+  various spatial points within the Czech Republic. Having A - 'from' and B - 'to' points, the API can
+  return count of people traveling from A to B or people that are from A and traveling to B, etc. The
+  mobility data is based on moving mobile stations in O2 mobile network.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: o2.cz:mobility; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- o2-cz
+- public-api
+slug: o2-cz-mobility

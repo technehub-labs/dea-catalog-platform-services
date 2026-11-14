@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:redshift-data
+name: Redshift Data API Service (amazonaws.com:redshift-data)
+description: <p>You can use the Amazon Redshift Data API to run queries on Amazon Redshift tables. You
+  can run SQL statements, which are committed if the statement succeeds. </p> <p>For more information
+  about the Amazon Redshift Data API and CLI usage examples, see <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/data-api.html">Using
+  the Amazon Redshift Data API</a> in the <i>Amazon Redshift Management Guide</i>. </p>
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:redshift-data; spec:
+      https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-redshift-data

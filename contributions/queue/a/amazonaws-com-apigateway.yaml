@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru amazonaws.com:apigateway
+name: Amazon API Gateway (amazonaws.com:apigateway)
+description: <fullname>Amazon API Gateway</fullname> <p>Amazon API Gateway helps developers deliver robust,
+  secure, and scalable mobile and web application back ends. API Gateway allows developers to securely
+  connect mobile and web applications to APIs that run on AWS Lambda, Amazon EC2, or other publicly addressable
+  web services that are hosted outside of AWS.</p>
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:apigateway; spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- amazonaws-com
+- public-api
+slug: amazonaws-com-apigateway

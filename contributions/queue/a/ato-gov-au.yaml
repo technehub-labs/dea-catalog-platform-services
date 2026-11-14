@@ -1,0 +1,35 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru ato.gov.au
+name: Business Registries (ato.gov.au)
+description: '# Introduction The Business Registries API is built on HTTP. The API is RESTful. It has
+  predictable resource URIs. The API is documented in <a target="_blank" href="https://github.com/OAI/OpenAPI-Specification">OpenAPI</a>
+  format. In addition to the standard OpenAPI syntax we use a few <a target="_blank" href="https://github.com/Rebilly/ReDoc/blob/master/docs/redoc-vendor-extensions.md">vendor
+  extensions</a>. # Overview The following sections describe the resources that make up the Business Registries
+  REST API. ## Current Version By default, all requests to https://api.abr.ato.gov.au receive the `v1`
+  version of the REST API. We encourage you to explicitly request this version via the `Accept` header.
+  Accept: application/vnd.abr-ato.v1+json ## Schema All API access is over HTTPS, and accessed from https://api.abr.ato.gov.au.
+  All data is sent and received as JSON. Blank fields are included. All dates use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
+  format: YYYY-MM-DD For example: `2017-07-01` (the 1st of July 2017) All timestamps use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
+  format: YYYY-MM-DDTHH:MM:SSZ For example: `2017-07-01T11:05:06+10:00` ## Timezones Some requests allow
+  for specifying timestamps or generate timestamps with time zone information. We apply the following
+  rules, in order of priority, to determine timezone information for API calls. ### Explicitly provide
+  an ISO 8601 timestamp with timezone information For API calls that allow for a timestamp to be specified,
+  we use that exact timestamp. For example: `2017-07-01T11:05:06+10:00` ## Pagination Information about
+  pagination is provided in the [Link](https://tools.ietf.org/html/rfc5988#page-6) header. For example:
+  Link: <https://api.abr.ato.gov.au/individuals?page=2>; rel="next", <https://api.abr.ato.gov.au/individuals?page=34>;
+  rel="last" `rel="next"` states that the next page is `page=2`. This makes sense, since by default, all
+  paginated queries start at page `1`. `rel="last"` pro'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ato.gov.au; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- ato-gov-au
+- public-api
+slug: ato-gov-au

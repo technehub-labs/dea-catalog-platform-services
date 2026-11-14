@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apptigent.com
+name: PowerTools Developer (apptigent.com)
+description: Apptigent PowerTools Developer Edition is a powerful suite of API endpoints for custom applications
+  running on any stack. Manipulate text, modify collections, format dates and times, convert currency,
+  perform advanced mathematical calculations, shorten URL's, encode strings, convert text to speech, translate
+  content into multiple languages, process images, and more. PowerTools is the ultimate developer toolkit.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apptigent.com; spec: https://www.apptigent.com/help/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apptigent-com
+- public-api
+slug: apptigent-com

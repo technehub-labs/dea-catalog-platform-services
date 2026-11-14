@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru apisetu.gov.in:transportjh
+name: Transport Department, Jharkhand (apisetu.gov.in:transportjh)
+description: Driving License (DL) and Vehicle Registration Certificate (RC) of the State, as available
+  on Parivahan Sewa (http://parivahan.co.in/) of Ministry of Road Transport and Highways, are available
+  on DigiLocker. Citizens can pull these documents into their DigiLocker accounts.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:transportjh; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- apisetu-gov-in
+- public-api
+slug: apisetu-gov-in-transportjh

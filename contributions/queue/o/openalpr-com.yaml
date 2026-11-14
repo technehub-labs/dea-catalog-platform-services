@@ -1,0 +1,19 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru openalpr.com
+name: OpenALPR CarCheck API (openalpr.com)
+description: The OpenALPR CarCheck API allows you to send images to the cloud for processing. The image
+  will be analyzed for license plates and vehicle make/models. The results are returned in JSON format
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: openalpr.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- openalpr-com
+- public-api
+slug: openalpr-com

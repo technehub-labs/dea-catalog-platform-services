@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru adyen.com:TestCardService
+name: Adyen Test Cards API (adyen.com:TestCardService)
+description: The Test Cards API provides endpoints for generating custom test card numbers. For more information,
+  refer to [Custom test cards](https://docs.adyen.com/development-resources/testing/create-test-cards)
+  documentation.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:TestCardService; spec: https://www.adyen.help/hc/en-us/community/topics)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- adyen-com
+- public-api
+slug: adyen-com-testcardservice

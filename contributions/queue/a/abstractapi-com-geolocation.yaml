@@ -1,0 +1,21 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru abstractapi.com:geolocation
+name: IP geolocation API (abstractapi.com:geolocation)
+description: Abstract IP geolocation API allows developers to retrieve the region, country and city behind
+  any IP worldwide. The API covers the geolocation of IPv4 and IPv6 addresses in 180+ countries worldwide.
+  Extra information can be retrieved like the currency, flag or language associated to an IP.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: abstractapi.com:geolocation; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- abstractapi-com
+- public-api
+slug: abstractapi-com-geolocation

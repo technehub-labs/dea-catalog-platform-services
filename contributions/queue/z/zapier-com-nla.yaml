@@ -1,0 +1,36 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru zapier.com:nla
+name: Zapier Natural Language Actions (NLA) API - Beta (zapier.com:nla)
+description: '<img src="https://cdn.zappy.app/945f9bf9e44126873952ec5113949c3f.png" width="100" /> ##
+  Hi, there! Welcome to the **Zapier Natural Language Actions API docs**. You are currently viewing the
+  **root** API. The endpoints of this **root** API are static and useful for reference. To see the live
+  playground with dynamic API endpoints that match up to your own **actions**, [log in first](/login/zapier/),
+  then go here: **[NLA Dynamic API](/api/v1/dynamic/docs).** ## Overview <a name="overview"></a> Zapier
+  is an integration platform with over 5,000+ apps and 50,000+ actions. You can view the [full list here](https://zapier.com/apps).
+  Zapier is used by millions of users, most of whom are non-technical builders -- but often savvy with
+  software. Zapier offers several no code products to connect together the various apps on our platform.
+  NLA exposes the same integrations Zapier uses to build our products, to you, to plug-in the capabilties
+  of Zapier''s platform into your own products. For example, you can use the NLA API to: * Send messages
+  in [Slack](https://zapier.com/apps/slack/integrations) * Add a row to a [Google Sheet](https://zapier.com/apps/google-sheets/integrations)
+  * Draft a new email in [Gmail](https://zapier.com/apps/gmail/integrations) * ... and thousands more,
+  with one universal natural language API The typical use-case for NLA is to expose our ecosystem of thousands
+  of apps/actions within your own product. NLA is optimized for products that receive user input in natural
+  language (eg. chat, assistant, or other large language model based experience) -- that said, it can
+  also be used to power _any_ product that needs integrations. In this case, think of NLA as a more friendly,
+  human API. NLA contains a decade of experience with API shenanigans, so you don''t have to. Common API
+  complexity, automatically handled: * **Every type of auth** (Basic, Session, API Key, OAuth v1, Oauth
+  v2, Digest, ...), Zapier securely handles and signs requests for you * **Support for creat'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: zapier.com:nla; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- zapier-com
+- public-api
+slug: zapier-com-nla

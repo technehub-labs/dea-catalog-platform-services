@@ -1,0 +1,25 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru statsocial.com
+name: StatSocial Platform API (statsocial.com)
+description: 'API Reference: <br><br> The StatSocial API is organized around REST. Our API is designed
+  to have predictable, resource-oriented URLs and to use HTTP response codes to indicate API errors. We
+  use built-in HTTP features, like HTTP authentication and HTTP verbs, which can be understood by off-the-shelf
+  HTTP clients, and we support cross-origin resource sharing to allow you to interact securely with our
+  API from a client-side web application (remember that you should never expose your secret API key in
+  any public website''s client-side code). JSON will be returned in all responses from the API, including
+  errors (though if you''re using API bindings, we will convert the response to the appropriate language-specific
+  object).<br><br>Contact help@statsocial.com to obtain a test API key'
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: statsocial.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- statsocial-com
+- public-api
+slug: statsocial-com

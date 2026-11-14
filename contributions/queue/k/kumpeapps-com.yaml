@@ -1,0 +1,20 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-15'
+source_bank: apis-guru.json
+source_ref: APIs.guru kumpeapps.com
+name: KumpeApps API (kumpeapps.com)
+description: KKid API. Due to security concerns all calls to this API requires authentication. If you
+  have access then you may use your KumpeApps username/password to authenticate. To gain access please
+  use the contact developer link below.
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: kumpeapps.com; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
+    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
+    at candidate state.
+tags:
+- kumpeapps-com
+- public-api
+slug: kumpeapps-com
