@@ -162,7 +162,7 @@ def validate_queue_file(path: Path, schema: dict) -> list[str]:
 def queue_files() -> list[Path]:
     if not QUEUE.is_dir():
         return []
-    return sorted(QUEUE.glob("*.yaml")) + sorted(QUEUE.glob("*/*.yaml"))
+    return sorted(p for p in QUEUE.rglob("*.yaml"))
 
 
 def main() -> int:
