@@ -1,6 +1,8 @@
-# ISS-CAT-03: InformationSystemService Candidate Corpus
+# CR-CR-ISS-CAT-03: InformationSystemService Candidate Corpus
 
 **Status**: Landed (this PR)
+
+**Naming/numbering correction**: this CR landed as `ISS-CAT-03` without the house `CR-` prefix (driver defect, fixed in the programme tooling). Renamed to `CR-ISS-CAT-03` by the naming-correction CR (CR-ISS-CAT-07); content unchanged.
 **Layer**: Catalog content (candidate corpus intake)
 **Owner**: Emmanuel A. Otchere
 **Date**: 2026-11-15
