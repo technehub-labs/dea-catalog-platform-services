@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
@@ -10,10 +10,12 @@ evidence:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:readerrevenuesubscriptionlinking;
       spec: https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-readerrevenuesubscriptionlinking
+assigned_id: dea:platform-service-googleapis-com-readerrevenuesubscriptionlinking-qwxyrt
+admitted: '2026-11-14'

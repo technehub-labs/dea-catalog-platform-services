@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru nytimes.com:times_tags
 name: TimesTags API (nytimes.com:times_tags)
-description: With the TimesTags API, you can mine the riches of the New York Times tag set. The TimesTags
-  service matches your query to the controlled vocabularies that fuel NYTimes.com metadata. You supply
-  a string of characters, and the service returns a ranked list of suggested terms.
+description: With the TimesTags API, you can mine the riches of the New York Times
+  tag set. The TimesTags service matches your query to the controlled vocabularies
+  that fuel NYTimes.com metadata. You supply a string of characters, and the service
+  returns a ranked list of suggested terms.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nytimes.com:times_tags; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nytimes.com:times_tags;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - nytimes-com
 - public-api
 slug: nytimes-com-times-tags
+assigned_id: dea:platform-service-nytimes-com-times-tags-mu4hdt
+admitted: '2026-11-14'

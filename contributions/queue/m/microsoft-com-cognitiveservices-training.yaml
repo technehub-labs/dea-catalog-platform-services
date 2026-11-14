@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru microsoft.com:cognitiveservices-Training
 name: Custom Vision Training Client (microsoft.com:cognitiveservices-Training)
-description: 'Custom Vision Training Client — a public API catalogued in the APIs.guru directory (provider:
-  n/a).'
+description: 'Custom Vision Training Client — a public API catalogued in the APIs.guru
+  directory (provider: n/a).'
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: microsoft.com:cognitiveservices-Training;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - microsoft-com
 - public-api
 slug: microsoft-com-cognitiveservices-training
+assigned_id: dea:platform-service-microsoft-com-cognitiveservices-training-hpan5z
+admitted: '2026-11-14'

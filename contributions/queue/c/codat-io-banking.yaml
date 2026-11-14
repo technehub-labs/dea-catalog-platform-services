@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru codat.io:banking
 name: Banking API (codat.io:banking)
-description: Codat's Banking API allows you to access standardised data from over bank accounts via third
-  party providers. Standardize how you connect to your customers’ bank accounts. Retrieve bank account
-  and bank transaction data in the same way via our partnerships with Plaid and TrueLayer. [Read more...](https://docs.codat.io/banking-api/overview)
+description: Codat's Banking API allows you to access standardised data from over
+  bank accounts via third party providers. Standardize how you connect to your customers’
+  bank accounts. Retrieve bank account and bank transaction data in the same way via
+  our partnerships with Plaid and TrueLayer. [Read more...](https://docs.codat.io/banking-api/overview)
   [See our OpenAPI spec](https://github.com/codatio/oas)
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: codat.io:banking; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: codat.io:banking;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - codat-io
 - public-api
 slug: codat-io-banking
+assigned_id: dea:platform-service-codat-io-banking-eukwkt
+admitted: '2026-11-14'

@@ -1,37 +1,43 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru clicksend.com
 name: ClickSend REST API v3 (clicksend.com)
-description: 'This is the official API documentation for ClickSend.com Below you will find a current list
-  of the available methods for clicksend. **NOTE**: You will need to create a free account to use the
-  API. You can [**Register Here**](https://dashboard.clicksend.com/#/signup/step1/). # API URL The API
-  should always be accessed over SSL. Base URL: `https://rest.clicksend.com/v3/` # Authentication Basic
-  HTTP authentication should be used in the header. **Either:** `username`: Your API username `password`:
-  Your API key ``` You can get your API credentials by clicking ''API Credentials'' on the top right of
-  the dashboard. ``` **OR** `username`: Your account username `password`: Your account password ``` These
-  are the same credentials that you use to login to the dashboard. ``` ### Authorization Header The Authorization
-  header is constructed as follows: 1. Username and password are combined into a string `username:password`
-  1. The resulting string is then encoded using Base64 encoding 1. The authorization method and a space
-  i.e. "Basic " is then put before the encoded string. For example, if the user uses `Aladdin` as the
-  username and `open sesame` as the password then the header is formed as follows: `Authorization: Basic
-  QWxhZGRpbjpvcGVuIHNlc2FtZQ==` ### PHP Authentication Header Example (using cURL) `curl_setopt($ch, CURLOPT_HTTPHEADER,
-  [''Authorization: Basic '' . base64_encode("$username:$password")]);` # Verbs The API uses restful verbs.
-  | Verb | Description | |---|---| | `GET` | Select one or more items. Success returns `200` status code.
-  | | `POST` | Create a new item. Success returns `200` status code. | | `PUT` | Update an item. Success
-  returns `200` status code. | | `DELETE` | Delete an item. Success returns `200` status code. | # Status
-  Codes The API will respond with one of the following HTTP status codes. | Code | Response | Description
-  | |---|---|---| | `200` | `SUCCESS` | Request completed successfully. | | `400` | `BAD_REQUEST` | The
-  request was invalid or cannot be o'
+description: 'This is the official API documentation for ClickSend.com Below you will
+  find a current list of the available methods for clicksend. **NOTE**: You will need
+  to create a free account to use the API. You can [**Register Here**](https://dashboard.clicksend.com/#/signup/step1/).
+  # API URL The API should always be accessed over SSL. Base URL: `https://rest.clicksend.com/v3/`
+  # Authentication Basic HTTP authentication should be used in the header. **Either:**
+  `username`: Your API username `password`: Your API key ``` You can get your API
+  credentials by clicking ''API Credentials'' on the top right of the dashboard. ```
+  **OR** `username`: Your account username `password`: Your account password ``` These
+  are the same credentials that you use to login to the dashboard. ``` ### Authorization
+  Header The Authorization header is constructed as follows: 1. Username and password
+  are combined into a string `username:password` 1. The resulting string is then encoded
+  using Base64 encoding 1. The authorization method and a space i.e. "Basic " is then
+  put before the encoded string. For example, if the user uses `Aladdin` as the username
+  and `open sesame` as the password then the header is formed as follows: `Authorization:
+  Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==` ### PHP Authentication Header Example (using
+  cURL) `curl_setopt($ch, CURLOPT_HTTPHEADER, [''Authorization: Basic '' . base64_encode("$username:$password")]);`
+  # Verbs The API uses restful verbs. | Verb | Description | |---|---| | `GET` | Select
+  one or more items. Success returns `200` status code. | | `POST` | Create a new
+  item. Success returns `200` status code. | | `PUT` | Update an item. Success returns
+  `200` status code. | | `DELETE` | Delete an item. Success returns `200` status code.
+  | # Status Codes The API will respond with one of the following HTTP status codes.
+  | Code | Response | Description | |---|---|---| | `200` | `SUCCESS` | Request completed
+  successfully. | | `400` | `BAD_REQUEST` | The request was invalid or cannot be o'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: clicksend.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: clicksend.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - clicksend-com
 - public-api
 slug: clicksend-com
+assigned_id: dea:platform-service-clicksend-com-c6pukv
+admitted: '2026-11-14'

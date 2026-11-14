@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru peel-ci.com
 name: Peel Tune-in API (peel-ci.com)
-description: The machine learning service APIs utilize hashtags from Twitter to find related, trending
-  shows, related Twitter hashtags in real time and to generate direct tune-in URLs.
+description: The machine learning service APIs utilize hashtags from Twitter to find
+  related, trending shows, related Twitter hashtags in real time and to generate direct
+  tune-in URLs.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: peel-ci.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: peel-ci.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - peel-ci-com
 - public-api
 slug: peel-ci-com
+assigned_id: dea:platform-service-peel-ci-com-v5k965
+admitted: '2026-11-14'

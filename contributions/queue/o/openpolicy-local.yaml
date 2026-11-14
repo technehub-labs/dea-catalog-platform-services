@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru openpolicy.local
 name: Open Policy Agent (OPA) REST API (openpolicy.local)
-description: 'OPA provides policy-based control for cloud native environments. The following *endpoints*
-  (such as `PUT /v1/policies`) provide reference documentation for the OPA REST API. ### API specification
-  viewing options - **[View the specification in *Redoc* (default)](index.html)** - **[View the specification
-  in *Swagger UI*](swagger-ui.html)**'
+description: 'OPA provides policy-based control for cloud native environments. The
+  following *endpoints* (such as `PUT /v1/policies`) provide reference documentation
+  for the OPA REST API. ### API specification viewing options - **[View the specification
+  in *Redoc* (default)](index.html)** - **[View the specification in *Swagger UI*](swagger-ui.html)**'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: openpolicy.local; spec: https://github.com/open-policy-agent/opa)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: openpolicy.local;
+      spec: https://github.com/open-policy-agent/opa)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - openpolicy-local
 - public-api
 slug: openpolicy-local
+assigned_id: dea:platform-service-openpolicy-local-3a3a6g
+admitted: '2026-11-14'

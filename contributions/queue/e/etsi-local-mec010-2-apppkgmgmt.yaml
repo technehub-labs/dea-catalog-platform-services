@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru etsi.local:MEC010-2_AppPkgMgmt
-name: 'ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements management (etsi.local:MEC010-2_AppPkgMgmt)'
-description: 'ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements management described
-  using OpenAPI.'
+name: 'ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements management
+  (etsi.local:MEC010-2_AppPkgMgmt)'
+description: 'ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements
+  management described using OpenAPI.'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: etsi.local:MEC010-2_AppPkgMgmt; spec:
-      https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: etsi.local:MEC010-2_AppPkgMgmt;
+      spec: https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - etsi-local
 - public-api
 slug: etsi-local-mec010-2-apppkgmgmt
+assigned_id: dea:platform-service-etsi-local-mec010-2-apppkgmgmt-zyfakw
+admitted: '2026-11-14'

@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru ndhm.gov.in:ndhm-gateway
 name: Gateway (ndhm.gov.in:ndhm-gateway)
-description: Gateway is the hub that routes/orchestrates the interaction between consent managers and
-  API bridges. There are 5 categories of APIs; discovery, link, consent flow, data flow and monitoring.
-  To reflect the consumers of APIs, the above apis are also categorized under cm facing, hiu facing and
-  hip facing
+description: Gateway is the hub that routes/orchestrates the interaction between consent
+  managers and API bridges. There are 5 categories of APIs; discovery, link, consent
+  flow, data flow and monitoring. To reflect the consumers of APIs, the above apis
+  are also categorized under cm facing, hiu facing and hip facing
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ndhm.gov.in:ndhm-gateway; spec: https://ndhm.gov.in/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ndhm.gov.in:ndhm-gateway;
+      spec: https://ndhm.gov.in/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - ndhm-gov-in
 - public-api
 slug: ndhm-gov-in-ndhm-gateway
+assigned_id: dea:platform-service-ndhm-gov-in-ndhm-gateway-eju24u
+admitted: '2026-11-14'

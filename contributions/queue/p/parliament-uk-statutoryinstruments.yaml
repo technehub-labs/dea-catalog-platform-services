@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru parliament.uk:statutoryinstruments
 name: Statutory Instruments API (parliament.uk:statutoryinstruments)
-description: An API exposing details of the various types of Statutory Instruments laid before Parliament.
+description: An API exposing details of the various types of Statutory Instruments
+  laid before Parliament.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: parliament.uk:statutoryinstruments;
       spec: https://www.parliament.uk/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - parliament-uk
 - public-api
 slug: parliament-uk-statutoryinstruments
+assigned_id: dea:platform-service-parliament-uk-statutoryinstruments-yafct6
+admitted: '2026-11-14'

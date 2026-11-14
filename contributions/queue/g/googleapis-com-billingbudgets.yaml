@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru googleapis.com:billingbudgets
 name: Cloud Billing Budget API (googleapis.com:billingbudgets)
-description: The Cloud Billing Budget API stores Cloud Billing budgets, which define a budget plan and
-  the rules to execute as spend is tracked against that plan.
+description: The Cloud Billing Budget API stores Cloud Billing budgets, which define
+  a budget plan and the rules to execute as spend is tracked against that plan.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:billingbudgets; spec:
-      https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:billingbudgets;
+      spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-billingbudgets
+assigned_id: dea:platform-service-googleapis-com-billingbudgets-bkjagt
+admitted: '2026-11-14'

@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru whapi.com:accounts
 name: Accounts API (whapi.com:accounts)
-description: The Accounts API is a collection of methods used to query a customer account. It allows the
-  developer to retrieve account-related data such as the user account balance. It should be noted that
-  regional variations may exist - so some fields may not be returned for certain territories.
+description: The Accounts API is a collection of methods used to query a customer
+  account. It allows the developer to retrieve account-related data such as the user
+  account balance. It should be noted that regional variations may exist - so some
+  fields may not be returned for certain territories.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: whapi.com:accounts; spec: http://developer.williamhill.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: whapi.com:accounts;
+      spec: http://developer.williamhill.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - whapi-com
 - public-api
 slug: whapi-com-accounts
+assigned_id: dea:platform-service-whapi-com-accounts-4tp547
+admitted: '2026-11-14'

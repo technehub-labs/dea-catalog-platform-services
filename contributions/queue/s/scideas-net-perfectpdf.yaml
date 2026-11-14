@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru scideas.net:perfectpdf
 name: perfectpdf api (scideas.net:perfectpdf)
-description: 'The perfectpdf api does one thing, perfectly: it converts html to pdf. The perfectpdf api
-  uses headless Google Chrome to provide a low cost, high quality, simple to use service.'
+description: 'The perfectpdf api does one thing, perfectly: it converts html to pdf.
+  The perfectpdf api uses headless Google Chrome to provide a low cost, high quality,
+  simple to use service.'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: scideas.net:perfectpdf; spec: https://scideas.net)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: scideas.net:perfectpdf;
+      spec: https://scideas.net)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - scideas-net
 - public-api
 slug: scideas-net-perfectpdf
+assigned_id: dea:platform-service-scideas-net-perfectpdf-28s497
+admitted: '2026-11-14'

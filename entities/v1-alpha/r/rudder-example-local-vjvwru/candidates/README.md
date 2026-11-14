@@ -1,0 +1,31 @@
+# Rudder API (rudder.example.local)
+
+> Download OpenAPI specification: [openapi.yml](openapi.yml) # Introduction Rudder exposes a REST API, enabling the user to interact with Rudder without using the webapp, for example in scripts or cronjobs. ## Versioning Each time the API is extended with new features (new functions, new parameters, new responses, ...), it will be assigned a new version number. This will allow you to keep your existing scripts (based on previous behavior). Versions will always be integers (no 2.1 or 3.3, just 2, 3, 4, ...) or `latest`. You can change the version of the API used by setting it either within the url or in a header: * the URL: each URL is prefixed by its version id, like `/api/version/function`. ```bash # Version 10 curl -X GET -H "X-API-Token: yourToken" https://rudder.example.com/rudder/api/10/rules # Latest curl -X GET -H "X-API-Token: yourToken" https://rudder.example.com/rudder/api/latest/rules # Wrong (not an integer) => 404 not found curl -X GET -H "X-API-Token: yourToken" https://rudder.example.com/rudder/api/3.14/rules ``` * the HTTP headers. You can add the **X-API-Version** header to your request. The value needs to be an integer or `latest`. ```bash # Version 10 curl -X GET -H "X-API-Token: yourToken" -H "X-API-Version: 10" https://rudder.example.com/rudder/api/rules # Wrong => Error response indicating which versions are available curl -X GET -H "X-API-Token: yourToken" -H "X-API-Version: 3.14" https://rudder.example.com/rudder/api/rules ``` In the future, we may declare some versions as deprecated, in order to remove them in a later version of Rudder, but we will never remove any versions without warning, or without a safe period of time to allow migration from previous versions. <h4>Existing versions</h4> <table> <thead> <tr> <th style="width: 20%">Version</th> <th style="width: 20%">Rudder versions it appeared in</th> <th style="width: 70%">Description</th> </tr> </thead> <tbody> <tr> <td class="code">1</td> <td class="code">Never released (for internal us
+
+## Identity
+
+- **Record id**: `dea:platform-service-rudder-example-local-vjvwru`
+- **Type**: PlatformService
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the APIs.guru public API directory (list API). The API specification is published and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted at candidate state.
+
+- kind: `published-document` — reference: https://apis.guru/browse-apis/ (APIs.guru listing: rudder.example.local; spec: https://www.rudder.io)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-14, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).

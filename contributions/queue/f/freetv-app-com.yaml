@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru freetv-app.com
 name: News Plugin (freetv-app.com)
-description: A plugin that allows the user to obtain and summary latest news using ChatGPT. If you do
-  not know the user's username, ask them first before making queries to the plugin. Otherwise, use the
-  username "global".
+description: A plugin that allows the user to obtain and summary latest news using
+  ChatGPT. If you do not know the user's username, ask them first before making queries
+  to the plugin. Otherwise, use the username "global".
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: freetv-app.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: freetv-app.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - freetv-app-com
 - public-api
 slug: freetv-app-com
+assigned_id: dea:platform-service-freetv-app-com-rdfasv
+admitted: '2026-11-14'

@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru fungenerators.com:fake-identity
 name: Fake identity generation API (fungenerators.com:fake-identity)
-description: Generate random fake identities (name, address, email, phone , credit card info etc). [Click
-  here to subscribe](http://fungenerators.com/api/fakeidentity/)
+description: Generate random fake identities (name, address, email, phone , credit
+  card info etc). [Click here to subscribe](http://fungenerators.com/api/fakeidentity/)
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fungenerators.com:fake-identity; spec:
-      http://fungenerators.com/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fungenerators.com:fake-identity;
+      spec: http://fungenerators.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - fungenerators-com
 - public-api
 slug: fungenerators-com-fake-identity
+assigned_id: dea:platform-service-fungenerators-com-fake-identity-jsp8rm
+admitted: '2026-11-14'

@@ -1,23 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru meteosource.com
 name: Interactive documentation for your Premium plan (meteosource.com)
-description: This interactive documentation is using your API key which is filled in automatically, you
-  can find and change this in [your dashboard](https://www.meteosource.com/client). Using the `GET` button,
-  open your selected endpoint and read the introduction. You will find a detailed description of available
-  parameters. You can complete the `Parameters` section and hit `Execute` to view a full API response.
-  You can then inspect the JSON response, copy the `curl` command to run it on your machine, or obtain
-  a URL of the request. In this way, you can easily build request command for the data you need.
+description: This interactive documentation is using your API key which is filled
+  in automatically, you can find and change this in [your dashboard](https://www.meteosource.com/client).
+  Using the `GET` button, open your selected endpoint and read the introduction. You
+  will find a detailed description of available parameters. You can complete the `Parameters`
+  section and hit `Execute` to view a full API response. You can then inspect the
+  JSON response, copy the `curl` command to run it on your machine, or obtain a URL
+  of the request. In this way, you can easily build request command for the data you
+  need.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: meteosource.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: meteosource.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - meteosource-com
 - public-api
 slug: meteosource-com
+assigned_id: dea:platform-service-meteosource-com-mthcmw
+admitted: '2026-11-14'

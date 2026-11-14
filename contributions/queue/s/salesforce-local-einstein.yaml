@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru salesforce.local:einstein
 name: Einstein Vision and Einstein Language (salesforce.local:einstein)
-description: Provided by [Salesforce](https://www.einstein-hub.com/) � Copyright 2000�2020 salesforce.com,
-  inc. All rights reserved. Salesforce is a registered trademark of salesforce.com, inc., as are other
-  names and marks. Other marks appearing herein may be trademarks of their respective owners. **Last updated:**
-  Aug 17, 2020
+description: Provided by [Salesforce](https://www.einstein-hub.com/) � Copyright 2000�2020
+  salesforce.com, inc. All rights reserved. Salesforce is a registered trademark of
+  salesforce.com, inc., as are other names and marks. Other marks appearing herein
+  may be trademarks of their respective owners. **Last updated:** Aug 17, 2020
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: salesforce.local:einstein; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: salesforce.local:einstein;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - salesforce-local
 - public-api
 slug: salesforce-local-einstein
+assigned_id: dea:platform-service-salesforce-local-einstein-ehhm3u
+admitted: '2026-11-14'

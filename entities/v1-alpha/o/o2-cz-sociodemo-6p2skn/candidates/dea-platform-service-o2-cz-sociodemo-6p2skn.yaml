@@ -1,0 +1,36 @@
+id: dea:platform-service-o2-cz-sociodemo-6p2skn
+type: PlatformService
+name: Socio-demo API (o2.cz:sociodemo)
+description: Socio-demo API can be used to obtain time-aggregated data representing
+  groups of people on the given location in the Czech Republic. Having a location,
+  the API can return count of people belonging to age group or gender aggregated by
+  hours. The socio-demo data is based on presence of mobile stations in O2 mobile
+  network.
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: o2.cz:sociodemo;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- o2-cz
+- public-api

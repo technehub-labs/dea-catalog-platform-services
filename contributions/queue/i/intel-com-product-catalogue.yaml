@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru intel.com:product-catalogue
 name: Intel Product Catalogue Service (intel.com:product-catalogue)
-description: 'This is the documentation for PIM Micro services. In order to use this tool you need to
-  have Basic Auth credentials and a client id. If you dont have one, please make sure to request one by
-  sending an email to the PIM MS team: [pim.360.team@intel.com](mailto:pim.360.team@intel.com?subject=PIMServices)'
+description: 'This is the documentation for PIM Micro services. In order to use this
+  tool you need to have Basic Auth credentials and a client id. If you dont have one,
+  please make sure to request one by sending an email to the PIM MS team: [pim.360.team@intel.com](mailto:pim.360.team@intel.com?subject=PIMServices)'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: intel.com:product-catalogue; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: intel.com:product-catalogue;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - intel-com
 - public-api
 slug: intel-com-product-catalogue
+assigned_id: dea:platform-service-intel-com-product-catalogue-rbp2xc
+admitted: '2026-11-14'

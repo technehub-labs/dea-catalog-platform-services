@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru logoraisr.com
 name: API docs | logoraisr.com (logoraisr.com)
-description: <p style="font-size:110%;">Dig into our logoraisr API reference documentation. We also offer
-  an OpenAPI specification to allow easy integration into your systems. You can download the json file
-  by clicking on the download button.<p><br><p style="font-size:110%; font-weight:bold">OpenAPI 2.0 Validation
-  Status</p><img src="https://online.swagger.io/validator?url=https://docs.logoraisr.com/">
+description: <p style="font-size:110%;">Dig into our logoraisr API reference documentation.
+  We also offer an OpenAPI specification to allow easy integration into your systems.
+  You can download the json file by clicking on the download button.<p><br><p style="font-size:110%;
+  font-weight:bold">OpenAPI 2.0 Validation Status</p><img src="https://online.swagger.io/validator?url=https://docs.logoraisr.com/">
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: logoraisr.com; spec: https://logoraisr.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: logoraisr.com;
+      spec: https://logoraisr.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - logoraisr-com
 - public-api
 slug: logoraisr-com
+assigned_id: dea:platform-service-logoraisr-com-wtdkkc
+admitted: '2026-11-14'

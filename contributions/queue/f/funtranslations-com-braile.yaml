@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru funtranslations.com:braile
 name: FunTranslations Braille API (funtranslations.com:braile)
-description: Braille conversion API on the cloud. Translate from English text to Braille and get Braille
-  results suitable for many display types.[Click here to subscribe](http://funtranslations.com/api/braille)
+description: Braille conversion API on the cloud. Translate from English text to Braille
+  and get Braille results suitable for many display types.[Click here to subscribe](http://funtranslations.com/api/braille)
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: funtranslations.com:braile; spec: https://funtranslations.com/api/braille)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: funtranslations.com:braile;
+      spec: https://funtranslations.com/api/braille)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - funtranslations-com
 - public-api
 slug: funtranslations-com-braile
+assigned_id: dea:platform-service-funtranslations-com-braile-9xdta2
+admitted: '2026-11-14'

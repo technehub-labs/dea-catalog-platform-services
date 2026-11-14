@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru turbinelabs.io
 name: Turbine Labs API (turbinelabs.io)
-description: 'The Turbine Labs API provides CRUD operations for core object types, and is mostly RESTy.
-  The easiest way to interact with the API is with [tbnctl](https://docs.turbinelabs.io/advanced/tbnctl.html).
-  If you want to make direct HTTP calls, however, you can obtain an access token using tbnctl, and then
-  pass it in the Authorization header, prefixed by `Token `: ```console curl -H "Authorization: Token
-  <access token>" https://api.turbinelabs.io/v1.0/cluster ```'
+description: 'The Turbine Labs API provides CRUD operations for core object types,
+  and is mostly RESTy. The easiest way to interact with the API is with [tbnctl](https://docs.turbinelabs.io/advanced/tbnctl.html).
+  If you want to make direct HTTP calls, however, you can obtain an access token using
+  tbnctl, and then pass it in the Authorization header, prefixed by `Token `: ```console
+  curl -H "Authorization: Token <access token>" https://api.turbinelabs.io/v1.0/cluster
+  ```'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: turbinelabs.io; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: turbinelabs.io;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - turbinelabs-io
 - public-api
 slug: turbinelabs-io
+assigned_id: dea:platform-service-turbinelabs-io-d36yfp
+admitted: '2026-11-14'

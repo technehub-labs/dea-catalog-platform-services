@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru ebay.com:commerce-taxonomy
 name: Taxonomy API (ebay.com:commerce-taxonomy)
-description: Use the Taxonomy API to discover the most appropriate eBay categories under which sellers
-  can offer inventory items for sale, and the most likely categories under which buyers can browse or
-  search for items to purchase. In addition, the Taxonomy API provides metadata about the required and
-  recommended category aspects to include in listings, and also has two operations to retrieve parts compatibility
+description: Use the Taxonomy API to discover the most appropriate eBay categories
+  under which sellers can offer inventory items for sale, and the most likely categories
+  under which buyers can browse or search for items to purchase. In addition, the
+  Taxonomy API provides metadata about the required and recommended category aspects
+  to include in listings, and also has two operations to retrieve parts compatibility
   information.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ebay.com:commerce-taxonomy; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ebay.com:commerce-taxonomy;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - ebay-com
 - public-api
 slug: ebay-com-commerce-taxonomy
+assigned_id: dea:platform-service-ebay-com-commerce-taxonomy-jw98hq
+admitted: '2026-11-14'

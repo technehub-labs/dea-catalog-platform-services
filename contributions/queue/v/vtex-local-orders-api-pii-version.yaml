@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru vtex.local:Orders-API-(PII-version)
 name: Orders API (PII version) (vtex.local:Orders-API-(PII-version))
-description: Endpoints that deal with order management. New version of the orders API.
+description: Endpoints that deal with order management. New version of the orders
+  API.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Orders-API-(PII-version);
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - vtex-local
 - public-api
 slug: vtex-local-orders-api-pii-version
+assigned_id: dea:platform-service-vtex-local-orders-api-pii-version-uqzwhj
+admitted: '2026-11-14'

@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru whapi.com:sportsdata
 name: SportsData API (whapi.com:sportsdata)
-description: The William Hill SportsData REST API is a collection of GET methods to provide William Hill
-  product data such as sport, competition, event, market and selection data (including prices).
+description: The William Hill SportsData REST API is a collection of GET methods to
+  provide William Hill product data such as sport, competition, event, market and
+  selection data (including prices).
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: whapi.com:sportsdata; spec: http://developer.williamhill.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: whapi.com:sportsdata;
+      spec: http://developer.williamhill.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - whapi-com
 - public-api
 slug: whapi-com-sportsdata
+assigned_id: dea:platform-service-whapi-com-sportsdata-f9n9ed
+admitted: '2026-11-14'

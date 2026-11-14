@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru regcheck.org.uk
 name: Car Registration API (regcheck.org.uk)
-description: Car Registration API, An API that retrieves car information from its numberplate in many
-  countries worldwide, uncluding the USA, UK, India, Australia and most of Europe. A username and password
-  is required to access the API, which can be obtained from www.carregistrationapi.com - Use https://www.regcheck.org.uk/api/json.aspx/
+description: Car Registration API, An API that retrieves car information from its
+  numberplate in many countries worldwide, uncluding the USA, UK, India, Australia
+  and most of Europe. A username and password is required to access the API, which
+  can be obtained from www.carregistrationapi.com - Use https://www.regcheck.org.uk/api/json.aspx/
   as the root of all API calls.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: regcheck.org.uk; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: regcheck.org.uk;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - regcheck-org-uk
 - public-api
 slug: regcheck-org-uk
+assigned_id: dea:platform-service-regcheck-org-uk-frn8ka
+admitted: '2026-11-14'

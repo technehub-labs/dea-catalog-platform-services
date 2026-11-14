@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru vonage.com:reports
 name: Reports API (vonage.com:reports)
-description: The Vonage Business Cloud Reports API enables you to retrieve call logs for your account.
-  Your application must subscribe to the Reports API suite to use this API.
+description: The Vonage Business Cloud Reports API enables you to retrieve call logs
+  for your account. Your application must subscribe to the Reports API suite to use
+  this API.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vonage.com:reports; spec: https://businesssupport.vonage.com/contactus)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vonage.com:reports;
+      spec: https://businesssupport.vonage.com/contactus)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - vonage-com
 - public-api
 slug: vonage-com-reports
+assigned_id: dea:platform-service-vonage-com-reports-cscvsm
+admitted: '2026-11-14'

@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru omdbapi.com
 name: OMDb (omdbapi.com)
-description: The Open Movie Database. The OMDb API is a free web service to obtain movie information,
-  all content and images on the site are contributed and maintained by our users.
+description: The Open Movie Database. The OMDb API is a free web service to obtain
+  movie information, all content and images on the site are contributed and maintained
+  by our users.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: omdbapi.com; spec: http://omdbapi.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: omdbapi.com; spec:
+      http://omdbapi.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - omdbapi-com
 - public-api
 slug: omdbapi-com
+assigned_id: dea:platform-service-omdbapi-com-6jsfdf
+admitted: '2026-11-14'

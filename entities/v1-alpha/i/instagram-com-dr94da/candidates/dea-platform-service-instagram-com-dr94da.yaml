@@ -1,0 +1,42 @@
+id: dea:platform-service-instagram-com-dr94da
+type: PlatformService
+name: Instagram API (instagram.com)
+description: 'Description of Instagram RESTful API. Current limitations: * Instagram
+  service does not support [cross origin headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+  for security reasons, therefore it is not possible to use Swagger UI and make API
+  calls directly from browser. * Modification API requests (`POST`, `DELETE`) require
+  additional security [scopes](https://instagram.com/developer/authorization/) that
+  are available for Apps [created on or after Nov 17, 2015](http://instagram.com/developer/review/)
+  and started in [Sandbox Mode](http://instagram.com/developer/sandbox/). * Consider
+  the [Instagram limitations](https://instagram.com/developer/limits/) for API calls
+  that depends on App Mode. **Warning:** For Apps [created on or after Nov 17, 2015](http://instagram.com/developer/changelog/)
+  API responses containing media objects no longer return the `data` field in `comments`
+  and `likes` nodes. Last update: 2015-11-28'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: instagram.com;
+      spec: https://instagram.com/developer/support)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- instagram-com
+- public-api

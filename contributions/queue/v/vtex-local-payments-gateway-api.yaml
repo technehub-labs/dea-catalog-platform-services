@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru vtex.local:Payments-Gateway-API
 name: Payments Gateway API (vtex.local:Payments-Gateway-API)
 description: '>ℹ️ Onboarding guide > > Check the new [Payments onboarding guide](https://developers.vtex.com/docs/guides/payments-overview).
-  We created this guide to improve the onboarding experience for developers at VTEX. It assembles all
-  documentation on our Developer Portal about Payments and is organized by focusing on the developer''s
-  journey. The Payments Gateway API allows you to get payment data and process your store''s transactions.'
+  We created this guide to improve the onboarding experience for developers at VTEX.
+  It assembles all documentation on our Developer Portal about Payments and is organized
+  by focusing on the developer''s journey. The Payments Gateway API allows you to
+  get payment data and process your store''s transactions.'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Payments-Gateway-API; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Payments-Gateway-API;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - vtex-local
 - public-api
 slug: vtex-local-payments-gateway-api
+assigned_id: dea:platform-service-vtex-local-payments-gateway-api-sw3eax
+admitted: '2026-11-14'

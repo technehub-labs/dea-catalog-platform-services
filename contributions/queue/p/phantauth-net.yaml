@@ -1,36 +1,45 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru phantauth.net
 name: PhantAuth (phantauth.net)
-description: 'Random User Generator + OpenID Connect Provider. Like Lorem Ipsum, but for user accounts
-  and authentication. The PhantAuth API documentation is available on the following API documentation
-  sites: - [apiary](https://phantauth.docs.apiary.io) (primary source) - [speca](https://speca.io/phantauth/phantauth)
-  - [PhantAuth Developer Portal](https://www.phantauth.net/api) ### TL;DR **PhantAuth was designed to
-  simplify testing for applications using OpenID Connect authentication by making use of random generated
-  users.** endpoint | address --------- | ------- issuer | https://phantauth.net discovery | https://phantauth.net/.well-known/openid-configuration
-  credential | value ------------- | ----- client_id | test.client client_secret | UTBcWwt5 ## OpenID
-  Connect The OpenID Connect Provider of PhantAuth supports the flows listed in the OpenID Connect specifications
-  (Hybrid, Implicit, Authorization Code), as well as the Resource Owner Password grant type, specified
-  in the OAuth 2.0 specifications. PhantAuth as an OpenID Connect Provider can be integrated with a variety
-  of web applications, mobil applications, and backend applications. The integration can be either direct,
-  as in the case of the OpenID Connect Provider, or through an authentication integration service, as
-  in the case of Auth0 or Azure Active Directory B2C. To learn more, please go to chapter [Integration](https://doc.phantauth.net/#/integration).
-  Examples: - [Direct OpenID Connect integration](https://www.phantauth.net/test/oidc) - [Auth0 Social
-  Connections integration](https://www.phantauth.net/test/auth0) - [Azure Active Directory B2C integration](https://www.phantauth.net/test/azure)
-  ## Random User The random user generator of PhantAuth can also be used separately, independent of the
-  OpenID Connect Provider. You can generate an optional number of test users. In the knowledge of their
-  user name, the data of the generated users can be regenerated at any time (OpenID Connect *sub* claim).
-  The generated users hav'
+description: 'Random User Generator + OpenID Connect Provider. Like Lorem Ipsum, but
+  for user accounts and authentication. The PhantAuth API documentation is available
+  on the following API documentation sites: - [apiary](https://phantauth.docs.apiary.io)
+  (primary source) - [speca](https://speca.io/phantauth/phantauth) - [PhantAuth Developer
+  Portal](https://www.phantauth.net/api) ### TL;DR **PhantAuth was designed to simplify
+  testing for applications using OpenID Connect authentication by making use of random
+  generated users.** endpoint | address --------- | ------- issuer | https://phantauth.net
+  discovery | https://phantauth.net/.well-known/openid-configuration credential |
+  value ------------- | ----- client_id | test.client client_secret | UTBcWwt5 ##
+  OpenID Connect The OpenID Connect Provider of PhantAuth supports the flows listed
+  in the OpenID Connect specifications (Hybrid, Implicit, Authorization Code), as
+  well as the Resource Owner Password grant type, specified in the OAuth 2.0 specifications.
+  PhantAuth as an OpenID Connect Provider can be integrated with a variety of web
+  applications, mobil applications, and backend applications. The integration can
+  be either direct, as in the case of the OpenID Connect Provider, or through an authentication
+  integration service, as in the case of Auth0 or Azure Active Directory B2C. To learn
+  more, please go to chapter [Integration](https://doc.phantauth.net/#/integration).
+  Examples: - [Direct OpenID Connect integration](https://www.phantauth.net/test/oidc)
+  - [Auth0 Social Connections integration](https://www.phantauth.net/test/auth0) -
+  [Azure Active Directory B2C integration](https://www.phantauth.net/test/azure) ##
+  Random User The random user generator of PhantAuth can also be used separately,
+  independent of the OpenID Connect Provider. You can generate an optional number
+  of test users. In the knowledge of their user name, the data of the generated users
+  can be regenerated at any time (OpenID Connect *sub* claim). The generated users
+  hav'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: phantauth.net; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: phantauth.net;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - phantauth-net
 - public-api
 slug: phantauth-net
+assigned_id: dea:platform-service-phantauth-net-4hu8yw
+admitted: '2026-11-14'

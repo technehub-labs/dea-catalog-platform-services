@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru stormglass.io
 name: Storm Glass Marine Weather (stormglass.io)
-description: Global marine weather data from multiple sources in one single API with hourly resolution.
-  Get your API key by visiting the Storm Glass web site.
+description: Global marine weather data from multiple sources in one single API with
+  hourly resolution. Get your API key by visiting the Storm Glass web site.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: stormglass.io; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: stormglass.io;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - stormglass-io
 - public-api
 slug: stormglass-io
+assigned_id: dea:platform-service-stormglass-io-f3r974
+admitted: '2026-11-14'

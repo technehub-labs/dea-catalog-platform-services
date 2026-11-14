@@ -1,33 +1,40 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru vtex.local:Catalog-API
 name: Catalog API (vtex.local:Catalog-API)
 description: '> Check the new [Catalog onboarding guide](https://developers.vtex.com/docs/guides/catalog-overview).
-  We created this guide to improve the onboarding experience for developers at VTEX. It assembles all
-  documentation on our Developer Portal about Catalog and is organized by focusing on the developer''s
-  journey. Methods for collecting product/SKU catalog data, categories, brands and other information.
-  All content that comes between `{{}}` keys must be replaced with the correct data before performing
-  the request. ## Index - [Product](https://developers.vtex.com/docs/api-reference/catalog-api#get-/api/catalog_system/pvt/products/GetProductAndSkuIds)
-  - Here you can consult, create, or update a Product. For more information, check [this article](https://help.vtex.com/tracks/catalog-101--5AF0XfnjfWeopIFBgs3LIQ/1wmX3QvQVxbKVmalhIE5Ru).
+  We created this guide to improve the onboarding experience for developers at VTEX.
+  It assembles all documentation on our Developer Portal about Catalog and is organized
+  by focusing on the developer''s journey. Methods for collecting product/SKU catalog
+  data, categories, brands and other information. All content that comes between `{{}}`
+  keys must be replaced with the correct data before performing the request. ## Index
+  - [Product](https://developers.vtex.com/docs/api-reference/catalog-api#get-/api/catalog_system/pvt/products/GetProductAndSkuIds)
+  - Here you can consult, create, or update a Product. For more information, check
+  [this article](https://help.vtex.com/tracks/catalog-101--5AF0XfnjfWeopIFBgs3LIQ/1wmX3QvQVxbKVmalhIE5Ru).
   - [Product Specification](https://developers.vtex.com/docs/api-reference/catalog-api#get-/api/catalog_system/pvt/products/-productId-/specification)
-  - You can consult, create, or update additional information of a Product. For more information, check
-  [this article](https://help.vtex.com/tracks/catalog-101--5AF0XfnjfWeopIFBgs3LIQ/2NQoBv8m4Yz3oQaLgDRagP#product-specification).
+  - You can consult, create, or update additional information of a Product. For more
+  information, check [this article](https://help.vtex.com/tracks/catalog-101--5AF0XfnjfWeopIFBgs3LIQ/2NQoBv8m4Yz3oQaLgDRagP#product-specification).
   - [SKU](https://developers.vtex.com/docs/api-reference/catalog-api#get-/api/catalog_system/pvt/sku/stockkeepingunitids)
-  - Here you can consult, create, or update an SKU. For more information, check [this article](https://help.vtex.com/tracks/catalog-101--5AF0XfnjfWeopIFBgs3LIQ/3mJbIqMlz6oKDmyZ2bKJoA).
+  - Here you can consult, create, or update an SKU. For more information, check [this
+  article](https://help.vtex.com/tracks/catalog-101--5AF0XfnjfWeopIFBgs3LIQ/3mJbIqMlz6oKDmyZ2bKJoA).
   - [SKU Complement](https://developers.vtex.com/docs/api-reference/catalog-api#get-/api/catalog/pvt/stockkeepingunit/-skuId-/complement)
-  - You can consult, create, or update an SKU Complement. An SKU Complement is a new SKU that has a Parent
-  SKU. - [SKU EAN](https://developers.vtex.com/docs/api-reference/catalog-api#get-/api/catalog_system/pvt/sku/stockkeepingunitbyean/-ean-)
-  - Here you can consult, create, or update an SKU unique identification code (barcode). - [SKU Attachme'
+  - You can consult, create, or update an SKU Complement. An SKU Complement is a new
+  SKU that has a Parent SKU. - [SKU EAN](https://developers.vtex.com/docs/api-reference/catalog-api#get-/api/catalog_system/pvt/sku/stockkeepingunitbyean/-ean-)
+  - Here you can consult, create, or update an SKU unique identification code (barcode).
+  - [SKU Attachme'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Catalog-API; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Catalog-API;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - vtex-local
 - public-api
 slug: vtex-local-catalog-api
+assigned_id: dea:platform-service-vtex-local-catalog-api-unrszk
+admitted: '2026-11-14'

@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru tomtom.com:search
 name: Search (tomtom.com:search)
-description: Search API is a RESTful API that allows developers to run a single line fuzzy search for
-  addresses and POIs. Search API returns the latitude/longitude of a specific address, cross street, geographic
-  feature, or point of interest (POI).
+description: Search API is a RESTful API that allows developers to run a single line
+  fuzzy search for addresses and POIs. Search API returns the latitude/longitude of
+  a specific address, cross street, geographic feature, or point of interest (POI).
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: tomtom.com:search; spec: https://developer.tomtom.com/contact-us)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: tomtom.com:search;
+      spec: https://developer.tomtom.com/contact-us)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - tomtom-com
 - public-api
 slug: tomtom-com-search
+assigned_id: dea:platform-service-tomtom-com-search-mx9as2
+admitted: '2026-11-14'

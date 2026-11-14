@@ -1,0 +1,31 @@
+# Open Targets Platform REST API (opentargets.io)
+
+> ### The Open Targets Platform REST API The Open Targets Platform API ('Application Programming Interface') allows programmatic retrieval of the Open Targets Platform data via a set of [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) services. You can make calls to the latest version of our API using the base URL `https://platform-api.opentargets.io/v3/platform`. Please make sure you use `https` instead of the unencrypted `http` calls, which we do not accept. We list below the methods available to query our data directly from the API, followed by an interactive interface that you can use to try out the parameters and execute the REST-API calls. For every request you create, the interactive interface will display both a [curl](https://curl.haxx.se/) command and a request URL that you can use to ensure you get the expected response before using your application or workflow. Check our documentation for some [API tutorials](https://docs.targetvalidation.org/tutorials/api-tutorials) and [get in touch](mailto:support@targetvalidation.org) if you have any questions. ### Available Methods The available methods can be grouped in three types: * __public__ - Methods that serve the core set of our data. These are stable and we fully supported them. * __private__ - Methods used by the web app to serve additional data not specific to our platform. These methods may change without notice and should be used with caution. * __utils__ - Methods to get statistics and technical data about our API. ### Supported formats The methods above are all available via a `GET` request, and will serve outputs as `JSON`. Alternative output formats, such `xml`, `csv` and `tab`, are also available for some of the methods. However alternative output formats are not supported in interactive interface below where the response will be always in `JSON. If you have complex queries with large number of parameters, you should use a `POST` request instead of `GET`. `POST` methods require a
+
+## Identity
+
+- **Record id**: `dea:platform-service-opentargets-io-mdhq75`
+- **Type**: PlatformService
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the APIs.guru public API directory (list API). The API specification is published and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted at candidate state.
+
+- kind: `published-document` — reference: https://apis.guru/browse-apis/ (APIs.guru listing: opentargets.io; spec: https://apis.guru/)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-14, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).

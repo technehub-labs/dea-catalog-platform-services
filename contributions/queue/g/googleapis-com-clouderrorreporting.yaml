@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru googleapis.com:clouderrorreporting
 name: Error Reporting API (googleapis.com:clouderrorreporting)
-description: Groups and counts similar errors from cloud services and applications, reports new errors,
-  and provides access to error groups and their associated errors.
+description: Groups and counts similar errors from cloud services and applications,
+  reports new errors, and provides access to error groups and their associated errors.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:clouderrorreporting;
       spec: https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-clouderrorreporting
+assigned_id: dea:platform-service-googleapis-com-clouderrorreporting-s2ttxd
+admitted: '2026-11-14'

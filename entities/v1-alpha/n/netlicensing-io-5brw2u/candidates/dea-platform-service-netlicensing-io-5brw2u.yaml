@@ -1,0 +1,36 @@
+id: dea:platform-service-netlicensing-io-5brw2u
+type: PlatformService
+name: Labs64 NetLicensing RESTful API Test Center (netlicensing.io)
+description: The Labs64 <a href='https://netlicensing.io/wiki/restful-api' target='_blank'>NetLicensing
+  RESTful API</a> gives you access to NetLicensing’s core features.<br/><br/><strong>Authentication</strong><br/>You
+  authenticate to the NetLicensing API by providing your account credentials or simply
+  use our demo account - <code>demo:demo</code><br/><br/>Find out more about Labs64
+  NetLicensing at <a href='https://netlicensing.io' target='_blank'>netlicensing.io</a>
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: netlicensing.io;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- netlicensing-io
+- public-api

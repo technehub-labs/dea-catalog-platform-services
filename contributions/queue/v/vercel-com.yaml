@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru vercel.com
 name: Vercel API (vercel.com)
-description: Vercel combines the best developer experience with an obsessive focus on end-user performance.
-  Our platform enables frontend teams to do their best work.
+description: Vercel combines the best developer experience with an obsessive focus
+  on end-user performance. Our platform enables frontend teams to do their best work.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vercel.com; spec: https://vercel.com/support)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vercel.com; spec:
+      https://vercel.com/support)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - vercel-com
 - public-api
 slug: vercel-com
+assigned_id: dea:platform-service-vercel-com-f8xqss
+admitted: '2026-11-14'

@@ -1,13 +1,13 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru vtex.local:Policies-System-API
 name: Policies System API (vtex.local:Policies-System-API)
-description: 'This API will create promotion alarms when selling products with undesired prices and promotions.
-  It will create conditions that will check if the prices and the promotions are correct. If not, the
-  system will alarm the store with information about the product sold at unexpected prices. ## Index `GET`
-  [Get Policy List](https://developers.vtex.com/docs/api-reference/policies-system-api#get-/api/policy-engine/policies)
+description: 'This API will create promotion alarms when selling products with undesired
+  prices and promotions. It will create conditions that will check if the prices and
+  the promotions are correct. If not, the system will alarm the store with information
+  about the product sold at unexpected prices. ## Index `GET` [Get Policy List](https://developers.vtex.com/docs/api-reference/policies-system-api#get-/api/policy-engine/policies)
   `POST` [Evaluate Policies](https://developers.vtex.com/docs/api-reference/policies-system-api#post-/api/policy-engine/evaluate)
   `GET` [Get Policy by ID](https://developers.vtex.com/docs/api-reference/policies-system-api#get-/api/policy-engine/policies/-id-)
   `POST` [Create Policy](https://developers.vtex.com/docs/api-reference/policies-system-api#post-/api/policy-engine/policies/-id-)
@@ -16,12 +16,14 @@ description: 'This API will create promotion alarms when selling products with u
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Policies-System-API; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Policies-System-API;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - vtex-local
 - public-api
 slug: vtex-local-policies-system-api
+assigned_id: dea:platform-service-vtex-local-policies-system-api-qudg8q
+admitted: '2026-11-14'

@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru hsbc.com:atm
 name: ATM Locator API (hsbc.com:atm)
-description: 'ATM Locator API — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'ATM Locator API — a public API catalogued in the APIs.guru directory
+  (provider: n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hsbc.com:atm; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hsbc.com:atm; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - hsbc-com
 - public-api
 slug: hsbc-com-atm
+assigned_id: dea:platform-service-hsbc-com-atm-d8p97b
+admitted: '2026-11-14'

@@ -1,36 +1,43 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru vtex.local:Checkout-API
 name: Checkout API (vtex.local:Checkout-API)
 description: '>ℹ️ Check the new [Checkout onboarding guide](https://developers.vtex.com/vtex-rest-api/docs/checkout-overview).
-  We created this guide to improve the onboarding experience for developers at VTEX. It assembles all
-  documentation on our Developer Portal about the Checkout and is organized by focusing on the developer''s
-  journey. The Checkout API allows you to obtain and configure information about the shopping cart and
-  its attachments, personalization of custom fields, orderForm structure, fulfillment data, order management,
-  and identification of the sellers delivery region. >ℹ️ Data modification operations (`POST`, `PATCH`,
-  `PUT` or `DELETE` endpoints) shall not be performed in parallel in the Checkout APIs. They need to be
-  enqueued by the client/requester. Otherwise, old values ​​can be overwritten incorrectly or competition
-  errors may occur. >⚠️ All endpoints that consult or edit the orderForm can change the authentication
-  depending on the customer context. If you are handling information from a customer with a complete profile
-  on the store, authentication will be required. You can only access or modify the customer data for these
-  profiles with an authenticated request. ## Shopping cart Allows merchants to simulate, configure and
-  customize shopping cart information. - [POST - Cart Simulation](https://developers.vtex.com/vtex-rest-api/reference/cartsimulation)
+  We created this guide to improve the onboarding experience for developers at VTEX.
+  It assembles all documentation on our Developer Portal about the Checkout and is
+  organized by focusing on the developer''s journey. The Checkout API allows you to
+  obtain and configure information about the shopping cart and its attachments, personalization
+  of custom fields, orderForm structure, fulfillment data, order management, and identification
+  of the sellers delivery region. >ℹ️ Data modification operations (`POST`, `PATCH`,
+  `PUT` or `DELETE` endpoints) shall not be performed in parallel in the Checkout
+  APIs. They need to be enqueued by the client/requester. Otherwise, old values ​​can
+  be overwritten incorrectly or competition errors may occur. >⚠️ All endpoints that
+  consult or edit the orderForm can change the authentication depending on the customer
+  context. If you are handling information from a customer with a complete profile
+  on the store, authentication will be required. You can only access or modify the
+  customer data for these profiles with an authenticated request. ## Shopping cart
+  Allows merchants to simulate, configure and customize shopping cart information.
+  - [POST - Cart Simulation](https://developers.vtex.com/vtex-rest-api/reference/cartsimulation)
   - [GET - Get current or create a new cart](https://developers.vtex.com/vtex-rest-api/reference/createanewcart)
   - [GET - Get cart information by ID](https://developers.vtex.com/vtex-rest-api/reference/getcartinformationbyid)
-  - [POST - Remove all items](https://developers.vtex.com/vtex-rest-api/reference/removeallitems) - [GET
-  - Remove all personal data](https://developers.vtex.com/vtex-rest-api/reference/removeallpersonaldata)
-  - [POST - Update cart items](https://developers.vtex.com/vtex-rest-api/reference/itemsupdate) - [POST
-  - Add cart items](https://developers.vtex.com/vtex-rest-api/reference/items) - [PUT - C'
+  - [POST - Remove all items](https://developers.vtex.com/vtex-rest-api/reference/removeallitems)
+  - [GET - Remove all personal data](https://developers.vtex.com/vtex-rest-api/reference/removeallpersonaldata)
+  - [POST - Update cart items](https://developers.vtex.com/vtex-rest-api/reference/itemsupdate)
+  - [POST - Add cart items](https://developers.vtex.com/vtex-rest-api/reference/items)
+  - [PUT - C'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Checkout-API; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Checkout-API;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - vtex-local
 - public-api
 slug: vtex-local-checkout-api
+assigned_id: dea:platform-service-vtex-local-checkout-api-q2h3tx
+admitted: '2026-11-14'

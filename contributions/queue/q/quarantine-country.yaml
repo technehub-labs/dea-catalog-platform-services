@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru quarantine.country
 name: Coronavirus API (quarantine.country)
-description: Coronavirus API with free COVID-19 live updates. The best free coronavirus API and COVID-19
-  update source. Programmatically access live corona virus updates for statistics with historical data,
-  maps, charts, graphs. COVID-19 API and corona virus live updates.
+description: Coronavirus API with free COVID-19 live updates. The best free coronavirus
+  API and COVID-19 update source. Programmatically access live corona virus updates
+  for statistics with historical data, maps, charts, graphs. COVID-19 API and corona
+  virus live updates.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: quarantine.country; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: quarantine.country;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - quarantine-country
 - public-api
 slug: quarantine-country
+assigned_id: dea:platform-service-quarantine-country-5p2rqw
+admitted: '2026-11-14'

@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru mercedes-benz.com:image
 name: Vehicle Image (mercedes-benz.com:image)
-description: The vehicle images API offers access to original Mercedes-Benz vehicle images. It provides
-  access to exterior and interior images with parameters e.g. to modify the perspective and to display
-  vehicles at day/nighttime. In addition you can request component images of a vehicle's engine, paint,
-  rim, trim, upholstery and equipments.
+description: The vehicle images API offers access to original Mercedes-Benz vehicle
+  images. It provides access to exterior and interior images with parameters e.g.
+  to modify the perspective and to display vehicles at day/nighttime. In addition
+  you can request component images of a vehicle's engine, paint, rim, trim, upholstery
+  and equipments.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mercedes-benz.com:image; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mercedes-benz.com:image;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - mercedes-benz-com
 - public-api
 slug: mercedes-benz-com-image
+assigned_id: dea:platform-service-mercedes-benz-com-image-37c2tx
+admitted: '2026-11-14'

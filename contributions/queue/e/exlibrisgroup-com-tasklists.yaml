@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru exlibrisgroup.com:tasklists
 name: Ex Libris APIs (exlibrisgroup.com:tasklists)
-description: For more information on how to use these APIs, including how to create an API key required
-  for authentication, see [Alma REST APIs](https://developers.exlibrisgroup.com/alma/apis).
+description: For more information on how to use these APIs, including how to create
+  an API key required for authentication, see [Alma REST APIs](https://developers.exlibrisgroup.com/alma/apis).
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: exlibrisgroup.com:tasklists; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: exlibrisgroup.com:tasklists;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - exlibrisgroup-com
 - public-api
 slug: exlibrisgroup-com-tasklists
+assigned_id: dea:platform-service-exlibrisgroup-com-tasklists-8rz68h
+admitted: '2026-11-14'

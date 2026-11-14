@@ -1,0 +1,36 @@
+id: dea:platform-service-ndhm-gov-in-ndhm-hip-cz6swm
+type: PlatformService
+name: Health Repository Provider Specifications for HIP (ndhm.gov.in:ndhm-hip)
+description: The following are the specifications for the APIs to be implemented at
+  the Health Repository end if an entity is only serving the role of a HIP. The specs
+  are essentially duplicates from the Gateway and Health Repository, but put together
+  so as to make it clear to *HIPs* which set of APIs they should implement to participate
+  in the network.
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ndhm.gov.in:ndhm-hip;
+      spec: https://ndhm.gov.in/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- ndhm-gov-in
+- public-api

@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru digitallocker.gov.in:authpartner
 name: Authorized Partner API Specification (digitallocker.gov.in:authpartner)
-description: To access files in user’s DigiLocker account from your application, you must first obtain
-  user’s authorization.
+description: To access files in user’s DigiLocker account from your application, you
+  must first obtain user’s authorization.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: digitallocker.gov.in:authpartner; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: digitallocker.gov.in:authpartner;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - digitallocker-gov-in
 - public-api
 slug: digitallocker-gov-in-authpartner
+assigned_id: dea:platform-service-digitallocker-gov-in-authpartner-gng9fj
+admitted: '2026-11-14'

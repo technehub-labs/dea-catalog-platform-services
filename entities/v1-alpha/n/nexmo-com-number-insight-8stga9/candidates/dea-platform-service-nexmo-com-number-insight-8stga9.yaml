@@ -1,0 +1,36 @@
+id: dea:platform-service-nexmo-com-number-insight-8stga9
+type: PlatformService
+name: Number Insight API (nexmo.com:number-insight)
+description: 'The Number Insight API delivers real-time intelligence about the validity,
+  reachability and roaming status of a phone number and tells you how to format the
+  number correctly in your application. There are three levels of Number Insight API
+  available: [Basic, Standard and Advanced](https://developer.nexmo.com/number-insight/overview#basic-standard-and-advanced-apis).
+  The advanced API is available asynchronously as well as synchronously.'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nexmo.com:number-insight;
+      spec: https://developer.nexmo.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- nexmo-com
+- public-api

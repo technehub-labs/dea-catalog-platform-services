@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru up.com.au
 name: Up API (up.com.au)
-description: The Up API gives you programmatic access to your balances and transaction data. You can request
-  past transactions or set up webhooks to receive real-time events when new transactions hit your account.
-  It’s new, it’s exciting and it’s just the beginning.
+description: The Up API gives you programmatic access to your balances and transaction
+  data. You can request past transactions or set up webhooks to receive real-time
+  events when new transactions hit your account. It’s new, it’s exciting and it’s
+  just the beginning.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: up.com.au; spec: https://github.com/up-banking/api)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: up.com.au; spec:
+      https://github.com/up-banking/api)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - up-com-au
 - public-api
 slug: up-com-au
+assigned_id: dea:platform-service-up-com-au-9buqjg
+admitted: '2026-11-14'

@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru parliament.uk:writtenquestions
 name: Written Questions Service API (parliament.uk:writtenquestions)
-description: Data around written questions and answers, as well as written ministerial statements.
+description: Data around written questions and answers, as well as written ministerial
+  statements.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: parliament.uk:writtenquestions; spec:
-      https://www.parliament.uk/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: parliament.uk:writtenquestions;
+      spec: https://www.parliament.uk/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - parliament-uk
 - public-api
 slug: parliament-uk-writtenquestions
+assigned_id: dea:platform-service-parliament-uk-writtenquestions-mpnn36
+admitted: '2026-11-14'

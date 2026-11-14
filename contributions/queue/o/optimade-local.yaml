@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru optimade.local
 name: OPTIMADE API (optimade.local)
 description: The [Open Databases Integration for Materials Design (OPTIMADE) consortium](https://www.optimade.org/)
-  aims to make materials databases interoperational by developing a common REST API. This specification
-  is generated using [`optimade-python-tools`](https://github.com/Materials-Consortia/optimade-python-tools/tree/v0.16.0)
+  aims to make materials databases interoperational by developing a common REST API.
+  This specification is generated using [`optimade-python-tools`](https://github.com/Materials-Consortia/optimade-python-tools/tree/v0.16.0)
   v0.16.0.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: optimade.local; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: optimade.local;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - optimade-local
 - public-api
 slug: optimade-local
+assigned_id: dea:platform-service-optimade-local-7efzsh
+admitted: '2026-11-14'

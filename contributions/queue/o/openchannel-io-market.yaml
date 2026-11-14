@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru openchannel.io:market
 name: OpenChannel Market API (openchannel.io:market)
-description: 'OpenChannel Market API — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'OpenChannel Market API — a public API catalogued in the APIs.guru directory
+  (provider: n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: openchannel.io:market; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: openchannel.io:market;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - openchannel-io
 - public-api
 slug: openchannel-io-market
+assigned_id: dea:platform-service-openchannel-io-market-7jjkbn
+admitted: '2026-11-14'

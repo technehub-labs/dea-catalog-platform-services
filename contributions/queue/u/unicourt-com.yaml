@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru unicourt.com
 name: UniCourt Enterprise APIs (unicourt.com)
-description: <button><a href="/enterpriseapi/download/UniCourt-Enterprise-API-Spec.yaml" >Download UniCourt
-  Enterprise APIs Specification</a></button>
+description: <button><a href="/enterpriseapi/download/UniCourt-Enterprise-API-Spec.yaml"
+  >Download UniCourt Enterprise APIs Specification</a></button>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: unicourt.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: unicourt.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - unicourt-com
 - public-api
 slug: unicourt-com
+assigned_id: dea:platform-service-unicourt-com-kb2q2g
+admitted: '2026-11-14'

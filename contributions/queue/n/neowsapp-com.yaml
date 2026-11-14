@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru neowsapp.com
 name: NeoWs - (Near Earth Object Web Service) (neowsapp.com)
 description: A web service for near earth objects. All the data is from the <a href="http://neo.jpl.nasa.gov/"
-  target="_blank">NASA JPL Asteroid team</a>. NeoWs is proud to power AsteroidTracker on <a href="https://itunes.apple.com/us/app/asteroid-tracker/id689684901?mt=8"
-  target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.vitruviussoftware.bunifish.asteroidtracker&feature"
+  target="_blank">NASA JPL Asteroid team</a>. NeoWs is proud to power AsteroidTracker
+  on <a href="https://itunes.apple.com/us/app/asteroid-tracker/id689684901?mt=8" target="_blank">iOS</a>
+  and <a href="https://play.google.com/store/apps/details?id=com.vitruviussoftware.bunifish.asteroidtracker&feature"
   target="_blank">Android</a> as well as related apps. Follow us on <a href="https://twitter.com/AsteroidTracker"
   target="_blank">Twitter</a>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: neowsapp.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: neowsapp.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - neowsapp-com
 - public-api
 slug: neowsapp-com
+assigned_id: dea:platform-service-neowsapp-com-jhr77s
+admitted: '2026-11-14'

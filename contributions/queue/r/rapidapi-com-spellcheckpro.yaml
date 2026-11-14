@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru rapidapi.com:spellcheckpro
 name: SpellCheckPro (rapidapi.com:spellcheckpro)
-description: 'SpellCheckPro — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'SpellCheckPro — a public API catalogued in the APIs.guru directory (provider:
+  n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: rapidapi.com:spellcheckpro; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: rapidapi.com:spellcheckpro;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - rapidapi-com
 - public-api
 slug: rapidapi-com-spellcheckpro
+assigned_id: dea:platform-service-rapidapi-com-spellcheckpro-4z5rgy
+admitted: '2026-11-14'

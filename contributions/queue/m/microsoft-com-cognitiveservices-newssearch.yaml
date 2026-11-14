@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru microsoft.com:cognitiveservices-NewsSearch
 name: News Search Client (microsoft.com:cognitiveservices-NewsSearch)
-description: The News Search API lets you send a search query to Bing and get back a list of news that
-  are relevant to the search query. This section provides technical details about the query parameters
-  and headers that you use to request news and the JSON response objects that contain them. For examples
-  that show how to make requests, see [Searching the web for news](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/search-the-web).
+description: The News Search API lets you send a search query to Bing and get back
+  a list of news that are relevant to the search query. This section provides technical
+  details about the query parameters and headers that you use to request news and
+  the JSON response objects that contain them. For examples that show how to make
+  requests, see [Searching the web for news](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/search-the-web).
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: microsoft.com:cognitiveservices-NewsSearch;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - microsoft-com
 - public-api
 slug: microsoft-com-cognitiveservices-newssearch
+assigned_id: dea:platform-service-microsoft-com-cognitiveservices-newssearch-n5738z
+admitted: '2026-11-14'

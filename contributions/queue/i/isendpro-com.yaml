@@ -1,26 +1,31 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru isendpro.com
 name: API iSendPro (isendpro.com)
-description: '[1] Liste des fonctionnalités : - envoi de SMS à un ou plusieurs destinataires, - lookup
-  HLR, - récupération des récapitulatifs de campagne, - gestion des répertoires, - ajout en liste noire.
-  - comptage du nombre de caractères des SMS [2] Pour utiliser cette API vous devez: - Créer un compte
-  iSendPro sur https://isendpro.com/ - Créditer votre compte - Remarque: obtention d''un crédit de test
-  possible sous conditions - Noter votre clé de compte (keyid) - Elle vous sera indispensable à l''utilisation
-  de l''API - Vous pouvez la trouver dans le rubrique mon "compte", sous-rubrique "mon API" - Configurer
-  le contrôle IP - Le contrôle IP est configurable dans le rubrique mon "compte", sous-rubrique "mon API"
-  - Il s''agit d''un système de liste blanche, vous devez entrer les IP utilisées pour appeler l''API
-  - Vous pouvez également désactiver totalement le contrôle IP'
+description: '[1] Liste des fonctionnalités : - envoi de SMS à un ou plusieurs destinataires,
+  - lookup HLR, - récupération des récapitulatifs de campagne, - gestion des répertoires,
+  - ajout en liste noire. - comptage du nombre de caractères des SMS [2] Pour utiliser
+  cette API vous devez: - Créer un compte iSendPro sur https://isendpro.com/ - Créditer
+  votre compte - Remarque: obtention d''un crédit de test possible sous conditions
+  - Noter votre clé de compte (keyid) - Elle vous sera indispensable à l''utilisation
+  de l''API - Vous pouvez la trouver dans le rubrique mon "compte", sous-rubrique
+  "mon API" - Configurer le contrôle IP - Le contrôle IP est configurable dans le
+  rubrique mon "compte", sous-rubrique "mon API" - Il s''agit d''un système de liste
+  blanche, vous devez entrer les IP utilisées pour appeler l''API - Vous pouvez également
+  désactiver totalement le contrôle IP'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: isendpro.com; spec: https://www.isendpro.com/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: isendpro.com; spec:
+      https://www.isendpro.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - isendpro-com
 - public-api
 slug: isendpro-com
+assigned_id: dea:platform-service-isendpro-com-mg8mmn
+admitted: '2026-11-14'

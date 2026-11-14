@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru groundhog-day.com
 name: Groundhog Day API (groundhog-day.com)
-description: This API returns all of North America’s prognosticating animals and their yearly weather
-  predictions.
+description: This API returns all of North America’s prognosticating animals and their
+  yearly weather predictions.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: groundhog-day.com; spec: https://groundhog-day.com/api)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: groundhog-day.com;
+      spec: https://groundhog-day.com/api)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - groundhog-day-com
 - public-api
 slug: groundhog-day-com
+assigned_id: dea:platform-service-groundhog-day-com-s57tzm
+admitted: '2026-11-14'

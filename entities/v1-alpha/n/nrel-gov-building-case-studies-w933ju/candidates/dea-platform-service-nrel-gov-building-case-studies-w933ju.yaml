@@ -1,0 +1,36 @@
+id: dea:platform-service-nrel-gov-building-case-studies-w933ju
+type: PlatformService
+name: High Performance Building Database (nrel.gov:building-case-studies)
+description: The Buildings Database is a shared resource for the building industry.
+  The Database, developed by the U.S. Department of Energy and the National Renewable
+  Energy Laboratory (NREL), is a unique central repository of in-depth information
+  and data on high-performance, green building projects across the United States and
+  abroad.
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nrel.gov:building-case-studies;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- nrel-gov
+- public-api

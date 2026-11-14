@@ -1,0 +1,55 @@
+id: dea:platform-service-journy-io-u6n2kp
+type: PlatformService
+name: Developer documentation (journy.io)
+description: '# Welcome Implementing a new tool can be daunting, but it doesn''t have
+  to. You can implement journy.io in a few different ways to ensure it fits with the
+  rest of your tech stack seamlessly. We welcome your feedback, ideas and suggestions.
+  We really want to make your life easier, so if we’re falling short or should be
+  doing something different, we want to hear about it. Send us an email at [hi@journy.io](mailto:hi@journy.io)
+  or reach out via the chat on our website or on our platform. There are multiple
+  ways you can send us data about users and accounts. We have both frontend and backend
+  APIs, which can be used together at the same time. If you already use [Segment](https://segment.com/),
+  you can [get up and running with journy.io in seconds](https://help.journy.io/en/articles/6488307-the-segment-connector).
+  # Concepts ## Users The most basic entity is a user, a specific individual that
+  completed an interaction with your product. We support multiple types of users,
+  often differentiated by it''s external ID prefix. E.g. In the case you are building
+  an ordering app, there could easily be an administrator (who updates products and
+  checks for orders) and the end-customers who place orders. One could have a typical
+  ADM-XXXXXXXX ID, while the other would be referenced by USR-XXXXXXXXX. ## Accounts
+  In B2B SaaS, users can be part of multiple accounts. E.g. Imagine you''re building
+  a content scheduling app where an agency can manage the social media posts of their
+  clients. Each client of the agency has its own account in the product. If your app
+  doesn''t have the concept of a team or group of users, you can ignore accounts.
+  ## Events An event is a data point that represents an interaction between a user
+  and/or an account; and your product. Events can represents any range of interactions.
+  E.g. Every time a customer creates an invoice in an invoicing app. Actions like
+  creating an invoice can be tracked as an event in journy.io. It''s critical to track
+  events properly. You''ll need t'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: journy.io; spec:
+      https://developers.journy.io)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- journy-io
+- public-api

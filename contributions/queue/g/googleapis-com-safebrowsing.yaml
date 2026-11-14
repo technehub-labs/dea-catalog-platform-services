@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru googleapis.com:safebrowsing
 name: Safe Browsing API (googleapis.com:safebrowsing)
-description: Enables client applications to check web resources (most commonly URLs) against Google-generated
-  lists of unsafe web resources. The Safe Browsing APIs are for non-commercial use only. If you need to
-  use APIs to detect malicious URLs for commercial purposes – meaning “for sale or revenue-generating
-  purposes” – please refer to the Web Risk API.
+description: Enables client applications to check web resources (most commonly URLs)
+  against Google-generated lists of unsafe web resources. The Safe Browsing APIs are
+  for non-commercial use only. If you need to use APIs to detect malicious URLs for
+  commercial purposes – meaning “for sale or revenue-generating purposes” – please
+  refer to the Web Risk API.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:safebrowsing; spec:
-      https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:safebrowsing;
+      spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-safebrowsing
+assigned_id: dea:platform-service-googleapis-com-safebrowsing-w6fepc
+admitted: '2026-11-14'

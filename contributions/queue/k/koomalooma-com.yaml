@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru koomalooma.com
 name: koomalooma Partner API (koomalooma.com)
-description: This is the koomalooma Partner API. koomalooma is the first Loyalty BPaaS (Business Process
-  as a Service) for mobile and web companies. With koomalooma merchants issue points for actions their
-  customers / users make on your mobile or web store, for example a purchase or a referral. koomalooma
-  takes care of all the rest, from signing up users, keeping track of points and delivering rewards in
-  over 80 countries. koomalooma offers an easy to integrate API and web backend to configure loyalty campaigns
-  and track performance. You can find more at http://support.koomalooma.com
+description: This is the koomalooma Partner API. koomalooma is the first Loyalty BPaaS
+  (Business Process as a Service) for mobile and web companies. With koomalooma merchants
+  issue points for actions their customers / users make on your mobile or web store,
+  for example a purchase or a referral. koomalooma takes care of all the rest, from
+  signing up users, keeping track of points and delivering rewards in over 80 countries.
+  koomalooma offers an easy to integrate API and web backend to configure loyalty
+  campaigns and track performance. You can find more at http://support.koomalooma.com
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: koomalooma.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: koomalooma.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - koomalooma-com
 - public-api
 slug: koomalooma-com
+assigned_id: dea:platform-service-koomalooma-com-zks775
+admitted: '2026-11-14'

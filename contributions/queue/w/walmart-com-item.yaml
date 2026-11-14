@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru walmart.com:item
 name: Item API (walmart.com:item)
-description: Please make sure you use the correct version of the APIs for your use case. To find out the
-  appropriate version, go to the API Docs drop down on the menu.
+description: Please make sure you use the correct version of the APIs for your use
+  case. To find out the appropriate version, go to the API Docs drop down on the menu.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: walmart.com:item; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: walmart.com:item;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - walmart-com
 - public-api
 slug: walmart-com-item
+assigned_id: dea:platform-service-walmart-com-item-judjsr
+admitted: '2026-11-14'
