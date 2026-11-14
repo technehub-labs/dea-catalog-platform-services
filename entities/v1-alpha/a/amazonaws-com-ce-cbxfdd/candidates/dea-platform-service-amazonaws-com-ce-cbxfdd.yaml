@@ -1,0 +1,40 @@
+id: dea:platform-service-amazonaws-com-ce-cbxfdd
+type: PlatformService
+name: AWS Cost Explorer Service (amazonaws.com:ce)
+description: <p>You can use the Cost Explorer API to programmatically query your cost
+  and usage data. You can query for aggregated data such as total monthly costs or
+  total daily usage. You can also query for granular data. This might include the
+  number of daily write operations for Amazon DynamoDB database tables in your production
+  environment. </p> <p>Service Endpoint</p> <p>The Cost Explorer API provides the
+  following endpoint:</p> <ul> <li> <p> <code>https://ce.us-east-1.amazonaws.com</code>
+  </p> </li> </ul> <p>For information about the costs that are associated with the
+  Cost Explorer API, see <a href="http://aws.amazon.com/aws-cost-management/pricing/">Amazon
+  Web Services Cost Management Pricing</a>.</p>
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:ce;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- amazonaws-com
+- public-api

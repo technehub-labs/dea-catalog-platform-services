@@ -1,25 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:iot-data
 name: AWS IoT Data Plane (amazonaws.com:iot-data)
-description: '<fullname>IoT data</fullname> <p>IoT data enables secure, bi-directional communication between
-  Internet-connected things (such as sensors, actuators, embedded devices, or smart appliances) and the
-  Amazon Web Services cloud. It implements a broker for applications and things to publish messages over
-  HTTP (Publish) and retrieve, update, and delete shadows. A shadow is a persistent representation of
-  your things and their state in the Amazon Web Services cloud.</p> <p>Find the endpoint address for actions
-  in IoT data by running this CLI command:</p> <p> <code>aws iot describe-endpoint --endpoint-type iot:Data-ATS</code>
-  </p> <p>The service name used by <a href="https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html">Amazon
+description: '<fullname>IoT data</fullname> <p>IoT data enables secure, bi-directional
+  communication between Internet-connected things (such as sensors, actuators, embedded
+  devices, or smart appliances) and the Amazon Web Services cloud. It implements a
+  broker for applications and things to publish messages over HTTP (Publish) and retrieve,
+  update, and delete shadows. A shadow is a persistent representation of your things
+  and their state in the Amazon Web Services cloud.</p> <p>Find the endpoint address
+  for actions in IoT data by running this CLI command:</p> <p> <code>aws iot describe-endpoint
+  --endpoint-type iot:Data-ATS</code> </p> <p>The service name used by <a href="https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html">Amazon
   Web ServicesSignature Version 4</a> to sign requests is: <i>iotdevicegateway</i>.</p>'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:iot-data; spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:iot-data;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-iot-data
+assigned_id: dea:platform-service-amazonaws-com-iot-data-pjffpw
+admitted: '2026-11-14'

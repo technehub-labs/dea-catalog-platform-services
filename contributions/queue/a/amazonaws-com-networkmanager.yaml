@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:networkmanager
 name: AWS Network Manager (amazonaws.com:networkmanager)
-description: Amazon Web Services enables you to centrally manage your Amazon Web Services Cloud WAN core
-  network and your Transit Gateway network across Amazon Web Services accounts, Regions, and on-premises
-  locations.
+description: Amazon Web Services enables you to centrally manage your Amazon Web Services
+  Cloud WAN core network and your Transit Gateway network across Amazon Web Services
+  accounts, Regions, and on-premises locations.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:networkmanager; spec:
-      https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:networkmanager;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-networkmanager
+assigned_id: dea:platform-service-amazonaws-com-networkmanager-2sux89
+admitted: '2026-11-14'

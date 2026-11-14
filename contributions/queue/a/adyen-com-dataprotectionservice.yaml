@@ -1,30 +1,33 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru adyen.com:DataProtectionService
 name: Adyen Data Protection API (adyen.com:DataProtectionService)
-description: 'Adyen Data Protection API provides a way for you to process [Subject Erasure Requests](https://gdpr-info.eu/art-17-gdpr/)
-  as mandated in GDPR. Use our API to submit a request to delete shopper''s data, including payment details
-  and other related information (for example, delivery address or shopper email).## Authentication Each
-  request to the Data Protection API must be signed with an API key. Get your API Key from your Customer
-  Area, as described in [How to get the API key](https://docs.adyen.com/development-resources/api-credentials#generate-api-key).
-  Then set this key to the `X-API-Key` header value, for example: ``` curl -H "Content-Type: application/json"
-  \ -H "X-API-Key: Your_API_key" \ ... ``` Note that when going live, you need to generate a new API Key
-  to access the [live endpoints](https://docs.adyen.com/development-resources/live-endpoints). ## Versioning
-  Data Protection Service API supports [versioning](https://docs.adyen.com/development-resources/versioning)
-  using a version suffix in the endpoint URL. This suffix has the following format: "vXX", where XX is
-  the version number. For example: ``` https://ca-test.adyen.com/ca/services/DataProtectionService/v1/requestSubjectErasure
+description: 'Adyen Data Protection API provides a way for you to process [Subject
+  Erasure Requests](https://gdpr-info.eu/art-17-gdpr/) as mandated in GDPR. Use our
+  API to submit a request to delete shopper''s data, including payment details and
+  other related information (for example, delivery address or shopper email).## Authentication
+  Each request to the Data Protection API must be signed with an API key. Get your
+  API Key from your Customer Area, as described in [How to get the API key](https://docs.adyen.com/development-resources/api-credentials#generate-api-key).
+  Then set this key to the `X-API-Key` header value, for example: ``` curl -H "Content-Type:
+  application/json" \ -H "X-API-Key: Your_API_key" \ ... ``` Note that when going
+  live, you need to generate a new API Key to access the [live endpoints](https://docs.adyen.com/development-resources/live-endpoints).
+  ## Versioning Data Protection Service API supports [versioning](https://docs.adyen.com/development-resources/versioning)
+  using a version suffix in the endpoint URL. This suffix has the following format:
+  "vXX", where XX is the version number. For example: ``` https://ca-test.adyen.com/ca/services/DataProtectionService/v1/requestSubjectErasure
   ```'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:DataProtectionService; spec:
-      https://www.adyen.help/hc/en-us/community/topics)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:DataProtectionService;
+      spec: https://www.adyen.help/hc/en-us/community/topics)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - adyen-com
 - public-api
 slug: adyen-com-dataprotectionservice
+assigned_id: dea:platform-service-adyen-com-dataprotectionservice-3tjnpn
+admitted: '2026-11-14'

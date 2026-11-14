@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:epfindia
 name: Employees' Provident Fund Organization (apisetu.gov.in:epfindia)
-description: Pension Payment Order and UAN, as provided by EPFO (https://www.epfindia.gov.in), can be
-  downloaded in citizen's DigiLocker account.
+description: Pension Payment Order and UAN, as provided by EPFO (https://www.epfindia.gov.in),
+  can be downloaded in citizen's DigiLocker account.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:epfindia; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:epfindia;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-epfindia
+assigned_id: dea:platform-service-apisetu-gov-in-epfindia-2kdfkx
+admitted: '2026-11-14'

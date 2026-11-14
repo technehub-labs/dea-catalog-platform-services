@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:apimanagement-apimissues
 name: ApiManagementClient (azure.com:apimanagement-apimissues)
-description: Use this REST API to get all the issues across an Azure Api Management service.
+description: Use this REST API to get all the issues across an Azure Api Management
+  service.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimissues;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-apimanagement-apimissues
+assigned_id: dea:platform-service-azure-com-apimanagement-apimissues-zr2n3n
+admitted: '2026-11-14'

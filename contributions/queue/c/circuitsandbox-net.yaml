@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru circuitsandbox.net
 name: REST API Version 2 (circuitsandbox.net)
-description: Circuit REST API to interact with the Circuit system. [Learn more about the Circuit Development
-  Community](https://www.circuit.com/web/developers/home)
+description: Circuit REST API to interact with the Circuit system. [Learn more about
+  the Circuit Development Community](https://www.circuit.com/web/developers/home)
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: circuitsandbox.net; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: circuitsandbox.net;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - circuitsandbox-net
 - public-api
 slug: circuitsandbox-net
+assigned_id: dea:platform-service-circuitsandbox-net-b35mbw
+admitted: '2026-11-14'

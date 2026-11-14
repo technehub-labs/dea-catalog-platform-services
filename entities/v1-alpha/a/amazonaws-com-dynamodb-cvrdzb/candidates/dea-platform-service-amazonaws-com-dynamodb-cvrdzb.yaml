@@ -1,0 +1,46 @@
+id: dea:platform-service-amazonaws-com-dynamodb-cvrdzb
+type: PlatformService
+name: Amazon DynamoDB (amazonaws.com:dynamodb)
+description: <fullname>Amazon DynamoDB</fullname> <p>Amazon DynamoDB is a fully managed
+  NoSQL database service that provides fast and predictable performance with seamless
+  scalability. DynamoDB lets you offload the administrative burdens of operating and
+  scaling a distributed database, so that you don't have to worry about hardware provisioning,
+  setup and configuration, replication, software patching, or cluster scaling.</p>
+  <p>With DynamoDB, you can create database tables that can store and retrieve any
+  amount of data, and serve any level of request traffic. You can scale up or scale
+  down your tables' throughput capacity without downtime or performance degradation,
+  and use the Amazon Web Services Management Console to monitor resource utilization
+  and performance metrics.</p> <p>DynamoDB automatically spreads the data and traffic
+  for your tables over a sufficient number of servers to handle your throughput and
+  storage requirements, while maintaining consistent and fast performance. All of
+  your data is stored on solid state disks (SSDs) and automatically replicated across
+  multiple Availability Zones in an Amazon Web Services Region, providing built-in
+  high availability and data durability.</p>
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:dynamodb;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- amazonaws-com
+- public-api

@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru bitbucket.org
 name: Bitbucket API (bitbucket.org)
-description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket data into your own
-  site, build mobile or desktop apps, or even add custom UI add-ons into Bitbucket itself using the Connect
-  framework.
+description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
+  data into your own site, build mobile or desktop apps, or even add custom UI add-ons
+  into Bitbucket itself using the Connect framework.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: bitbucket.org; spec: https://support.atlassian.com/bitbucket-cloud/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: bitbucket.org;
+      spec: https://support.atlassian.com/bitbucket-cloud/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - bitbucket-org
 - public-api
 slug: bitbucket-org
+assigned_id: dea:platform-service-bitbucket-org-yyeaxt
+admitted: '2026-11-14'

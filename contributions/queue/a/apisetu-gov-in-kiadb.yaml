@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:kiadb
 name: Karnataka Industrial Areas Development Board, Karnataka (apisetu.gov.in:kiadb)
-description: KIADB, AP (http://en.kiadb.in/) is the online s for Karnataka State Govt. Certain documents
-  issued by it (e.g. Allotment Letter,Building Plan, Water Supply Connection, NOC For Banks etc) are made
-  available in citizens' DigiLocker accounts.
+description: KIADB, AP (http://en.kiadb.in/) is the online s for Karnataka State Govt.
+  Certain documents issued by it (e.g. Allotment Letter,Building Plan, Water Supply
+  Connection, NOC For Banks etc) are made available in citizens' DigiLocker accounts.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:kiadb; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:kiadb;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-kiadb
+assigned_id: dea:platform-service-apisetu-gov-in-kiadb-dy6v28
+admitted: '2026-11-14'

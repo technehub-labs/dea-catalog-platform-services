@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:nsdcindia
 name: National Skill Development Corporation (NSDC) (apisetu.gov.in:nsdcindia)
-description: NSDC (https://www.nsdcindia.org) promotes skill development by catalyzing creation of large,
-  quality and for-profit vocational institutions. Skill certificates provided under various NSDC programmes
-  are made available to citizens in their DigiLocker accounts.
+description: NSDC (https://www.nsdcindia.org) promotes skill development by catalyzing
+  creation of large, quality and for-profit vocational institutions. Skill certificates
+  provided under various NSDC programmes are made available to citizens in their DigiLocker
+  accounts.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:nsdcindia; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:nsdcindia;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-nsdcindia
+assigned_id: dea:platform-service-apisetu-gov-in-nsdcindia-y99rdx
+admitted: '2026-11-14'

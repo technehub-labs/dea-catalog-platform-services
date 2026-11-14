@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:scvtup
 name: UP State Council of Vocational Training, Uttar Pradesh, Uttar Pradesh (apisetu.gov.in:scvtup)
-description: The State Council for Vocational Training (SCVT), Uttar Pradesh (http://www.vppup.in/) provides
-  semester and consolidated mark sheets as well as vocational certificates for years 2013 to 2016.
+description: The State Council for Vocational Training (SCVT), Uttar Pradesh (http://www.vppup.in/)
+  provides semester and consolidated mark sheets as well as vocational certificates
+  for years 2013 to 2016.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:scvtup; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:scvtup;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-scvtup
+assigned_id: dea:platform-service-apisetu-gov-in-scvtup-vkt6ut
+admitted: '2026-11-14'

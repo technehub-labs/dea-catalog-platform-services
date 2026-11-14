@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:aktu
 name: Dr. A. P. J. Abdul Kalam Technical University, Lucknow, Uttar Pradesh (apisetu.gov.in:aktu)
-description: Marksheets and Degree Certificates of academic year 2017-18 issued by AKTU can be pulled
-  by students into their DigiLocker accounts
+description: Marksheets and Degree Certificates of academic year 2017-18 issued by
+  AKTU can be pulled by students into their DigiLocker accounts
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:aktu; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:aktu;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-aktu
+assigned_id: dea:platform-service-apisetu-gov-in-aktu-2e9r6w
+admitted: '2026-11-14'

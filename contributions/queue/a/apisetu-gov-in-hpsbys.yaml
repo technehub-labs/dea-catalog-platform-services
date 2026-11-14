@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:hpsbys
 name: HP Swasthya Bima Yojna Society, Himachal Pradesh (apisetu.gov.in:hpsbys)
 description: Himachal Pradesh Swasthya Bima Yojna Society (http://admis.hp.nic.in/epraman/https://www.hpsbys.in/)
-  is the online service delivery portal by Himachal Pradesh Govt. Digital Health card is available in
-  DigiLocker. Aslo can be pulled into citizens' DigiLocker accounts.
+  is the online service delivery portal by Himachal Pradesh Govt. Digital Health card
+  is available in DigiLocker. Aslo can be pulled into citizens' DigiLocker accounts.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:hpsbys; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:hpsbys;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-hpsbys
+assigned_id: dea:platform-service-apisetu-gov-in-hpsbys-dg3b8m
+admitted: '2026-11-14'

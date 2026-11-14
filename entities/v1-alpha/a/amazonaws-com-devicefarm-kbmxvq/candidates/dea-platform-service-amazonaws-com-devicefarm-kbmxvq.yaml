@@ -1,0 +1,41 @@
+id: dea:platform-service-amazonaws-com-devicefarm-kbmxvq
+type: PlatformService
+name: AWS Device Farm (amazonaws.com:devicefarm)
+description: <p>Welcome to the AWS Device Farm API documentation, which contains APIs
+  for:</p> <ul> <li> <p>Testing on desktop browsers</p> <p> Device Farm makes it possible
+  for you to test your web applications on desktop browsers using Selenium. The APIs
+  for desktop browser testing contain <code>TestGrid</code> in their names. For more
+  information, see <a href="https://docs.aws.amazon.com/devicefarm/latest/testgrid/">Testing
+  Web Applications on Selenium with Device Farm</a>.</p> </li> <li> <p>Testing on
+  real mobile devices</p> <p>Device Farm makes it possible for you to test apps on
+  physical phones, tablets, and other devices in the cloud. For more information,
+  see the <a href="https://docs.aws.amazon.com/devicefarm/latest/developerguide/">Device
+  Farm Developer Guide</a>.</p> </li> </ul>
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:devicefarm;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- amazonaws-com
+- public-api

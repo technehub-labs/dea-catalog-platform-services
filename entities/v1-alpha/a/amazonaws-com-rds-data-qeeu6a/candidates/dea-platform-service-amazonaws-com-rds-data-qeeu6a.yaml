@@ -1,0 +1,37 @@
+id: dea:platform-service-amazonaws-com-rds-data-qeeu6a
+type: PlatformService
+name: AWS RDS DataService (amazonaws.com:rds-data)
+description: <p><fullname>Amazon RDS Data Service</fullname> <p>Amazon RDS provides
+  an HTTP endpoint to run SQL statements on an Amazon Aurora Serverless v1 DB cluster.
+  To run these statements, you work with the Data Service API.</p> <note> <p>The Data
+  Service API isn't supported on Amazon Aurora Serverless v2 DB clusters.</p> </note>
+  <p>For more information about the Data Service API, see <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html">Using
+  the Data API</a> in the <i>Amazon Aurora User Guide</i>.</p></p>
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:rds-data;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- amazonaws-com
+- public-api

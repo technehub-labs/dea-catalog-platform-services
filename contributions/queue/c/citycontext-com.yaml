@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru citycontext.com
 name: City Context (citycontext.com)
-description: 'City Context provides a straightforward API to access UK Open Data: crime statistics, schools,
-  demographics and more.'
+description: 'City Context provides a straightforward API to access UK Open Data:
+  crime statistics, schools, demographics and more.'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: citycontext.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: citycontext.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - citycontext-com
 - public-api
 slug: citycontext-com
+assigned_id: dea:platform-service-citycontext-com-43zncm
+admitted: '2026-11-14'

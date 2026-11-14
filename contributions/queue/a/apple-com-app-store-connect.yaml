@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apple.com:app-store-connect
 name: App Store Connect API (apple.com:app-store-connect)
-description: 'App Store Connect API — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'App Store Connect API — a public API catalogued in the APIs.guru directory
+  (provider: n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apple.com:app-store-connect; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apple.com:app-store-connect;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apple-com
 - public-api
 slug: apple-com-app-store-connect
+assigned_id: dea:platform-service-apple-com-app-store-connect-vfsxd4
+admitted: '2026-11-14'

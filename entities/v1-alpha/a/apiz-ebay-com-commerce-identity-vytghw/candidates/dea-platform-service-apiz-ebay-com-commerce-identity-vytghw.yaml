@@ -1,0 +1,38 @@
+id: dea:platform-service-apiz-ebay-com-commerce-identity-vytghw
+type: PlatformService
+name: Identity API (apiz.ebay.com:commerce-identity)
+description: <span class="tablenote"><b>Note:</b> Not all the account related fields
+  are returned for an authenticated user. The fields returned in the response are
+  controlled by the scopes and are available only to select developers approved by
+  business units.</span><br /><br />Retrieves the authenticated user's account profile
+  information. It can be used to let users log into your app or site using eBay, which
+  frees you from needing to store and protect user's PII (Personal Identifiable Information)
+  data.
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apiz.ebay.com:commerce-identity;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- apiz-ebay-com
+- public-api

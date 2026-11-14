@@ -1,37 +1,44 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru biapi.pro
 name: Budgea API Documentation (biapi.pro)
-description: '# Budgea Development Guides Welcome to **Budgea**''s documentation. This documentation is
-  intended to get you up-and-running with our APIs and advise on the implementation of some regulatory
-  aspects of your application, following the DSP2''s guidelines. ## Getting Started **IMPORTANT** Depending
-  on your status with regard of the DSP2 regulation, **agent** or **partner**, you may call our APIs or
-  simply use our Webview and callbacks to get the financial data of your users. As an **agent**, you are
-  allowed to call directly our APIs and implement your own form to get the user''s credentials. As a **partner**,
-  you cannot manipulate the credentials, and have to delegate this step to us through our webview. The
-  sections below will document how to use our APIs, make sure you have the **agent** status to do so.
-  For the **partner**, please refer to the section *Webview* and *Callbacks* of this documentation. ###
-  Overview Your API is a REST API which requires a communication through https to send and receive JSON
-  documents. During your tests, we recommend to make calls to the API with curl or any other HTTP client
-  of your choice. You can watch a video demonstration on this [URL](https://asciinema.org/a/FsaFyt3WAPyDm7sfaZPkwal3V).
-  For the examples we''ll use the demo API with address `https://demo.biapi.pro`, you should change that
-  name to your API''s name. ### Hello World Let''s start by calling the service `/banks` which lists all
-  available banks. ``` curl https://demo.biapi.pro/2.0/banks/ ``` To log in to a bank webpage, you''ll
-  need to know for a given bank, the fields your user should fill in the form. Let''s call a specific
-  bank and ask for an additional resource *fields*. ``` curl https://demo.biapi.pro/2.0/banks/59?expand=fields
-  ``` The response here concerns only 1 bank (since we specified an id) and the resource _Fields_ is added
-  to the response thanks to the query parameter `expand`. To get more interesting things done, you''ll
-  need to send authenticated requests. ### Authen'
+description: '# Budgea Development Guides Welcome to **Budgea**''s documentation.
+  This documentation is intended to get you up-and-running with our APIs and advise
+  on the implementation of some regulatory aspects of your application, following
+  the DSP2''s guidelines. ## Getting Started **IMPORTANT** Depending on your status
+  with regard of the DSP2 regulation, **agent** or **partner**, you may call our APIs
+  or simply use our Webview and callbacks to get the financial data of your users.
+  As an **agent**, you are allowed to call directly our APIs and implement your own
+  form to get the user''s credentials. As a **partner**, you cannot manipulate the
+  credentials, and have to delegate this step to us through our webview. The sections
+  below will document how to use our APIs, make sure you have the **agent** status
+  to do so. For the **partner**, please refer to the section *Webview* and *Callbacks*
+  of this documentation. ### Overview Your API is a REST API which requires a communication
+  through https to send and receive JSON documents. During your tests, we recommend
+  to make calls to the API with curl or any other HTTP client of your choice. You
+  can watch a video demonstration on this [URL](https://asciinema.org/a/FsaFyt3WAPyDm7sfaZPkwal3V).
+  For the examples we''ll use the demo API with address `https://demo.biapi.pro`,
+  you should change that name to your API''s name. ### Hello World Let''s start by
+  calling the service `/banks` which lists all available banks. ``` curl https://demo.biapi.pro/2.0/banks/
+  ``` To log in to a bank webpage, you''ll need to know for a given bank, the fields
+  your user should fill in the form. Let''s call a specific bank and ask for an additional
+  resource *fields*. ``` curl https://demo.biapi.pro/2.0/banks/59?expand=fields ```
+  The response here concerns only 1 bank (since we specified an id) and the resource
+  _Fields_ is added to the response thanks to the query parameter `expand`. To get
+  more interesting things done, you''ll need to send authenticated requests. ### Authen'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: biapi.pro; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: biapi.pro; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - biapi-pro
 - public-api
 slug: biapi-pro
+assigned_id: dea:platform-service-biapi-pro-67uqwf
+admitted: '2026-11-14'

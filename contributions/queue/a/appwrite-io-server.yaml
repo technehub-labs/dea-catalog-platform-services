@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru appwrite.io:server
 name: Appwrite (appwrite.io:server)
-description: Appwrite backend as a service cuts up to 70% of the time and costs required for building
-  a modern application. We abstract and simplify common development tasks behind a REST APIs, to help
-  you develop your app in a fast and secure way. For full API documentation and tutorials go to [https://appwrite.io/docs](https://appwrite.io/docs)
+description: Appwrite backend as a service cuts up to 70% of the time and costs required
+  for building a modern application. We abstract and simplify common development tasks
+  behind a REST APIs, to help you develop your app in a fast and secure way. For full
+  API documentation and tutorials go to [https://appwrite.io/docs](https://appwrite.io/docs)
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: appwrite.io:server; spec: https://appwrite.io/support)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: appwrite.io:server;
+      spec: https://appwrite.io/support)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - appwrite-io
 - public-api
 slug: appwrite-io-server
+assigned_id: dea:platform-service-appwrite-io-server-cbtpyk
+admitted: '2026-11-14'

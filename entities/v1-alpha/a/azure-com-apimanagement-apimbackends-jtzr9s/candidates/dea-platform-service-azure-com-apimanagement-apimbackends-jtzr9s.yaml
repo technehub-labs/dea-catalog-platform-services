@@ -1,0 +1,35 @@
+id: dea:platform-service-azure-com-apimanagement-apimbackends-jtzr9s
+type: PlatformService
+name: ApiManagementClient (azure.com:apimanagement-apimbackends)
+description: Use these REST APIs for performing operations on Backend entity in Azure
+  API Management deployment. The Backend entity in API Management represents a backend
+  service that is configured to skip certification chain validation when using a self-signed
+  certificate to test mutual certificate authentication.
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimbackends;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- azure-com
+- public-api

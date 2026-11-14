@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:apimanagement-apimemailtemplates
 name: ApiManagementClient (azure.com:apimanagement-apimemailtemplates)
-description: Use these REST APIs for performing operations on Email Templates associated with your Azure
-  API Management deployment.
+description: Use these REST APIs for performing operations on Email Templates associated
+  with your Azure API Management deployment.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimemailtemplates;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-apimanagement-apimemailtemplates
+assigned_id: dea:platform-service-azure-com-apimanagement-apimemailtemplates-c5g29n
+admitted: '2026-11-14'

@@ -1,0 +1,49 @@
+id: dea:platform-service-amazonaws-com-guardduty-us4jvg
+type: PlatformService
+name: Amazon GuardDuty (amazonaws.com:guardduty)
+description: '<p>Amazon GuardDuty is a continuous security monitoring service that
+  analyzes and processes the following data sources: VPC flow logs, Amazon Web Services
+  CloudTrail management event logs, CloudTrail S3 data event logs, EKS audit logs,
+  DNS logs, and Amazon EBS volume data. It uses threat intelligence feeds, such as
+  lists of malicious IPs and domains, and machine learning to identify unexpected,
+  potentially unauthorized, and malicious activity within your Amazon Web Services
+  environment. This can include issues like escalations of privileges, uses of exposed
+  credentials, or communication with malicious IPs, domains, or presence of malware
+  on your Amazon EC2 instances and container workloads. For example, GuardDuty can
+  detect compromised EC2 instances and container workloads serving malware, or mining
+  bitcoin. </p> <p>GuardDuty also monitors Amazon Web Services account access behavior
+  for signs of compromise, such as unauthorized infrastructure deployments like EC2
+  instances deployed in a Region that has never been used, or unusual API calls like
+  a password policy change to reduce password strength. </p> <p>GuardDuty informs
+  you about the status of your Amazon Web Services environment by producing security
+  findings that you can view in the GuardDuty console or through Amazon EventBridge.
+  For more information, see the <i> <a href="https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html">Amazon
+  GuardDuty User Guide</a> </i>. </p>'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:guardduty;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- amazonaws-com
+- public-api

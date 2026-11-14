@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru bikewise.org
 name: BikeWise API v2 (bikewise.org)
-description: <p>This is an API for accessing information about bicycling related incidents. You can find
-  the source code on <a href="https://github.com/bikeindex/bikewise">GitHub</a>.</p>
+description: <p>This is an API for accessing information about bicycling related incidents.
+  You can find the source code on <a href="https://github.com/bikeindex/bikewise">GitHub</a>.</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: bikewise.org; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: bikewise.org; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - bikewise-org
 - public-api
 slug: bikewise-org
+assigned_id: dea:platform-service-bikewise-org-gbvf5b
+admitted: '2026-11-14'

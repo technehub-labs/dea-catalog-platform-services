@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru brainbi.net
 name: brainbi (brainbi.net)
-description: 'Welcome to the official API of the brainbi platform. Using this API you can freely integrate
-  our analytics platform with any other solution. Please refer to the following documentation and in case
-  of any issues, please contact us at service@brainbi.net. Please note: for this API you will use your
-  email and password from the brainbi.net platform to gather a Bearer Token for any API calls (use Login
-  and get token). Once you are finished with your calls, please do a logout to remove your token and keep
-  your account safe (use logout).'
+description: 'Welcome to the official API of the brainbi platform. Using this API
+  you can freely integrate our analytics platform with any other solution. Please
+  refer to the following documentation and in case of any issues, please contact us
+  at service@brainbi.net. Please note: for this API you will use your email and password
+  from the brainbi.net platform to gather a Bearer Token for any API calls (use Login
+  and get token). Once you are finished with your calls, please do a logout to remove
+  your token and keep your account safe (use logout).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: brainbi.net; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: brainbi.net; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - brainbi-net
 - public-api
 slug: brainbi-net
+assigned_id: dea:platform-service-brainbi-net-832ef5
+admitted: '2026-11-14'

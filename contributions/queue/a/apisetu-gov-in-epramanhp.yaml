@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:epramanhp
 name: Himachal Pradesh Department of Revenue, Himachal Pradesh (apisetu.gov.in:epramanhp)
-description: Lok Praman Patra (http://admis.hp.nic.in/epraman/) is the online service delivery portal
-  by Himachal Pradesh Govt. Certain documents issued by it (e.g. Bonafide, Dogra Class, Income, Character
-  Certificates etc.) can be pulled into citizens' DigiLocker accounts.
+description: Lok Praman Patra (http://admis.hp.nic.in/epraman/) is the online service
+  delivery portal by Himachal Pradesh Govt. Certain documents issued by it (e.g. Bonafide,
+  Dogra Class, Income, Character Certificates etc.) can be pulled into citizens' DigiLocker
+  accounts.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:epramanhp; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:epramanhp;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-epramanhp
+assigned_id: dea:platform-service-apisetu-gov-in-epramanhp-navym8
+admitted: '2026-11-14'

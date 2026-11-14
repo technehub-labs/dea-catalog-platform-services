@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### ISS-CAT-04: InformationSystemService Candidate Admission Batch 01
+
+Admitted 1300 new `InformationSystemService` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +1300, canonical unchanged; queue entries flipped to `admitted`.
+
 ### ISS-CAT-03: InformationSystemService Candidate Corpus
 
 2525 InformationSystemService candidate submissions landed in the contribution queue (sharded, gate-CONFORMANT) from 1 evidence bank(s); published prose + evidence citations + source_refs; provenance in ingestion/manifest.yaml. No catalog entities change; admission follows in ISS-CAT-04+.

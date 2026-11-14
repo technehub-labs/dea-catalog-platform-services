@@ -1,25 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:apimanagement-apimnamedvalues
 name: ApiManagementClient (azure.com:apimanagement-apimnamedvalues)
-description: Use these REST APIs for performing operations on NamedValue entity associated with your Azure
-  API Management deployment. API Management policies are a powerful capability of the system that allow
-  the publisher to change the behavior of the API through configuration. Policies are a collection of
-  statements that are executed sequentially on the request or response of an API. Policy statements can
-  be constructed using literal text values, policy expressions, and NamedValues. Each API Management service
-  instance has a NamedValues collection of key/value pairs that are global to the service instance. These
-  NamedValues can be used to manage constant string values across all API configuration and policies.
+description: Use these REST APIs for performing operations on NamedValue entity associated
+  with your Azure API Management deployment. API Management policies are a powerful
+  capability of the system that allow the publisher to change the behavior of the
+  API through configuration. Policies are a collection of statements that are executed
+  sequentially on the request or response of an API. Policy statements can be constructed
+  using literal text values, policy expressions, and NamedValues. Each API Management
+  service instance has a NamedValues collection of key/value pairs that are global
+  to the service instance. These NamedValues can be used to manage constant string
+  values across all API configuration and policies.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimnamedvalues;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-apimanagement-apimnamedvalues
+assigned_id: dea:platform-service-azure-com-apimanagement-apimnamedvalues-qjjuj9
+admitted: '2026-11-14'

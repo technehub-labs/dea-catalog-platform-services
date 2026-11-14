@@ -1,25 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:entitlement.marketplace
 name: AWS Marketplace Entitlement Service (amazonaws.com:entitlement.marketplace)
-description: <fullname>AWS Marketplace Entitlement Service</fullname> <p>This reference provides descriptions
-  of the AWS Marketplace Entitlement Service API.</p> <p>AWS Marketplace Entitlement Service is used to
-  determine the entitlement of a customer to a given product. An entitlement represents capacity in a
-  product owned by the customer. For example, a customer might own some number of users or seats in an
-  SaaS application or some amount of data capacity in a multi-tenant database.</p> <p> <b>Getting Entitlement
-  Records</b> </p> <ul> <li> <p> <i>GetEntitlements</i>- Gets the entitlements for a Marketplace product.</p>
-  </li> </ul>
+description: <fullname>AWS Marketplace Entitlement Service</fullname> <p>This reference
+  provides descriptions of the AWS Marketplace Entitlement Service API.</p> <p>AWS
+  Marketplace Entitlement Service is used to determine the entitlement of a customer
+  to a given product. An entitlement represents capacity in a product owned by the
+  customer. For example, a customer might own some number of users or seats in an
+  SaaS application or some amount of data capacity in a multi-tenant database.</p>
+  <p> <b>Getting Entitlement Records</b> </p> <ul> <li> <p> <i>GetEntitlements</i>-
+  Gets the entitlements for a Marketplace product.</p> </li> </ul>
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:entitlement.marketplace;
       spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-entitlement-marketplace
+assigned_id: dea:platform-service-amazonaws-com-entitlement-marketplace-t568r4
+admitted: '2026-11-14'

@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:iot1click-devices
 name: AWS IoT 1-Click Devices Service (amazonaws.com:iot1click-devices)
-description: Describes all of the AWS IoT 1-Click device-related API operations for the service. Also
-  provides sample requests, responses, and errors for the supported web services protocols.
+description: Describes all of the AWS IoT 1-Click device-related API operations for
+  the service. Also provides sample requests, responses, and errors for the supported
+  web services protocols.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:iot1click-devices; spec:
-      https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:iot1click-devices;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-iot1click-devices
+assigned_id: dea:platform-service-amazonaws-com-iot1click-devices-whngcb
+admitted: '2026-11-14'

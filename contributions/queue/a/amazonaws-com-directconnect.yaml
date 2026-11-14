@@ -1,25 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:directconnect
 name: AWS Direct Connect (amazonaws.com:directconnect)
-description: Direct Connect links your internal network to an Direct Connect location over a standard
-  Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an Direct
-  Connect router. With this connection in place, you can create virtual interfaces directly to the Amazon
-  Web Services Cloud (for example, to Amazon EC2 and Amazon S3) and to Amazon VPC, bypassing Internet
-  service providers in your network path. A connection provides access to all Amazon Web Services Regions
-  except the China (Beijing) and (China) Ningxia Regions. Amazon Web Services resources in the China Regions
-  can only be accessed through locations associated with those Regions.
+description: Direct Connect links your internal network to an Direct Connect location
+  over a standard Ethernet fiber-optic cable. One end of the cable is connected to
+  your router, the other to an Direct Connect router. With this connection in place,
+  you can create virtual interfaces directly to the Amazon Web Services Cloud (for
+  example, to Amazon EC2 and Amazon S3) and to Amazon VPC, bypassing Internet service
+  providers in your network path. A connection provides access to all Amazon Web Services
+  Regions except the China (Beijing) and (China) Ningxia Regions. Amazon Web Services
+  resources in the China Regions can only be accessed through locations associated
+  with those Regions.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:directconnect; spec:
-      https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:directconnect;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-directconnect
+assigned_id: dea:platform-service-amazonaws-com-directconnect-pdwpkh
+admitted: '2026-11-14'

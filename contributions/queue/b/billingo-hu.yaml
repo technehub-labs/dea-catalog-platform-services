@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru billingo.hu
 name: Billingo API v3 (billingo.hu)
-description: This is a Billingo API v3 documentation. Our API based on REST software architectural style.
-  API has resource-oriented URLs, accepts JSON-encoded request bodies and returns JSON-encoded responses.
-  To use this API you have to generate a new API key on our [site](https://app.billingo.hu/api-key). After
-  that, you can test your API key on this page.
+description: This is a Billingo API v3 documentation. Our API based on REST software
+  architectural style. API has resource-oriented URLs, accepts JSON-encoded request
+  bodies and returns JSON-encoded responses. To use this API you have to generate
+  a new API key on our [site](https://app.billingo.hu/api-key). After that, you can
+  test your API key on this page.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: billingo.hu; spec: https://www.billingo.hu/kapcsolat)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: billingo.hu; spec:
+      https://www.billingo.hu/kapcsolat)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - billingo-hu
 - public-api
 slug: billingo-hu
+assigned_id: dea:platform-service-billingo-hu-avyn69
+admitted: '2026-11-14'

@@ -1,0 +1,36 @@
+id: dea:platform-service-azure-com-authorization-authorization-rolebasedc-zkp2bh
+type: PlatformService
+name: AuthorizationManagementClient (azure.com:authorization-authorization-RoleBasedCalls)
+description: Role based access control provides you a way to apply granular level
+  policy administration down to individual resources or resource groups. These operations
+  enable you to manage role definitions and role assignments. A role definition describes
+  the set of actions that can be performed on resources. A role assignment grants
+  access to Azure Active Directory users.
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:authorization-authorization-RoleBasedCalls;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- azure-com
+- public-api

@@ -1,0 +1,36 @@
+id: dea:platform-service-alertersystem-com-vu4ara
+type: PlatformService
+name: Alerter System API (alertersystem.com)
+description: <p>This is the <a href="/">Alerter System</a> API playground. More documentation
+  is available at the <a href="/help/developers/">API Help Center</a>.</p><p>The "Available
+  Authorizations" in the Authorize popup only applies to this playground web interface.
+  Other <a href="/help/developers/authorization/">authorizations</a> are available
+  for the actual API.</p>
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: alertersystem.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- alertersystem-com
+- public-api

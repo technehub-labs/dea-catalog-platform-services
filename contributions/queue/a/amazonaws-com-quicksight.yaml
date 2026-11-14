@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:quicksight
 name: Amazon QuickSight (amazonaws.com:quicksight)
-description: <fullname>Amazon QuickSight API Reference</fullname> <p>Amazon QuickSight is a fully managed,
-  serverless business intelligence service for the Amazon Web Services Cloud that makes it easy to extend
-  data and insights to every user in your organization. This API reference contains documentation for
-  a programming interface that you can use to manage Amazon QuickSight. </p>
+description: <fullname>Amazon QuickSight API Reference</fullname> <p>Amazon QuickSight
+  is a fully managed, serverless business intelligence service for the Amazon Web
+  Services Cloud that makes it easy to extend data and insights to every user in your
+  organization. This API reference contains documentation for a programming interface
+  that you can use to manage Amazon QuickSight. </p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:quicksight; spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:quicksight;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-quicksight
+assigned_id: dea:platform-service-amazonaws-com-quicksight-53288s
+admitted: '2026-11-14'

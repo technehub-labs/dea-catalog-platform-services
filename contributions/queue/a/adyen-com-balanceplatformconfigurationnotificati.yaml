@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru adyen.com:BalancePlatformConfigurationNotification-v1
 name: Configuration webhooks (adyen.com:BalancePlatformConfigurationNotification-v1)
-description: Adyen sends notifications through webhooks to inform your system about events that occur
-  in your platform. These events include, for example, when an account holder's capabilities are updated,
-  or when a sweep configuration is created or updated. When an event occurs, Adyen makes an HTTP POST
-  request to a URL on your server and includes the details of the event in the request body. You can use
-  these webhooks to build your implementation. For example, you can use this information to update internal
-  statuses when the status of a capability is changed.
+description: Adyen sends notifications through webhooks to inform your system about
+  events that occur in your platform. These events include, for example, when an account
+  holder's capabilities are updated, or when a sweep configuration is created or updated.
+  When an event occurs, Adyen makes an HTTP POST request to a URL on your server and
+  includes the details of the event in the request body. You can use these webhooks
+  to build your implementation. For example, you can use this information to update
+  internal statuses when the status of a capability is changed.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:BalancePlatformConfigurationNotification-v1;
       spec: https://www.adyen.help/hc/en-us/community/topics)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - adyen-com
 - public-api
 slug: adyen-com-balanceplatformconfigurationnotificati
+assigned_id: dea:platform-service-adyen-com-balanceplatformconfigurationnotificati-425g5b
+admitted: '2026-11-14'

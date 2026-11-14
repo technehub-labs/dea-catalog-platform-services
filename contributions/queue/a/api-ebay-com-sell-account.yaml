@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru api.ebay.com:sell-account
 name: Account API (api.ebay.com:sell-account)
-description: The <b>Account API</b> gives sellers the ability to configure their eBay seller accounts,
-  including the seller's policies (eBay business policies and seller-defined custom policies), opt in
-  and out of eBay seller programs, configure sales tax tables, and get account information. <br/><br/>For
-  details on the availability of the methods in this API, see <a href="/api-docs/sell/account/overview.html#requirements">Account
+description: The <b>Account API</b> gives sellers the ability to configure their eBay
+  seller accounts, including the seller's policies (eBay business policies and seller-defined
+  custom policies), opt in and out of eBay seller programs, configure sales tax tables,
+  and get account information. <br/><br/>For details on the availability of the methods
+  in this API, see <a href="/api-docs/sell/account/overview.html#requirements">Account
   API requirements and restrictions</a>.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: api.ebay.com:sell-account; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: api.ebay.com:sell-account;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - api-ebay-com
 - public-api
 slug: api-ebay-com-sell-account
+assigned_id: dea:platform-service-api-ebay-com-sell-account-3m4htr
+admitted: '2026-11-14'

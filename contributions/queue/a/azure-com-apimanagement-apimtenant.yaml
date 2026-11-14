@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru azure.com:apimanagement-apimtenant
 name: ApiManagementClient (azure.com:apimanagement-apimtenant)
-description: Use these REST APIs for performing operations on tenant entity associated with your Azure
-  API Management deployment. Using this entity you can manage properties and configuration that apply
-  to the entire API Management service instance.
+description: Use these REST APIs for performing operations on tenant entity associated
+  with your Azure API Management deployment. Using this entity you can manage properties
+  and configuration that apply to the entire API Management service instance.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:apimanagement-apimtenant;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - azure-com
 - public-api
 slug: azure-com-apimanagement-apimtenant
+assigned_id: dea:platform-service-azure-com-apimanagement-apimtenant-rh3q4r
+admitted: '2026-11-14'

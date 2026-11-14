@@ -1,0 +1,31 @@
+# bunq API (bunq.com)
+
+> ***UPDATE:*** *We have released a [beta version of the new bunq API documentation.](https://beta.doc.bunq.com)* ***NOTICE:*** *We have updated the sandbox base url to `https://public-api.sandbox.bunq.com/v1/`. Please update your applications accordingly. Check here: <https://github.com/bunq/sdk_php/issues/149> for more info.* ***PSD2 NOTICE:*** *The second Payment Services Directive (PSD2) may affect your current or planned usage of our public API, as some of the API services are now subject to a permit. Please be aware that using our public API without the required PSD2 permit is at your own risk and take notice of our updated API Terms and Conditions on <https://www.bunq.com> for more information.* # <span id="topic-introduction">Introduction</span> Welcome to bunq! - The bunq API is organised around REST. JSON will be returned in almost all responses from the API, including errors but excluding binary (image) files. - Please configure your implementation to send its API requests to `https://public-api.sandbox.bunq.com/v1/` - There is a version of the [Android app](https://appstore.bunq.com/api/android/builds/bunq-android-sandbox-master.apk) that connects to the bunq Sandbox environment. To create accounts for the Sandbox app, please follow the steps in the [Android Emulator](#android-emulator) section. ## <span id="topic-introduction-get-started">Getting started</span> Before you start sending API requests, you need to get an API key and activate it. API activation happens when you install the API key and link your IP address and device to it *(create an API context)*. The steps below will guide you through what you need to do to start sending custom API requests. Here is an overview of what you can use to get started with the bunq API: 1. **Create an API key.** You can do it either in our [developer portal](https://developer.bunq.com) or in the bunq app *(Profile → Security & Settings → Developers → API keys)*. If you want to test our sandbox first, our [bunq De
+
+## Identity
+
+- **Record id**: `dea:platform-service-bunq-com-zu6ue7`
+- **Type**: PlatformService
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the APIs.guru public API directory (list API). The API specification is published and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted at candidate state.
+
+- kind: `published-document` — reference: https://apis.guru/browse-apis/ (APIs.guru listing: bunq.com; spec: http://bunq.com/developer)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-14, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).

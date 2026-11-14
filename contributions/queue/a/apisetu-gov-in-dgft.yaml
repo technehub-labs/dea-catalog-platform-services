@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:dgft
 name: Importer-Exporter Details API (apisetu.gov.in:dgft)
-description: The Importer-Exporter Code (IEC), issued by Directorate General of Foreign Trade (DGFT),
-  is a key business identification number which is mandatory for Exports or Imports. This API can be used
-  to get details of a importer-exporter by importer-exporter code.
+description: The Importer-Exporter Code (IEC), issued by Directorate General of Foreign
+  Trade (DGFT), is a key business identification number which is mandatory for Exports
+  or Imports. This API can be used to get details of a importer-exporter by importer-exporter
+  code.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:dgft; spec: https://www.dgft.gov.in/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:dgft;
+      spec: https://www.dgft.gov.in/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-dgft
+assigned_id: dea:platform-service-apisetu-gov-in-dgft-e6gmk2
+admitted: '2026-11-14'

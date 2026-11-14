@@ -1,26 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:alexaforbusiness
 name: Alexa For Business (amazonaws.com:alexaforbusiness)
-description: Alexa for Business helps you use Alexa in your organization. Alexa for Business provides
-  you with the tools to manage Alexa devices, enroll your users, and assign skills, at scale. You can
-  build your own context-aware voice skills using the Alexa Skills Kit and the Alexa for Business API
-  operations. You can also make these available as private skills for your organization. Alexa for Business
-  makes it efficient to voice-enable your products and services, thus providing context-aware voice experiences
-  for your customers. Device makers building with the Alexa Voice Service (AVS) can create fully integrated
-  solutions, register their products with Alexa for Business, and manage them as shared devices in their
-  organization.
+description: Alexa for Business helps you use Alexa in your organization. Alexa for
+  Business provides you with the tools to manage Alexa devices, enroll your users,
+  and assign skills, at scale. You can build your own context-aware voice skills using
+  the Alexa Skills Kit and the Alexa for Business API operations. You can also make
+  these available as private skills for your organization. Alexa for Business makes
+  it efficient to voice-enable your products and services, thus providing context-aware
+  voice experiences for your customers. Device makers building with the Alexa Voice
+  Service (AVS) can create fully integrated solutions, register their products with
+  Alexa for Business, and manage them as shared devices in their organization.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:alexaforbusiness; spec:
-      https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:alexaforbusiness;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-alexaforbusiness
+assigned_id: dea:platform-service-amazonaws-com-alexaforbusiness-nz6yu2
+admitted: '2026-11-14'

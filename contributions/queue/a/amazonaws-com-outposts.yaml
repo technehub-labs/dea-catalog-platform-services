@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru amazonaws.com:outposts
 name: AWS Outposts (amazonaws.com:outposts)
-description: Amazon Web Services Outposts is a fully managed service that extends Amazon Web Services
-  infrastructure, APIs, and tools to customer premises. By providing local access to Amazon Web Services
-  managed infrastructure, Amazon Web Services Outposts enables customers to build and run applications
-  on premises using the same programming interfaces as in Amazon Web Services Regions, while using local
-  compute and storage resources for lower latency and local data processing needs.
+description: Amazon Web Services Outposts is a fully managed service that extends
+  Amazon Web Services infrastructure, APIs, and tools to customer premises. By providing
+  local access to Amazon Web Services managed infrastructure, Amazon Web Services
+  Outposts enables customers to build and run applications on premises using the same
+  programming interfaces as in Amazon Web Services Regions, while using local compute
+  and storage resources for lower latency and local data processing needs.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:outposts; spec: https://github.com/mermade/aws2openapi)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:outposts;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - amazonaws-com
 - public-api
 slug: amazonaws-com-outposts
+assigned_id: dea:platform-service-amazonaws-com-outposts-3srwug
+admitted: '2026-11-14'

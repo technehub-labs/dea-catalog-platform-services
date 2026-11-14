@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru apisetu.gov.in:juit
 name: Jaypee University Of Information Technology, Waknaghat (H. P.) (apisetu.gov.in:juit)
-description: Jaypee University Of Information Technology, Waknaghat (H. P.) (http://www.juit.ac.in/) is
-  issuing Degree certificates through DigiLocker. These can be pulled by students into their DigiLocker
-  accounts. Currently, data for the year 2019 is made available by Jaypee University Of Information Technology.
+description: Jaypee University Of Information Technology, Waknaghat (H. P.) (http://www.juit.ac.in/)
+  is issuing Degree certificates through DigiLocker. These can be pulled by students
+  into their DigiLocker accounts. Currently, data for the year 2019 is made available
+  by Jaypee University Of Information Technology.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:juit; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: apisetu.gov.in:juit;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - apisetu-gov-in
 - public-api
 slug: apisetu-gov-in-juit
+assigned_id: dea:platform-service-apisetu-gov-in-juit-fc4bxd
+admitted: '2026-11-14'

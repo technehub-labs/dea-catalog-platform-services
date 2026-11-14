@@ -1,0 +1,31 @@
+# Chomp Food Database API Documentation (chompthis.com)
+
+> ## Important An **[API key](https://chompthis.com/api/)** is required for access to this API. Get yours at **[https://chompthis.com/api](https://chompthis.com/api/)**. ### Getting Started * **[Subscribe](https://chompthis.com/api/#pricing)** to the API. * Scroll down and click the "**Authorize**" button. * Enter your API key into the "**value**" input, click the "**Authorize**" button, then click the "**Close**" button. * Scroll down to the section titled "**default**" and click on the API endpoint you wish to use. * Click the "**Try it out**" button. * Enter the information the endpoint requires. * Click the "**Execute**" button. ### Example * Branded food response object: **[View example &raquo;](https://raw.githubusercontent.com/chompfoods/examples/master/branded-food-response-object.json)** * Ingredient response object: **[View example &raquo;](https://raw.githubusercontent.com/chompfoods/examples/master/ingredient-response-object.json)** * Error response object: **[View example &raquo;](https://raw.githubusercontent.com/chompfoods/examples/master/error-response-object.json)** ### How Do I Find My API Key? * Your API key was sent to the email address you used to create your subscription. * You will also find your API key in the **[Client Center](https://chompthis.com/api/manage.php)**. * Read **[this article](https://desk.zoho.com/portal/chompthis/kb/articles/how-do-i-find-my-api-key)** for more information. ### Helpful Links * **Help & Support** * [Knowledge Base &raquo;](https://desk.zoho.com/portal/chompthis/kb/chomp) * [Support &raquo;](https://chompthis.com/api/ticket-new.php) * [Client Center &raquo;](https://chompthis.com/api/manage.php) * **Pricing** * [Subscription Options &raquo;](https://chompthis.com/api/) * [Cost Calculator &raquo;](https://chompthis.com/api/cost-calculator.php) * **Guidelines** * [Terms & License &raquo;](https://chompthis.com/api/terms.php) * [Attribution &raquo;](https://chompthis.com/api/docs/attribution.php)
+
+## Identity
+
+- **Record id**: `dea:platform-service-chompthis-com-6en8bc`
+- **Type**: PlatformService
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the APIs.guru public API directory (list API). The API specification is published and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted at candidate state.
+
+- kind: `published-document` — reference: https://apis.guru/browse-apis/ (APIs.guru listing: chompthis.com; spec: https://apis.guru/)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-14, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).
