@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru nytimes.com:timeswire
 name: Times Newswire API (nytimes.com:timeswire)
-description: With the Times Newswire API, you can get links and metadata for Times articles and blog posts
-  as soon as they are published on NYTimes.com. The Times Newswire API provides an up-to-the-minute stream
-  of published items.
+description: With the Times Newswire API, you can get links and metadata for Times
+  articles and blog posts as soon as they are published on NYTimes.com. The Times
+  Newswire API provides an up-to-the-minute stream of published items.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nytimes.com:timeswire; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nytimes.com:timeswire;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - nytimes-com
 - public-api
 slug: nytimes-com-timeswire
+assigned_id: dea:platform-service-nytimes-com-timeswire-ftx9nc
+admitted: '2026-11-14'

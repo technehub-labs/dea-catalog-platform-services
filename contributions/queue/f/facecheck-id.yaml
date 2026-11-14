@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru facecheck.id
 name: Facial Recognition Reverse Image Face Search API (facecheck.id)
-description: Let your users search the Internet by face! Integrate FaceCheck facial search seamlessly
-  with your app, website or software platform. FaceCheck's REST API is hassle-free and easy to use. For
-  code examples visit <a href='https://facecheck.id/Face-Search/API'>https://facecheck.id/Face-Search/API</a>
+description: Let your users search the Internet by face! Integrate FaceCheck facial
+  search seamlessly with your app, website or software platform. FaceCheck's REST
+  API is hassle-free and easy to use. For code examples visit <a href='https://facecheck.id/Face-Search/API'>https://facecheck.id/Face-Search/API</a>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: facecheck.id; spec: https://FaceCheck.ID)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: facecheck.id; spec:
+      https://FaceCheck.ID)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - facecheck-id
 - public-api
 slug: facecheck-id
+assigned_id: dea:platform-service-facecheck-id-pfbpfh
+admitted: '2026-11-14'

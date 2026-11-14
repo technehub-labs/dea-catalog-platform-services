@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru googleapis.com:cloudsearch
 name: Cloud Search API (googleapis.com:cloudsearch)
-description: Cloud Search provides cloud-based search capabilities over Google Workspace data. The Cloud
-  Search API allows indexing of non-Google Workspace data into Cloud Search.
+description: Cloud Search provides cloud-based search capabilities over Google Workspace
+  data. The Cloud Search API allows indexing of non-Google Workspace data into Cloud
+  Search.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:cloudsearch; spec: https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:cloudsearch;
+      spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-cloudsearch
+assigned_id: dea:platform-service-googleapis-com-cloudsearch-qewqse
+admitted: '2026-11-14'

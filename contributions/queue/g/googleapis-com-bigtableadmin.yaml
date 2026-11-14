@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
@@ -8,12 +8,14 @@ description: Administer your Cloud Bigtable tables and instances.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:bigtableadmin; spec:
-      https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:bigtableadmin;
+      spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-bigtableadmin
+assigned_id: dea:platform-service-googleapis-com-bigtableadmin-bq27vb
+admitted: '2026-11-14'

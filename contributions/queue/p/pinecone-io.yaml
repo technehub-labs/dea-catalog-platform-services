@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru pinecone.io
 name: Pinecone API (pinecone.io)
-description: Pinecone is a vector database. This is an unofficial, community-managed OpenAPI spec that
-  (should) accurately model the Pinecone API. This project was developed independent of and is unaffiliated
-  with Pinecone Systems. Users should switch to the official API spec, if and when Pinecone releases it.
+description: Pinecone is a vector database. This is an unofficial, community-managed
+  OpenAPI spec that (should) accurately model the Pinecone API. This project was developed
+  independent of and is unaffiliated with Pinecone Systems. Users should switch to
+  the official API spec, if and when Pinecone releases it.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: pinecone.io; spec: https://github.com/sigpwned/pinecone-openapi-spec)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: pinecone.io; spec:
+      https://github.com/sigpwned/pinecone-openapi-spec)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - pinecone-io
 - public-api
 slug: pinecone-io
+assigned_id: dea:platform-service-pinecone-io-8c2seh
+admitted: '2026-11-14'

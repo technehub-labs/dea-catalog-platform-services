@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru sportsdata.io:mlb-v3-scores
 name: MLB v3 Scores (sportsdata.io:mlb-v3-scores)
-description: 'MLB v3 Scores — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'MLB v3 Scores — a public API catalogued in the APIs.guru directory (provider:
+  n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: sportsdata.io:mlb-v3-scores; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: sportsdata.io:mlb-v3-scores;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - sportsdata-io
 - public-api
 slug: sportsdata-io-mlb-v3-scores
+assigned_id: dea:platform-service-sportsdata-io-mlb-v3-scores-wptvvx
+admitted: '2026-11-14'

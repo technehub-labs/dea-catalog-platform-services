@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru pressassociation.io
 name: TV API (pressassociation.io)
-description: Welcome to the API Reference Docs page for the Press Association TV API (v2).
+description: Welcome to the API Reference Docs page for the Press Association TV API
+  (v2).
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: pressassociation.io; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: pressassociation.io;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - pressassociation-io
 - public-api
 slug: pressassociation-io
+assigned_id: dea:platform-service-pressassociation-io-nbxmd4
+admitted: '2026-11-14'

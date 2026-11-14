@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru googleapis.com:policysimulator
 name: Policy Simulator API (googleapis.com:policysimulator)
-description: Policy Simulator is a collection of endpoints for creating, running, and viewing a Replay.
-  A `Replay` is a type of simulation that lets you see how your members' access to resources might change
-  if you changed your IAM policy. During a `Replay`, Policy Simulator re-evaluates, or replays, past access
-  attempts under both the current policy and your proposed policy, and compares those results to determine
-  how your members' access might change under the proposed policy.
+description: Policy Simulator is a collection of endpoints for creating, running,
+  and viewing a Replay. A `Replay` is a type of simulation that lets you see how your
+  members' access to resources might change if you changed your IAM policy. During
+  a `Replay`, Policy Simulator re-evaluates, or replays, past access attempts under
+  both the current policy and your proposed policy, and compares those results to
+  determine how your members' access might change under the proposed policy.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:policysimulator; spec:
-      https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:policysimulator;
+      spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-policysimulator
+assigned_id: dea:platform-service-googleapis-com-policysimulator-7ywbvm
+admitted: '2026-11-14'

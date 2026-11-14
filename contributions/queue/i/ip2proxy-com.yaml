@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru ip2proxy.com
 name: IP2Proxy Proxy Detection (ip2proxy.com)
-description: IP2Proxy allows instant detection of anonymous proxy, VPN, TOR exit nodes, search engine
-  robots (SES), data center ranges (PX2-PX10), residential proxies (PX10) and VPN provider name (PX11)
-  by IP address. It also returns the threat type of the proxy (PX9 or higher). Visit https://www.ip2location.com/web-service/ip2proxy
-  for further information.
+description: IP2Proxy allows instant detection of anonymous proxy, VPN, TOR exit nodes,
+  search engine robots (SES), data center ranges (PX2-PX10), residential proxies (PX10)
+  and VPN provider name (PX11) by IP address. It also returns the threat type of the
+  proxy (PX9 or higher). Visit https://www.ip2location.com/web-service/ip2proxy for
+  further information.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ip2proxy.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ip2proxy.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - ip2proxy-com
 - public-api
 slug: ip2proxy-com
+assigned_id: dea:platform-service-ip2proxy-com-m3ytm5
+admitted: '2026-11-14'

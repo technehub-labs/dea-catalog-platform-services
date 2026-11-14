@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru docker.com:hub
 name: Docker HUB API (docker.com:hub)
-description: Docker Hub is a service provided by Docker for finding and sharing container images with
-  your team. It is the world's largest library and community for container images. In addition to the
-  [Docker Hub UI](https://docs.docker.com/docker-hub/) and [Docker Hub CLI tool](https://github.com/docker/hub-tool#readme)
-  (currently experimental), Docker provides an API that allows you to interact with Docker Hub. Browse
-  through the Docker Hub API documentation to explore the supported endpoints.
+description: Docker Hub is a service provided by Docker for finding and sharing container
+  images with your team. It is the world's largest library and community for container
+  images. In addition to the [Docker Hub UI](https://docs.docker.com/docker-hub/)
+  and [Docker Hub CLI tool](https://github.com/docker/hub-tool#readme) (currently
+  experimental), Docker provides an API that allows you to interact with Docker Hub.
+  Browse through the Docker Hub API documentation to explore the supported endpoints.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: docker.com:hub; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: docker.com:hub;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - docker-com
 - public-api
 slug: docker-com-hub
+assigned_id: dea:platform-service-docker-com-hub-andh9c
+admitted: '2026-11-14'

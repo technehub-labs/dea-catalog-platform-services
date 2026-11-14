@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru symanto.net
 name: Psycholinguistic Text Analytics (symanto.net)
-description: We aim to provide the deepest understanding of people through psychology & AI
+description: We aim to provide the deepest understanding of people through psychology
+  & AI
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: symanto.net; spec: https://developers.symanto.net)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: symanto.net; spec:
+      https://developers.symanto.net)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - symanto-net
 - public-api
 slug: symanto-net
+assigned_id: dea:platform-service-symanto-net-pbnwcp
+admitted: '2026-11-14'

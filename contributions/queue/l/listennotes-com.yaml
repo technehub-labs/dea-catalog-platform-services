@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru listennotes.com
 name: 'Listen API: Podcast Search, Directory, and Insights API (listennotes.com)'
-description: Simple & no-nonsense podcast search & directory API. Search all podcasts and episodes by
-  people, places, or topics.
+description: Simple & no-nonsense podcast search & directory API. Search all podcasts
+  and episodes by people, places, or topics.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: listennotes.com; spec: https://www.listennotes.com/api/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: listennotes.com;
+      spec: https://www.listennotes.com/api/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - listennotes-com
 - public-api
 slug: listennotes-com
+assigned_id: dea:platform-service-listennotes-com-fdssmm
+admitted: '2026-11-14'

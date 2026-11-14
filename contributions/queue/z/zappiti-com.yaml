@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru zappiti.com
 name: Zappiti Player API (zappiti.com)
-description: Move your app forward with the Zappiti Player API. Use http://your-player-ip:8990/ as base
-  URL for your requests.
+description: Move your app forward with the Zappiti Player API. Use http://your-player-ip:8990/
+  as base URL for your requests.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: zappiti.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: zappiti.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - zappiti-com
 - public-api
 slug: zappiti-com
+assigned_id: dea:platform-service-zappiti-com-psbtyv
+admitted: '2026-11-14'

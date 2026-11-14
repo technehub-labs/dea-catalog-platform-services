@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru mtaa-api.herokuapp.com
 name: Mtaa API Documentation (mtaa-api.herokuapp.com)
-description: Mtaa A simple REST API to access Tanzania's location information,With mtaa API you can easily
-  query and integrate all the location in tanzania from region level to streets from your programming
-  language of your your choice
+description: Mtaa A simple REST API to access Tanzania's location information,With
+  mtaa API you can easily query and integrate all the location in tanzania from region
+  level to streets from your programming language of your your choice
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mtaa-api.herokuapp.com; spec: https://github.com/HackEAC/mtaaAPI)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mtaa-api.herokuapp.com;
+      spec: https://github.com/HackEAC/mtaaAPI)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - mtaa-api-herokuapp-com
 - public-api
 slug: mtaa-api-herokuapp-com
+assigned_id: dea:platform-service-mtaa-api-herokuapp-com-ea4cjz
+admitted: '2026-11-14'

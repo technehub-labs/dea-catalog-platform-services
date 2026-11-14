@@ -1,25 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru gsa.gov
 name: Discovery Market Research (gsa.gov)
-description: <p>This API drives the <a href="https://discovery.gsa.gov">Discovery Market Research Tool</a>.
-  It contains information on the vendors that are part of the OASIS and OASIS Small Business contracting
-  vehicles, such as their contracting history, their elligibility for contract awards, and their small
-  business designations. To learn more about the tool, please visit <a href="https://discovery.gsa.gov">Discovery</a>
-  or see the README on our <a href="https://github.com/PSHCDevOps/discovery">GitHub repository</a>.</p>
-  <p><strong>Please note that the base path for this API is <code>https://api.data.gov/gsa/discovery/</code></strong></p>
-  <p>It requires an API key, obtainable at <a href="http://api.data.gov/">api.data.gov</a>. It must be
-  passed in the <code>api_key</code> parameter with each request.</p>
+description: <p>This API drives the <a href="https://discovery.gsa.gov">Discovery
+  Market Research Tool</a>. It contains information on the vendors that are part of
+  the OASIS and OASIS Small Business contracting vehicles, such as their contracting
+  history, their elligibility for contract awards, and their small business designations.
+  To learn more about the tool, please visit <a href="https://discovery.gsa.gov">Discovery</a>
+  or see the README on our <a href="https://github.com/PSHCDevOps/discovery">GitHub
+  repository</a>.</p> <p><strong>Please note that the base path for this API is <code>https://api.data.gov/gsa/discovery/</code></strong></p>
+  <p>It requires an API key, obtainable at <a href="http://api.data.gov/">api.data.gov</a>.
+  It must be passed in the <code>api_key</code> parameter with each request.</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: gsa.gov; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: gsa.gov; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - gsa-gov
 - public-api
 slug: gsa-gov
+assigned_id: dea:platform-service-gsa-gov-4v8uc8
+admitted: '2026-11-14'

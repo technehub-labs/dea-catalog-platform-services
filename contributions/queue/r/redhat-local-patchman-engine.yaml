@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru redhat.local:patchman-engine
 name: Patchman-engine API (redhat.local:patchman-engine)
-description: API of the Patch application on [cloud.redhat.com](cloud.redhat.com) Syntax of the `filter[name]`
-  query parameters is described in [Filters documentation](https://github.com/RedHatInsights/patchman-engine/wiki/API-custom-filters)
+description: API of the Patch application on [cloud.redhat.com](cloud.redhat.com)
+  Syntax of the `filter[name]` query parameters is described in [Filters documentation](https://github.com/RedHatInsights/patchman-engine/wiki/API-custom-filters)
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: redhat.local:patchman-engine; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: redhat.local:patchman-engine;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - redhat-local
 - public-api
 slug: redhat-local-patchman-engine
+assigned_id: dea:platform-service-redhat-local-patchman-engine-kghv8z
+admitted: '2026-11-14'

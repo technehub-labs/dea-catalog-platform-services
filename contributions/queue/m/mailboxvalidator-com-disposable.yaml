@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru mailboxvalidator.com:disposable
 name: MailboxValidator Disposable Email Checker (mailboxvalidator.com:disposable)
-description: The MailboxValidator Disposable Email Checker API checks if a single email address is from
-  a disposable email provider and returns the results in either JSON or XML format. Refer to https://www.mailboxvalidator.com/api-email-disposable
+description: The MailboxValidator Disposable Email Checker API checks if a single
+  email address is from a disposable email provider and returns the results in either
+  JSON or XML format. Refer to https://www.mailboxvalidator.com/api-email-disposable
   for further information.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mailboxvalidator.com:disposable; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mailboxvalidator.com:disposable;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - mailboxvalidator-com
 - public-api
 slug: mailboxvalidator-com-disposable
+assigned_id: dea:platform-service-mailboxvalidator-com-disposable-vvqqgy
+admitted: '2026-11-14'

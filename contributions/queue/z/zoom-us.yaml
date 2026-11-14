@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru zoom.us
 name: Zoom API (zoom.us)
-description: The Zoom API allows developers to access information from Zoom. You can use this API to build
-  private services or public applications on the [Zoom App Marketplace](http://marketplace.zoom.us). To
-  learn how to get your credentials and create private/public applications, read our [Authorization Guide](https://marketplace.zoom.us/docs/guides/authorization/credentials).
-  All endpoints are available via `https` and are located at `api.zoom.us/v2/`. For instance you can list
-  all users on an account via `https://api.zoom.us/v2/users/`.
+description: The Zoom API allows developers to access information from Zoom. You can
+  use this API to build private services or public applications on the [Zoom App Marketplace](http://marketplace.zoom.us).
+  To learn how to get your credentials and create private/public applications, read
+  our [Authorization Guide](https://marketplace.zoom.us/docs/guides/authorization/credentials).
+  All endpoints are available via `https` and are located at `api.zoom.us/v2/`. For
+  instance you can list all users on an account via `https://api.zoom.us/v2/users/`.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: zoom.us; spec: https://developer.zoom.us/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: zoom.us; spec:
+      https://developer.zoom.us/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - zoom-us
 - public-api
 slug: zoom-us
+assigned_id: dea:platform-service-zoom-us-6acv9h
+admitted: '2026-11-14'

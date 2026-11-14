@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru fungenerators.com:riddle
 name: Fun Generators API (fungenerators.com:riddle)
-description: Below is the documentation for the API calls. You can try them out right here.
+description: Below is the documentation for the API calls. You can try them out right
+  here.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fungenerators.com:riddle; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fungenerators.com:riddle;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - fungenerators-com
 - public-api
 slug: fungenerators-com-riddle
+assigned_id: dea:platform-service-fungenerators-com-riddle-wmkzvd
+admitted: '2026-11-14'

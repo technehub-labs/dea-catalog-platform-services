@@ -1,35 +1,42 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru portfoliooptimizer.io
 name: Portfolio Optimizer (portfoliooptimizer.io)
-description: 'Portfolio Optimizer is a [Web API](https://en.wikipedia.org/wiki/Web_API) to analyze and
-  optimize investment portfolios (collection of financial assets such as stocks, bonds, ETFs, crypto-currencies)
-  using modern portfolio theory algorithms (mean-variance, VaR, etc.). # API General Information Portfolio
-  Optimizer is based on [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) for easy
-  integration, uses [JSON](https://en.wikipedia.org/wiki/JSON) for the exchange of data and uses a standard
-  [HTTP verb](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) (`POST`) to represent
-  the action(s). Portfolio Optimizer is also as secured as a Web API could be: * [256-bit HTTPS Encryption](https://en.wikipedia.org/wiki/HTTPS)
-  * No usage of cookies * No usage of personal data ## API Headers The following HTTP header(s) are required
-  when calling Portfolio Optimizer endpoints: * `Content-type: application/json` This header specifies
-  that the data provided in input to the endpoint is in JSON format The following HTTP header(s) are optional
-  when calling Portfolio Optimizer endpoints: * `Content-Encoding: gzip` This header indicates that the
-  data provided in input to the endpoint is compressed with gzip. * `X-API-Key: <private API key>` This
-  header enables [authenticated users](#auth) to provide their private [API key](#overview--api-key) in
-  order to [benefit from higher API limits](#overview--api-limits) ## API Key Portfolio Optimizer is free
-  to use, but not free to run. In order to obtain an API key and benefit from [higher API limits](#overview--api-limits),
-  a *small* participation to Portfolio Optimizer running costs is required. This participation takes the
-  form of coffee(s), with one coffee = one month of usage. <p><a href="https://www.buymeacoffee.com/portfolioopt"><img
+description: 'Portfolio Optimizer is a [Web API](https://en.wikipedia.org/wiki/Web_API)
+  to analyze and optimize investment portfolios (collection of financial assets such
+  as stocks, bonds, ETFs, crypto-currencies) using modern portfolio theory algorithms
+  (mean-variance, VaR, etc.). # API General Information Portfolio Optimizer is based
+  on [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) for easy
+  integration, uses [JSON](https://en.wikipedia.org/wiki/JSON) for the exchange of
+  data and uses a standard [HTTP verb](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods)
+  (`POST`) to represent the action(s). Portfolio Optimizer is also as secured as a
+  Web API could be: * [256-bit HTTPS Encryption](https://en.wikipedia.org/wiki/HTTPS)
+  * No usage of cookies * No usage of personal data ## API Headers The following HTTP
+  header(s) are required when calling Portfolio Optimizer endpoints: * `Content-type:
+  application/json` This header specifies that the data provided in input to the endpoint
+  is in JSON format The following HTTP header(s) are optional when calling Portfolio
+  Optimizer endpoints: * `Content-Encoding: gzip` This header indicates that the data
+  provided in input to the endpoint is compressed with gzip. * `X-API-Key: <private
+  API key>` This header enables [authenticated users](#auth) to provide their private
+  [API key](#overview--api-key) in order to [benefit from higher API limits](#overview--api-limits)
+  ## API Key Portfolio Optimizer is free to use, but not free to run. In order to
+  obtain an API key and benefit from [higher API limits](#overview--api-limits), a
+  *small* participation to Portfolio Optimizer running costs is required. This participation
+  takes the form of coffee(s), with one coffee = one month of usage. <p><a href="https://www.buymeacoffee.com/portfolioopt"><img
   alt=''Buy a Coffee at buymeacoffee.com'' src="https://img.buymeacoffee.com/button-api/?text=Buymeacoffee.com&emoji=&slug=portfolioopt&button_colour=000000&font_colour=fffff'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: portfoliooptimizer.io; spec: https://portfoliooptimizer.io/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: portfoliooptimizer.io;
+      spec: https://portfoliooptimizer.io/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - portfoliooptimizer-io
 - public-api
 slug: portfoliooptimizer-io
+assigned_id: dea:platform-service-portfoliooptimizer-io-p8qxqz
+admitted: '2026-11-14'

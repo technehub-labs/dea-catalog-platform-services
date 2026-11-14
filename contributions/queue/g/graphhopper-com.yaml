@@ -1,34 +1,41 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru graphhopper.com
 name: GraphHopper Directions API (graphhopper.com)
-description: 'With the [GraphHopper Directions API](https://www.graphhopper.com/products/) you can integrate
-  A-to-B route planning, turn-by-turn navigation, route optimization, isochrone calculations and other
-  tools in your application. The GraphHopper Directions API consists of the following RESTful web services:
-  * [Routing API](#tag/Routing-API), * [Route Optimization API](#tag/Route-Optimization-API), * [Isochrone
-  API](#tag/Isochrone-API), * [Map Matching API](#tag/Map-Matching-API), * [Matrix API](#tag/Matrix-API),
-  * [Geocoding API](#tag/Geocoding-API) and * [Cluster API](#tag/Cluster-API). # Explore our APIs ## Get
-  started 1. [Sign up for GraphHopper](https://support.graphhopper.com/a/solutions/articles/44001976025)
-  2. [Create an API key](https://support.graphhopper.com/a/solutions/articles/44001976027) Each API part
-  has its own documentation. Jump to the desired API part and learn about the API through the given examples
-  and tutorials. In addition, for each API there are specific sample requests that you can send via Insomnia
-  or Postman to see what the requests and responses look like. ## Insomnia To explore our APIs with [Insomnia](https://insomnia.rest/),
-  follow these steps: 1. Open Insomnia and Import [our workspace](https://raw.githubusercontent.com/graphhopper/directions-api-doc/master/web/restclients/GraphHopper-Direction-API-Insomnia.json).
-  2. Specify [your API key](https://graphhopper.com/dashboard/#/register) in your workspace: Manage Environments
-  -> Base Environment -> `"api_key": your API key` 3. Start exploring ![Insomnia](./img/insomnia.png)
-  ## Postman To explore our APIs with [Postman](https://www.getpostman.com/), follow these steps: 1. Import
-  our [request collections](https://raw.githubusercontent.com/graphhopper/directions-api-doc/master/web/restclients/graphhopper_directions_api.postman_collection.json)
+description: 'With the [GraphHopper Directions API](https://www.graphhopper.com/products/)
+  you can integrate A-to-B route planning, turn-by-turn navigation, route optimization,
+  isochrone calculations and other tools in your application. The GraphHopper Directions
+  API consists of the following RESTful web services: * [Routing API](#tag/Routing-API),
+  * [Route Optimization API](#tag/Route-Optimization-API), * [Isochrone API](#tag/Isochrone-API),
+  * [Map Matching API](#tag/Map-Matching-API), * [Matrix API](#tag/Matrix-API), *
+  [Geocoding API](#tag/Geocoding-API) and * [Cluster API](#tag/Cluster-API). # Explore
+  our APIs ## Get started 1. [Sign up for GraphHopper](https://support.graphhopper.com/a/solutions/articles/44001976025)
+  2. [Create an API key](https://support.graphhopper.com/a/solutions/articles/44001976027)
+  Each API part has its own documentation. Jump to the desired API part and learn
+  about the API through the given examples and tutorials. In addition, for each API
+  there are specific sample requests that you can send via Insomnia or Postman to
+  see what the requests and responses look like. ## Insomnia To explore our APIs with
+  [Insomnia](https://insomnia.rest/), follow these steps: 1. Open Insomnia and Import
+  [our workspace](https://raw.githubusercontent.com/graphhopper/directions-api-doc/master/web/restclients/GraphHopper-Direction-API-Insomnia.json).
+  2. Specify [your API key](https://graphhopper.com/dashboard/#/register) in your
+  workspace: Manage Environments -> Base Environment -> `"api_key": your API key`
+  3. Start exploring ![Insomnia](./img/insomnia.png) ## Postman To explore our APIs
+  with [Postman](https://www.getpostman.com/), follow these steps: 1. Import our [request
+  collections](https://raw.githubusercontent.com/graphhopper/directions-api-doc/master/web/restclients/graphhopper_directions_api.postman_collection.json)
   as well as our [environment file](https://raw.githubusercontent.com/graphhopper/directions-api-doc/master/web/restclients/graphhopper_directions_api.postma'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: graphhopper.com; spec: https://www.graphhopper.com/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: graphhopper.com;
+      spec: https://www.graphhopper.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - graphhopper-com
 - public-api
 slug: graphhopper-com
+assigned_id: dea:platform-service-graphhopper-com-vdvcx5
+admitted: '2026-11-14'

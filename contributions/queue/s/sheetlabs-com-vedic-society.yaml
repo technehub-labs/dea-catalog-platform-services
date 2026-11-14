@@ -1,25 +1,28 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru sheetlabs.com:vedic-society
 name: vs API (sheetlabs.com:vedic-society)
-description: '# Introduction This API returns data regarding almost all nouns in vedic literature. The
-  results are JSON objects that contain the word transliterated to the Roman script, the word in the Nagari
-  script, the meaning of the word, and the category the word belongs to. Proper nouns are not included
-  (yet). The API uses the Swagger 2.0 specification. # Authentication This is an open API. # Try it out
-  This sandbox can be used to get data for only one kind of resource, that is, to fetch data for a string
-  contained in the meaning of any of the words. The remaining resources work a similar fashion. For details,
-  see the reference documentation.'
+description: '# Introduction This API returns data regarding almost all nouns in vedic
+  literature. The results are JSON objects that contain the word transliterated to
+  the Roman script, the word in the Nagari script, the meaning of the word, and the
+  category the word belongs to. Proper nouns are not included (yet). The API uses
+  the Swagger 2.0 specification. # Authentication This is an open API. # Try it out
+  This sandbox can be used to get data for only one kind of resource, that is, to
+  fetch data for a string contained in the meaning of any of the words. The remaining
+  resources work a similar fashion. For details, see the reference documentation.'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: sheetlabs.com:vedic-society; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: sheetlabs.com:vedic-society;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - sheetlabs-com
 - public-api
 slug: sheetlabs-com-vedic-society
+assigned_id: dea:platform-service-sheetlabs-com-vedic-society-c2f494
+admitted: '2026-11-14'

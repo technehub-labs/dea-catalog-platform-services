@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru fungenerators.com:taunt
 name: Taunt as a service (fungenerators.com:taunt)
-description: Fungenerators taunt generation API generates random taunts / insults, relevant to the given
-  category. Many categories are supported and new ones are added very frequently. [Click here to subscribe](http://fungenerators.com/api/taunt/)
+description: Fungenerators taunt generation API generates random taunts / insults,
+  relevant to the given category. Many categories are supported and new ones are added
+  very frequently. [Click here to subscribe](http://fungenerators.com/api/taunt/)
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fungenerators.com:taunt; spec: http://fungenerators.com/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fungenerators.com:taunt;
+      spec: http://fungenerators.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - fungenerators-com
 - public-api
 slug: fungenerators-com-taunt
+assigned_id: dea:platform-service-fungenerators-com-taunt-qzdjr8
+admitted: '2026-11-14'

@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru tvmaze.com
 name: TVmaze user API (tvmaze.com)
 description: Access to the user API is only possible for users with a [premium](http://www.tvmaze.com/premium)
-  account. A user can only access their own user data. Authentication uses HTTP Basic. Use the TVmaze
-  username as authentication username, and the TVmaze API key as authentication password. Your API key
-  can be found on your [dashboard](http://www.tvmaze.com/dashboard). To try out these API calls from this
-  page, click the "Authorize" button on top and input your credentials.
+  account. A user can only access their own user data. Authentication uses HTTP Basic.
+  Use the TVmaze username as authentication username, and the TVmaze API key as authentication
+  password. Your API key can be found on your [dashboard](http://www.tvmaze.com/dashboard).
+  To try out these API calls from this page, click the "Authorize" button on top and
+  input your credentials.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: tvmaze.com; spec: http://www.tvmaze.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: tvmaze.com; spec:
+      http://www.tvmaze.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - tvmaze-com
 - public-api
 slug: tvmaze-com
+assigned_id: dea:platform-service-tvmaze-com-2n3vzj
+admitted: '2026-11-14'

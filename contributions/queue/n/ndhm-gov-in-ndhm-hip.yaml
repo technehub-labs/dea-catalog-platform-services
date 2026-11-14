@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru ndhm.gov.in:ndhm-hip
 name: Health Repository Provider Specifications for HIP (ndhm.gov.in:ndhm-hip)
-description: The following are the specifications for the APIs to be implemented at the Health Repository
-  end if an entity is only serving the role of a HIP. The specs are essentially duplicates from the Gateway
-  and Health Repository, but put together so as to make it clear to *HIPs* which set of APIs they should
-  implement to participate in the network.
+description: The following are the specifications for the APIs to be implemented at
+  the Health Repository end if an entity is only serving the role of a HIP. The specs
+  are essentially duplicates from the Gateway and Health Repository, but put together
+  so as to make it clear to *HIPs* which set of APIs they should implement to participate
+  in the network.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ndhm.gov.in:ndhm-hip; spec: https://ndhm.gov.in/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ndhm.gov.in:ndhm-hip;
+      spec: https://ndhm.gov.in/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - ndhm-gov-in
 - public-api
 slug: ndhm-gov-in-ndhm-hip
+assigned_id: dea:platform-service-ndhm-gov-in-ndhm-hip-cz6swm
+admitted: '2026-11-14'

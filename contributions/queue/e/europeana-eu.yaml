@@ -1,21 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru europeana.eu
 name: Europeana Search & Record API (europeana.eu)
-description: This Swagger API console provides an overview of the Europeana Search & Record API. You can
-  build and test anything from the simplest search to a complex query using facetList such as dates, geotags
-  and permissions. For more help and information, head to our comprehensive <a href="https://pro.europeana.eu/page/intro">online
+description: This Swagger API console provides an overview of the Europeana Search
+  & Record API. You can build and test anything from the simplest search to a complex
+  query using facetList such as dates, geotags and permissions. For more help and
+  information, head to our comprehensive <a href="https://pro.europeana.eu/page/intro">online
   documentation</a>.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: europeana.eu; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: europeana.eu; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - europeana-eu
 - public-api
 slug: europeana-eu
+assigned_id: dea:platform-service-europeana-eu-2grh93
+admitted: '2026-11-14'

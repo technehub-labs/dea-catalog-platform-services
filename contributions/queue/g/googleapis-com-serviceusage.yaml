@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru googleapis.com:serviceusage
 name: Service Usage API (googleapis.com:serviceusage)
-description: Enables services that service consumers want to use on Google Cloud Platform, lists the available
-  or enabled services, or disables services that service consumers no longer use.
+description: Enables services that service consumers want to use on Google Cloud Platform,
+  lists the available or enabled services, or disables services that service consumers
+  no longer use.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:serviceusage; spec:
-      https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:serviceusage;
+      spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-serviceusage
+assigned_id: dea:platform-service-googleapis-com-serviceusage-uyduk3
+admitted: '2026-11-14'

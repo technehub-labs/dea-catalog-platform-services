@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru mastercard.com:MDES
 name: MDES Customer Service (mastercard.com:MDES)
-description: This API provides our Issuer partners with resources to help resolve consumer queries about
-  payment accounts enabled through our digitization platform.
+description: This API provides our Issuer partners with resources to help resolve
+  consumer queries about payment accounts enabled through our digitization platform.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mastercard.com:MDES; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: mastercard.com:MDES;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - mastercard-com
 - public-api
 slug: mastercard-com-mdes
+assigned_id: dea:platform-service-mastercard-com-mdes-36q263
+admitted: '2026-11-14'

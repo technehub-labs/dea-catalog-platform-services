@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru slack.com
 name: Slack Web API (slack.com)
-description: One way to interact with the Slack platform is its HTTP RPC-based Web API, a collection of
-  methods requiring OAuth 2.0-based user, bot, or workspace tokens blessed with related OAuth scopes.
+description: One way to interact with the Slack platform is its HTTP RPC-based Web
+  API, a collection of methods requiring OAuth 2.0-based user, bot, or workspace tokens
+  blessed with related OAuth scopes.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: slack.com; spec: https://api.slack.com/support)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: slack.com; spec:
+      https://api.slack.com/support)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - slack-com
 - public-api
 slug: slack-com
+assigned_id: dea:platform-service-slack-com-p9g5qk
+admitted: '2026-11-14'

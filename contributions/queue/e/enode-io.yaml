@@ -1,36 +1,44 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru enode.io
 name: Enode API (enode.io)
-description: 'Download [OpenAPI 3.0 Specification](/OpenAPI-Enode-v1.4.0.json) Download [Postman Collection](/Postman-Enode-v1.4.0.json)
-  The Enode API is designed to make smart charging applications easy to develop. We provide an abstraction
-  layer that reduces the complexity when extracting vehicle data and sending commands to vehicles from
-  a variety of manufacturers. The API has a RESTful architecture and utilizes OAuth2 authorization. We
-  are always available to handle any issues or just answer your questions. Feel free to reach out on post@enode.io
-  ## Registration for API access In order to use the API you will need a `client_id` and `client_secret`.
-  Please contact us if you are interested in using our API in production, and we will provide these credentials.
-  # Authorization Vehicle / hardware access via the Enode API is granted to your application by the User
-  in a standard OAuth `Authorization Code` flow. > The authorization scheme documented here is the recommended
-  approach for most situations. However, it is also possible to user other OAuth flows, non-confidential
-  clients, and temporary users. Please feel free to contact us if you have any questions about your use-case
-  or the integration of your existing infrastructure. ### Preparation: Configure your OAuth client Because
-  Enode API implements the OAuth 2.0 spec completely and without modifications, you can avoid rolling
-  your own OAuth client implementation and instead use a well-supported and battle-tested implementation.
-  This is strongly recommended. Information on available OAuth clients for many languages is available
-  [here](https://oauth.net/code/) To configure your chosen OAuth client, you will need these details:
-  - Your `client_id` - Your `client_secret` - Authorization URL: `https://link.test.enode.io/oauth2/auth`
-  - Token URL: `https://link.test.enode.io/oauth2/token` ```javascript // Node.js + openid-client example
-  const enodeIssuer = await Issuer.discover(''https://link.test.enode.io''); const client = new enodeIssue'
+description: 'Download [OpenAPI 3.0 Specification](/OpenAPI-Enode-v1.4.0.json) Download
+  [Postman Collection](/Postman-Enode-v1.4.0.json) The Enode API is designed to make
+  smart charging applications easy to develop. We provide an abstraction layer that
+  reduces the complexity when extracting vehicle data and sending commands to vehicles
+  from a variety of manufacturers. The API has a RESTful architecture and utilizes
+  OAuth2 authorization. We are always available to handle any issues or just answer
+  your questions. Feel free to reach out on post@enode.io ## Registration for API
+  access In order to use the API you will need a `client_id` and `client_secret`.
+  Please contact us if you are interested in using our API in production, and we will
+  provide these credentials. # Authorization Vehicle / hardware access via the Enode
+  API is granted to your application by the User in a standard OAuth `Authorization
+  Code` flow. > The authorization scheme documented here is the recommended approach
+  for most situations. However, it is also possible to user other OAuth flows, non-confidential
+  clients, and temporary users. Please feel free to contact us if you have any questions
+  about your use-case or the integration of your existing infrastructure. ### Preparation:
+  Configure your OAuth client Because Enode API implements the OAuth 2.0 spec completely
+  and without modifications, you can avoid rolling your own OAuth client implementation
+  and instead use a well-supported and battle-tested implementation. This is strongly
+  recommended. Information on available OAuth clients for many languages is available
+  [here](https://oauth.net/code/) To configure your chosen OAuth client, you will
+  need these details: - Your `client_id` - Your `client_secret` - Authorization URL:
+  `https://link.test.enode.io/oauth2/auth` - Token URL: `https://link.test.enode.io/oauth2/token`
+  ```javascript // Node.js + openid-client example const enodeIssuer = await Issuer.discover(''https://link.test.enode.io'');
+  const client = new enodeIssue'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: enode.io; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: enode.io; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - enode-io
 - public-api
 slug: enode-io
+assigned_id: dea:platform-service-enode-io-5jzrkx
+admitted: '2026-11-14'

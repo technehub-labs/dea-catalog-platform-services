@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru pdfbroker.io
 name: PdfBroker.io API (pdfbroker.io)
-description: PdfBroker.io is an api for creating pdf files from Xsl-Fo or Html and other useful pdf utilities.
+description: PdfBroker.io is an api for creating pdf files from Xsl-Fo or Html and
+  other useful pdf utilities.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: pdfbroker.io; spec: https://www.pdfbroker.io/docs)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: pdfbroker.io; spec:
+      https://www.pdfbroker.io/docs)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - pdfbroker-io
 - public-api
 slug: pdfbroker-io
+assigned_id: dea:platform-service-pdfbroker-io-9ghmnn
+admitted: '2026-11-14'

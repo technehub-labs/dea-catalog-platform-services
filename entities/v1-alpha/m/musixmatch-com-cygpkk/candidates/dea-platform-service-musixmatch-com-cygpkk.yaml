@@ -1,0 +1,54 @@
+id: dea:platform-service-musixmatch-com-cygpkk
+type: PlatformService
+name: Musixmatch API (musixmatch.com)
+description: 'Musixmatch lyrics API is a robust service that permits you to search
+  and retrieve lyrics in the simplest possible way. It just works. Include millions
+  of licensed lyrics on your website or in your application legally. The fastest,
+  most powerful and legal way to display lyrics on your website or in your application.
+  #### Read musixmatch API Terms & Conditions and the Privacy Policy: Before getting
+  started, you must take a look at the [API Terms & Conditions](http://musixmatch.com/apiterms/)
+  and the [Privacy Policy](https://developer.musixmatch.com/privacy). We’ve worked
+  hard to make this service completely legal so that we are all protected from any
+  foreseeable liability. Take the time to read this stuff. #### Register for an API
+  key: All you need to do is [register](https://developer.musixmatch.com/signup) in
+  order to get your API key, a mandatory parameter for most of our API calls. It’s
+  your personal identifier and should be kept secret: ``` https://api.musixmatch.com/ws/v1.1/track.get?apikey=YOUR_API_KEY
+  ``` #### Integrate the musixmatch service with your web site or application In the
+  most common scenario you only need to implement two API calls: The first call is
+  to match your catalog to ours using the [track.search](#!/Track/get_track_search)
+  function and the second is to get the lyrics using the [track.lyrics.get](#!/Lyrics/get_track_lyrics_get)
+  api. That’s it! ## API Methods What does the musiXmatch API do? The musiXmatch API
+  allows you to read objects from our huge 100% licensed lyrics database. To make
+  your life easier we are providing you with one or more examples to show you how
+  it could work in the wild. You’ll find both the API request and API response in
+  all the available output formats for each API call. Follow the links below for the
+  details. The current API version is 1.1, the root URL is located at https://api.musixmatch.com/ws/1.1/
+  Supported input parameters can be found on the page [Input Parameters](https://developer.musixmatch.com/documentatio'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: musixmatch.com;
+      spec: https://musixmatch.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- musixmatch-com
+- public-api

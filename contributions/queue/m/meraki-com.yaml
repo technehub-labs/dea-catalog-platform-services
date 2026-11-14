@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru meraki.com
 name: Meraki Dashboard API (meraki.com)
-description: 'The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI specification.
-  > Date: 05 March, 2023 > > [Recent Updates](https://meraki.io/whats-new/) --- [API Documentation](https://meraki.io/api)
-  [Community Support](https://meraki.io/community) [Meraki Homepage](https://www.meraki.com)'
+description: 'The Cisco Meraki Dashboard API is a modern REST API based on the OpenAPI
+  specification. > Date: 05 March, 2023 > > [Recent Updates](https://meraki.io/whats-new/)
+  --- [API Documentation](https://meraki.io/api) [Community Support](https://meraki.io/community)
+  [Meraki Homepage](https://www.meraki.com)'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: meraki.com; spec: https://meraki.io/community)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: meraki.com; spec:
+      https://meraki.io/community)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - meraki-com
 - public-api
 slug: meraki-com
+assigned_id: dea:platform-service-meraki-com-va4d9a
+admitted: '2026-11-14'

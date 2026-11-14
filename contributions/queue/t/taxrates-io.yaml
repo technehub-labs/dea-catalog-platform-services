@@ -1,35 +1,40 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru taxrates.io
 name: Taxrates.io API (taxrates.io)
-description: <h3>Introduction</h3> <p>Taxrates.io is a global tax rate service that automates the management
-  of monitoring tax rates changes in 181 countries. We monitor over 14,000 US sales tax, VAT, GST rates
-  for you and make updates via our API so you always have the most update tax rates.</p> <p>You can use
-  Taxrates.io as a virtual sandbox where we provide you with 30 days free trial.</p> <h3>Countries</h3>
-  <p>We currently support the following countries around the world. If you would like to request the addition
-  of a new country, please email us at <a href="mailto:support@taxrates.io">support@taxrates.io</a></p>
+description: <h3>Introduction</h3> <p>Taxrates.io is a global tax rate service that
+  automates the management of monitoring tax rates changes in 181 countries. We monitor
+  over 14,000 US sales tax, VAT, GST rates for you and make updates via our API so
+  you always have the most update tax rates.</p> <p>You can use Taxrates.io as a virtual
+  sandbox where we provide you with 30 days free trial.</p> <h3>Countries</h3> <p>We
+  currently support the following countries around the world. If you would like to
+  request the addition of a new country, please email us at <a href="mailto:support@taxrates.io">support@taxrates.io</a></p>
   <table> <tr><td>Afghanistan</td><td>Gambia</td><td>Nicaragua</td></tr> <tr><td>Albania</td><td>Georgia</td><td>Niger</td></tr>
   <tr><td>Andorra</td><td>Germany</td><td>Nigeria</td></tr> <tr><td>Angola</td><td>Ghana</td><td>North
-  Korea</td></tr> <tr><td>Antigua and Barbuda</td><td>Greece</td><td>Norway</td></tr> <tr><td>Argentina</td><td>Grenada</td><td>Pakistan</td></tr>
-  <tr><td>Armenia</td><td>Guam</td><td>Palestine</td></tr> <tr><td>Aruba</td><td>Guatemala</td><td>Panama</td></tr>
-  <tr><td>Australia</td><td>Guinea</td><td>Papua New Guinea</td></tr> <tr><td>Austria</td><td>Guyana</td><td>Paraguay</td></tr>
-  <tr><td>Azerbaijan</td><td>Haiti</td><td>Peru</td></tr> <tr><td>Bahamas</td><td>Honduras</td><td>Philippines</td></tr>
-  <tr><td>Bangladesh</td><td>Hungary</td><td>Poland</td></tr> <tr><td>Barbados</td><td>Iceland</td><td>Portugal</td></tr>
-  <tr><td>Belarus</td><td>India</td><td>Puerto Rico</td></tr> <tr><td>Belgium</td><td>Indonesia</td><td>Republic
-  of the Congo</td></tr> <tr><td>Belize</td><td>Iran</td><td>Romania</td></tr> <tr><td>Benin</td><td>Ireland</td><td>Russian
-  Federation</td></tr> <tr><td>Bhutan</td><td>Isle of Man</td><td>Rwanda</td></tr> <tr><td>Bolivia</td><td>Israel</td><td>Samoa</td></tr>
-  <tr><td>Bonaire</td><td>Italy</td><td>Senegal</td></tr> <tr><td>Bosnia and Herzegovina</td><td>Japan</td><td>Serbia</td></tr>
-  <tr><td>Botswana</td><td>Jersey</td><td>
+  Korea</td></tr> <tr><td>Antigua and Barbuda</td><td>Greece</td><td>Norway</td></tr>
+  <tr><td>Argentina</td><td>Grenada</td><td>Pakistan</td></tr> <tr><td>Armenia</td><td>Guam</td><td>Palestine</td></tr>
+  <tr><td>Aruba</td><td>Guatemala</td><td>Panama</td></tr> <tr><td>Australia</td><td>Guinea</td><td>Papua
+  New Guinea</td></tr> <tr><td>Austria</td><td>Guyana</td><td>Paraguay</td></tr> <tr><td>Azerbaijan</td><td>Haiti</td><td>Peru</td></tr>
+  <tr><td>Bahamas</td><td>Honduras</td><td>Philippines</td></tr> <tr><td>Bangladesh</td><td>Hungary</td><td>Poland</td></tr>
+  <tr><td>Barbados</td><td>Iceland</td><td>Portugal</td></tr> <tr><td>Belarus</td><td>India</td><td>Puerto
+  Rico</td></tr> <tr><td>Belgium</td><td>Indonesia</td><td>Republic of the Congo</td></tr>
+  <tr><td>Belize</td><td>Iran</td><td>Romania</td></tr> <tr><td>Benin</td><td>Ireland</td><td>Russian
+  Federation</td></tr> <tr><td>Bhutan</td><td>Isle of Man</td><td>Rwanda</td></tr>
+  <tr><td>Bolivia</td><td>Israel</td><td>Samoa</td></tr> <tr><td>Bonaire</td><td>Italy</td><td>Senegal</td></tr>
+  <tr><td>Bosnia and Herzegovina</td><td>Japan</td><td>Serbia</td></tr> <tr><td>Botswana</td><td>Jersey</td><td>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: taxrates.io; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: taxrates.io; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - taxrates-io
 - public-api
 slug: taxrates-io
+assigned_id: dea:platform-service-taxrates-io-xrrch8
+admitted: '2026-11-14'

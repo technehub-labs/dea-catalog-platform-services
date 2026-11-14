@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru google.com
 name: Travel Partner API (google.com)
-description: The Travel Partner API provides you with a RESTful interface to the Google Hotel Center platform.
-  It enables an app to efficiently retrieve and change Hotel Center data, and is thus suitable for managing
-  large or complex accounts.
+description: The Travel Partner API provides you with a RESTful interface to the Google
+  Hotel Center platform. It enables an app to efficiently retrieve and change Hotel
+  Center data, and is thus suitable for managing large or complex accounts.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: google.com; spec: https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: google.com; spec:
+      https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - google-com
 - public-api
 slug: google-com
+assigned_id: dea:platform-service-google-com-7p6gs8
+admitted: '2026-11-14'

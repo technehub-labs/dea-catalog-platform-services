@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru javatpoint.com
 name: Firebase Cloud Messaging API (javatpoint.com)
-description: FCM send API that provides a cross-platform messaging solution to reliably deliver messages
-  at no cost.
+description: FCM send API that provides a cross-platform messaging solution to reliably
+  deliver messages at no cost.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: javatpoint.com; spec: https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: javatpoint.com;
+      spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - javatpoint-com
 - public-api
 slug: javatpoint-com
+assigned_id: dea:platform-service-javatpoint-com-7753g8
+admitted: '2026-11-14'

@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru uspto.gov:bdss
 name: Bulk Data Storage System Services (uspto.gov:bdss)
-description: Bulk Data Storage System (BDSS) allows the public to discover, search, and download patent
-  and trademark data in bulk form.
+description: Bulk Data Storage System (BDSS) allows the public to discover, search,
+  and download patent and trademark data in bulk form.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: uspto.gov:bdss; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: uspto.gov:bdss;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - uspto-gov
 - public-api
 slug: uspto-gov-bdss
+assigned_id: dea:platform-service-uspto-gov-bdss-dt8jx2
+admitted: '2026-11-14'

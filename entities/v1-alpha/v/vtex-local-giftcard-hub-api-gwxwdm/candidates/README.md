@@ -1,0 +1,31 @@
+# GiftCard Hub API (vtex.local:GiftCard-Hub-API)
+
+> >ℹ️ Check the new [Payments onboarding guide](https://developers.vtex.com/vtex-rest-api/docs/payments-overview). We created this guide to improve the onboarding experience for developers at VTEX. It assembles all documentation on our Developer Portal about Payments and is organized by focusing on the developer's journey. The Gift Card Hub API allows interactions with all Gift Card providers registered to a store from a single point. Gift Card providers are systems capable of providing cards to be used in the buying process. The following is the sequence diagram that represents calls in the purchase closing process. ![](https://cdn.jsdelivr.net/gh/vtexdocs/dev-portal-content@main/images/giftcard-hub-api-overview-0.png) **Checkout + Gateway**: Systems responsible for the sale and for processing orders and payments. **Gift Card Hub**: System responsible for managing multiple registered Gift Card providers for a store. **Gift Card Provider**: System responsible for providing the Gift Cards available to the user not closing a purchase. This system can be implemented by third parties.
+
+## Identity
+
+- **Record id**: `dea:platform-service-vtex-local-giftcard-hub-api-gwxwdm`
+- **Type**: PlatformService
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the APIs.guru public API directory (list API). The API specification is published and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted at candidate state.
+
+- kind: `published-document` — reference: https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:GiftCard-Hub-API; spec: https://apis.guru/)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-14, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).

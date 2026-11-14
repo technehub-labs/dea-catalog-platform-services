@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru ebay.com:sell-recommendation
 name: Recommendation API (ebay.com:sell-recommendation)
-description: The <b>Recommendation API</b> returns information that sellers can use to optimize the configuration
-  of their listings on eBay. <br><br>Currently, the API contains a single method, <b>findListingRecommendations</b>.
-  This method provides information that sellers can use to configure Promoted Listings ad campaigns to
+description: The <b>Recommendation API</b> returns information that sellers can use
+  to optimize the configuration of their listings on eBay. <br><br>Currently, the
+  API contains a single method, <b>findListingRecommendations</b>. This method provides
+  information that sellers can use to configure Promoted Listings ad campaigns to
   maximize the visibility of their items in the eBay marketplace.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ebay.com:sell-recommendation; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ebay.com:sell-recommendation;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - ebay-com
 - public-api
 slug: ebay-com-sell-recommendation
+assigned_id: dea:platform-service-ebay-com-sell-recommendation-zv3d5r
+admitted: '2026-11-14'

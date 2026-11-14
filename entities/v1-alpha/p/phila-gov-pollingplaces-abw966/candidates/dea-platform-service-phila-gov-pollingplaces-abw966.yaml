@@ -1,0 +1,35 @@
+id: dea:platform-service-phila-gov-pollingplaces-abw966
+type: PlatformService
+name: Polling Places API (phila.gov:pollingplaces)
+description: This data set contains the list of polling places. It can be organized
+  by ward/division, accessibility rating, or type of building. This list is used to
+  assign poll workers, send the machines and necessary accessibility materials, etc.
+  **Endpoint:** http://api.phila.gov/polling-places/v1
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: phila.gov:pollingplaces;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- phila-gov
+- public-api

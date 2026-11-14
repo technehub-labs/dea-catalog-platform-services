@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru n-auth.com
 name: nextAuth API (n-auth.com)
-description: 'nextAuth API — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'nextAuth API — a public API catalogued in the APIs.guru directory (provider:
+  n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: n-auth.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: n-auth.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - n-auth-com
 - public-api
 slug: n-auth-com
+assigned_id: dea:platform-service-n-auth-com-pt89xj
+admitted: '2026-11-14'

@@ -1,0 +1,31 @@
+# Checkout API (vtex.local:Checkout-API)
+
+> >ℹ️ Check the new [Checkout onboarding guide](https://developers.vtex.com/vtex-rest-api/docs/checkout-overview). We created this guide to improve the onboarding experience for developers at VTEX. It assembles all documentation on our Developer Portal about the Checkout and is organized by focusing on the developer's journey. The Checkout API allows you to obtain and configure information about the shopping cart and its attachments, personalization of custom fields, orderForm structure, fulfillment data, order management, and identification of the sellers delivery region. >ℹ️ Data modification operations (`POST`, `PATCH`, `PUT` or `DELETE` endpoints) shall not be performed in parallel in the Checkout APIs. They need to be enqueued by the client/requester. Otherwise, old values ​​can be overwritten incorrectly or competition errors may occur. >⚠️ All endpoints that consult or edit the orderForm can change the authentication depending on the customer context. If you are handling information from a customer with a complete profile on the store, authentication will be required. You can only access or modify the customer data for these profiles with an authenticated request. ## Shopping cart Allows merchants to simulate, configure and customize shopping cart information. - [POST - Cart Simulation](https://developers.vtex.com/vtex-rest-api/reference/cartsimulation) - [GET - Get current or create a new cart](https://developers.vtex.com/vtex-rest-api/reference/createanewcart) - [GET - Get cart information by ID](https://developers.vtex.com/vtex-rest-api/reference/getcartinformationbyid) - [POST - Remove all items](https://developers.vtex.com/vtex-rest-api/reference/removeallitems) - [GET - Remove all personal data](https://developers.vtex.com/vtex-rest-api/reference/removeallpersonaldata) - [POST - Update cart items](https://developers.vtex.com/vtex-rest-api/reference/itemsupdate) - [POST - Add cart items](https://developers.vtex.com/vtex-rest-api/reference/items) - [PUT - C
+
+## Identity
+
+- **Record id**: `dea:platform-service-vtex-local-checkout-api-q2h3tx`
+- **Type**: PlatformService
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the APIs.guru public API directory (list API). The API specification is published and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted at candidate state.
+
+- kind: `published-document` — reference: https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Checkout-API; spec: https://apis.guru/)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-14, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).

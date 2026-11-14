@@ -1,25 +1,31 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru fire.com
 name: Fire Financial Services Business API (fire.com)
-description: 'The fire.com API allows you to deeply integrate Business Account features into your application
-  or back-office systems. The API provides read access to your profile, accounts and transactions, event-driven
-  notifications of activity on the account and payment initiation via batches. Each feature has its own
-  HTTP endpoint and every endpoint has its own permission. The API exposes 3 main areas of functionality:
-  financial functions, service information and service configuration. ## Financial Functions These functions
-  provide access to your account details, transactions, payee accounts, payment initiation etc. ## Service
-  Functions These provide information about the fees and limits applied to your account. ## Service configuration
-  These provide information about your service configs - applications, webhooks, API tokens, etc.'
+description: 'The fire.com API allows you to deeply integrate Business Account features
+  into your application or back-office systems. The API provides read access to your
+  profile, accounts and transactions, event-driven notifications of activity on the
+  account and payment initiation via batches. Each feature has its own HTTP endpoint
+  and every endpoint has its own permission. The API exposes 3 main areas of functionality:
+  financial functions, service information and service configuration. ## Financial
+  Functions These functions provide access to your account details, transactions,
+  payee accounts, payment initiation etc. ## Service Functions These provide information
+  about the fees and limits applied to your account. ## Service configuration These
+  provide information about your service configs - applications, webhooks, API tokens,
+  etc.'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fire.com; spec: https://docs.fire.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fire.com; spec:
+      https://docs.fire.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - fire-com
 - public-api
 slug: fire-com
+assigned_id: dea:platform-service-fire-com-guskmr
+admitted: '2026-11-14'

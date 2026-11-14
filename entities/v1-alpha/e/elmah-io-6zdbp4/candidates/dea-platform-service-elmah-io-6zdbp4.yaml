@@ -1,0 +1,37 @@
+id: dea:platform-service-elmah-io-6zdbp4
+type: PlatformService
+name: elmah.io API (elmah.io)
+description: This is the public REST API for elmah.io. All of the integrations communicates
+  with elmah.io through this API.<br/><br/>For additional help getting started with
+  the API, visit the following help articles:<br/><ul><li>[Using the REST API](https://docs.elmah.io/using-the-rest-api/)</li><li>[Where
+  is my API key?](https://docs.elmah.io/where-is-my-api-key/)</li><li>[Where is my
+  log ID?](https://docs.elmah.io/where-is-my-log-id/)</li><li>[How to configure API
+  key permissions](https://docs.elmah.io/how-to-configure-api-key-permissions/)</li></ul>
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: elmah.io; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- elmah-io
+- public-api

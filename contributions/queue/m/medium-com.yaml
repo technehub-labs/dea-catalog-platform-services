@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru medium.com
 name: Medium API (medium.com)
 description: Medium API helps you to quickly extract data from Medium's Website (https://medium.com).
-  You can gather data related to users, publications, articles (including its textual content), latest
-  posts &amp; top writers within a topic/niche, etc…
+  You can gather data related to users, publications, articles (including its textual
+  content), latest posts &amp; top writers within a topic/niche, etc…
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: medium.com; spec: https://mediumapi.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: medium.com; spec:
+      https://mediumapi.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - medium-com
 - public-api
 slug: medium-com
+assigned_id: dea:platform-service-medium-com-35ctqg
+admitted: '2026-11-14'

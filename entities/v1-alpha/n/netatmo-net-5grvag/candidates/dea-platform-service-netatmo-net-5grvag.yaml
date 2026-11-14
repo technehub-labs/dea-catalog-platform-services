@@ -1,0 +1,39 @@
+id: dea:platform-service-netatmo-net-5grvag
+type: PlatformService
+name: Netatmo (netatmo.net)
+description: <h3>Welcome to the Netatmo swagger on-line documentation !</h3> This
+  site is a complement to the official <a href="https://dev.netatmo.com/">Netatmo
+  developper documentation</a> using swagger to bring interactivity and easy testing
+  of requests with the "try it" button (authenticate with the authorization code OAuth2
+  flow by clicking the authenticate button in the methods). You can find the source
+  code for this site can be found in the project <a href="https://github.com/cbornet/netatmo-swagger-ui">netatmo-swagger-ui</a>.
+  You can also use the online <a href="./swagger.json">swagger declaration</a> file
+  to generate code or static documentation (see <a href="https://github.com/cbornet/netatmo-swagger-api">netatmo-swagger-api</a>).
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: netatmo.net; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- netatmo-net
+- public-api

@@ -1,0 +1,40 @@
+id: dea:platform-service-nfusionsolutions-biz-zgjgdg
+type: PlatformService
+name: nFusion Solutions Market Data API (nfusionsolutions.biz)
+description: '[nFusion Solutions](https://nfusionsolutions.com) provides [REST APIs](https://nfusionsolutions.com/data-feeds/)
+  that deliver enterprise-grade financial data. Data sets include real-time and historical
+  pricing for Spot prices of precious metals such as Gold, Silver, Platinum, and Palladium,
+  exchange rates for major currency pairs, exchange rates for Crypto Currencies such
+  as BTC, ETH, and LTC. All API access requires authentication. In order to be issued
+  access credentials you must first enter into a service agreement with nFusion Solutions
+  and acquire a commercial license. For information on how to obtain a licence [take
+  a tour of our products](https://nfusionsolutions.com/nfusion-solutions-metals-gold-price-feed-tour/)
+  or email sales@nfusionsolutions.com.'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nfusionsolutions.biz;
+      spec: https://nfusionsolutions.com/contact-us)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- nfusionsolutions-biz
+- public-api

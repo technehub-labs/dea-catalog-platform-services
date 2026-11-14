@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru winsms.co.za
 name: WINSMS (winsms.co.za)
-description: 'WINSMS — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'WINSMS — a public API catalogued in the APIs.guru directory (provider:
+  n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: winsms.co.za; spec: http://support.winsms.co.za/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: winsms.co.za; spec:
+      http://support.winsms.co.za/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - winsms-co-za
 - public-api
 slug: winsms-co-za
+assigned_id: dea:platform-service-winsms-co-za-fahmdy
+admitted: '2026-11-14'

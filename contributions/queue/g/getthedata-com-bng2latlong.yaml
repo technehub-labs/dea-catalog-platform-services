@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru getthedata.com:bng2latlong
 name: bng2latlong (getthedata.com:bng2latlong)
-description: Convert an OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude.
+description: Convert an OSGB36 easting and northing (British National Grid) to WGS84
+  latitude and longitude.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: getthedata.com:bng2latlong; spec: https://www.getthedata.com/bng2latlong)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: getthedata.com:bng2latlong;
+      spec: https://www.getthedata.com/bng2latlong)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - getthedata-com
 - public-api
 slug: getthedata-com-bng2latlong
+assigned_id: dea:platform-service-getthedata-com-bng2latlong-44dymh
+admitted: '2026-11-14'

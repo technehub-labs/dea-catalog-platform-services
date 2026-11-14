@@ -1,0 +1,40 @@
+id: dea:platform-service-whapi-com-bets-xftr6y
+type: PlatformService
+name: Bets API (whapi.com:bets)
+description: The Bets API methods are used to place single, multiple and complex bets
+  and to retrieve a customer’s bet history. When retrieving a customer’s bet history
+  you can organize the bets from the betting history in terms of date, bet type and
+  whether the bet is settled or not. You can also specify what fields to be included/excluded
+  or return a list of all default fields the method returns. <br /><br /> The Bets
+  API will also generate a bet delay if you’re placing a single/multiple bet in-Play
+  by creating a time margin to negate the effects of major changes to the market (for
+  example, goals during a football match). Note that in version 2 of our APIs, Bets
+  API contains the functionality of both Bets API v1 and the Betslips API v1.
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: whapi.com:bets;
+      spec: http://developer.williamhill.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- whapi-com
+- public-api

@@ -1,0 +1,31 @@
+# API Reference - Ideal Postcodes (ideal-postcodes.co.uk)
+
+> # Getting Started ## Overview ### Access All API methods are either a `GET`, `POST` or `OPTIONS` request. The API communicates over both HTTPS and plain HTTP using IPv4 and IPv6. We recommend using HTTPS only although HTTP is available. We use appropriate HTTP status codes where possible to indicate the request status. ### Rate Limiting Each IP address is rate limited at 30 requests per second. Tripping the rate limit will result in a 503 response. The autocomplete API also has an additional rate limit. If you expect to breach the limit please contact us and we can move you to an endpoint with a higher limit. ### JSONP [JSONP](http://en.wikipedia.org/wiki/JSONP) requests are supported. Include a `callback=` in your request as a query parameter. Your results return wrapped in a function designated by your request. ## Authentication Most requests require an **API key** for authentication. Authenticate by passing an `api_key` as part of the query string. For example: ``` api.ideal-postcodes.co.uk/v1/autocomplete/addresses?api_key=iddqd&q=parkside ``` Alternatively, authentication can be transmitted via the `Authorization` header using the following scheme: ``` Authorization: api_key="iddqd" [other_key="foo"] ``` ## Versioning This API is versioned with a simple prefix in the URL. The current version is `/v1/`. We will maintain backwards-compatibility by releasing breaking changes under a new version. Please note that the following changes are backwards-compatible: - Adding new properties to existing API responses - Adding new API endpoints - Adding new optional request parameters to existing API endpoints - Changing the order of properties in existing API responses - Changing the autocomplete address suggestion format ## Error Handling A successful lookup is accompanied with a HTTP status code of 200 and a response code of 2000 (found in the body). An error has occurred if the HTTP status code is not 200. Errors can range from a benign 404 (resource not found) to more
+
+## Identity
+
+- **Record id**: `dea:platform-service-ideal-postcodes-co-uk-nutqpr`
+- **Type**: PlatformService
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the APIs.guru public API directory (list API). The API specification is published and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted at candidate state.
+
+- kind: `published-document` — reference: https://apis.guru/browse-apis/ (APIs.guru listing: ideal-postcodes.co.uk; spec: https://ideal-postcodes.co.uk/support)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-14, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).

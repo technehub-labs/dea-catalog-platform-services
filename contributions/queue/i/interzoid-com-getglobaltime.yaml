@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru interzoid.com:getglobaltime
 name: Interzoid Get Global Time API (interzoid.com:getglobaltime)
-description: This API retrieves the current time for a city or geographic location around the globe.
+description: This API retrieves the current time for a city or geographic location
+  around the globe.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: interzoid.com:getglobaltime; spec:
-      https://www.interzoid.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: interzoid.com:getglobaltime;
+      spec: https://www.interzoid.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - interzoid-com
 - public-api
 slug: interzoid-com-getglobaltime
+assigned_id: dea:platform-service-interzoid-com-getglobaltime-8h7zfd
+admitted: '2026-11-14'

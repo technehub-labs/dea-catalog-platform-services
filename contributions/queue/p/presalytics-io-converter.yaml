@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru presalytics.io:converter
 name: Doc Converter (presalytics.io:converter)
-description: This api converts file formats of OpenXml and OpenOffice documents formats to vector files
-  (e.g., svg)
+description: This api converts file formats of OpenXml and OpenOffice documents formats
+  to vector files (e.g., svg)
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: presalytics.io:converter; spec: http://presalytics.io)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: presalytics.io:converter;
+      spec: http://presalytics.io)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - presalytics-io
 - public-api
 slug: presalytics-io-converter
+assigned_id: dea:platform-service-presalytics-io-converter-d6dc34
+admitted: '2026-11-14'

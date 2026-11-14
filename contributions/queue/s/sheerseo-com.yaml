@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru sheerseo.com
 name: SheerSEO API (sheerseo.com)
-description: 'Sheerseo API has 2 stages:<br>First stage - initiating the task: You fill in your task and
-  receive in return the task id. <br>Second stage - collecting the results: send a request containing
-  the task ids you got at the first stage and collecting the results.'
+description: 'Sheerseo API has 2 stages:<br>First stage - initiating the task: You
+  fill in your task and receive in return the task id. <br>Second stage - collecting
+  the results: send a request containing the task ids you got at the first stage and
+  collecting the results.'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: sheerseo.com; spec: https://www.sheerseo.com/seo-monitoring-tools/support.html)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: sheerseo.com; spec:
+      https://www.sheerseo.com/seo-monitoring-tools/support.html)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - sheerseo-com
 - public-api
 slug: sheerseo-com
+assigned_id: dea:platform-service-sheerseo-com-9vncew
+admitted: '2026-11-14'

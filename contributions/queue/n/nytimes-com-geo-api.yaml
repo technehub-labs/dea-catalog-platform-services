@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru nytimes.com:geo_api
 name: Geographic API (nytimes.com:geo_api)
-description: The Geographic API extends the Semantic API, using a linked data approach to enhance location
-  concepts used in The New York Times' controlled vocabulary and data resources which combine them with
-  the GeoNames database, an authoritative and free to use database of global geographical places, names
-  and features.
+description: The Geographic API extends the Semantic API, using a linked data approach
+  to enhance location concepts used in The New York Times' controlled vocabulary and
+  data resources which combine them with the GeoNames database, an authoritative and
+  free to use database of global geographical places, names and features.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nytimes.com:geo_api; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nytimes.com:geo_api;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - nytimes-com
 - public-api
 slug: nytimes-com-geo-api
+assigned_id: dea:platform-service-nytimes-com-geo-api-awyrf2
+admitted: '2026-11-14'

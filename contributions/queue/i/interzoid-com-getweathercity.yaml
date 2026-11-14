@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru interzoid.com:getweathercity
 name: Interzoid Get Weather City API (interzoid.com:getweathercity)
-description: This API provides current weather information for US Cities, including temperatures, wind
-  speeds, wind direction, relative humidity, and visibility.
+description: This API provides current weather information for US Cities, including
+  temperatures, wind speeds, wind direction, relative humidity, and visibility.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: interzoid.com:getweathercity; spec:
-      https://www.interzoid.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: interzoid.com:getweathercity;
+      spec: https://www.interzoid.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - interzoid-com
 - public-api
 slug: interzoid-com-getweathercity
+assigned_id: dea:platform-service-interzoid-com-getweathercity-6drnwp
+admitted: '2026-11-14'

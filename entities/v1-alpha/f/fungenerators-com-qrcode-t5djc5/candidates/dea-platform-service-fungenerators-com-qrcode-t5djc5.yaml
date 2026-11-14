@@ -1,0 +1,37 @@
+id: dea:platform-service-fungenerators-com-qrcode-t5djc5
+type: PlatformService
+name: Fun Generators API (fungenerators.com:qrcode)
+description: 'Fungenerators API gives access to the full set of generators available
+  at fungenerators.com so that you can integrate them in your workflow or an app.
+  [Click here to get details and subscribe](http://fungenerators.com/api) . Here are
+  the individual API links: ## QR Code API ## Generate QR Code images for text, url,
+  email , business cards etc. You can decode QR Code images and get the contents as
+  well. The best and complete QR Code API on the cloud. [Click here to subscribe](http://fungenerators.com/api/qrcode)'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fungenerators.com:qrcode;
+      spec: http://fungenerators.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- fungenerators-com
+- public-api

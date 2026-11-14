@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru microsoft.com:cognitiveservices-ComputerVision
 name: Computer Vision Client (microsoft.com:cognitiveservices-ComputerVision)
-description: The Computer Vision API provides state-of-the-art algorithms to process images and return
-  information. For example, it can be used to determine if an image contains mature content, or it can
-  be used to find all the faces in an image. It also has other features like estimating dominant and accent
-  colors, categorizing the content of images, and describing an image with complete English sentences.
-  Additionally, it can also intelligently generate images thumbnails for displaying large images effectively.
+description: The Computer Vision API provides state-of-the-art algorithms to process
+  images and return information. For example, it can be used to determine if an image
+  contains mature content, or it can be used to find all the faces in an image. It
+  also has other features like estimating dominant and accent colors, categorizing
+  the content of images, and describing an image with complete English sentences.
+  Additionally, it can also intelligently generate images thumbnails for displaying
+  large images effectively.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: microsoft.com:cognitiveservices-ComputerVision;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - microsoft-com
 - public-api
 slug: microsoft-com-cognitiveservices-computervision
+assigned_id: dea:platform-service-microsoft-com-cognitiveservices-computervision-t7ajeh
+admitted: '2026-11-14'

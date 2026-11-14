@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru nytimes.com:article_search
 name: Article Search API (nytimes.com:article_search)
-description: 'With the Article Search API, you can search New York Times articles from Sept. 18, 1851
-  to today, retrieving headlines, abstracts, lead paragraphs, links to associated multimedia and other
-  article metadata. Note: In URI examples and field names, italics indicate placeholders for variables
-  or values. Brackets [ ] indicate optional items. Parentheses ( ) are not a convention — when URIs include
+description: 'With the Article Search API, you can search New York Times articles
+  from Sept. 18, 1851 to today, retrieving headlines, abstracts, lead paragraphs,
+  links to associated multimedia and other article metadata. Note: In URI examples
+  and field names, italics indicate placeholders for variables or values. Brackets
+  [ ] indicate optional items. Parentheses ( ) are not a convention — when URIs include
   parentheses, interpret them literally.'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nytimes.com:article_search; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: nytimes.com:article_search;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - nytimes-com
 - public-api
 slug: nytimes-com-article-search
+assigned_id: dea:platform-service-nytimes-com-article-search-wqvq46
+admitted: '2026-11-14'

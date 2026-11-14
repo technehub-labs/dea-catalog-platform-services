@@ -1,24 +1,29 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru ljaero.com:dflight
 name: DFlight API (ljaero.com:dflight)
-description: '[DFlight API](https://ljaero.com/solutions/dflight/) supplies the up-to-date information
-  needed for compliance with UAV preflight assessment requirements. Separate endpoints are available for
-  each of the following information categories: - Airspace - Weather - Temporary Flight Restrictions -
-  Special Security Areas - Restricted Public Venues - Surface Obstacles - Aerodromes - UAS Operating Areas
-  You can define your geographic area of interest in one of three convenient ways: - Providing a latitude/longitude
-  point and distance around that point - Providing a GeoJSON LineString defining your route - Providing
-  an arbitrary GeoJSON Polygon defining your area of interest'
+description: '[DFlight API](https://ljaero.com/solutions/dflight/) supplies the up-to-date
+  information needed for compliance with UAV preflight assessment requirements. Separate
+  endpoints are available for each of the following information categories: - Airspace
+  - Weather - Temporary Flight Restrictions - Special Security Areas - Restricted
+  Public Venues - Surface Obstacles - Aerodromes - UAS Operating Areas You can define
+  your geographic area of interest in one of three convenient ways: - Providing a
+  latitude/longitude point and distance around that point - Providing a GeoJSON LineString
+  defining your route - Providing an arbitrary GeoJSON Polygon defining your area
+  of interest'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ljaero.com:dflight; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ljaero.com:dflight;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - ljaero-com
 - public-api
 slug: ljaero-com-dflight
+assigned_id: dea:platform-service-ljaero-com-dflight-j6as6c
+admitted: '2026-11-14'

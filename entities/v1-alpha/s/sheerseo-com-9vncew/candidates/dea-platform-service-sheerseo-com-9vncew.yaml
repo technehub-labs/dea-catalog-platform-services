@@ -1,0 +1,35 @@
+id: dea:platform-service-sheerseo-com-9vncew
+type: PlatformService
+name: SheerSEO API (sheerseo.com)
+description: 'Sheerseo API has 2 stages:<br>First stage - initiating the task: You
+  fill in your task and receive in return the task id. <br>Second stage - collecting
+  the results: send a request containing the task ids you got at the first stage and
+  collecting the results.'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: sheerseo.com; spec:
+      https://www.sheerseo.com/seo-monitoring-tools/support.html)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- sheerseo-com
+- public-api

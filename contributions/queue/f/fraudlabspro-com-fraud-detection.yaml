@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru fraudlabspro.com:fraud-detection
 name: FraudLabs Pro Fraud Detection (fraudlabspro.com:fraud-detection)
-description: Online payment fraud detection service. It helps merchants to minimize chargebacks and therefore
-  maximize the revenue. It can be used to detect fraud for various kinds of payment method, such as credit
-  card, paypal, cod and so on. Please visit https://www.fraudlabspro.com to learn more.
+description: Online payment fraud detection service. It helps merchants to minimize
+  chargebacks and therefore maximize the revenue. It can be used to detect fraud for
+  various kinds of payment method, such as credit card, paypal, cod and so on. Please
+  visit https://www.fraudlabspro.com to learn more.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fraudlabspro.com:fraud-detection; spec:
-      https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: fraudlabspro.com:fraud-detection;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - fraudlabspro-com
 - public-api
 slug: fraudlabspro-com-fraud-detection
+assigned_id: dea:platform-service-fraudlabspro-com-fraud-detection-4q7usf
+admitted: '2026-11-14'

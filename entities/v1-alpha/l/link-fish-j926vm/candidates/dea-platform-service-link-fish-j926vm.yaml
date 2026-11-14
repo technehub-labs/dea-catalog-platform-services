@@ -1,0 +1,56 @@
+id: dea:platform-service-link-fish-j926vm
+type: PlatformService
+name: link.fish API (link.fish)
+description: 'API to easily extract data from websites. # Base URL All URLs referenced
+  in the documentation have the following base: ``` https://api.link.fish ``` The
+  REST API is only served over HTTPS. To ensure data privacy, unencrypted HTTP is
+  not supported. # Authentication HTTP requests to the REST API are protected with
+  [HTTP Basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication).
+  You will use the email address of your link.fish account as the username and your
+  API access token as the password for HTTP Basic authentication. If you do not have
+  an account yet, go to [https://link.fish/api](https://link.fish/api) and create
+  one first. You will receive the API access token automatically via email after you
+  signed up. To generate a new token and invalidate the current one log into your
+  link.fish account at [https://app.link.fish](https://app.link.fish) and go to: "Plugins"
+  -> "API Dashboard" There you can also see how many credits you used already. # Errors
+  The API uses standard HTTP status codes to indicate the success or failure of the
+  API call. The body of the response will be JSON in the following format: ``` { "status":
+  {HTTP STATUS CODE} "message": "{ERROR MESSAGE}" } ``` Like for example when the
+  authorization is not provided or wrong: ``` { "status": 401 "message": "Unauthorized"
+  } ``` # Request IDs Each API request has an associated request identifier. You can
+  find it in the response headers, under X-LF-Request-Id. In case you have problems
+  please provide this identifier that we can help you as good and fast as possible.
+  Example: ``` X-LF-Request-Id: f7f0036f-5277-421a-b143-f7a151571d18 ``` # Item format
+  The data is by default deeply nested. So if it should be checked if there is an
+  offer with a price, the whole tree has to be checked. To make that simpler, it is
+  also possible to return the data "flat". If selected it will flatten the tree by
+  copying all the data to the main level under a property with the name of its type
+  and link the data int'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: link.fish; spec:
+      https://link.fish/api)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- link-fish
+- public-api

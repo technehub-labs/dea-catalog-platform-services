@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru hubapi.com:conversations
 name: Visitor Identification (hubapi.com:conversations)
-description: The Visitor Identification API allows you to pass identification information to the HubSpot
-  chat widget for otherwise unknown visitors that were verified by your own authentication system.
+description: The Visitor Identification API allows you to pass identification information
+  to the HubSpot chat widget for otherwise unknown visitors that were verified by
+  your own authentication system.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hubapi.com:conversations; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hubapi.com:conversations;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - hubapi-com
 - public-api
 slug: hubapi-com-conversations
+assigned_id: dea:platform-service-hubapi-com-conversations-8fxk9n
+admitted: '2026-11-14'

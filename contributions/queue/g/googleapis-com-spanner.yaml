@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru googleapis.com:spanner
 name: Cloud Spanner API (googleapis.com:spanner)
-description: Cloud Spanner is a managed, mission-critical, globally consistent and scalable relational
-  database service.
+description: Cloud Spanner is a managed, mission-critical, globally consistent and
+  scalable relational database service.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:spanner; spec: https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:spanner;
+      spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-spanner
+assigned_id: dea:platform-service-googleapis-com-spanner-v7t9cp
+admitted: '2026-11-14'

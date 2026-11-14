@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru gov.bc.ca:jobposting
 name: WorkBC Job Posting API (gov.bc.ca:jobposting)
-description: This API allows you to receive a feed of jobs from WorkBC's Job Board. Please see our <a
-  href="https://github.com/bcgov/api-specs/blob/master/COLLECTION_NOTICE.md#collection-notice" target="_blank">data
-  collection notice</a>. Please note that you may experience issues when submitting requests to the delivery
-  or test environment if using this [OpenAPI specification](https://github.com/bcgov/api-specs) in other
-  API console viewers.
+description: This API allows you to receive a feed of jobs from WorkBC's Job Board.
+  Please see our <a href="https://github.com/bcgov/api-specs/blob/master/COLLECTION_NOTICE.md#collection-notice"
+  target="_blank">data collection notice</a>. Please note that you may experience
+  issues when submitting requests to the delivery or test environment if using this
+  [OpenAPI specification](https://github.com/bcgov/api-specs) in other API console
+  viewers.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: gov.bc.ca:jobposting; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: gov.bc.ca:jobposting;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - gov-bc-ca
 - public-api
 slug: gov-bc-ca-jobposting
+assigned_id: dea:platform-service-gov-bc-ca-jobposting-ayx47q
+admitted: '2026-11-14'

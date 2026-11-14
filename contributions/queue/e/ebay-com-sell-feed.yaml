@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru ebay.com:sell-feed
 name: Feed API (ebay.com:sell-feed)
-description: <p>The <strong>Feed API</strong> lets sellers upload input files, download reports and files
-  including their status, filter reports using URI parameters, and retrieve customer service metrics task
-  details.</p>
+description: <p>The <strong>Feed API</strong> lets sellers upload input files, download
+  reports and files including their status, filter reports using URI parameters, and
+  retrieve customer service metrics task details.</p>
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ebay.com:sell-feed; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ebay.com:sell-feed;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - ebay-com
 - public-api
 slug: ebay-com-sell-feed
+assigned_id: dea:platform-service-ebay-com-sell-feed-4u2skg
+admitted: '2026-11-14'

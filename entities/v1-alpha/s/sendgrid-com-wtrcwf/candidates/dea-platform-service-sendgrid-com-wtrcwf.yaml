@@ -1,0 +1,41 @@
+id: dea:platform-service-sendgrid-com-wtrcwf
+type: PlatformService
+name: Email Activity (beta) (sendgrid.com)
+description: The Beta endpoints for the new Email Activity APIs - functionality is
+  subject to change without notice. You may not have access to this Beta endpoint.
+  Email Activity offers filtering and search by event type for two days worth of data.
+  There is an optional add-on to store 60 days worth of data. This add-on also gives
+  you access to the ability to download a CSV of the 60 days worth of email event
+  data. The Beta endpoints for the new Email Activity APIs - functionality is subject
+  to change without notice. You may not have access to this Beta endpoint. Email Activity
+  offers filtering and search by event type for two days worth of data. There is an
+  optional add-on to store 60 days worth of data. This add-on also gives you access
+  to the ability to download a CSV of the 60 days worth of email event data.
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: sendgrid.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- sendgrid-com
+- public-api

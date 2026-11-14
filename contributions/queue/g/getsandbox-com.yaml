@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru getsandbox.com
 name: Sandbox API (getsandbox.com)
-description: 'Sandbox API — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'Sandbox API — a public API catalogued in the APIs.guru directory (provider:
+  n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: getsandbox.com; spec: https://getsandbox.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: getsandbox.com;
+      spec: https://getsandbox.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - getsandbox-com
 - public-api
 slug: getsandbox-com
+assigned_id: dea:platform-service-getsandbox-com-h52h62
+admitted: '2026-11-14'

@@ -1,18 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru openapi.space
 name: OpenAPI space (openapi.space)
-description: 'OpenAPI space — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'OpenAPI space — a public API catalogued in the APIs.guru directory (provider:
+  n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: openapi.space; spec: http://apinf.org)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: openapi.space;
+      spec: http://apinf.org)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - openapi-space
 - public-api
 slug: openapi-space
+assigned_id: dea:platform-service-openapi-space-8mrppb
+admitted: '2026-11-14'

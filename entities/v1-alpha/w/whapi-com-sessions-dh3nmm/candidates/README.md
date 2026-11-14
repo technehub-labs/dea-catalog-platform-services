@@ -1,0 +1,31 @@
+# Sessions API (whapi.com:sessions)
+
+> The William Hill Sessions API uses a central authentication service (CAS*) on all resources that require access to a customer’s account or betting functionality. To authenticate, you’ll need to supply a sportsbook username and password, in return you will be given an authentication ticket, which you can use on the majority of requests found within our services. <br /><br /><br /> The Sessions API should be used whenever you want to login a customer and:<br /><br /> <ul> <li>continue to use the William Hill API for that customer’s transactions</li> <li>use other CAS-enabled William Hill services outside the suite of APIs</li> </ul> <br /> CAS is an enterprise Single Sign-On solution for web services (see https://wiki.jasig.org/display/CAS/Home). It is used by many William Hill services. <br /> Note: all requests must be executed over HTTPS and include an API key and secret.<br /><br /><br /> <b>Authentication Ticket Expiration Times</b><br /><br /> When a customer is logged in using the Sessions API, they are given an Authentication Ticket; using this ticket on subsequent API requests gives you access to account activities (such as placing a bet, deposits, etc). However, this ticket is only valid for a given period of time depending on how it is used. If the ticket is used and then has a period of inactivity longer than 7,200 seconds (2 hours), then the ticket will expire and further requests using the ticket will be denied - in effect, a customer has been logged out and will need to authenticate again. <br /><br /><br /> Normally, any ticket issued only has a maximum life expectancy of 28,000 seconds (8 hours) after which it can no longer be used, even if it has been used regularly. The customer again will be effectively logged out and will need to authenticate again. If you wish to avoid this, you need to set the query parameter extended to Y, which will enable your application to generate a ticket valid for 60 days without expiring due to inactivity. <br />
+
+## Identity
+
+- **Record id**: `dea:platform-service-whapi-com-sessions-dh3nmm`
+- **Type**: PlatformService
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the APIs.guru public API directory (list API). The API specification is published and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted at candidate state.
+
+- kind: `published-document` — reference: https://apis.guru/browse-apis/ (APIs.guru listing: whapi.com:sessions; spec: http://developer.williamhill.com)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-14, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).

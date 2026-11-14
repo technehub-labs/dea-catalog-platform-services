@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru youneedabudget.com
 name: YNAB API Endpoints (youneedabudget.com)
-description: Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for
-  transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details
-  in the response body. API Documentation is at https://api.youneedabudget.com
+description: Our API uses a REST based design, leverages the JSON data format, and
+  relies upon HTTPS for transport. We respond with meaningful HTTP response codes
+  and if an error occurs, we include error details in the response body. API Documentation
+  is at https://api.youneedabudget.com
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: youneedabudget.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: youneedabudget.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - youneedabudget-com
 - public-api
 slug: youneedabudget-com
+assigned_id: dea:platform-service-youneedabudget-com-cfsw6q
+admitted: '2026-11-14'

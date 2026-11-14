@@ -1,15 +1,17 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru vtex.local:Catalog-API-Seller-Portal
 name: Catalog API - Seller Portal (vtex.local:Catalog-API-Seller-Portal)
-description: 'With the Catalog API for Seller Portal, you will be able to create, edit and consult products
-  and their variations, brands, and categories. > This API is part of the [Seller Portal Catalog](https://help.vtex.com/en/tutorial/how-the-seller-portal-catalog-works--7pMB6YOt6YQDQQbzFB4Pxp).
-  This functionality is in the Beta stage and can be discontinued at any moment at VTEX''s discretion.
-  VTEX will not be responsible for any instabilities caused by its use or discontinuity. If you have any
-  questions, please contact [our Support Center](https://support.vtex.com/hc/en-us/requests). ## Index
-  ### Product `GET` [Get Product by ID](https://developers.vtex.com/docs/api-reference/catalog-api-seller-portal#get-/api/catalog-seller-portal/products/-productId-)
+description: 'With the Catalog API for Seller Portal, you will be able to create,
+  edit and consult products and their variations, brands, and categories. > This API
+  is part of the [Seller Portal Catalog](https://help.vtex.com/en/tutorial/how-the-seller-portal-catalog-works--7pMB6YOt6YQDQQbzFB4Pxp).
+  This functionality is in the Beta stage and can be discontinued at any moment at
+  VTEX''s discretion. VTEX will not be responsible for any instabilities caused by
+  its use or discontinuity. If you have any questions, please contact [our Support
+  Center](https://support.vtex.com/hc/en-us/requests). ## Index ### Product `GET`
+  [Get Product by ID](https://developers.vtex.com/docs/api-reference/catalog-api-seller-portal#get-/api/catalog-seller-portal/products/-productId-)
   `PUT` [Update Product](https://developers.vtex.com/docs/api-reference/catalog-api-seller-portal#put-/api/catalog-seller-portal/products/-productId-)
   `GET` [Get Product Description by Product ID](https://developers.vtex.com/docs/api-reference/catalog-api-seller-portal#get-/api/catalog-seller-portal/products/-productId-/description)
   `PUT` [Update Product Description by Product ID](https://developers.vtex.com/docs/api-reference/catalog-api-seller-portal#put-/api/catalog-seller-portal/products/-productId-/description)
@@ -23,10 +25,12 @@ evidence:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Catalog-API-Seller-Portal;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - vtex-local
 - public-api
 slug: vtex-local-catalog-api-seller-portal
+assigned_id: dea:platform-service-vtex-local-catalog-api-seller-portal-8fuctv
+admitted: '2026-11-14'

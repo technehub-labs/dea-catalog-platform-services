@@ -1,20 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru microsoft.com:cognitiveservices-Prediction
 name: Custom Vision Prediction Client (microsoft.com:cognitiveservices-Prediction)
-description: 'Custom Vision Prediction Client — a public API catalogued in the APIs.guru directory (provider:
-  n/a).'
+description: 'Custom Vision Prediction Client — a public API catalogued in the APIs.guru
+  directory (provider: n/a).'
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: microsoft.com:cognitiveservices-Prediction;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - microsoft-com
 - public-api
 slug: microsoft-com-cognitiveservices-prediction
+assigned_id: dea:platform-service-microsoft-com-cognitiveservices-prediction-cmwpwx
+admitted: '2026-11-14'

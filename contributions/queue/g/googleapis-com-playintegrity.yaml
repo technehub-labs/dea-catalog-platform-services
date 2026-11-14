@@ -1,21 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru googleapis.com:playintegrity
 name: Google Play Integrity API (googleapis.com:playintegrity)
-description: The Play Integrity API helps you check that you're interacting with your genuine app on a
-  genuine Android device powered by Google Play services. The Play Integrity API has replaced SafetyNet
-  Attestation and Android Device Verification.
+description: The Play Integrity API helps you check that you're interacting with your
+  genuine app on a genuine Android device powered by Google Play services. The Play
+  Integrity API has replaced SafetyNet Attestation and Android Device Verification.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:playintegrity; spec:
-      https://google.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: googleapis.com:playintegrity;
+      spec: https://google.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - googleapis-com
 - public-api
 slug: googleapis-com-playintegrity
+assigned_id: dea:platform-service-googleapis-com-playintegrity-6h9rvw
+admitted: '2026-11-14'

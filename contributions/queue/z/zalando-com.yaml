@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru zalando.com
 name: Zalando Shop (zalando.com)
-description: The shop API empowers developers to build amazing new apps or websites using Zalando shop
-  data and services.
+description: The shop API empowers developers to build amazing new apps or websites
+  using Zalando shop data and services.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: zalando.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: zalando.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - zalando-com
 - public-api
 slug: zalando-com
+assigned_id: dea:platform-service-zalando-com-swmw9y
+admitted: '2026-11-14'

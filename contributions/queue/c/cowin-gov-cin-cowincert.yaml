@@ -1,4 +1,4 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
@@ -8,11 +8,14 @@ description: API to get Co-WIN vaccination certificate.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: cowin.gov.cin:cowincert; spec: https://www.cowin.gov.in)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: cowin.gov.cin:cowincert;
+      spec: https://www.cowin.gov.in)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - cowin-gov-cin
 - public-api
 slug: cowin-gov-cin-cowincert
+assigned_id: dea:platform-service-cowin-gov-cin-cowincert-p986tm
+admitted: '2026-11-14'

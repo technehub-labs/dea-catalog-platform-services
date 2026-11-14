@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru microsoft.com:cognitiveservices-CustomImageSearch
 name: Custom Image Search Client (microsoft.com:cognitiveservices-CustomImageSearch)
-description: The Bing Custom Image Search API lets you send an image search query to Bing and get back
-  image search results customized to meet your custom search definition.
+description: The Bing Custom Image Search API lets you send an image search query
+  to Bing and get back image search results customized to meet your custom search
+  definition.
 evidence:
   sources:
   - kind: published-document
     reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: microsoft.com:cognitiveservices-CustomImageSearch;
       spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - microsoft-com
 - public-api
 slug: microsoft-com-cognitiveservices-customimagesearc
+assigned_id: dea:platform-service-microsoft-com-cognitiveservices-customimagesearc-pbfwxr
+admitted: '2026-11-14'

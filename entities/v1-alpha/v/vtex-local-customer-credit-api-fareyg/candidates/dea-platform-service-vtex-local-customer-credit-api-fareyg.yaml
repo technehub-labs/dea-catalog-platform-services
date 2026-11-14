@@ -1,0 +1,40 @@
+id: dea:platform-service-vtex-local-customer-credit-api-fareyg
+type: PlatformService
+name: Customer Credit API (vtex.local:Customer-Credit-API)
+description: 'With Customer Credit your store can enable **credit payments** through
+  the checkout. You can also control **invoices** and the **credit limits** of your
+  clients. Learn more about Customer Credit in our [Help Center article](https://help.vtex.com/en/tracks/customer-credit-getting-started--1hCRg21lXYy2seOKgqQ2CC/36grlQ69NK6OCuioeekyCs).
+  All requests need the **authorization header**. Additionally, you can find more
+  information on installment payments for an order in the `customData` field found
+  in the [Get Order](https://developers.vtex.com/docs/api-reference/orders-api#get-/api/oms/pvt/orders/-orderId-)
+  endpoint of the Orders API. This includes the number of installments, amount and
+  due dates. This API allows two kinds of authorization: 1. Authorization header containing
+  the VTEX ID authentication token. 2. VTEX Appkey and Apptoken headers.'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Customer-Credit-API;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- vtex-local
+- public-api

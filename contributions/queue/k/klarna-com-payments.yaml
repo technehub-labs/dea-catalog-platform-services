@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru klarna.com:payments
 name: Klarna Payments API V1 (klarna.com:payments)
-description: The payments API is used to create a session to offer Klarna's payment methods as part of
-  your checkout. As soon as the purchase is completed the order should be read and handled using the [`Order
-  Management API`](https://docs.klarna.com/api/ordermanagement). Read more on [Klarna payments](https://docs.klarna.com/klarna-payments/).
+description: The payments API is used to create a session to offer Klarna's payment
+  methods as part of your checkout. As soon as the purchase is completed the order
+  should be read and handled using the [`Order Management API`](https://docs.klarna.com/api/ordermanagement).
+  Read more on [Klarna payments](https://docs.klarna.com/klarna-payments/).
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: klarna.com:payments; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: klarna.com:payments;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - klarna-com
 - public-api
 slug: klarna-com-payments
+assigned_id: dea:platform-service-klarna-com-payments-nyxkfu
+admitted: '2026-11-14'

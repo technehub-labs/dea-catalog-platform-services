@@ -1,20 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru hubhopper.com
 name: Hubhopper Partner Integration API(s) - Production (hubhopper.com)
-description: This is an interactive document explaining the API(s) that could be used to fetch data from
-  [Hubhopper](https://hubhopper.com). Use the api key provided to authorize `x-api-key` and test the API(s).
-  The output data models are also available for reference.
+description: This is an interactive document explaining the API(s) that could be used
+  to fetch data from [Hubhopper](https://hubhopper.com). Use the api key provided
+  to authorize `x-api-key` and test the API(s). The output data models are also available
+  for reference.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hubhopper.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: hubhopper.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - hubhopper-com
 - public-api
 slug: hubhopper-com
+assigned_id: dea:platform-service-hubhopper-com-8wqhue
+admitted: '2026-11-14'

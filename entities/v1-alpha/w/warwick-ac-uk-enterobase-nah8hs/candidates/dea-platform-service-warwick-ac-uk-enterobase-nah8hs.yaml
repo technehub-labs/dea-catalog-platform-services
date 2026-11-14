@@ -1,0 +1,37 @@
+id: dea:platform-service-warwick-ac-uk-enterobase-nah8hs
+type: PlatformService
+name: Enterobase-API (warwick.ac.uk:enterobase)
+description: 'API for EnteroBase (https://enterobase.warwick.ac.uk) EnteroBase is
+  a user-friendly online resource, where users can upload their own sequencing data
+  for de novo assembly by a stream-lined pipeline. The assemblies are used for calling
+  MLST and wgMLST patterns, allowing users to compare their strains to publically
+  available genotyping data from other EnteroBase users, GenBank and classical MLST
+  databases. Click here to find how to get and use an API token: http://bit.ly/1TKlaOU'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: warwick.ac.uk:enterobase;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- warwick-ac-uk
+- public-api

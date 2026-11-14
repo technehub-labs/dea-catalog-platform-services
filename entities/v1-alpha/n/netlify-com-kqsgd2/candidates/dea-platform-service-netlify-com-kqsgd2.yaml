@@ -1,0 +1,41 @@
+id: dea:platform-service-netlify-com-kqsgd2
+type: PlatformService
+name: Netlify's API documentation (netlify.com)
+description: 'Netlify is a hosting service for the programmable web. It understands
+  your documents and provides an API to handle atomic deploys of websites, manage
+  form submissions, inject JavaScript snippets, and much more. This is a REST-style
+  API that uses JSON for serialization and OAuth 2 for authentication. This document
+  is an OpenAPI reference for the Netlify API that you can explore. For more detailed
+  instructions for common uses, please visit the [online documentation](https://www.netlify.com/docs/api/).
+  Visit our Community forum to join the conversation about [understanding and using
+  Netlify’s API](https://community.netlify.com/t/common-issue-understanding-and-using-netlifys-api/160).
+  Additionally, we have two API clients for your convenience: - [Go Client](https://github.com/netlify/open-api#go-client)
+  - [JS Client](https://github.com/netlify/js-client)'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: netlify.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- netlify-com
+- public-api

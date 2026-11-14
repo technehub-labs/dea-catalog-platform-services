@@ -1,20 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru taxamo.com
 name: Taxamo (taxamo.com)
-description: Taxamo’s elegant suite of APIs and comprehensive reporting dashboard enables digital merchants
-  to easily comply with EU regulatory requirements on tax calculation, evidence collection, tax return
-  creation and data storage.
+description: Taxamo’s elegant suite of APIs and comprehensive reporting dashboard
+  enables digital merchants to easily comply with EU regulatory requirements on tax
+  calculation, evidence collection, tax return creation and data storage.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: taxamo.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: taxamo.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - taxamo-com
 - public-api
 slug: taxamo-com
+assigned_id: dea:platform-service-taxamo-com-9yyd2k
+admitted: '2026-11-14'

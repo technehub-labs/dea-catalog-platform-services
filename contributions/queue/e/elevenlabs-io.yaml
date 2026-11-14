@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru elevenlabs.io
 name: ElevenLabs API Documentation (elevenlabs.io)
-description: This is the documentation for the ElevenLabs API. You can use this API to use our service
-  programmatically, this is done by using your xi-api-key. <br/> You can view your xi-api-key using the
-  'Profile' tab on https://beta.elevenlabs.io. Our API is experimental so all endpoints are subject to
-  change.
+description: This is the documentation for the ElevenLabs API. You can use this API
+  to use our service programmatically, this is done by using your xi-api-key. <br/>
+  You can view your xi-api-key using the 'Profile' tab on https://beta.elevenlabs.io.
+  Our API is experimental so all endpoints are subject to change.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: elevenlabs.io; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: elevenlabs.io;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - elevenlabs-io
 - public-api
 slug: elevenlabs-io
+assigned_id: dea:platform-service-elevenlabs-io-4wqcvn
+admitted: '2026-11-14'

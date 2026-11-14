@@ -1,19 +1,22 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru twilio.com:twilio_frontline_v1
 name: Twilio - Frontline (twilio.com:twilio_frontline_v1)
-description: 'Twilio - Frontline — a public API catalogued in the APIs.guru directory (provider: n/a).'
+description: 'Twilio - Frontline — a public API catalogued in the APIs.guru directory
+  (provider: n/a).'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: twilio.com:twilio_frontline_v1; spec:
-      https://support.twilio.com)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: twilio.com:twilio_frontline_v1;
+      spec: https://support.twilio.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - twilio-com
 - public-api
 slug: twilio-com-twilio-frontline-v1
+assigned_id: dea:platform-service-twilio-com-twilio-frontline-v1-dppjzf
+admitted: '2026-11-14'

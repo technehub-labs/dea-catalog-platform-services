@@ -1,21 +1,24 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru tfl.gov.uk
 name: Transport for London Unified API (tfl.gov.uk)
-description: Our unified API brings together data across all modes of transport into a single RESTful
-  API. This API provides access to the most highly requested realtime and status infomation across all
-  the modes of transport, in a single and consistent way. Access to the developer documentation is available
-  at https://api.tfl.gov.uk
+description: Our unified API brings together data across all modes of transport into
+  a single RESTful API. This API provides access to the most highly requested realtime
+  and status infomation across all the modes of transport, in a single and consistent
+  way. Access to the developer documentation is available at https://api.tfl.gov.uk
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: tfl.gov.uk; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: tfl.gov.uk; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - tfl-gov-uk
 - public-api
 slug: tfl-gov-uk
+assigned_id: dea:platform-service-tfl-gov-uk-93jpuw
+admitted: '2026-11-14'

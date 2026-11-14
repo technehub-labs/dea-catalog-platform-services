@@ -1,0 +1,31 @@
+# NOWPayments API (nowpayments.io)
+
+> NOWPayments is a non-custodial cryptocurrency payment processing platform. Accept payments in a wide range of cryptos and get them instantly converted into a coin of your choice and sent to your wallet. Keeping it simple – no excess. # Sandbox Before production usage, you can test our API using the Sandbox. Details can be found [here](https://documenter.getpostman.com/view/7907941/T1LSCRHC) # Authentication To use the NOWPayments API you should do the following: * Sign up at [nowpayments.io](https://nowpayments.io) * Specify your outcome wallet * Generate an API key # Standard e-commerce flow for NOWPayments API: 1. API - Check API availability with the ["GET API status"](https://documenter.getpostman.com/view/7907941/S1a32n38?version=latest#9998079f-dcc8-4e07-9ac7-3d52f0fd733a) method. If required, check the list of available payment currencies with the ["GET available currencies"](https://documenter.getpostman.com/view/7907941/S1a32n38?version=latest#1c268f89-4fe7-471e-81b4-5a3153577b73) method. 2. UI - Ask a customer to select item/items for purchase to determine the total sum; 3. UI - Ask a customer to select payment currency 4. API - Get the minimum payment amount for the selected currency pair (payment currency to your Outcome Wallet currency) with the ["GET Minimum payment amount"](https://documenter.getpostman.com/view/7907941/S1a32n38?version=latest#41b02221-2d58-4fcf-9529-59d3763d6434) method; 5. API - Get the estimate of the total amount in crypto with ["GET Estimated price"](https://documenter.getpostman.com/view/7907941/S1a32n38?version=latest#7025cacf-7040-4c7b-a83f-f9ff0a22a822) and check that it is larger than the minimum payment amount from step 4; 6. API - Call the ["POST Create payment"](https://documenter.getpostman.com/view/7907941/S1a32n38?version=latest#5e37f3ad-0fa1-4292-af51-5c7f95730486) method to create a payment and get the deposit address (in our example, the generated BTC wallet address is returned from this method); 7. UI - Ask a custo
+
+## Identity
+
+- **Record id**: `dea:platform-service-nowpayments-io-dxgm76`
+- **Type**: PlatformService
+- **Version**: 0.1.0
+- **Lifecycle**: proposed (candidate corpus; admitted via the gated intake
+  workflow; canonical admission is a separate evidence-gated step)
+
+## Evidence
+
+Cited from the APIs.guru public API directory (list API). The API specification is published and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted at candidate state.
+
+- kind: `published-document` — reference: https://apis.guru/browse-apis/ (APIs.guru listing: nowpayments.io; spec: https://apis.guru/)
+
+## Classification-or-relationships
+
+Deferred: relationship assertions are not made at candidate admission;
+bindings land at canonical admission with per-assertion evidence.
+
+## Provenance
+
+Ladder passage: candidate (2026-11-14, Emmanuel A. Otchere).
+
+## Governance
+
+Functional owner: Emmanuel A. Otchere. Steward: Emmanuel A. Otchere. Approval: proposed
+(candidate corpus; the approval decision belongs to canonical admission).

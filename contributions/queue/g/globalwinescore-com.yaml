@@ -1,36 +1,44 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru globalwinescore.com
 name: GlobalWineScore API Documentation (globalwinescore.com)
-description: 'The GlobalWineScore API is designed as a RESTful API, providing several resources and methods
-  depending on your usage plan. For further information please refer to <a href="https://www.globalwinescore.com/plans"
-  target="_blank">our plans</a>. # Authentication The API uses token-based authentication. In order to
-  authenticate your requests, you need to include a specific header in each of your requests: ``` Authorization:
-  Token {YOUR-API-TOKEN} ``` The word <b>Token</b> must be written. Your requests must also use the <b>HTTPS</b>
-  protocol. If you don''t have a token yet, you need to apply for one [here](https://www.globalwinescore.com/api/).
-  Your personal token can be found under the <a href="https://www.globalwinescore.com/account/api/" target="_blank">My
-  account > API</a> section of the GlobalWineScore website # Format The API provides several rendering
-  formats which you can control using the `Accept` header or `format` query parameter. - JSON (default):
-  no header or `Accept: application/json` - XML: `Accept: application/xml` # Rate limiting For API requests,
-  the rate limit allows for up to 10 requests per minute. # Error handling Whether a request succeeded
-  is indicated by the HTTP status code. A 2xx status code indicates success, whereas a 4xx status code
-  indicates failure. When a request fails, the response body is still JSON, but always contains a `detail`
-  field with a description of the error, which you can inspect for debugging. For example, trying to access
-  the API without proper authentication will return code 403 along with the message: `{"detail": "Authentication
+description: 'The GlobalWineScore API is designed as a RESTful API, providing several
+  resources and methods depending on your usage plan. For further information please
+  refer to <a href="https://www.globalwinescore.com/plans" target="_blank">our plans</a>.
+  # Authentication The API uses token-based authentication. In order to authenticate
+  your requests, you need to include a specific header in each of your requests: ```
+  Authorization: Token {YOUR-API-TOKEN} ``` The word <b>Token</b> must be written.
+  Your requests must also use the <b>HTTPS</b> protocol. If you don''t have a token
+  yet, you need to apply for one [here](https://www.globalwinescore.com/api/). Your
+  personal token can be found under the <a href="https://www.globalwinescore.com/account/api/"
+  target="_blank">My account > API</a> section of the GlobalWineScore website # Format
+  The API provides several rendering formats which you can control using the `Accept`
+  header or `format` query parameter. - JSON (default): no header or `Accept: application/json`
+  - XML: `Accept: application/xml` # Rate limiting For API requests, the rate limit
+  allows for up to 10 requests per minute. # Error handling Whether a request succeeded
+  is indicated by the HTTP status code. A 2xx status code indicates success, whereas
+  a 4xx status code indicates failure. When a request fails, the response body is
+  still JSON, but always contains a `detail` field with a description of the error,
+  which you can inspect for debugging. For example, trying to access the API without
+  proper authentication will return code 403 along with the message: `{"detail": "Authentication
   credentials were not provided."}` Found a bug ? send us an email at <a href="mailto:api@globalwinescore.com">api@globalwinescore.com</a>
-  # Ordering At the moment, GlobalWineScores may be sorted by `date` and `score`. Use "-" to sort in descending
-  order. # Continuous synchronization If you need to synchronize your database with our API, you can query
-  our API using `?ordering=-date` to get the newes'
+  # Ordering At the moment, GlobalWineScores may be sorted by `date` and `score`.
+  Use "-" to sort in descending order. # Continuous synchronization If you need to
+  synchronize your database with our API, you can query our API using `?ordering=-date`
+  to get the newes'
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: globalwinescore.com; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: globalwinescore.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - globalwinescore-com
 - public-api
 slug: globalwinescore-com
+assigned_id: dea:platform-service-globalwinescore-com-7qkc7x
+admitted: '2026-11-14'

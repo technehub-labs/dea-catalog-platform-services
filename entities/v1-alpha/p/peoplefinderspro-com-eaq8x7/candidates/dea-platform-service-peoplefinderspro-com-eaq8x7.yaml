@@ -1,0 +1,36 @@
+id: dea:platform-service-peoplefinderspro-com-eaq8x7
+type: PlatformService
+name: Self Service Developer API (peoplefinderspro.com)
+description: 'Self Service Developer API documentation and demo. ##Getting Started
+  You will need an API access profile user and password in order to access search
+  endpoints. Your access profile user and password is used for authenticating all
+  requests to our search API. You MUST pass the user and password each time you perform
+  a search request.'
+version: 0.1.0
+lifecycle_status: proposed
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: peoplefinderspro.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- peoplefinderspro-com
+- public-api

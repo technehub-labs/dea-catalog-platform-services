@@ -1,19 +1,23 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-15'
 source_bank: apis-guru.json
 source_ref: APIs.guru postmarkapp.com:account
 name: Postmark Account-level API (postmarkapp.com:account)
-description: Postmark makes sending and receiving email incredibly easy. The Account-level API allows
-  users to configure all Servers, Domains, and Sender Signatures associated with an Account.
+description: Postmark makes sending and receiving email incredibly easy. The Account-level
+  API allows users to configure all Servers, Domains, and Sender Signatures associated
+  with an Account.
 evidence:
   sources:
   - kind: published-document
-    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: postmarkapp.com:account; spec: https://apis.guru/)'
-  rationale: Cited from the APIs.guru public API directory (list API). The API specification is published
-    and machine-verifiable via the cited listing/spec URL. No service-level operational fields are asserted
-    at candidate state.
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: postmarkapp.com:account;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
 tags:
 - postmarkapp-com
 - public-api
 slug: postmarkapp-com-account
+assigned_id: dea:platform-service-postmarkapp-com-account-zdbxxq
+admitted: '2026-11-14'
