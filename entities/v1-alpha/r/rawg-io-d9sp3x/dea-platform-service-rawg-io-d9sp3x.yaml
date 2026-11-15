@@ -1,0 +1,58 @@
+id: dea:platform-service-rawg-io-d9sp3x
+type: PlatformService
+name: RAWG Video Games Database API (rawg.io)
+description: 'The largest open video games database. ### Why build on RAWG - More
+  than 350,000 games for 50 platforms including mobiles. - Rich metadata: tags, genres,
+  developers, publishers, individual creators, official websites, release dates, Metacritic
+  ratings. - Where to buy: links to digital distribution services - Similar games
+  based on visual similarity. - Player activity data: Steam average playtime and RAWG
+  player counts and ratings. - Actively developing and constantly getting better by
+  user contribution and our algorithms. ### Terms of Use - Free for personal use as
+  long as you attribute RAWG as the source of the data and/or images and add an active
+  hyperlink from every page where the data of RAWG is used. - Free for commercial
+  use for startups and hobby projects with not more than 100,000 monthly active users
+  or 500,000 page views per month. If your project is larger than that, email us at
+  [api@rawg.io](mailto:api@rawg.io) for commercial terms. - No cloning. It would not
+  be cool if you used our API to launch a clone of RAWG. We know it is not always
+  easy to say what is a duplicate and what isn''t. Drop us a line at [api@rawg.io](mailto:api@rawg.io)
+  if you are in doubt, and we will talk it through. - You must include an API key
+  with every request. The key can be obtained at https://rawg.io/apidocs. If you don’t
+  provide it, we may ban your requests. __[Read more](https://rawg.io/apidocs)__.'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: rawg.io; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- rawg-io
+- public-api

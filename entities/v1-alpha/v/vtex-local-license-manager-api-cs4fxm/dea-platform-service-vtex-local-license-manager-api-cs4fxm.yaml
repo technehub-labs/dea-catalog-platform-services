@@ -1,0 +1,48 @@
+id: dea:platform-service-vtex-local-license-manager-api-cs4fxm
+type: PlatformService
+name: License Manager API (vtex.local:License-Manager-API)
+description: '## Welcome! The License Manager API allows you to create users, modify
+  their names and emails, as well as add and remove roles from users. ### ATTRIBUTES
+  |Attribute name | Description | |:------------|--------------| |accountName | Account
+  name in VTEX License Manager | |environment | Environment on which you want to run
+  the query e.g. vtexcommercestable | |userId | Unique user identification string
+  | |roleId | Integer that represents a role, can be looked up on the License Manager
+  UI |'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:License-Manager-API;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- vtex-local
+- public-api

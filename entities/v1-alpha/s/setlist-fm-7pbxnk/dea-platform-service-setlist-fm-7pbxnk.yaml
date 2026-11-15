@@ -1,0 +1,64 @@
+id: dea:platform-service-setlist-fm-7pbxnk
+type: PlatformService
+name: setlist.fm API (setlist.fm)
+description: <p> The setlist.fm API has been designed to give you easy access to setlist
+  data in order to build fancy websites and other applications. Before starting to
+  use the API, be sure to ... <ol> <li>... understand how setlist.fm works (the <a
+  href="https://www.setlist.fm/faq">FAQ</a> and the <a href="https://www.setlist.fm/guidelines">Guidelines</a>
+  are a good starting point),</li> <li>... read this documentation carefully and</li>
+  <li>... <a href="https://www.setlist.fm/settings/api">apply for an API key</a> (link
+  for logged in users only) - if you're no registered user yet, then <a href="https://www.setlist.fm/signup">register
+  first</a> (it's free).</li> </ol> </p> <p> If this documentation isn't enough or
+  if you've got other things you'd like to tell us about the API, visit the <a href="https://www.setlist.fm/forum/setlistfm/setlistfm-api">API
+  Forum</a>. </p> <p> Note that the setlist.fm API is, according to the <a href="https://www.setlist.fm/help/api-terms">API
+  terms of service</a>, only free for non-commercial projects. If you're interested
+  in using the API for commercial purposes, <a href="https://www.setlist.fm/contact">contact
+  us</a>. </p> <h2>About this Service</h2> <p> This service provides methods to get
+  both setlists and components of setlists such as artists, cities, countries or venues.
+  </p> <h2>Supported Content Types</h2> <p> The REST service currently supports XML
+  (default) and JSON content. </p> <p> To receive a JSON response, set the <code>Accept</code>
+  <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1">header</a>
+  to <em>application/json</em>. </p> <h2>Internationalization</h2> <p> <small>(Please
+  note that this is an experimental feature and does not work for all cities!)</small>
+  </p> <p> Most of the featured methods honor the <code>Accept-Language</code> <a
+  href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4">header</a>.
+  This header is used for localizing cities and countries. The default language is
+  English (
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: setlist.fm; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- setlist-fm
+- public-api

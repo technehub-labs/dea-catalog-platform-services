@@ -1,0 +1,65 @@
+id: dea:platform-service-amazonaws-com-codestar-connections-jf3s4v
+type: PlatformService
+name: AWS CodeStar connections (amazonaws.com:codestar-connections)
+description: <fullname>AWS CodeStar Connections</fullname> <p>This AWS CodeStar Connections
+  API Reference provides descriptions and usage examples of the operations and data
+  types for the AWS CodeStar Connections API. You can use the connections API to work
+  with connections and installations.</p> <p> <i>Connections</i> are configurations
+  that you use to connect AWS resources to external code repositories. Each connection
+  is a resource that can be given to services such as CodePipeline to connect to a
+  third-party repository such as Bitbucket. For example, you can add the connection
+  in CodePipeline so that it triggers your pipeline when a code change is made to
+  your third-party code repository. Each connection is named and associated with a
+  unique ARN that is used to reference the connection.</p> <p>When you create a connection,
+  the console initiates a third-party connection handshake. <i>Installations</i> are
+  the apps that are used to conduct this handshake. For example, the installation
+  for the Bitbucket provider type is the Bitbucket app. When you create a connection,
+  you can choose an existing installation or create one.</p> <p>When you want to create
+  a connection to an installed provider type such as GitHub Enterprise Server, you
+  create a <i>host</i> for your connections.</p> <p>You can work with connections
+  by calling:</p> <ul> <li> <p> <a>CreateConnection</a>, which creates a uniquely
+  named connection that can be referenced by services such as CodePipeline.</p> </li>
+  <li> <p> <a>DeleteConnection</a>, which deletes the specified connection.</p> </li>
+  <li> <p> <a>GetConnection</a>, which returns information about the connection, including
+  the connection status.</p> </li> <li> <p> <a>ListConnections</a>, which lists the
+  connections associated with your account.</p> </li> </ul> <p>You can work with hosts
+  by calling:</p> <ul> <li> <p> <a>CreateHost</a>, which creates a host that represents
+  the infrastructure where your provider is installed.</p> </li> <li> <p> <a>DeleteHost</a>,
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:codestar-connections;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

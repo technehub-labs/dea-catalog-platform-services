@@ -1,0 +1,46 @@
+id: dea:platform-service-azure-com-visualstudio-projects-qxtwp3
+type: PlatformService
+name: Visual Studio Projects Resource Provider Client (azure.com:visualstudio-Projects)
+description: Use these APIs to manage Visual Studio Team Services resources through
+  the Azure Resource Manager. All task operations conform to the HTTP/1.1 protocol
+  specification and each operation returns an x-ms-request-id header that can be used
+  to obtain information about the request. You must make sure that requests made to
+  these resources are secure. For more information, see https://docs.microsoft.com/en-us/rest/api/index.
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:visualstudio-Projects;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- azure-com
+- public-api

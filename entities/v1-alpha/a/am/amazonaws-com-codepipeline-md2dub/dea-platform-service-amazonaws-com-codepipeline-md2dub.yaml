@@ -1,0 +1,65 @@
+id: dea:platform-service-amazonaws-com-codepipeline-md2dub
+type: PlatformService
+name: AWS CodePipeline (amazonaws.com:codepipeline)
+description: <fullname>AWS CodePipeline</fullname> <p> <b>Overview</b> </p> <p>This
+  is the AWS CodePipeline API Reference. This guide provides descriptions of the actions
+  and data types for AWS CodePipeline. Some functionality for your pipeline can only
+  be configured through the API. For more information, see the <a href="https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html">AWS
+  CodePipeline User Guide</a>.</p> <p>You can use the AWS CodePipeline API to work
+  with pipelines, stages, actions, and transitions.</p> <p> <i>Pipelines</i> are models
+  of automated release processes. Each pipeline is uniquely named, and consists of
+  stages, actions, and transitions. </p> <p>You can work with pipelines by calling:</p>
+  <ul> <li> <p> <a>CreatePipeline</a>, which creates a uniquely named pipeline.</p>
+  </li> <li> <p> <a>DeletePipeline</a>, which deletes the specified pipeline.</p>
+  </li> <li> <p> <a>GetPipeline</a>, which returns information about the pipeline
+  structure and pipeline metadata, including the pipeline Amazon Resource Name (ARN).</p>
+  </li> <li> <p> <a>GetPipelineExecution</a>, which returns information about a specific
+  execution of a pipeline.</p> </li> <li> <p> <a>GetPipelineState</a>, which returns
+  information about the current state of the stages and actions of a pipeline.</p>
+  </li> <li> <p> <a>ListActionExecutions</a>, which returns action-level details for
+  past executions. The details include full stage and action-level details, including
+  individual action duration, status, any errors that occurred during the execution,
+  and input and output artifact location details.</p> </li> <li> <p> <a>ListPipelines</a>,
+  which gets a summary of all of the pipelines associated with your account.</p> </li>
+  <li> <p> <a>ListPipelineExecutions</a>, which gets a summary of the most recent
+  executions for a pipeline.</p> </li> <li> <p> <a>StartPipelineExecution</a>, which
+  runs the most recent revision of an artifact through the pipeline.</p> </li> <li>
+  <p> <a>StopPipelineExecution<
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:codepipeline;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

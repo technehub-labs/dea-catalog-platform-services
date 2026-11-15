@@ -1,0 +1,47 @@
+id: dea:platform-service-tomtom-com-routing-me5n95
+type: PlatformService
+name: Routing (tomtom.com:routing)
+description: 'Routing consists of the following service: <b>Calculate Route</b> Calculates
+  a route between an origin and a destination, passing through waypoints (if specified).
+  Additional routing parameters like traffic, avoidance conditions, departure/arrival
+  time etc. can be taken into account. <b>Calculate Reachable Range</b> Calculates
+  a set of locations that can be reached from the origin point, subject to the available
+  fuel or energy budget that is specified in the request.'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: tomtom.com:routing;
+      spec: https://developer.tomtom.com/contact-us)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- tomtom-com
+- public-api

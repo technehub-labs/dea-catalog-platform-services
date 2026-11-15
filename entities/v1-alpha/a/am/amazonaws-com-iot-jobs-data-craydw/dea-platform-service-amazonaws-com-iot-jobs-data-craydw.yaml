@@ -1,0 +1,53 @@
+id: dea:platform-service-amazonaws-com-iot-jobs-data-craydw
+type: PlatformService
+name: AWS IoT Jobs Data Plane (amazonaws.com:iot-jobs-data)
+description: <p>AWS IoT Jobs is a service that allows you to define a set of jobs
+  — remote operations that are sent to and executed on one or more devices connected
+  to AWS IoT. For example, you can define a job that instructs a set of devices to
+  download and install application or firmware updates, reboot, rotate certificates,
+  or perform remote troubleshooting operations.</p> <p> To create a job, you make
+  a job document which is a description of the remote operations to be performed,
+  and you specify a list of targets that should perform the operations. The targets
+  can be individual things, thing groups or both.</p> <p> AWS IoT Jobs sends a message
+  to inform the targets that a job is available. The target starts the execution of
+  the job by downloading the job document, performing the operations it specifies,
+  and reporting its progress to AWS IoT. The Jobs service provides commands to track
+  the progress of a job on a specific target and for all the targets of the job</p>
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:iot-jobs-data;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

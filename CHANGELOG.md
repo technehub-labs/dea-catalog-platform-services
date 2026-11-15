@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### CR-ISS-CAT-09: Canonical Admission Wave
+
+3025 InformationSystemService records promoted from the candidate slot to the canonical slot (provenance ladder completed per record; evidence citations preserved; ids untouched). Index: canonical 3025, candidates 0. All gates green.
+
 ### CR-ISS-CAT-08: Shard Subdivision (R5 Remedy)
 
 Over-cap shard 'a' (queue + entities at 1,235 each) subdivided into two-character sub-shards (R5 findings resolved); vendored toolchain upgraded to depth-3 shard walking; candidates 2,525 / canonical 500 unchanged; ids untouched. All gates green.

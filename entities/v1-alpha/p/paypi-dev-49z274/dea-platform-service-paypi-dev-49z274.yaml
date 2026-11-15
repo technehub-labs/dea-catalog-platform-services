@@ -1,0 +1,49 @@
+id: dea:platform-service-paypi-dev-49z274
+type: PlatformService
+name: EmailVerify (paypi.dev)
+description: 'OTP email verification API by PayPI. <br/><br/> EmailVerify provides
+  a simple way to verify email addresses. We send emails ourselves taking the burden
+  of setting up email systems and tracking codes. <br/><br/> To learn more about this
+  API, check out [EmailVerify documentation](https://emailverify.paypi.dev/) <br/><br/>
+  ## Authentication All requests to the EmailVerify API must be authenticated with
+  an API Key. To get an API key, subscribe to the EmailVerify [here](https://app.paypi.dev/subscribe/c2VydmljZTo1OGQxZDNmMy05OWQ5LTQ3ZjYtOWJkNi02OWNkMTY1OGFmOWU=).
+  \ Set your `Authorization` header to `Bearer YOUR-API-KEY`. ``` curl -H "Content-Type:
+  application/json" \ -H "Authorization: Bearer YOUR-API-KEY" \ ... ```'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: paypi.dev; spec:
+      https://paypi.dev)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- paypi-dev
+- public-api

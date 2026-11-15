@@ -1,0 +1,53 @@
+id: dea:platform-service-citrixonline-com-gotomeeting-u9wjmq
+type: PlatformService
+name: GoToMeeting (citrixonline.com:gotomeeting)
+description: <br>The GoToMeeting API provides seamless integration of GoToMeeting
+  provisioning and meeting management into your existing infrastructure or third party
+  applications.<br><br>For customers, the ability to add, suspend or delete an organizer
+  in your GoToMeeting Corporate account from within your primary management systems
+  simplifies and streamlines the entire process of account management. The ability
+  to monitor meeting schedules, history and active meeting status allows managers
+  to leverage GoToMeeting activities through your primary applications.<br><br>For
+  third parties, the ability to create, update or delete a meeting from within your
+  application makes real-time collaboration possible for your customers. The ability
+  to update meeting schedules, view history and scheduled meetings, and view attendees
+  from past meetings allows you to enhance your users' experience and the value of
+  your applications.
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: citrixonline.com:gotomeeting;
+      spec: https://developer.citrixonline.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- citrixonline-com
+- public-api

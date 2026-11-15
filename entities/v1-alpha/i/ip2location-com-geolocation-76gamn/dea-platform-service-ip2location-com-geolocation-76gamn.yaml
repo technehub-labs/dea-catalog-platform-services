@@ -1,0 +1,49 @@
+id: dea:platform-service-ip2location-com-geolocation-76gamn
+type: PlatformService
+name: IP2Location IP Geolocation (ip2location.com:geolocation)
+description: IP2Location web service providing a service to do a reverse lookup of
+  an IP address to an ISO3166 country code, region or state, city, latitude and longitude,
+  ZIP/Postal code, time zone, Internet Service Provider (ISP) or company name, domain
+  name, net speed, area code, weather station code, weather station name, mobile country
+  code (MCC), mobile network code (MNC) and carrier brand, elevation, usage type,
+  address type and IAB category. There are also 7 categories of additional add-on
+  response fields supported such as metro, olson time zone, translations and more.
+  Refer to https://www.ip2location.com/web-service/ip2location for further information.
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: ip2location.com:geolocation;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- ip2location-com
+- public-api

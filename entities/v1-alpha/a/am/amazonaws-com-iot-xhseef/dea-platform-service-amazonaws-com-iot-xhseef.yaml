@@ -1,0 +1,56 @@
+id: dea:platform-service-amazonaws-com-iot-xhseef
+type: PlatformService
+name: AWS IoT (amazonaws.com:iot)
+description: '<fullname>IoT</fullname> <p>IoT provides secure, bi-directional communication
+  between Internet-connected devices (such as sensors, actuators, embedded devices,
+  or smart appliances) and the Amazon Web Services cloud. You can discover your custom
+  IoT-Data endpoint to communicate with, configure rules for data processing and integration
+  with other services, organize resources associated with each device (Registry),
+  configure logging, and create and manage policies and credentials to authenticate
+  devices.</p> <p>The service endpoints that expose this API are listed in <a href="https://docs.aws.amazon.com/general/latest/gr/iot-core.html">Amazon
+  Web Services IoT Core Endpoints and Quotas</a>. You must use the endpoint for the
+  region that has the resources you want to access.</p> <p>The service name used by
+  <a href="https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html">Amazon
+  Web Services Signature Version 4</a> to sign the request is: <i>execute-api</i>.</p>
+  <p>For more information about how IoT works, see the <a href="https://docs.aws.amazon.com/iot/latest/developerguide/aws-iot-how-it-works.html">Developer
+  Guide</a>.</p> <p>For information about how to use the credentials provider for
+  IoT, see <a href="https://docs.aws.amazon.com/iot/latest/developerguide/authorizing-direct-aws.html">Authorizing
+  Direct Calls to Amazon Web Services Services</a>.</p>'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:iot;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

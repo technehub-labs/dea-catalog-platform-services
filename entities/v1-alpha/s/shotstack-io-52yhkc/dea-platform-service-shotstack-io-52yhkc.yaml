@@ -1,0 +1,49 @@
+id: dea:platform-service-shotstack-io-52yhkc
+type: PlatformService
+name: Shotstack (shotstack.io)
+description: 'Shotstack is a video, image and audio editing service that allows for
+  the automated generation of videos, images and audio using JSON and a RESTful API.
+  You arrange and configure an edit and POST it to the API which will render your
+  media and provide a file location when complete. For more details visit [shotstack.io](https://shotstack.io)
+  or checkout our [getting started](https://shotstack.gitbook.io/docs/guides/getting-started)
+  documentation. There are two main API''s, one for editing and generating assets
+  (Edit API) and one for managing hosted assets (Serve API). The Edit API base URL
+  is: <b>https://api.shotstack.io/{version}</b> The Serve API base URL is: <b>https://api.shotstack.io/serve/{version}</b>'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: shotstack.io; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- shotstack-io
+- public-api

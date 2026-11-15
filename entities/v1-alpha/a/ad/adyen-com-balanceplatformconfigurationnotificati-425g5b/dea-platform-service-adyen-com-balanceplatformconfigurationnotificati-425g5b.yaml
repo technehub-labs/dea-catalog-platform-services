@@ -1,0 +1,48 @@
+id: dea:platform-service-adyen-com-balanceplatformconfigurationnotificati-425g5b
+type: PlatformService
+name: Configuration webhooks (adyen.com:BalancePlatformConfigurationNotification-v1)
+description: Adyen sends notifications through webhooks to inform your system about
+  events that occur in your platform. These events include, for example, when an account
+  holder's capabilities are updated, or when a sweep configuration is created or updated.
+  When an event occurs, Adyen makes an HTTP POST request to a URL on your server and
+  includes the details of the event in the request body. You can use these webhooks
+  to build your implementation. For example, you can use this information to update
+  internal statuses when the status of a capability is changed.
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:BalancePlatformConfigurationNotification-v1;
+      spec: https://www.adyen.help/hc/en-us/community/topics)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- adyen-com
+- public-api

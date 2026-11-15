@@ -1,0 +1,60 @@
+id: dea:platform-service-amazonaws-com-pi-66yatp
+type: PlatformService
+name: AWS Performance Insights (amazonaws.com:pi)
+description: <fullname>Amazon RDS Performance Insights</fullname> <p>Amazon RDS Performance
+  Insights enables you to monitor and explore different dimensions of database load
+  based on data captured from a running DB instance. The guide provides detailed information
+  about Performance Insights data types, parameters and errors.</p> <p>When Performance
+  Insights is enabled, the Amazon RDS Performance Insights API provides visibility
+  into the performance of your DB instance. Amazon CloudWatch provides the authoritative
+  source for Amazon Web Services service-vended monitoring metrics. Performance Insights
+  offers a domain-specific view of DB load.</p> <p>DB load is measured as average
+  active sessions. Performance Insights provides the data to API consumers as a two-dimensional
+  time-series dataset. The time dimension provides DB load data for each time point
+  in the queried time range. Each time point decomposes overall load in relation to
+  the requested dimensions, measured at that time point. Examples include SQL, Wait
+  event, User, and Host.</p> <ul> <li> <p>To learn more about Performance Insights
+  and Amazon Aurora DB instances, go to the <i> <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_PerfInsights.html">
+  Amazon Aurora User Guide</a> </i>. </p> </li> <li> <p>To learn more about Performance
+  Insights and Amazon RDS DB instances, go to the <i> <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html">
+  Amazon RDS User Guide</a> </i>. </p> </li> <li> <p>To learn more about Performance
+  Insights and Amazon DocumentDB clusters, go to the <i> <a href="https://docs.aws.amazon.com/documentdb/latest/developerguide/performance-insights.html">
+  Amazon DocumentDB Developer Guide</a> </i>.</p> </li> </ul>
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:pi;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

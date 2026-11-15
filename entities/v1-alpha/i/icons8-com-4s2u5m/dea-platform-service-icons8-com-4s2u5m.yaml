@@ -1,0 +1,51 @@
+id: dea:platform-service-icons8-com-4s2u5m
+type: PlatformService
+name: Use a [New Version](https://icons8.github.io/icons8-docs/) Instead (icons8.com)
+description: '# Icons8 API Icons8 API allows us to search and obtain [our icons](https://icons8.com/web-app).
+  You''re welcome to use our icons to extend the functionality of your web and mobile
+  applications, website templates, and even tattoos. ![Tattoos](https://cdn.rawgit.com/icons8/api-docs/cff6fdf0/tattoos.svg)
+  ## Usage Examples Some examples of what you can do with our icons: * **Template
+  customization.** This way, [Canva](https://www.canva.com/) uses our icons to customize
+  their layouts. * **Graphics and text editors.** [Gravit](https://gravit.io/) allows
+  to insert our icons into the mockups. * **Any application with customization.**
+  [TimeTune](http://timetune.center/) uses our icons to customize the activities.
+  ## Getting Started To get started, please [contact us](https://icons8.com/contact)
+  to obtain an API key. ## Pricing Our API license starts at $100/month.'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: icons8.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- icons8-com
+- public-api

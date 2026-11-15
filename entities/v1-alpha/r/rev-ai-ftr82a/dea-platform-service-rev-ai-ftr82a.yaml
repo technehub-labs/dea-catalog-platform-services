@@ -1,0 +1,63 @@
+id: dea:platform-service-rev-ai-ftr82a
+type: PlatformService
+name: Asynchronous Speech-To-Text API Documentation (rev.ai)
+description: 'Rev.ai provides quality speech-text recognition via a RESTful API. All
+  public methods and objects are documented here for developer reference. For a real-time
+  speech to text solution, use Rev.ai''s [Streaming API](/docs/streaming). # Base
+  Endpoint The base url for this version of the API is > `https://api.rev.ai/speechtotext/v1`
+  All endpoints described in this documentation are relative to this base url. # Quick
+  Start Follow the [getting started checklist](https://www.rev.ai/getting_started)
+  ## Get your Access Token You can generate your [access token](#section/Authentication/Access-Token)
+  on the [settings page](https://www.rev.ai/access_token) of your account. This access
+  token only needs to be generated once and never expires. You can re-generate your
+  token, however this will invalidate the previous token. ## Submit a File To submit
+  an audio file for transcription to Rev.ai: ``` curl -X POST "https://api.rev.ai/speechtotext/v1/jobs"
+  -H "Authorization: Bearer $REV_ACCESS_TOKEN" -H "Content-Type: application/json"
+  -d "{\"media_url\":\"https://www.rev.ai/FTC_Sample_1.mp3\",\"metadata\":\"This is
+  a sample submit jobs option\"}" ``` You’ll receive a response like this: ~~~ { "id":
+  "Umx5c6F7pH7r", "created_on": "2018-09-15T05:14:38.13", "name": "sample.mp3", "metadata":
+  "This is a sample submit jobs option for multipart", "status": "in_progress" } ~~~
+  The `id` (in this case `Umx5c6F7pH7r`) will allow you to retrieve your transcript.
+  ## Get Your Transcript Once a transcription job''s `status` becomes `transcribed`,
+  you can retrieve the transcript in JSON format by running: ``` curl -X GET "https://api.rev.ai/speechtotext/v1/jobs/{id}/transcript"
+  -H "Authorization: Bearer $REV_ACCESS_TOKEN" -H "Accept: application/vnd.rev.transcript.v1.0+json"
+  ``` Alternatively you can get the plain text version by running: ``` curl -X GET
+  "https://api.rev.ai/speechtotext/v1/jobs/{id}/transcript" -H "Authorization: Bearer
+  $REV_ACCESS_TOKEN" -H "Accept: text/plain" ``` You can poll for the `'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: rev.ai; spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- rev-ai
+- public-api

@@ -1,0 +1,65 @@
+id: dea:platform-service-geneea-com-qxqmab
+type: PlatformService
+name: Geneea Natural Language Processing (geneea.com)
+description: '<div class="api-description"> <h2>Authentication</h2> <p>For all calls,
+  supply your API key. <a href="https://www.geneea.com/pricing">Sign up to <em>obtain
+  the key</em></a>.</p> <p> Our API supports both <em>unencrypted (HTTP)</em> and
+  <em>encrypted (HTTPS)</em> protocols. However, for security reasons, we strongly
+  encourage using only the encrypted version. </p> <p>The API key should be supplied
+  as either a request parameter <code>user_key</code> or in <code>Authorization</code>
+  header.</p> <pre><code>Authorization: user_key &lt;YOUR_API_KEY&gt;</code></pre>
+  <h2>API operations</h2> <p> All API operations can perform analysis on supplied
+  raw text or on text extracted from a given URL. Optionally, one can supply additional
+  information which can make the result more precise. An example of such information
+  would be the language of text or a particular text extractor for URL resources.
+  </p> <p>The supported types of analyses are:</p> <ul> <li><strong>lemmatization</strong>
+  &longrightarrow; Finds out lemmata (basic forms) of all the words in the document.
+  </li> <li><strong>correction</strong> &longrightarrow; Performs correction (diacritization)
+  on all the words in the document. </li> <li><strong>topic detection</strong> &longrightarrow;
+  Determines a topic of the document, e.g. finance or sports. </li> <li><strong>sentiment
+  analysis</strong> &longrightarrow; Determines a sentiment of the document, i.e.
+  how positive or negative the document is. </li> <li><strong>named entity recognition</strong>
+  &longrightarrow; Finds named entities (like person, location, date etc.) mentioned
+  the the document. </li> </ul> <h2>Encoding</h2> <p>The supplied text is expected
+  to be in UTF-8 encoding, this is especially important for non-english texts.</p>
+  <h2>Returned values</h2> <p>The API calls always return objects in serialized JSON
+  format in UTF-8 encoding.</p> <p> If any error occurs, the HTTP response code will
+  be in the range <code>4xx</code> (client-side error) or <code>5xx</code> ('
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: geneea.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- geneea-com
+- public-api
