@@ -1,0 +1,51 @@
+id: dea:platform-service-rapidapi-com-dynamicdocs-u289sf
+type: PlatformService
+name: DynamicDocs (rapidapi.com:dynamicdocs)
+description: ADVICEment's [DynamicDocs API automates your document generation](https://advicement.io/dynamic-documents-api)
+  and creates dynamic, optimized, interactive PDFs. Write your templates in LaTeX
+  and call the API with JSON data to get your PDFs in seconds. The template files
+  are stored in your dashboard and can be edited, tested and published online. Document
+  templates can contain dynamic text using logic statements, include tables stretching
+  multiple pages and show great-looking charts based on the underlying data. LaTeX
+  creates crisp, high-quality documents where every detail is well-positioned and
+  styled. Integrate with ADVICEment DynamicDocs API in minutes and start creating
+  beautiful [dynamic PDF documents](https://advicement.io/dynamic-documents-api) for
+  your needs. For more information, visit [DynamicDocs API Home page](https://advicement.io/dynamic-documents-api).
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: rapidapi.com:dynamicdocs;
+      spec: https://advicement.io/dynamic-documents-api)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- rapidapi-com
+- public-api

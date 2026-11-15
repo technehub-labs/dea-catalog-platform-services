@@ -1,0 +1,63 @@
+id: dea:platform-service-google-home-yebz74
+type: PlatformService
+name: Google Home (google.home)
+description: '# Google Home Local API This is an unofficial documentation of the local
+  API used by the Home app to communicate with GH devices. [GitHub Repo](https://github.com/rithvikvibhu/GHLocalApi)
+  [![GitHub stars](https://img.shields.io/github/stars/rithvikvibhu/GHLocalApi)](https://github.com/rithvikvibhu/GHLocalApi/stargazers)
+  [![GitHub license](https://img.shields.io/github/license/rithvikvibhu/GHLocalApi)](https://github.com/rithvikvibhu/GHLocalApi/blob/master/LICENSE.md)
+  ## Getting Started Requests must be made over HTTPS, port 8443, so the base URL
+  for these endpoints is: `https://<google-home-ip>:8443/setup/` Get the IP of Google
+  Home from the Google Home app (Device Settings -> End of the list) or from your
+  router. GET requests are simple, in the browser kind. POST requests need to set
+  the header (when there''s a body): `content-type: application/json` ## Authentication
+  Since June 2019, most requests (with exceptions like `/setup/eureka_info`) need
+  a local authorization token. There are 3 kinds of tokens involved here: ### Local
+  Authorization Token This token must be sent in all requests in the header `cast-local-authorization-token`.
+  It is short-lived (~1 day) and may change unexpectedly (with a sync, change in homegraph,
+  etc.) ##### Get this token - With access to an android device, [get this token directly
+  by either method](https://gist.github.com/rithvikvibhu/1a0f4937af957ef6a78453e3be482c1f).
+  - Without a device, or to integrate it with a script, use an access token to get
+  the homegraph and extract the token. To get an access token, read the next section.
+  Check the example section for more info. ### Access Token This is a standard google
+  oauth2 access token. It is in the form `ya29.***`. This gives access to the Google
+  Home Foyer API. These expire in an hour. Use this to get the homegraph (and then
+  the local authorization token above). ##### Get this token To get this access token,
+  either a Google account username/password or a Google Master Token is needed. More '
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: google.home; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- google-home
+- public-api

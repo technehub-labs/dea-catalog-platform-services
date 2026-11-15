@@ -1,0 +1,65 @@
+id: dea:platform-service-bigoven-com-symrz9
+type: PlatformService
+name: 1,000,000+ Recipe and Grocery List API (v2) (bigoven.com)
+description: '#Documentation This is the documentation for the partner endpoint of
+  the BigOven Recipe and Grocery List API. The update brings with it Swagger-based
+  documentation. [Swagger](http://swagger.io) is an emerging standard for describing
+  REST-based APIs, and with this Swagger-compliant endpoint (above), you can make
+  ready-to-go interface libraries for your code via [swagger-codegen](https://github.com/swagger-api/swagger-codegen).
+  For instance, it''s easy to generate libraries for Node.js, Java, Ruby, ASP.NET
+  MVC, jQuery, php and more! You can also try out the endpoint calls with your own
+  api_key right here on this page. Be sure to enter your api_key above to use the
+  "Try it out!" buttons on this page. ##Start Here Developers new to the BigOven API
+  should start with this version, not with the legacy API. We''ll be making improvements
+  to this API over time, and doing only bug fixes on the v1 API. To pretend you''re
+  a BigOven user (for instance, to get your recently viewed recipes or your grocery
+  list), you need to pass in Basic Authentication information in the header, just
+  as with the v1 API. We do now require that you make all calls via https. You need
+  to pass your api_key in with every call, though this can now be done on the header
+  (send a request header "X-BigOven-API-Key" set to your api_key value, e.g., Request["X-BigOven-API-Key"]="your-key-here".)
+  ##Migration Notes For existing partners, we encourage you to [migrate](https://api2.bigoven.com),
+  and while at this writing we have no hard-and-fast termination date for the v1 API,
+  we strongly prefer that you migrate by January 1, 2017. While the changes aren''t
+  overly complex, there are several breaking changes, including refactoring of recipe
+  search and results and removal of support for XML. This is not a simply plug-and-play
+  replacement to the v1 API. With respect to an exclusive focus on JSON, the world
+  has spoken, and it prefers JSON for REST-based API''s. We''ve taken numerous steps
+  to refactor the API to make it more'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: bigoven.com; spec:
+      https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- bigoven-com
+- public-api

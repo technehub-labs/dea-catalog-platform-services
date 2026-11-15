@@ -1,0 +1,61 @@
+id: dea:platform-service-vtex-local-promotions-wr83z8
+type: PlatformService
+name: Promotions & Taxes API (vtex.local:Promotions-)
+description: '> Check the new [Promotions onboarding guide](https://developers.vtex.com/vtex-rest-api/docs/promotions-overview).
+  We created this guide to improve the onboarding experience for developers at VTEX.
+  It assembles all documentation on our Developer Portal about Promotions and is organized
+  by focusing on the developer''s journey. The Promotions & Taxes API allows you to
+  manage and retrieve all promotions, coupons and tax rules from your VTEX store.
+  ## Index ### Coupons `POST` [Create multiple coupons](https://developers.vtex.com/vtex-rest-api/reference/post_api-rnb-pvt-multiple-coupons)
+  `POST` [Create coupon](https://developers.vtex.com/vtex-rest-api/reference/post_api-rnb-pvt-coupon)
+  `GET` [Get coupon by coupon code](https://developers.vtex.com/vtex-rest-api/reference/getbycouponcode)
+  `GET` [Get archived coupon by coupon code](https://developers.vtex.com/vtex-rest-api/reference/getarchivedbycouponcode)
+  `POST` [Archive coupon by coupon code](https://developers.vtex.com/vtex-rest-api/reference/archivebycouponcode)
+  `POST` [Update coupon](https://developers.vtex.com/vtex-rest-api/reference/update)
+  `GET` [Get all coupons](https://developers.vtex.com/vtex-rest-api/reference/getall)
+  `POST` [Coupon Massive Generation](https://developers.vtex.com/vtex-rest-api/reference/massivegeneration)
+  `GET` [Get coupon usage](https://developers.vtex.com/vtex-rest-api/reference/getusage)
+  `POST` [Unarchive coupon by coupon code](https://developers.vtex.com/vtex-rest-api/reference/unarchivebycouponcode)
+  ### Promotions and Taxes `GET` [Get All Promotions](https://developers.vtex.com/vtex-rest-api/reference/getallbenefits)
+  `GET` [Get All Taxes](https://developers.vtex.com/vtex-rest-api/reference/getalltaxes)
+  `GET` [Get Promotion or Tax By ID](https://developers.vtex.com/vtex-rest-api/reference/getcalculatorconfigurationbyid)
+  `POST` [Create or Update Promotion or Tax](https://developers.vtex.com/vtex-rest-api/reference/createorupdatecalculatorconfiguration)
+  `POST` [Create Multiple SKU Promotion](h'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: vtex.local:Promotions-;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- vtex-local
+- public-api

@@ -1,0 +1,65 @@
+id: dea:platform-service-contract-p-fit-z2mtys
+type: PlatformService
+name: Contract.fit API (contract-p.fit)
+description: 'This OpenAPI describes the API exposed by the contract.fit backend.
+  ## Security ### Authentication All endpoints are protected: you need to make authenticated
+  calls. There are 3 authentication mechanisms: - HTTP Basic (Username + Password)
+  - JWT Token - API-Key By default you should have an account allowing you to bootstrap
+  your tenant and create users and roles, using Basic Auth or after creating a Token
+  - see */auth* endpoints. If you are missing credentials or permissions, please [contact
+  us](https://contract.fit/contact-us). ### Authorization The security system is RBAC
+  based: users must be granted scoped roles, allowing them to access resources. Each
+  role grants a defined set of permissions, which can be restricted to a given inbox
+  or document - see */roles* endpoints. ## Upload and Processing Below is a short
+  description of common use cases of the API. ### Simple Upload The easiest and simplest
+  way to get started is to use POST /documents : it will make a synchronous upload
+  of your file and wait for the result. This is a simplified version of POST /documents/{inbox_id}
+  with less arguments and settings; it may not be suitable for real workload as it
+  offers less capabilities. ### Upload to Inbox The favored endpoint to upload files
+  is POST /documents/{inbox_id}: it is also highly recommended to make async call
+  using sync=false. **Sync / Async** For convenience uploads can be synchronous: it
+  will make the request blocks until the document is processed. It is however discouraged
+  to rely on sync requests, as our service is designed to process documents asynchronously.
+  You might run into timeouts and unprocessed document depending on factors such as
+  server load and number of pending documents. Asynchronous calls will only schedule
+  the processing and directly return the document ID without waiting: the document
+  will be processed as soon as possible. You can then wait for the processed result
+  using GET */documents/{document_id}*. ### Reprocessing You can reprocess a d'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: contract-p.fit;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- contract-p-fit
+- public-api

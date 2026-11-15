@@ -1,0 +1,50 @@
+id: dea:platform-service-onsched-com-setup-uhmxrh
+type: PlatformService
+name: OnSched Setup API (onsched.com:setup)
+description: Build secure and scalable custom apps for onboarding and setup. Our flexible
+  API provides many options for configuration. <br><br> Take the API for a test drive.
+  Just click on the Authorize button below and authenticate. You can access our demo
+  company profile if you are not a customer, or your own profile by using your assigned
+  ClientId and Secret. <br><br> The API has two interfaces, consumer and setup. <ul>
+  <li> The consumer interface provides all the endpoints required for implementing
+  consumer booking flows. </li> <li> The setup interface provides endpoints for profile
+  configuration and setup. </li> </ul> Toggle freely between the two interfaces using
+  the swagger tool bar option labelled 'Select a definition'.
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: onsched.com:setup;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- onsched-com
+- public-api

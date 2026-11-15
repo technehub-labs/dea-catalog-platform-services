@@ -1,0 +1,53 @@
+id: dea:platform-service-amazonaws-com-monitoring-b34vmm
+type: PlatformService
+name: Amazon CloudWatch (amazonaws.com:monitoring)
+description: <p>Amazon CloudWatch monitors your Amazon Web Services (Amazon Web Services)
+  resources and the applications you run on Amazon Web Services in real time. You
+  can use CloudWatch to collect and track metrics, which are the variables you want
+  to measure for your resources and applications.</p> <p>CloudWatch alarms send notifications
+  or automatically change the resources you are monitoring based on rules that you
+  define. For example, you can monitor the CPU usage and disk reads and writes of
+  your Amazon EC2 instances. Then, use this data to determine whether you should launch
+  additional instances to handle increased load. You can also use this data to stop
+  under-used instances to save money.</p> <p>In addition to monitoring the built-in
+  metrics that come with Amazon Web Services, you can monitor your own custom metrics.
+  With CloudWatch, you gain system-wide visibility into resource utilization, application
+  performance, and operational health.</p>
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:monitoring;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

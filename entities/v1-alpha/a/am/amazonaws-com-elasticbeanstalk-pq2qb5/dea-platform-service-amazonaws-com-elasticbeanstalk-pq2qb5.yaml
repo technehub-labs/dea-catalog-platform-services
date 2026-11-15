@@ -1,0 +1,53 @@
+id: dea:platform-service-amazonaws-com-elasticbeanstalk-pq2qb5
+type: PlatformService
+name: AWS Elastic Beanstalk (amazonaws.com:elasticbeanstalk)
+description: <fullname>AWS Elastic Beanstalk</fullname> <p>AWS Elastic Beanstalk makes
+  it easy for you to create, deploy, and manage scalable, fault-tolerant applications
+  running on the Amazon Web Services cloud.</p> <p>For more information about this
+  product, go to the <a href="http://aws.amazon.com/elasticbeanstalk/">AWS Elastic
+  Beanstalk</a> details page. The location of the latest AWS Elastic Beanstalk WSDL
+  is <a href="https://elasticbeanstalk.s3.amazonaws.com/doc/2010-12-01/AWSElasticBeanstalk.wsdl">https://elasticbeanstalk.s3.amazonaws.com/doc/2010-12-01/AWSElasticBeanstalk.wsdl</a>.
+  To install the Software Development Kits (SDKs), Integrated Development Environment
+  (IDE) Toolkits, and command line tools that enable you to access the API, go to
+  <a href="http://aws.amazon.com/tools/">Tools for Amazon Web Services</a>.</p> <p>
+  <b>Endpoints</b> </p> <p>For a list of region-specific endpoints that AWS Elastic
+  Beanstalk supports, go to <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#elasticbeanstalk_region">Regions
+  and Endpoints</a> in the <i>Amazon Web Services Glossary</i>.</p>
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:elasticbeanstalk;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

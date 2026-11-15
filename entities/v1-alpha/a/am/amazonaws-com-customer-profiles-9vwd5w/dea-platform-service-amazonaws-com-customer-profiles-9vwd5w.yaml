@@ -1,0 +1,49 @@
+id: dea:platform-service-amazonaws-com-customer-profiles-9vwd5w
+type: PlatformService
+name: Amazon Connect Customer Profiles (amazonaws.com:customer-profiles)
+description: <fullname>Amazon Connect Customer Profiles</fullname> <p>Amazon Connect
+  Customer Profiles is a unified customer profile for your contact center that has
+  pre-built connectors powered by AppFlow that make it easy to combine customer information
+  from third party applications, such as Salesforce (CRM), ServiceNow (ITSM), and
+  your enterprise resource planning (ERP), with contact history from your Amazon Connect
+  contact center. If you're new to Amazon Connect, you might find it helpful to review
+  the <a href="https://docs.aws.amazon.com/connect/latest/adminguide/">Amazon Connect
+  Administrator Guide</a>.</p>
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:customer-profiles;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

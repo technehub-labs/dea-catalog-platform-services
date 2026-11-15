@@ -1,0 +1,62 @@
+id: dea:platform-service-epa-gov-sdw-ejhrcu
+type: PlatformService
+name: U.S. EPA Enforcement and Compliance History Online (ECHO) - Safe Drinking Water
+  Act (epa.gov:sdw)
+description: 'Enforcement and Compliance History Online (ECHO) is a tool developed
+  and maintained by EPA''s Office of Enforcement and Compliance Assurance for public
+  use. ECHO provides integrated compliance and enforcement information for over 1
+  million regulated facilities nationwide. SDW Rest Services provides multiple service
+  endpoints, each with specific capabilities, to search and retrieve data on public
+  water systems regulated under the Safe Drinking Water Act (SDWA). The returned results
+  reflect data drawn from EPA''s Federal Safe Drinking Water Information System (SDWIS)
+  database. \ The get_systems, get_qid, and get_download end points are meant to be
+  used together. \ The recommended use scenario for get_systems, get_qid, and get_downoad
+  is: \ <b>1)</b> Use get_systems to validate passed query parameters, obtain summary
+  statistics and to obtain a query_id (QID). QIDs are time sensitive and will be valid
+  for approximately 30 minutes. <b>2)</b> Use get_qid, with the returned QID, to paginate
+  through arrays of water system results. <b>3)</b> Use get_download, with the returned
+  QID, to generate a Comma Separated Value (CSV) file of water system information
+  that meets the QID query criteria. \ \ Use the qcolumns parameter to customize your
+  search results. Use the Metadata service endpoint for a list of available output
+  objects, their Column Ids, and their definitions to help you build your customized
+  output. \ Additional ECHO Resources: <a href="https://echo.epa.gov/tools/web-services">Web
+  Services</a>, <a href="https://echo.epa.gov/resources/echo-data/about-the-data">About
+  ECHO''s Data</a>, <a href="https://echo.epa.gov/tools/data-downloads">Data Downloads</a>'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: epa.gov:sdw; spec:
+      https://echo.epa.gov/resources/general-info/contact-us)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- epa-gov
+- public-api

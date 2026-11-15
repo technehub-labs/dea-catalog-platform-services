@@ -1,0 +1,49 @@
+id: dea:platform-service-azure-com-cognitiveservices-contentmoderator-dpx5cg
+type: PlatformService
+name: Content Moderator Client (azure.com:cognitiveservices-ContentModerator)
+description: You use the API to scan your content as it is generated. Content Moderator
+  then processes your content and sends the results along with relevant information
+  either back to your systems or to the built-in review tool. You can use this information
+  to take decisions e.g. take it down, send to human judge, etc. When using the API,
+  images need to have a minimum of 128 pixels and a maximum file size of 4MB. Text
+  can be at most 1024 characters long. If the content passed to the text API or the
+  image API exceeds the size limits, the API will return an error code that informs
+  about the issue.
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:cognitiveservices-ContentModerator;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- azure-com
+- public-api

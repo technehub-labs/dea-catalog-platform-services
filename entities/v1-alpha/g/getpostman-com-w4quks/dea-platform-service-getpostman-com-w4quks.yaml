@@ -1,0 +1,65 @@
+id: dea:platform-service-getpostman-com-w4quks
+type: PlatformService
+name: Postman API (getpostman.com)
+description: 'The Postman API allows you to programmatically access data stored in
+  Postman account with ease. The easiest way to get started with the API is to click
+  the **fork** button to fork this collection to your own workspace and use Postman
+  to send requests. # Overview 1. You need a valid <a href="#authentication">API Key</a>
+  to send requests to the API endpoints. You can get your key from the [integrations
+  dashboard](https://go.postman.co/settings/me/api-keys). 1. The API has an access
+  <a href="#rate-limits">rate limit</a> applied to it. 1. The Postman API will only
+  respond to secured communication done over HTTPS. HTTP requests will be sent a `301`
+  redirect to corresponding HTTPS resources. 1. Response to every request is sent
+  in [JSON format](https://en.wikipedia.org/wiki/JSON). In case the API request results
+  in an error, it is represented by an `"error": {}` key in the JSON response. 1.
+  The request method (verb) determines the nature of action you intend to perform.
+  A request made using the `GET` method implies that you want to fetch something from
+  Postman, and `POST` implies you want to save something new to Postman. 1. The API
+  calls will respond with appropriate [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+  for all requests. Within Postman Client, when a response is received, the status
+  code is highlighted and is accompanied by a help text that indicates the possible
+  meaning of the response code. A `200 OK` indicates all went well, while `4XX` or
+  `5XX` response codes indicate an error from the requesting client or our API servers
+  respectively. 1. Individual resources in your Postman Account is accessible using
+  its unique id (`uid`). The `uid` is a simple concatenation of the resource owner''s
+  user-id and the resource-id. For example, a collection''s `uid` is `{{owner_id}}-{{collection_id}}`.
+  # Authentication An API Key is required to be sent as part of every request to the
+  Postman API, in the form of an `X-Api-Key` request header. > If y'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: getpostman.com;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- getpostman-com
+- public-api

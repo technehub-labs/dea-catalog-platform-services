@@ -1,0 +1,52 @@
+id: dea:platform-service-microsoft-com-cognitiveservices-visualsearch-5natet
+type: PlatformService
+name: Visual Search Client (microsoft.com:cognitiveservices-VisualSearch)
+description: Visual Search API lets you discover insights about an image such as visually
+  similar images, shopping sources, and related searches. The API can also perform
+  text recognition, identify entities (people, places, things), return other topical
+  content for the user to explore, and more. For more information, see [Visual Search
+  Overview](https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/overview).
+  **NOTE:** To comply with the new EU Copyright Directive in France, the Bing Visual
+  Search API must omit some content from certain EU News sources for French users.
+  The removed content may include thumbnail images and videos, video previews, and
+  snippets which accompany search results from these sources. As a consequence, the
+  Bing APIs may serve fewer results with thumbnail images and videos, video previews,
+  and snippets to French users.
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: microsoft.com:cognitiveservices-VisualSearch;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- microsoft-com
+- public-api

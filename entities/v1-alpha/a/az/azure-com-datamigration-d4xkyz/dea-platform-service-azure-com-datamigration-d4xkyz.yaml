@@ -1,0 +1,51 @@
+id: dea:platform-service-azure-com-datamigration-d4xkyz
+type: PlatformService
+name: Azure Data Migration Service Resource Provider (azure.com:datamigration)
+description: The Data Migration Service helps people migrate their data from on-premise
+  database servers to Azure, or from older database software to newer software. The
+  service manages one or more workers that are joined to a customer's virtual network,
+  which is assumed to provide connectivity to their databases. To avoid frequent updates
+  to the resource provider, data migration tasks are implemented by the resource provider
+  in a generic way as task resources, each of which has a task type (which identifies
+  the type of work to run), input, and output. The client is responsible for providing
+  appropriate task type and inputs, which will be passed through unexamined to the
+  machines that implement the functionality, and for understanding the output, which
+  is passed back unexamined to the client.
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: azure.com:datamigration;
+      spec: https://apis.guru/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- azure-com
+- public-api

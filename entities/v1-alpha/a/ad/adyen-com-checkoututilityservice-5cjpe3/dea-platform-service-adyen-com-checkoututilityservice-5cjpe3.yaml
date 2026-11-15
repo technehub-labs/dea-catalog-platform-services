@@ -1,0 +1,52 @@
+id: dea:platform-service-adyen-com-checkoututilityservice-5cjpe3
+type: PlatformService
+name: Adyen Checkout Utility Service (adyen.com:CheckoutUtilityService)
+description: 'A web service containing utility functions available for merchants integrating
+  with Checkout APIs. ## Authentication Each request to the Checkout Utility API must
+  be signed with an API key. For this, obtain an API Key from your Customer Area,
+  as described in [How to get the Checkout API key](https://docs.adyen.com/developers/user-management/how-to-get-the-checkout-api-key).
+  Then set this key to the `X-API-Key` header value, for example: ``` curl -H "Content-Type:
+  application/json" \ -H "X-API-Key: Your_Checkout_API_key" \ ... ``` Note that when
+  going live, you need to generate a new API Key to access the [live endpoints](https://docs.adyen.com/developers/api-reference/live-endpoints).
+  ## Versioning Checkout API supports versioning of its endpoints through a version
+  suffix in the endpoint URL. This suffix has the following format: "vXX", where XX
+  is the version number. For example: ``` https://checkout-test.adyen.com/v1/originKeys
+  ```'
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: adyen.com:CheckoutUtilityService;
+      spec: https://support.adyen.com/)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- adyen-com
+- public-api

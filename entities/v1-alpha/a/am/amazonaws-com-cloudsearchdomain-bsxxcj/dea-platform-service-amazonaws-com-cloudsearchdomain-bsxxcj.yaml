@@ -1,0 +1,49 @@
+id: dea:platform-service-amazonaws-com-cloudsearchdomain-bsxxcj
+type: PlatformService
+name: Amazon CloudSearch Domain (amazonaws.com:cloudsearchdomain)
+description: <p>You use the AmazonCloudSearch2013 API to upload documents to a search
+  domain and search those documents. </p> <p>The endpoints for submitting <code>UploadDocuments</code>,
+  <code>Search</code>, and <code>Suggest</code> requests are domain-specific. To get
+  the endpoints for your domain, use the Amazon CloudSearch configuration service
+  <code>DescribeDomains</code> action. The domain endpoints are also displayed on
+  the domain dashboard in the Amazon CloudSearch console. You submit suggest requests
+  to the search endpoint. </p> <p>For more information, see the <a href="http://docs.aws.amazon.com/cloudsearch/latest/developerguide">Amazon
+  CloudSearch Developer Guide</a>.</p>
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:cloudsearchdomain;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

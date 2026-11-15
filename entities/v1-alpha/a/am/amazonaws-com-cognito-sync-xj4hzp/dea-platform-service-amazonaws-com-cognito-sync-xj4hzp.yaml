@@ -1,0 +1,57 @@
+id: dea:platform-service-amazonaws-com-cognito-sync-xj4hzp
+type: PlatformService
+name: Amazon Cognito Sync (amazonaws.com:cognito-sync)
+description: <fullname>Amazon Cognito Sync</fullname> <p>Amazon Cognito Sync provides
+  an AWS service and client library that enable cross-device syncing of application-related
+  user data. High-level client libraries are available for both iOS and Android. You
+  can use these libraries to persist data locally so that it's available even if the
+  device is offline. Developer credentials don't need to be stored on the mobile device
+  to access the service. You can use Amazon Cognito to obtain a normalized user ID
+  and credentials. User data is persisted in a dataset that can store up to 1 MB of
+  key-value pairs, and you can have up to 20 datasets per user identity.</p> <p>With
+  Amazon Cognito Sync, the data stored for each identity is accessible only to credentials
+  assigned to that identity. In order to use the Cognito Sync service, you need to
+  make API calls using credentials retrieved with <a href="http://docs.aws.amazon.com/cognitoidentity/latest/APIReference/Welcome.html">Amazon
+  Cognito Identity service</a>.</p> <p>If you want to use Cognito Sync in an Android
+  or iOS application, you will probably want to make API calls via the AWS Mobile
+  SDK. To learn more, see the <a href="http://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/cognito-sync.html">Developer
+  Guide for Android</a> and the <a href="http://docs.aws.amazon.com/mobile/sdkforios/developerguide/cognito-sync.html">Developer
+  Guide for iOS</a>.</p>
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:cognito-sync;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

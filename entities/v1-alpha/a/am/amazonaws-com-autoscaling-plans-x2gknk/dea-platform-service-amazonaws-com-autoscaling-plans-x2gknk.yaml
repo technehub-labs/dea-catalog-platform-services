@@ -1,0 +1,54 @@
+id: dea:platform-service-amazonaws-com-autoscaling-plans-x2gknk
+type: PlatformService
+name: AWS Auto Scaling Plans (amazonaws.com:autoscaling-plans)
+description: <fullname>AWS Auto Scaling</fullname> <p>Use AWS Auto Scaling to create
+  scaling plans for your applications to automatically scale your scalable AWS resources.
+  </p> <p> <b>API Summary</b> </p> <p>You can use the AWS Auto Scaling service API
+  to accomplish the following tasks:</p> <ul> <li> <p>Create and manage scaling plans</p>
+  </li> <li> <p>Define target tracking scaling policies to dynamically scale your
+  resources based on utilization</p> </li> <li> <p>Scale Amazon EC2 Auto Scaling groups
+  using predictive scaling and dynamic scaling to scale your Amazon EC2 capacity faster</p>
+  </li> <li> <p>Set minimum and maximum capacity limits</p> </li> <li> <p>Retrieve
+  information on existing scaling plans</p> </li> <li> <p>Access current forecast
+  data and historical forecast data for up to 56 days previous</p> </li> </ul> <p>To
+  learn more about AWS Auto Scaling, including information about granting IAM users
+  required permissions for AWS Auto Scaling actions, see the <a href="https://docs.aws.amazon.com/autoscaling/plans/userguide/what-is-aws-auto-scaling.html">AWS
+  Auto Scaling User Guide</a>. </p>
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:autoscaling-plans;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api

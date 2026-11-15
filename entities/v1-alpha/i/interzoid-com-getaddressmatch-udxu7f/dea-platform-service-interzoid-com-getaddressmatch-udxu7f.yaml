@@ -1,0 +1,45 @@
+id: dea:platform-service-interzoid-com-getaddressmatch-udxu7f
+type: PlatformService
+name: Interzoid Get Address Match Similarity Key API (interzoid.com:getaddressmatch)
+description: This API provides a similarity key used to match with other similar street
+  address data, including for purposes of deduplication, fuzzy matching, or merging
+  of datasets. A much higher match rate will be achieved by matching on the algorithmically
+  generated similarity key rather than the data itself.
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: interzoid.com:getaddressmatch;
+      spec: https://www.interzoid.com)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- interzoid-com
+- public-api

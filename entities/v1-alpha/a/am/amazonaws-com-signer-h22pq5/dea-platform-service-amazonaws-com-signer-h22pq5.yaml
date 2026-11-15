@@ -1,0 +1,56 @@
+id: dea:platform-service-amazonaws-com-signer-h22pq5
+type: PlatformService
+name: AWS Signer (amazonaws.com:signer)
+description: <p>AWS Signer is a fully managed code signing service to help you ensure
+  the trust and integrity of your code. </p> <p>AWS Signer supports the following
+  applications:</p> <p>With <i>code signing for AWS Lambda</i>, you can sign AWS Lambda
+  deployment packages. Integrated support is provided for Amazon S3, Amazon CloudWatch,
+  and AWS CloudTrail. In order to sign code, you create a signing profile and then
+  use Signer to sign Lambda zip files in S3. </p> <p>With <i>code signing for IoT</i>,
+  you can sign code for any IoT device that is supported by AWS. IoT code signing
+  is available for <a href="http://docs.aws.amazon.com/freertos/latest/userguide/">Amazon
+  FreeRTOS</a> and <a href="http://docs.aws.amazon.com/iot/latest/developerguide/">AWS
+  IoT Device Management</a>, and is integrated with <a href="http://docs.aws.amazon.com/acm/latest/userguide/">AWS
+  Certificate Manager (ACM)</a>. In order to sign code, you import a third-party code
+  signing certificate using ACM, and use that to sign updates in Amazon FreeRTOS and
+  AWS IoT Device Management. </p> <p>For more information about AWS Signer, see the
+  <a href="http://docs.aws.amazon.com/signer/latest/developerguide/Welcome.html">AWS
+  Signer Developer Guide</a>.</p> <p/>
+version: 0.1.0
+lifecycle_status: active
+evidence:
+  sources:
+  - kind: published-document
+    reference: 'https://apis.guru/browse-apis/ (APIs.guru listing: amazonaws.com:signer;
+      spec: https://github.com/mermade/aws2openapi)'
+  rationale: Cited from the APIs.guru public API directory (list API). The API specification
+    is published and machine-verifiable via the cited listing/spec URL. No service-level
+    operational fields are asserted at candidate state.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- amazonaws-com
+- public-api
